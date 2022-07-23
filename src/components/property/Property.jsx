@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./Property.css";
 
 const Property = () => {
   return <div>Property</div>;
