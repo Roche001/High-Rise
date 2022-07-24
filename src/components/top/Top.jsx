@@ -1,11 +1,9 @@
 import React from "react";
 import "./Top.css";
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 
 const Top = () => {
-  const [activeNav, setActiveNav] = useState("/");
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
