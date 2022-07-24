@@ -33,9 +33,3 @@
 .link:hover {
   color: #fff;
 }
-
-#active {
-  background: #b95205;
-  color: #fff;
-  border-radius: 0.5rem;
-}
