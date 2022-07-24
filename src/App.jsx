@@ -4,7 +4,7 @@ import Top from "./components/top/Top";
 import Home from "./components/home/Home";
 import Property from "./components/property/Property";
 import Listing from "./components/listing/Listing";
-import Contacts from "./components/listing/Listing";
+import Contacts from "./components/contacts/Contacts";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
