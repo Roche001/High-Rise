@@ -10,8 +10,8 @@
   overflow-x: hidden;
 }
 body {
-  width: 100%;
-  color: #020c1b;
+  background-color: #020c1b;
+  color: white;
   font-family: "Asap", sans-serif;
   line-height: 1.7;
   flex-wrap: wrap;
