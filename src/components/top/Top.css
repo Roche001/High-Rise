@@ -1,6 +1,9 @@
 .link {
   text-decoration: none;
 }
-.nav-items {
-  position: right;
+@media screen and (max-width: 990px) {
+  .navbar {
+    background-color: black;
+    color: antiquewhite;
+  }
 }
