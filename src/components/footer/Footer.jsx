@@ -3,7 +3,7 @@ import "./Footer.css";
 import { RiHome6Line } from "react-icons/ri";
 const Footer = () => {
   return (
-    <div className="footer container-fluid">
+    <div className="container-fluid footer">
       <div className="rise">
         <div className="rise-logo">
           <RiHome6Line />
