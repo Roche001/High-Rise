@@ -8,15 +8,16 @@ import { BsLinkedin } from "react-icons/bs";
 const Footer = () => {
   return (
     <div className="container-fluid footer">
-      <div className="rise">
-        <div className="rise-logo">
-          <RiHome6Line />
+      <div className="rise row">
+        <div className="logo">
+          <div className="rise-logo">
+            <RiHome6Line />
+          </div>
+          <div className="rise-text">
+            <h3>High-Rise </h3>
+            <p>REAL ESTATE COMPANY</p>
+          </div>
         </div>
-        <div className="rise-text">
-          <h3>High-Rise </h3>
-          <p>REAL ESTATE COMPANY</p>
-        </div>
-
         <div className="icons">
           <div className="icon-a">
             <a
