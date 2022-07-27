@@ -1,5 +1,8 @@
+.footer {
+  background: #37474f;
+}
 .rise {
-  border-bottom: 2px #ffffff solid;
+  border-bottom: 1px #ffffff solid;
 }
 .logo {
   display: flex;
@@ -29,5 +32,19 @@
   margin-top: 2rem;
 }
 .icon-a {
-  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  background: #9e9e9e;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.icon-a a {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.icon-a:hover {
+  background: #7b8488;
 }

@@ -64,6 +64,44 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="second-section row">
+        <div className="about">
+          <h4>About</h4>
+          <p>
+            Founded in 1942, High-Rise is a true third-party property management
+            firm with a reputation for excellence in multi-family housing,
+            campus housing, and affordable housing, nationwide.
+          </p>
+        </div>
+        <div className="contact">
+          <h4>Contact Info</h4>
+          <ul>
+            <li>Call-center:1(245) 978-765</li>
+            <li>Fax:1(980) 657-891</li>
+            <li>Email:info@highriserealestate.com</li>
+            <li>1930 E Garvey Avenue Street</li>
+            <li>Westlands, RDA 202020, KYA.</li>
+            <li>Monday-Friday:9:00am_9.00pm</li>
+          </ul>
+        </div>
+        <div className="makers">
+          <h4>Real Estate Markers </h4>
+          <ul>
+            <li>Home</li>
+            <li>Property</li>
+            <li>Listing</li>
+            <li>Contacts</li>
+          </ul>
+        </div>
+        <div className="information">
+          <h4>Information</h4>
+          <li>Apartments for Rent</li>
+          <li>Apartment Low to Hide</li>
+          <li>Offices for Purchase</li>
+          <li>Offices for Rent</li>
+          <li>Townhome to Hide</li>
+        </div>
+      </div>
     </div>
   );
 };
