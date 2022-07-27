@@ -48,3 +48,36 @@
 .icon-a:hover {
   background: #7b8488;
 }
+.about {
+  cursor: pointer;
+}
+.about h4:hover {
+  color: #ffffff;
+}
+.contact {
+  cursor: pointer;
+}
+.contact h4:hover {
+  color: #ffffff;
+}
+.contact ul li:hover {
+  color: #ffffff;
+}
+.makers {
+  cursor: pointer;
+}
+.makers h4:hover {
+  color: #ffffff;
+}
+.makers ul li:hover {
+  color: #ffffff;
+}
+.information {
+  cursor: pointer;
+}
+.information h4:hover {
+  color: #ffffff;
+}
+.information ul li:hover {
+  color: #ffffff;
+}
