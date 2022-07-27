@@ -1,15 +1,33 @@
+.rise {
+  border-bottom: 2px #ffffff solid;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .rise-logo {
   font-size: 5rem;
   color: #ffffff;
 }
 .rise-text {
   color: #ffffff;
-  margin-top: -5.5rem;
-  margin-left: 5rem;
+  margin-top: 2rem;
 }
 .rise-text h3 {
   font-weight: 700;
 }
 .rise-text p {
   font-size: 0.8rem;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.icon-a {
+  padding: 0.5rem;
 }
