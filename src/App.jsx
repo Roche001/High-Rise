@@ -7,11 +7,13 @@ import Property from "./components/property/Property";
 import Listing from "./components/listing/Listing";
 import Contacts from "./components/contacts/Contacts";
 import Footer from "./components/footer/Footer";
+import Photo from "./components/photo/Photo";
 
 const App = () => {
   return (
     <Router>
       <Top />
+      <Photo />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route Property path="Property" exact element={<Property />} />
