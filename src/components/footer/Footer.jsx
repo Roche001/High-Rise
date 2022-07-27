@@ -16,51 +16,51 @@ const Footer = () => {
           <h3>High-Rise </h3>
           <p>REAL ESTATE COMPANY</p>
         </div>
-      </div>
 
-      <div className="icons">
-        <div className="icon-a">
-          <a
-            className="icon icon-facebook"
-            href="https://www.facebook.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {" "}
-            <BsFacebook />
-          </a>
-        </div>
-        <div className="icon-a">
-          <a
-            className="icon icon-instagram"
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiFillInstagram />
-          </a>
-        </div>
-        <div className="icon-a">
-          <a
-            className="icon icon-twitter"
-            href="https://www.twitter.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>
-              <BsTwitter />
-            </span>
-          </a>
-        </div>
-        <div className="icon-a">
-          <a
-            className="icon icon-linkedin"
-            href="https://www.linkedin.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsLinkedin />
-          </a>
+        <div className="icons">
+          <div className="icon-a">
+            <a
+              className="icon icon-facebook"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              <BsFacebook />
+            </a>
+          </div>
+          <div className="icon-a">
+            <a
+              className="icon icon-instagram"
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillInstagram />
+            </a>
+          </div>
+          <div className="icon-a">
+            <a
+              className="icon icon-twitter"
+              href="https://www.twitter.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>
+                <BsTwitter />
+              </span>
+            </a>
+          </div>
+          <div className="icon-a">
+            <a
+              className="icon icon-linkedin"
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsLinkedin />
+            </a>
+          </div>
         </div>
       </div>
     </div>
