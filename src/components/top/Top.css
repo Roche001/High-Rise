@@ -1,9 +1,17 @@
 .link {
   text-decoration: none;
 }
-@media screen and (max-width: 990px) {
-  .navbar {
-    background-color: black;
-    color: antiquewhite;
-  }
+.top-logo {
+  font-size: 5rem;
+  color: #ffffff;
+}
+.top-text {
+  color: #ffffff;
+  margin-top: 2rem;
+}
+.top-text h3 {
+  font-weight: 900;
+}
+.top-text p {
+  font-size: 0.8rem;
 }
