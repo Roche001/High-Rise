@@ -40,6 +40,8 @@
   border-radius: 50%;
   height: 50px;
   width: 50px;
+  transition: 400ms;
+  outline: #ffffff 2px solid;
 }
 .icon-a a {
   font-size: 1.5rem;
@@ -47,6 +49,8 @@
 }
 .icon-a:hover {
   background: #7b8488;
+  transform: scale(1.2);
+  outline: #e53935 2px solid;
 }
 .about {
   cursor: pointer;
