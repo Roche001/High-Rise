@@ -12,8 +12,9 @@ const Photo = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Awesome Family Home</h3>
+          <h6>4bed-3baths-347 sq ft</h6>
+          <button>View Details </button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

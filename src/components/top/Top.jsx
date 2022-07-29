@@ -10,7 +10,7 @@ const Top = () => {
     <Navbar
       collapseOnSelect
       expand="lg"
-      bg="transparent"
+      bg=""
       variant="dark"
       className="navbar"
     >
