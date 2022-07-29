@@ -7,7 +7,7 @@ const Photo = () => {
     <Carousel fade>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          // className="d-block w-100"
           src="../../assets/home1.jpeg"
           alt="First slide"
         />
@@ -19,7 +19,7 @@ const Photo = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          // className="d-block w-100"
           src="../../assets/home2.jpeg"
           alt="Second slide"
         />
@@ -31,7 +31,7 @@ const Photo = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          // className="d-block w-100"
           src="../../assets/home3.jpeg"
           alt="Third slide"
         />
