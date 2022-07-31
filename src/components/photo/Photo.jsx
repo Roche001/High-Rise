@@ -70,10 +70,12 @@ const Photo = () => {
 
         <button className="search-button">
           <a href="#search">
-            <span>
-              <GoSearch />
-            </span>
-            <h6>Search</h6>
+            <h6>
+              <span>
+                <GoSearch />
+              </span>
+              Search
+            </h6>
           </a>
         </button>
       </div>

@@ -28,6 +28,20 @@
 .search-button {
   display: flex;
   flex-direction: row;
-  width: 8rem;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 0.2rem;
+  width: 10rem;
   height: 3rem;
+  background: #455a64;
+  color: #ffffff;
+}
+.search-button a {
+  text-decoration: none;
+}
+.search-button h6 span {
+  padding: 2rem;
+}
+.search-button h6 {
+  color: #ffffff;
 }
