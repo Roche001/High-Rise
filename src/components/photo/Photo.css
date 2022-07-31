@@ -40,8 +40,9 @@
   text-decoration: none;
 }
 .search-button h6 span {
-  padding: 2rem;
+  padding: 1.5rem;
 }
 .search-button h6 {
   color: #ffffff;
+  font-size: 1.4rem;
 }
