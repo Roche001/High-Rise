@@ -59,16 +59,23 @@ const Photo = () => {
           <option value="Houses">Houses</option>
           <option value="Studio">Studio</option>
         </select>
-        <div className="required">
-          <input type="search" name="seach" placeholder="Search" required />
-        </div>
-        <div className="search-button">
-          <button>
-            <a href="search-a">
+
+        <input
+          className="required"
+          type="search"
+          name="seach"
+          placeholder="Search"
+          required
+        />
+
+        <button className="search-button">
+          <a href="#search">
+            <span>
               <GoSearch />
-            </a>
-          </button>
-        </div>
+            </span>
+            <h6>Search</h6>
+          </a>
+        </button>
       </div>
     </div>
   );

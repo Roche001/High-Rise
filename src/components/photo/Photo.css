@@ -17,4 +17,17 @@
   height: 3rem;
   border-radius: 0.2rem;
   border: 2px #616161 solid;
+  padding: 0.6rem;
+}
+.required {
+  width: 25rem;
+  height: 3rem;
+  border-radius: 0.2rem;
+  border: 2px #616161 solid;
+}
+.search-button {
+  display: flex;
+  flex-direction: row;
+  width: 8rem;
+  height: 3rem;
 }
