@@ -50,6 +50,8 @@
   height: 3rem;
   background: #455a64;
   color: #ffffff;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .search-button a {
   text-decoration: none;
