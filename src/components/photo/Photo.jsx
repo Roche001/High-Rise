@@ -16,7 +16,7 @@ const Photo = () => {
           <Carousel.Caption>
             <h3>Awesome Family Home</h3>
             <h6>4bed-3baths-347 sq ft</h6>
-            <button>View Details </button>
+            <button className="click">View Details </button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -27,8 +27,9 @@ const Photo = () => {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
+            <h3>Extraordinary Reach</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button className="click">View Details </button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -39,10 +40,9 @@ const Photo = () => {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>Exceptional Property</h3>
+            <p>Our target audience is luxury seeking clients</p>
+            <button className="click">View Details </button>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
