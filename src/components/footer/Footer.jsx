@@ -91,10 +91,10 @@ const Footer = () => {
           <Link to="/Rent" className="link">
             <li>Apartment Low to Hide</li>
           </Link>
-          <Link to="/Offices" className="link">
+          <Link to="/Buy" className="link">
             <li>Offices for Purchase</li>
           </Link>
-          <Link to="/Offices" className="link">
+          <Link to="/Rent" className="link">
             <li>Offices for Rent</li>
           </Link>
           <Link to="/Rent" className="link">
@@ -113,8 +113,8 @@ const Footer = () => {
           <Link to="/Buy" className="link">
             <li>Buy</li>
           </Link>
-          <Link to="/Offices" className="link">
-            <li>Offices</li>
+          <Link to="/Sell" className="link">
+            <li>Sell</li>
           </Link>
         </div>
       </div>
