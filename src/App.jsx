@@ -5,7 +5,7 @@ import Top from "./components/top/Top";
 import Home from "./components/rent/Rent";
 import Rent from "./components/rent/Rent";
 import Buy from "./components/buy/Buy";
-import Contacts from "./components/contacts/Contacts";
+import Contacts from "./components/offices/Offices";
 import Footer from "./components/footer/Footer";
 import Photo from "./components/photo/Photo";
 
