@@ -16,7 +16,7 @@ const App = () => {
       <Photo />
       <Routes>
         <Route path="/" exact element={<Home />} />
-        <Route Property path="Property" exact element={<Property />} />
+        <Route Homes path="Property" exact element={<Homes />} />
         <Route Offices path="Listing" exact element={<Offices />} />
         <Route Contacts path="Contacts" exact element={<Contacts />} />
       </Routes>
