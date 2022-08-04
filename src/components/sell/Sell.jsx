@@ -1,7 +1,7 @@
 import React from "react";
-import "./Offices.css";
-const Offices = () => {
+import "./Sell.css";
+const Sell = () => {
   return <div></div>;
 };
 
-export default Offices;
+export default Sell;
