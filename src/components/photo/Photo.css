@@ -57,14 +57,17 @@
   text-decoration: none;
 }
 .search-button h6 span {
-  padding: 0.5rem;
+  padding-top: 0.5rem;
 }
 .search-button h6 {
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 .search-button:hover {
   background: #9e9e9e;
+}
+.search {
+  overflow-y: hidden;
 }
 @media screen and (max-width: 600px) {
   .search {
