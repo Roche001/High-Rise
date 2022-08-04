@@ -96,13 +96,15 @@ const Footer = () => {
           <Link to="/" className="link">
             <li>Home</li>
           </Link>
-          {/* <li>Home</li> */}
           <Link to="/Rent" className="link">
             <li>Rent</li>
           </Link>
-          <li>Property</li>
-          <li>Listing</li>
-          <li>Contacts</li>
+          <Link to="/Buy" className="link">
+            <li>Buy</li>
+          </Link>
+          <Link to="/Offices" className="link">
+            <li>Offices</li>
+          </Link>
         </div>
       </div>
     </div>
