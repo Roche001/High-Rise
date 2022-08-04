@@ -5,6 +5,7 @@ import { BsFacebook } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="container-fluid footer">
@@ -92,8 +93,13 @@ const Footer = () => {
         </div>
         <div className="makers col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4>Real Estate Markers </h4>
-
-          <li>Home</li>
+          <Link to="/" className="link">
+            <li>Home</li>
+          </Link>
+          {/* <li>Home</li> */}
+          <Link to="/Rent" className="link">
+            <li>Rent</li>
+          </Link>
           <li>Property</li>
           <li>Listing</li>
           <li>Contacts</li>
