@@ -1,8 +1,8 @@
 import React from "react";
-import "./Property.css";
+import "./Homes.css";
 
-const Property = () => {
+const Homes = () => {
   return <div></div>;
 };
 
-export default Property;
+export default Homes;
