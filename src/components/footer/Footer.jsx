@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
         <div className="contact col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4>Contact Information</h4>
-          Call-center:1(245) 978-765
+          <li>Call-center:1(245) 978-765 </li>
           <li>Fax:1(980) 657-891</li>
           <li>Email:info@highriserealestate.com</li>
           <li>1930 E Garvey Avenue Street</li>

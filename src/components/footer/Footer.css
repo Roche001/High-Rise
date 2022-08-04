@@ -58,13 +58,16 @@
 .about h4:hover {
   color: #ffffff;
 }
+.about p:hover {
+  color: #ffffff;
+}
 .contact {
   cursor: pointer;
 }
 .contact h4:hover {
   color: #ffffff;
 }
-.contact ul li:hover {
+.contact li:hover {
   color: #ffffff;
 }
 .makers {
