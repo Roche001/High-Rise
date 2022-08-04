@@ -85,14 +85,25 @@ const Footer = () => {
         </div>
         <div className="information col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4>Information</h4>
-          <li>Apartments for Rent</li>
-          <li>Apartment Low to Hide</li>
-          <li>Offices for Purchase</li>
-          <li>Offices for Rent</li>
-          <li>Townhome to Hide</li>
+          <Link to="/Rent" className="link">
+            <li>Apartments for Rent</li>
+          </Link>
+          <Link to="/Rent" className="link">
+            <li>Apartment Low to Hide</li>
+          </Link>
+          <Link to="/Offices" className="link">
+            <li>Offices for Purchase</li>
+          </Link>
+          <Link to="/Offices" className="link">
+            <li>Offices for Rent</li>
+          </Link>
+          <Link to="/Rent" className="link">
+            <li>Townhome to Hide</li>
+          </Link>
         </div>
         <div className="makers col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4>Real Estate Markers </h4>
+
           <Link to="/" className="link">
             <li>Home</li>
           </Link>

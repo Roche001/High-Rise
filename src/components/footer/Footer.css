@@ -85,3 +85,9 @@
 .information ul li:hover {
   color: #ffffff;
 }
+.link li {
+  color: #020c1b;
+}
+.link li:hover {
+  color: #ffffff;
+}
