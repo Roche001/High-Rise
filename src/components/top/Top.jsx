@@ -7,15 +7,9 @@ import Navbar from "react-bootstrap/Navbar";
 import { RiHome6Line } from "react-icons/ri";
 const Top = () => {
   return (
-    <Navbar
-      collapseOnSelect
-      expand="lg"
-      bg=""
-      variant="dark"
-      className="navbar"
-    >
-      <Container>
-        <Navbar.Brand href="#home">
+    <Navbar collapseOnSelect expand="lg" bg="" variant="dark" className="nav">
+      <Container className="navbar">
+        <Navbar.Brand>
           <div className="logo">
             <div className="top-logo">
               <RiHome6Line />
