@@ -41,8 +41,8 @@ const Top = () => {
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/Offices" className="link">
-                <li>Offices</li>
+              <Link to="/Buy" className="link">
+                <li>Buy</li>
               </Link>
             </Nav.Link>
             <Nav.Link>
