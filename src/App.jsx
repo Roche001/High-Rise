@@ -12,7 +12,6 @@ const App = () => {
   return (
     <Router>
       <Top />
-
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route Rent path="Rent" exact element={<Rent />} />
