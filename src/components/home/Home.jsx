@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 const Home = () => {
   return (
-    <section className="home container-fluid">
+    <section className="home">
       <div className="home-header">
         <h2>Your Property is Our Priority</h2>
         <p>
@@ -51,12 +51,21 @@ const Home = () => {
             <option value="Marrackech">Marrakech</option>
           </select>
         </div>
-        <div className="picker">
+        <div className="picker-b">
           <button className="picker-a">
             <a href="#button">
               <h5>Search</h5>
             </a>
           </button>
+        </div>
+      </div>
+      <div className="home-page container-fluid">
+        <div className="featured text-center">
+          <h4>Discover Our Featured Listings</h4>
+          <p>
+            These featured listings contain exclusive real estate opportunities
+            within the city
+          </p>
         </div>
       </div>
     </section>

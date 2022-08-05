@@ -26,6 +26,7 @@
   justify-content: center;
   align-items: center;
   background: #ffffff;
+  margin: 0.2rem;
 }
 .picker-a {
   width: 15rem;
@@ -37,8 +38,20 @@
 .picker-a:hover {
   color: #d32f2f;
 }
-.picker {
+.picker,
+.picker-b {
   margin: 0.5rem;
+}
+.picker-b a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #020c1b;
+}
+.featured p {
+  font-size: 1.5rem;
+}
+.featured h4 {
+  font-size: 2rem;
 }
 @media screen and (max-width: 600px) {
   .search-bar {
@@ -50,7 +63,8 @@
   .picker-a {
     width: 100%;
   }
-  .picker {
+  .picker,
+  .picker-b {
     width: 100%;
   }
 }
@@ -64,7 +78,8 @@
   .picker-a {
     width: 100%;
   }
-  .picker {
+  .picker,
+  .picker-b {
     width: 100%;
   }
 }
