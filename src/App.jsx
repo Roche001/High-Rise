@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Top from "./components/top/Top";
-import Home from "./components/rent/Rent";
+import Home from "./components/home/Home";
 import Rent from "./components/rent/Rent";
 import Buy from "./components/buy/Buy";
 import Sell from "./components/sell/Sell";
