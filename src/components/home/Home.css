@@ -1,1 +1,4 @@
-
+.home-photo {
+  background-image: url("../../assets/newyork.jpeg");
+  height: 80vh;
+}
