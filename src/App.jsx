@@ -7,13 +7,12 @@ import Rent from "./components/rent/Rent";
 import Buy from "./components/buy/Buy";
 import Sell from "./components/sell/Sell";
 import Footer from "./components/footer/Footer";
-import Photo from "./components/photo/Photo";
 
 const App = () => {
   return (
     <Router>
       <Top />
-      <Photo />
+
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route Rent path="Rent" exact element={<Rent />} />
