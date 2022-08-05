@@ -3,7 +3,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <section className="home container-fluid">
-      <div className="home-photo"></div>
+      <h1>Hello</h1>
     </section>
   );
 };
