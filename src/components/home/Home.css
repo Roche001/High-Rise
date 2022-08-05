@@ -1,3 +1,93 @@
 .home-header {
   margin-top: 4rem;
 }
+.Carousel.Item img {
+  width: 100%;
+}
+.photo {
+  background: #ffffff;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1rem;
+  padding-bottom: 2rem;
+}
+.click {
+  border-radius: 0.2rem;
+  width: 10rem;
+  height: 3rem;
+  background: #455a64;
+  color: #ffffff;
+}
+.picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.2rem;
+  border: 2px #616161 solid;
+  padding: 0.6rem;
+  transition: 400ms;
+}
+.picker:hover {
+  color: #455a64;
+}
+.required {
+  width: 25rem;
+  height: 3rem;
+  border-radius: 0.2rem;
+  border: 2px #616161 solid;
+}
+.search-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2rem;
+  width: 10rem;
+  height: 3rem;
+  background: #455a64;
+  color: #ffffff;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.search-button a {
+  text-decoration: none;
+}
+.search-button h6 span {
+  padding-top: 0.5rem;
+}
+.search-button h6 {
+  color: #ffffff;
+  font-size: 1rem;
+}
+.search-button:hover {
+  background: #9e9e9e;
+}
+.search {
+  overflow-y: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .search {
+    display: flex;
+    flex-direction: column;
+  }
+  .picker {
+    width: 100%;
+  }
+  .required {
+    width: 100%;
+  }
+  .search-button {
+    width: 100%;
+  }
+  .click {
+    width: 100%;
+  }
+}
