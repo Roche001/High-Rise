@@ -28,7 +28,7 @@
   background: #ffffff;
 }
 .picker-a {
-  width: 20rem;
+  width: 15rem;
   height: 4rem;
   border: #020c1b 1px solid;
   cursor: pointer;
@@ -39,4 +39,15 @@
 }
 .picker {
   margin: 0.5rem;
+}
+@media screen and (max-width: 600px) {
+  .search-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .picker-a {
+    width: 100%;
+  }
 }
