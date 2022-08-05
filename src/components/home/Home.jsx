@@ -51,7 +51,7 @@ const Home = () => {
             <option value="Marrackech">Marrakech</option>
           </select>
         </div>
-        <div className="picker-a">
+        <div className="picker">
           <button className="picker-a">
             <a href="#button">
               <h5>Search</h5>
