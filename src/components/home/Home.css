@@ -1,5 +1,6 @@
 .home-header {
-  background-image: url("../../images/Newyork.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), #020c1b),
+    url("../../images/Newyork.jpeg");
   height: 80vh;
   width: 100wh;
   background-repeat: no-repeat;
