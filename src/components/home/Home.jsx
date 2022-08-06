@@ -60,12 +60,17 @@ const Home = () => {
         </div>
       </div>
       <div className="home-page container-fluid">
-        <div className="featured text-center">
+        <div className="featured text-center row">
           <h4>Discover Our Featured Listings</h4>
           <p>
             These featured listings contain exclusive real estate opportunities
             within the city
           </p>
+        </div>
+        <div className="featured-listing">
+          <div className="featured-listing-card">
+            <div className="card-two"></div>
+          </div>
         </div>
       </div>
     </section>
