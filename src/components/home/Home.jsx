@@ -108,7 +108,7 @@ const Home = () => {
             <div className="card-two">
               <img
                 className="d-block w-100"
-                src="./assets/room1.webp"
+                src="./assets/me1.jpg"
                 alt="Featured-House"
               />
             </div>
@@ -141,7 +141,7 @@ const Home = () => {
             <div className="card-two">
               <img
                 className="d-block w-100"
-                src="./assets/room1.webp"
+                src="./assets/house1.webp"
                 alt="Featured-House"
               />
             </div>
@@ -174,7 +174,7 @@ const Home = () => {
             <div className="card-two">
               <img
                 className="d-block w-100"
-                src="./assets/room1.webp"
+                src="./assets/York1.jpg"
                 alt="Featured-House"
               />
             </div>
@@ -207,7 +207,7 @@ const Home = () => {
             <div className="card-two">
               <img
                 className="d-block w-100"
-                src="./assets/room1.webp"
+                src="./assets/view1.jpg"
                 alt="Featured-House"
               />
             </div>
@@ -240,7 +240,73 @@ const Home = () => {
             <div className="card-two">
               <img
                 className="d-block w-100"
-                src="./assets/room1.webp"
+                src="./assets/tig1.webp"
+                alt="Featured-House"
+              />
+            </div>
+            <div className="card-text">
+              <h4>Home in Kosovo</h4>
+              <div className="icon">
+                <h5>
+                  <span>
+                    <MdOutlineBed />
+                  </span>
+                  4
+                </h5>
+                <h5>
+                  <span>
+                    <FaBath />
+                  </span>
+                  3
+                </h5>
+                <h5>
+                  <span>
+                    <MdOutlineSquareFoot />
+                  </span>
+                  5200 sq ft
+                </h5>
+                <h5>$380,000</h5>
+              </div>
+            </div>
+          </div>
+          <div className="featured-listing-card">
+            <div className="card-two">
+              <img
+                className="d-block w-100"
+                src="./assets/roche3.jpg"
+                alt="Featured-House"
+              />
+            </div>
+            <div className="card-text">
+              <h4>Home in Kosovo</h4>
+              <div className="icon">
+                <h5>
+                  <span>
+                    <MdOutlineBed />
+                  </span>
+                  4
+                </h5>
+                <h5>
+                  <span>
+                    <FaBath />
+                  </span>
+                  3
+                </h5>
+                <h5>
+                  <span>
+                    <MdOutlineSquareFoot />
+                  </span>
+                  5200 sq ft
+                </h5>
+                <h5>$380,000</h5>
+              </div>
+            </div>
+          </div>
+          <div className="featured-listing-card">
+            <div className="card-two">
+              <img
+                className="d-block w-100"
+                src="./assets/new1.webp"
                 alt="Featured-House"
               />
             </div>
