@@ -72,6 +72,7 @@ featured-listing-card {
 }
 .icon h5 {
   margin: 0.5rem;
+  font-size: 1rem;
 }
 @media screen and (max-width: 600px) {
   .search-bar {
