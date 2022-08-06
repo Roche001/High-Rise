@@ -53,8 +53,8 @@
 .featured h4 {
   font-size: 2rem;
 }
-featured-listing-card {
-  height: 30rem;
+.featured-listing-card {
+  height: 25rem;
   width: 20rem;
   background: #ffffff;
 }
