@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { MdOutlineBed } from "react-icons/md";
 const Home = () => {
   return (
     <section className="home">
@@ -69,7 +70,24 @@ const Home = () => {
         </div>
         <div className="featured-listing">
           <div className="featured-listing-card">
-            <div className="card-two"></div>
+            <div className="card-two">
+              <img
+                className="d-block w-100"
+                src="./assets/room1.webp"
+                alt="Featured-House"
+              />
+            </div>
+            <div className="card-text">
+              <h4>Home in Kosovo</h4>
+              <div className="icons">
+                <h4>
+                  <span>
+                    <MdOutlineBed />
+                  </span>
+                  4
+                </h4>
+              </div>
+            </div>
           </div>
         </div>
       </div>
