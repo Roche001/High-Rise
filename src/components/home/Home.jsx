@@ -6,9 +6,6 @@ import { MdOutlineSquareFoot } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
 import { RiHome6Fill } from "react-icons/ri";
 import { RiHeart3Line } from "react-icons/ri";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper.min.css";
 
 const Home = () => {
   return (
@@ -77,14 +74,8 @@ const Home = () => {
             within the city
           </p>
         </div>
-        <Swiper
-          spaceBetween={50}
-          slidesPerView={3}
-          centeredSlides
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
-        >
-          <SwiperSlide className="featured-listing-card">
+        <div className="">
+          <div className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -129,8 +120,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide className="featured-listing-card">
+          </div>
+          <div className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -175,8 +166,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide className="featured-listing-card">
+          </div>
+          <div className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -221,8 +212,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide className="featured-listing-card">
+          </div>
+          <div className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -267,8 +258,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide className="featured-listing-card">
+          </div>
+          <div className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -313,8 +304,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide className="featured-listing-card">
+          </div>
+          <div className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -359,8 +350,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide className="featured-listing-card">
+          </div>
+          <div className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -405,8 +396,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide className="featured-listing-card">
+          </div>
+          <div className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -451,8 +442,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide className="featured-listing-card">
+          </div>
+          <div className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -497,8 +488,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </SwiperSlide>
-        </Swiper>
+          </div>
+        </div>
       </div>
     </section>
   );
