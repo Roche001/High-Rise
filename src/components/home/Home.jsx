@@ -1,6 +1,8 @@
 import React from "react";
 import "./Home.css";
 import { MdOutlineBed } from "react-icons/md";
+import { FaBath } from "react-icons/fa";
+import { MdOutlineSquareFoot } from "react-icons/md";
 const Home = () => {
   return (
     <section className="home">
@@ -79,13 +81,26 @@ const Home = () => {
             </div>
             <div className="card-text">
               <h4>Home in Kosovo</h4>
-              <div className="icons">
-                <h4>
+              <div className="icon">
+                <h5>
                   <span>
                     <MdOutlineBed />
                   </span>
                   4
-                </h4>
+                </h5>
+                <h5>
+                  <span>
+                    <FaBath />
+                  </span>
+                  3
+                </h5>
+                <h5>
+                  <span>
+                    <MdOutlineSquareFoot />
+                  </span>
+                  5200 sq ft
+                </h5>
+                <h5>$380,000</h5>
               </div>
             </div>
           </div>

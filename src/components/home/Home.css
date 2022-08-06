@@ -65,6 +65,14 @@ featured-listing-card {
 .card-two img {
   height: 20rem;
 }
+
+.icon {
+  display: flex;
+  flex-direction: row;
+}
+.icon h5 {
+  margin: 0.5rem;
+}
 @media screen and (max-width: 600px) {
   .search-bar {
     display: flex;
