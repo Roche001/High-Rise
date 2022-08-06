@@ -127,6 +127,19 @@ const Home = () => {
                 src="./assets/me1.jpg"
                 alt="Featured-House"
               />
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
+                  <h4>
+                    <RiHeart3Line />
+                  </h4>
+                  <h4>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
+              </div>
             </div>
             <div className="card-text">
               <h4>Home in Los Angeles</h4>
@@ -160,6 +173,19 @@ const Home = () => {
                 src="./assets/house1.webp"
                 alt="Featured-House"
               />
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
+                  <h4>
+                    <RiHeart3Line />
+                  </h4>
+                  <h4>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
+              </div>
             </div>
             <div className="card-text">
               <h4>Home in Kosovo</h4>
@@ -193,6 +219,19 @@ const Home = () => {
                 src="./assets/York1.jpg"
                 alt="Featured-House"
               />
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
+                  <h4>
+                    <RiHeart3Line />
+                  </h4>
+                  <h4>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
+              </div>
             </div>
             <div className="card-text">
               <h4>Home in Kosovo</h4>
@@ -226,6 +265,19 @@ const Home = () => {
                 src="./assets/view1.jpg"
                 alt="Featured-House"
               />
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
+                  <h4>
+                    <RiHeart3Line />
+                  </h4>
+                  <h4>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
+              </div>
             </div>
             <div className="card-text">
               <h4>Home in Kosovo</h4>
@@ -259,6 +311,19 @@ const Home = () => {
                 src="./assets/tig1.webp"
                 alt="Featured-House"
               />
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
+                  <h4>
+                    <RiHeart3Line />
+                  </h4>
+                  <h4>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
+              </div>
             </div>
             <div className="card-text">
               <h4>Home in Kosovo</h4>
@@ -292,6 +357,19 @@ const Home = () => {
                 src="./assets/roche3.jpg"
                 alt="Featured-House"
               />
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
+                  <h4>
+                    <RiHeart3Line />
+                  </h4>
+                  <h4>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
+              </div>
             </div>
             <div className="card-text">
               <h4>Home in Kosovo</h4>
@@ -325,6 +403,19 @@ const Home = () => {
                 src="./assets/new1.webp"
                 alt="Featured-House"
               />
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
+                  <h4>
+                    <RiHeart3Line />
+                  </h4>
+                  <h4>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
+              </div>
             </div>
             <div className="card-text">
               <h4>Home in Kosovo</h4>
