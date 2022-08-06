@@ -6,6 +6,9 @@ import { MdOutlineSquareFoot } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
 import { RiHome6Fill } from "react-icons/ri";
 import { RiHeart3Line } from "react-icons/ri";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
 
 const Home = () => {
   return (
@@ -75,17 +78,11 @@ const Home = () => {
           </p>
         </div>
         <Swiper
+          spaceBetween={50}
           slidesPerView={3}
-          spaceBetween={30}
-          slidesPerGroup={3}
-          loop={true}
-          loopFillGroupWithBlank={true}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={true}
-          modules={[Pagination, Navigation]}
-          className="mySwiper featured-listing"
+          centeredSlides
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide className="featured-listing-card">
             <div className="card-two">
