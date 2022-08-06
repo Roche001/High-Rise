@@ -6,12 +6,7 @@ import { MdOutlineSquareFoot } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
 import { RiHome6Fill } from "react-icons/ri";
 import { RiHeart3Line } from "react-icons/ri";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "./styles.css";
-import { Pagination, Navigation } from "swiper";
+
 const Home = () => {
   return (
     <section className="home">
