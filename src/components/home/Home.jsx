@@ -6,6 +6,12 @@ import { MdOutlineSquareFoot } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
 import { RiHome6Fill } from "react-icons/ri";
 import { RiHeart3Line } from "react-icons/ri";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "./styles.css";
+import { Pagination, Navigation } from "swiper";
 const Home = () => {
   return (
     <section className="home">
@@ -73,8 +79,20 @@ const Home = () => {
             within the city
           </p>
         </div>
-        <div className="featured-listing">
-          <div className="featured-listing-card">
+        <Swiper
+          slidesPerView={3}
+          spaceBetween={30}
+          slidesPerGroup={3}
+          loop={true}
+          loopFillGroupWithBlank={true}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Pagination, Navigation]}
+          className="mySwiper featured-listing"
+        >
+          <SwiperSlide className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -119,8 +137,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </div>
-          <div className="featured-listing-card">
+          </SwiperSlide>
+          <SwiperSlide className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -165,8 +183,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </div>
-          <div className="featured-listing-card">
+          </SwiperSlide>
+          <SwiperSlide className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -211,8 +229,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </div>
-          <div className="featured-listing-card">
+          </SwiperSlide>
+          <SwiperSlide className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -257,8 +275,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </div>
-          <div className="featured-listing-card">
+          </SwiperSlide>
+          <SwiperSlide className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -303,8 +321,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </div>
-          <div className="featured-listing-card">
+          </SwiperSlide>
+          <SwiperSlide className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -349,8 +367,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </div>
-          <div className="featured-listing-card">
+          </SwiperSlide>
+          <SwiperSlide className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -395,8 +413,8 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </div>
-          <div className="featured-listing-card">
+          </SwiperSlide>
+          <SwiperSlide className="featured-listing-card">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -441,8 +459,54 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
-          </div>
-        </div>
+          </SwiperSlide>
+          <SwiperSlide className="featured-listing-card">
+            <div className="card-two">
+              <img
+                className="d-block w-100"
+                src="./assets/new1.webp"
+                alt="Featured-House"
+              />
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
+                  <h4>
+                    <RiHeart3Line />
+                  </h4>
+                  <h4>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div className="card-text">
+              <h4>Home in Kosovo</h4>
+              <div className="icon">
+                <h5>
+                  <span>
+                    <MdOutlineBed />
+                  </span>
+                  4
+                </h5>
+                <h5>
+                  <span>
+                    <FaBath />
+                  </span>
+                  3
+                </h5>
+                <h5>
+                  <span>
+                    <MdOutlineSquareFoot />
+                  </span>
+                  5200 sq ft
+                </h5>
+                <h5>$380,000</h5>
+              </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </section>
   );
