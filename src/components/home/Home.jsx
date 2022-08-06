@@ -3,6 +3,9 @@ import "./Home.css";
 import { MdOutlineBed } from "react-icons/md";
 import { FaBath } from "react-icons/fa";
 import { MdOutlineSquareFoot } from "react-icons/md";
+import { FaEye } from "react-icons/fa";
+import { RiHome6Fill } from "react-icons/ri";
+import { RiHeart3Line } from "react-icons/ri";
 const Home = () => {
   return (
     <section className="home">
@@ -78,6 +81,19 @@ const Home = () => {
                 src="./assets/room1.webp"
                 alt="Featured-House"
               />
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
+                  <h4>
+                    <RiHeart3Line />
+                  </h4>
+                  <h4>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
+              </div>
             </div>
             <div className="card-text">
               <h4>Home in Kosovo</h4>
@@ -113,19 +129,19 @@ const Home = () => {
               />
             </div>
             <div className="card-text">
-              <h4>Home in Kosovo</h4>
+              <h4>Home in Los Angeles</h4>
               <div className="icon">
                 <h5>
                   <span>
                     <MdOutlineBed />
                   </span>
-                  4
+                  5
                 </h5>
                 <h5>
                   <span>
                     <FaBath />
                   </span>
-                  3
+                  4
                 </h5>
                 <h5>
                   <span>
