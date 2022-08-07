@@ -443,52 +443,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="featured-listing-card">
-            <div className="card-two">
-              <img
-                className="d-block w-100"
-                src="./assets/new1.webp"
-                alt="Featured-House"
-              />
-              <div className="overlay">
-                <div className="image-title">
-                  <h4>
-                    <FaEye />
-                  </h4>
-                  <h4>
-                    <RiHeart3Line />
-                  </h4>
-                  <h4>
-                    <RiHome6Fill />
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div className="card-text">
-              <h4>Home in Kosovo</h4>
-              <div className="icon">
-                <h5>
-                  <span>
-                    <MdOutlineBed />
-                  </span>
-                  4
-                </h5>
-                <h5>
-                  <span>
-                    <FaBath />
-                  </span>
-                  3
-                </h5>
-                <h5>
-                  <span>
-                    <MdOutlineSquareFoot />
-                  </span>
-                  5200 sq ft
-                </h5>
-                <h5>$380,000</h5>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
