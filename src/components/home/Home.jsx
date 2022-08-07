@@ -82,6 +82,7 @@ const Home = () => {
                 src="./assets/room1.webp"
                 alt="Featured-House"
               />
+              <span className="red"> Buy</span>
               <div className="overlay">
                 <div className="image-title">
                   <h4>
@@ -128,6 +129,7 @@ const Home = () => {
                 src="./assets/me1.jpg"
                 alt="Featured-House"
               />
+              <span className="red"> Rent</span>
               <div className="overlay">
                 <div className="image-title">
                   <h4>
@@ -174,6 +176,7 @@ const Home = () => {
                 src="./assets/house1.webp"
                 alt="Featured-House"
               />
+              <span className="red"> Buy</span>
               <div className="overlay">
                 <div className="image-title">
                   <h4>
@@ -220,6 +223,7 @@ const Home = () => {
                 src="./assets/York1.jpg"
                 alt="Featured-House"
               />
+              <span className="red"> Rent</span>
               <div className="overlay">
                 <div className="image-title">
                   <h4>
@@ -266,6 +270,7 @@ const Home = () => {
                 src="./assets/view1.jpg"
                 alt="Featured-House"
               />
+              <span className="red"> Buy</span>
               <div className="overlay">
                 <div className="image-title">
                   <h4>
@@ -312,6 +317,7 @@ const Home = () => {
                 src="./assets/tig1.webp"
                 alt="Featured-House"
               />
+              <span className="red">Rent</span>
               <div className="overlay">
                 <div className="image-title">
                   <h4>
@@ -358,6 +364,7 @@ const Home = () => {
                 src="./assets/roche3.jpg"
                 alt="Featured-House"
               />
+              <span className="red"> Buy</span>
               <div className="overlay">
                 <div className="image-title">
                   <h4>
@@ -404,6 +411,7 @@ const Home = () => {
                 src="./assets/new1.webp"
                 alt="Featured-House"
               />
+              <span className="red"> Rent</span>
               <div className="overlay">
                 <div className="image-title">
                   <h4>
