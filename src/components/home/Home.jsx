@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import { MdOutlineBed } from "react-icons/md";
 import { FaBath } from "react-icons/fa";
@@ -88,7 +88,7 @@ const Home = () => {
                   <h4>
                     <FaEye />
                   </h4>
-                  <h4>
+                  <h4 className="button">
                     <RiHeart3Line />
                   </h4>
                   <h4>
