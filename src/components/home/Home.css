@@ -96,6 +96,7 @@
   bottom: 0;
   opacity: 0;
   background: #020c1b;
+  transition: 400ms ease-in-out;
 }
 .overlay:hover {
   opacity: 0.7;
