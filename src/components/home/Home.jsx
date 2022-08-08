@@ -6,26 +6,8 @@ import { MdOutlineSquareFoot } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
 import { RiHome6Fill } from "react-icons/ri";
 import { ImHeart } from "react-icons/im";
-import styled from "styled-components";
 
 const Home = () => {
-  const ChangeIconColorOnce = styled.div`
-    height: 5rem;
-    border: 1px solid black;
-    margin: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  `;
-  const ChangeIconColorTwice = styled.div`
-    height: 10rem;
-    border: 1px solid green;
-    margin: 2rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  `;
-
   const [iconOneColor, setIconOneColor] = useState("black");
   const redColor = () => {
     setIconOneColor("red");
@@ -114,17 +96,14 @@ const Home = () => {
                   <h4>
                     <FaEye />
                   </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
-                    </h4>
-                  </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
+
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
                 </div>
               </div>
             </div>
@@ -167,17 +146,14 @@ const Home = () => {
                   <h4>
                     <FaEye />
                   </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
-                    </h4>
-                  </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
+
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
                 </div>
               </div>
             </div>
@@ -220,17 +196,14 @@ const Home = () => {
                   <h4>
                     <FaEye />
                   </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
-                    </h4>
-                  </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
+
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
                 </div>
               </div>
             </div>
@@ -273,17 +246,14 @@ const Home = () => {
                   <h4>
                     <FaEye />
                   </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
-                    </h4>
-                  </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
+
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
                 </div>
               </div>
             </div>
@@ -326,17 +296,14 @@ const Home = () => {
                   <h4>
                     <FaEye />
                   </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
-                    </h4>
-                  </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
+
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
                 </div>
               </div>
             </div>
@@ -379,17 +346,14 @@ const Home = () => {
                   <h4>
                     <FaEye />
                   </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
-                    </h4>
-                  </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
+
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
                 </div>
               </div>
             </div>
@@ -432,17 +396,14 @@ const Home = () => {
                   <h4>
                     <FaEye />
                   </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
-                    </h4>
-                  </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
+
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
                 </div>
               </div>
             </div>
@@ -485,17 +446,14 @@ const Home = () => {
                   <h4>
                     <FaEye />
                   </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
-                    </h4>
-                  </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
+
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
                 </div>
               </div>
             </div>
