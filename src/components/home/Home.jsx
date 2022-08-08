@@ -5,9 +5,11 @@ import { FaBath } from "react-icons/fa";
 import { MdOutlineSquareFoot } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
 import { RiHome6Fill } from "react-icons/ri";
-import { RiHeart3Line } from "react-icons/ri";
 import { ImHeart } from "react-icons/im";
 import styled from "styled-components";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 const Home = () => {
   const ChangeIconColorOnce = styled.div`
     height: 5rem;
@@ -100,424 +102,440 @@ const Home = () => {
             within the city
           </p>
         </div>
-        <div className="">
-          <div className="featured-listing-card">
-            <div className="card-two">
-              <img
-                className="d-block w-100"
-                src="./assets/room1.webp"
-                alt="Featured-House"
-              />
-              <span className="red"> Buy</span>
-              <div className="overlay">
-                <div className="image-title">
-                  <h4>
-                    <FaEye />
-                  </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
+        <OwlCarousel className="owl-theme" loop margin={10} nav>
+          <div class="item">
+            <div className="featured-listing-card ">
+              <div className="card-two">
+                <img
+                  className="d-block w-100"
+                  src="./assets/room1.webp"
+                  alt="Featured-House"
+                />
+                <span className="red"> Buy</span>
+                <div className="overlay">
+                  <div className="image-title">
+                    <h4>
+                      <FaEye />
                     </h4>
-                  </changeIconColorOnce>
+                    <changeIconColorOnce>
+                      <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                        <ImHeart />
+                      </h4>
+                    </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                    <changeIconColorTwice>
+                      <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                        <RiHome6Fill />
+                      </h4>
+                    </changeIconColorTwice>
+                  </div>
+                </div>
+              </div>
+              <div className="card-text">
+                <h4>Home in Kosovo</h4>
+                <div className="icon">
+                  <h5>
+                    <span>
+                      <MdOutlineBed />
+                    </span>
+                    4
+                  </h5>
+                  <h5>
+                    <span>
+                      <FaBath />
+                    </span>
+                    3
+                  </h5>
+                  <h5>
+                    <span>
+                      <MdOutlineSquareFoot />
+                    </span>
+                    5200 sq ft
+                  </h5>
+                  <h5>$380,000</h5>
                 </div>
               </div>
             </div>
-            <div className="card-text">
-              <h4>Home in Kosovo</h4>
-              <div className="icon">
-                <h5>
-                  <span>
-                    <MdOutlineBed />
-                  </span>
-                  4
-                </h5>
-                <h5>
-                  <span>
-                    <FaBath />
-                  </span>
-                  3
-                </h5>
-                <h5>
-                  <span>
-                    <MdOutlineSquareFoot />
-                  </span>
-                  5200 sq ft
-                </h5>
-                <h5>$380,000</h5>
-              </div>
-            </div>
           </div>
-          <div className="featured-listing-card">
-            <div className="card-two">
-              <img
-                className="d-block w-100"
-                src="./assets/me1.jpg"
-                alt="Featured-House"
-              />
-              <span className="red"> Rent</span>
-              <div className="overlay">
-                <div className="image-title">
-                  <h4>
-                    <FaEye />
-                  </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
+          <div className="item">
+            <div className="featured-listing-card item">
+              <div className="card-two">
+                <img
+                  className="d-block w-100"
+                  src="./assets/me1.jpg"
+                  alt="Featured-House"
+                />
+                <span className="red"> Rent</span>
+                <div className="overlay">
+                  <div className="image-title">
+                    <h4>
+                      <FaEye />
                     </h4>
-                  </changeIconColorOnce>
+                    <changeIconColorOnce>
+                      <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                        <ImHeart />
+                      </h4>
+                    </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                    <changeIconColorTwice>
+                      <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                        <RiHome6Fill />
+                      </h4>
+                    </changeIconColorTwice>
+                  </div>
+                </div>
+              </div>
+              <div className="card-text">
+                <h4>Home in Los Angeles</h4>
+                <div className="icon">
+                  <h5>
+                    <span>
+                      <MdOutlineBed />
+                    </span>
+                    5
+                  </h5>
+                  <h5>
+                    <span>
+                      <FaBath />
+                    </span>
+                    4
+                  </h5>
+                  <h5>
+                    <span>
+                      <MdOutlineSquareFoot />
+                    </span>
+                    5200 sq ft
+                  </h5>
+                  <h5>$380,000</h5>
                 </div>
               </div>
             </div>
-            <div className="card-text">
-              <h4>Home in Los Angeles</h4>
-              <div className="icon">
-                <h5>
-                  <span>
-                    <MdOutlineBed />
-                  </span>
-                  5
-                </h5>
-                <h5>
-                  <span>
-                    <FaBath />
-                  </span>
-                  4
-                </h5>
-                <h5>
-                  <span>
-                    <MdOutlineSquareFoot />
-                  </span>
-                  5200 sq ft
-                </h5>
-                <h5>$380,000</h5>
-              </div>
-            </div>
           </div>
-          <div className="featured-listing-card">
-            <div className="card-two">
-              <img
-                className="d-block w-100"
-                src="./assets/house1.webp"
-                alt="Featured-House"
-              />
-              <span className="red"> Buy</span>
-              <div className="overlay">
-                <div className="image-title">
-                  <h4>
-                    <FaEye />
-                  </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
+          <div className="item">
+            <div className="featured-listing-card item">
+              <div className="card-two">
+                <img
+                  className="d-block w-100"
+                  src="./assets/house1.webp"
+                  alt="Featured-House"
+                />
+                <span className="red"> Buy</span>
+                <div className="overlay">
+                  <div className="image-title">
+                    <h4>
+                      <FaEye />
                     </h4>
-                  </changeIconColorOnce>
+                    <changeIconColorOnce>
+                      <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                        <ImHeart />
+                      </h4>
+                    </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                    <changeIconColorTwice>
+                      <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                        <RiHome6Fill />
+                      </h4>
+                    </changeIconColorTwice>
+                  </div>
+                </div>
+              </div>
+              <div className="card-text">
+                <h4>Home in Kosovo</h4>
+                <div className="icon">
+                  <h5>
+                    <span>
+                      <MdOutlineBed />
+                    </span>
+                    4
+                  </h5>
+                  <h5>
+                    <span>
+                      <FaBath />
+                    </span>
+                    3
+                  </h5>
+                  <h5>
+                    <span>
+                      <MdOutlineSquareFoot />
+                    </span>
+                    5200 sq ft
+                  </h5>
+                  <h5>$380,000</h5>
                 </div>
               </div>
             </div>
-            <div className="card-text">
-              <h4>Home in Kosovo</h4>
-              <div className="icon">
-                <h5>
-                  <span>
-                    <MdOutlineBed />
-                  </span>
-                  4
-                </h5>
-                <h5>
-                  <span>
-                    <FaBath />
-                  </span>
-                  3
-                </h5>
-                <h5>
-                  <span>
-                    <MdOutlineSquareFoot />
-                  </span>
-                  5200 sq ft
-                </h5>
-                <h5>$380,000</h5>
-              </div>
-            </div>
           </div>
-          <div className="featured-listing-card">
-            <div className="card-two">
-              <img
-                className="d-block w-100"
-                src="./assets/York1.jpg"
-                alt="Featured-House"
-              />
-              <span className="red"> Rent</span>
-              <div className="overlay">
-                <div className="image-title">
-                  <h4>
-                    <FaEye />
-                  </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
+          <div className="item">
+            <div className="featured-listing-card item">
+              <div className="card-two">
+                <img
+                  className="d-block w-100"
+                  src="./assets/York1.jpg"
+                  alt="Featured-House"
+                />
+                <span className="red"> Rent</span>
+                <div className="overlay">
+                  <div className="image-title">
+                    <h4>
+                      <FaEye />
                     </h4>
-                  </changeIconColorOnce>
+                    <changeIconColorOnce>
+                      <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                        <ImHeart />
+                      </h4>
+                    </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                    <changeIconColorTwice>
+                      <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                        <RiHome6Fill />
+                      </h4>
+                    </changeIconColorTwice>
+                  </div>
+                </div>
+              </div>
+              <div className="card-text">
+                <h4>Home in Kosovo</h4>
+                <div className="icon">
+                  <h5>
+                    <span>
+                      <MdOutlineBed />
+                    </span>
+                    4
+                  </h5>
+                  <h5>
+                    <span>
+                      <FaBath />
+                    </span>
+                    3
+                  </h5>
+                  <h5>
+                    <span>
+                      <MdOutlineSquareFoot />
+                    </span>
+                    5200 sq ft
+                  </h5>
+                  <h5>$380,000</h5>
                 </div>
               </div>
             </div>
-            <div className="card-text">
-              <h4>Home in Kosovo</h4>
-              <div className="icon">
-                <h5>
-                  <span>
-                    <MdOutlineBed />
-                  </span>
-                  4
-                </h5>
-                <h5>
-                  <span>
-                    <FaBath />
-                  </span>
-                  3
-                </h5>
-                <h5>
-                  <span>
-                    <MdOutlineSquareFoot />
-                  </span>
-                  5200 sq ft
-                </h5>
-                <h5>$380,000</h5>
-              </div>
-            </div>
           </div>
-          <div className="featured-listing-card">
-            <div className="card-two">
-              <img
-                className="d-block w-100"
-                src="./assets/view1.jpg"
-                alt="Featured-House"
-              />
-              <span className="red"> Buy</span>
-              <div className="overlay">
-                <div className="image-title">
-                  <h4>
-                    <FaEye />
-                  </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
+          <div className="item">
+            <div className="featured-listing-card item">
+              <div className="card-two">
+                <img
+                  className="d-block w-100"
+                  src="./assets/view1.jpg"
+                  alt="Featured-House"
+                />
+                <span className="red"> Buy</span>
+                <div className="overlay">
+                  <div className="image-title">
+                    <h4>
+                      <FaEye />
                     </h4>
-                  </changeIconColorOnce>
+                    <changeIconColorOnce>
+                      <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                        <ImHeart />
+                      </h4>
+                    </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                    <changeIconColorTwice>
+                      <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                        <RiHome6Fill />
+                      </h4>
+                    </changeIconColorTwice>
+                  </div>
+                </div>
+              </div>
+              <div className="card-text">
+                <h4>Home in Kosovo</h4>
+                <div className="icon">
+                  <h5>
+                    <span>
+                      <MdOutlineBed />
+                    </span>
+                    4
+                  </h5>
+                  <h5>
+                    <span>
+                      <FaBath />
+                    </span>
+                    3
+                  </h5>
+                  <h5>
+                    <span>
+                      <MdOutlineSquareFoot />
+                    </span>
+                    5200 sq ft
+                  </h5>
+                  <h5>$380,000</h5>
                 </div>
               </div>
             </div>
-            <div className="card-text">
-              <h4>Home in Kosovo</h4>
-              <div className="icon">
-                <h5>
-                  <span>
-                    <MdOutlineBed />
-                  </span>
-                  4
-                </h5>
-                <h5>
-                  <span>
-                    <FaBath />
-                  </span>
-                  3
-                </h5>
-                <h5>
-                  <span>
-                    <MdOutlineSquareFoot />
-                  </span>
-                  5200 sq ft
-                </h5>
-                <h5>$380,000</h5>
-              </div>
-            </div>
           </div>
-          <div className="featured-listing-card">
-            <div className="card-two">
-              <img
-                className="d-block w-100"
-                src="./assets/tig1.webp"
-                alt="Featured-House"
-              />
-              <span className="red">Rent</span>
-              <div className="overlay">
-                <div className="image-title">
-                  <h4>
-                    <FaEye />
-                  </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
+          <div className="item">
+            <div className="featured-listing-card item">
+              <div className="card-two">
+                <img
+                  className="d-block w-100"
+                  src="./assets/tig1.webp"
+                  alt="Featured-House"
+                />
+                <span className="red">Rent</span>
+                <div className="overlay">
+                  <div className="image-title">
+                    <h4>
+                      <FaEye />
                     </h4>
-                  </changeIconColorOnce>
+                    <changeIconColorOnce>
+                      <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                        <ImHeart />
+                      </h4>
+                    </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                    <changeIconColorTwice>
+                      <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                        <RiHome6Fill />
+                      </h4>
+                    </changeIconColorTwice>
+                  </div>
+                </div>
+              </div>
+              <div className="card-text">
+                <h4>Home in Kosovo</h4>
+                <div className="icon">
+                  <h5>
+                    <span>
+                      <MdOutlineBed />
+                    </span>
+                    4
+                  </h5>
+                  <h5>
+                    <span>
+                      <FaBath />
+                    </span>
+                    3
+                  </h5>
+                  <h5>
+                    <span>
+                      <MdOutlineSquareFoot />
+                    </span>
+                    5200 sq ft
+                  </h5>
+                  <h5>$380,000</h5>
                 </div>
               </div>
             </div>
-            <div className="card-text">
-              <h4>Home in Kosovo</h4>
-              <div className="icon">
-                <h5>
-                  <span>
-                    <MdOutlineBed />
-                  </span>
-                  4
-                </h5>
-                <h5>
-                  <span>
-                    <FaBath />
-                  </span>
-                  3
-                </h5>
-                <h5>
-                  <span>
-                    <MdOutlineSquareFoot />
-                  </span>
-                  5200 sq ft
-                </h5>
-                <h5>$380,000</h5>
-              </div>
-            </div>
           </div>
-          <div className="featured-listing-card">
-            <div className="card-two">
-              <img
-                className="d-block w-100"
-                src="./assets/roche3.jpg"
-                alt="Featured-House"
-              />
-              <span className="red"> Buy</span>
-              <div className="overlay">
-                <div className="image-title">
-                  <h4>
-                    <FaEye />
-                  </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
+          <div className="item">
+            <div className="featured-listing-card item">
+              <div className="card-two">
+                <img
+                  className="d-block w-100"
+                  src="./assets/roche3.jpg"
+                  alt="Featured-House"
+                />
+                <span className="red"> Buy</span>
+                <div className="overlay">
+                  <div className="image-title">
+                    <h4>
+                      <FaEye />
                     </h4>
-                  </changeIconColorOnce>
+                    <changeIconColorOnce>
+                      <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                        <ImHeart />
+                      </h4>
+                    </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                    <changeIconColorTwice>
+                      <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                        <RiHome6Fill />
+                      </h4>
+                    </changeIconColorTwice>
+                  </div>
+                </div>
+              </div>
+              <div className="card-text">
+                <h4>Home in Kosovo</h4>
+                <div className="icon">
+                  <h5>
+                    <span>
+                      <MdOutlineBed />
+                    </span>
+                    4
+                  </h5>
+                  <h5>
+                    <span>
+                      <FaBath />
+                    </span>
+                    3
+                  </h5>
+                  <h5>
+                    <span>
+                      <MdOutlineSquareFoot />
+                    </span>
+                    5200 sq ft
+                  </h5>
+                  <h5>$380,000</h5>
                 </div>
               </div>
             </div>
-            <div className="card-text">
-              <h4>Home in Kosovo</h4>
-              <div className="icon">
-                <h5>
-                  <span>
-                    <MdOutlineBed />
-                  </span>
-                  4
-                </h5>
-                <h5>
-                  <span>
-                    <FaBath />
-                  </span>
-                  3
-                </h5>
-                <h5>
-                  <span>
-                    <MdOutlineSquareFoot />
-                  </span>
-                  5200 sq ft
-                </h5>
-                <h5>$380,000</h5>
-              </div>
-            </div>
           </div>
-          <div className="featured-listing-card">
-            <div className="card-two">
-              <img
-                className="d-block w-100"
-                src="./assets/new1.webp"
-                alt="Featured-House"
-              />
-              <span className="red"> Rent</span>
-              <div className="overlay">
-                <div className="image-title">
-                  <h4>
-                    <FaEye />
-                  </h4>
-                  <changeIconColorOnce>
-                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                      <ImHeart />
+          <div className="item">
+            <div className="featured-listing-card item">
+              <div className="card-two">
+                <img
+                  className="d-block w-100"
+                  src="./assets/new1.webp"
+                  alt="Featured-House"
+                />
+                <span className="red"> Rent</span>
+                <div className="overlay">
+                  <div className="image-title">
+                    <h4>
+                      <FaEye />
                     </h4>
-                  </changeIconColorOnce>
+                    <changeIconColorOnce>
+                      <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                        <ImHeart />
+                      </h4>
+                    </changeIconColorOnce>
 
-                  <changeIconColorTwice>
-                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                      <RiHome6Fill />
-                    </h4>
-                  </changeIconColorTwice>
+                    <changeIconColorTwice>
+                      <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                        <RiHome6Fill />
+                      </h4>
+                    </changeIconColorTwice>
+                  </div>
+                </div>
+              </div>
+              <div className="card-text">
+                <h4>Home in Kosovo</h4>
+                <div className="icon">
+                  <h5>
+                    <span>
+                      <MdOutlineBed />
+                    </span>
+                    4
+                  </h5>
+                  <h5>
+                    <span>
+                      <FaBath />
+                    </span>
+                    3
+                  </h5>
+                  <h5>
+                    <span>
+                      <MdOutlineSquareFoot />
+                    </span>
+                    5200 sq ft
+                  </h5>
+                  <h5>$380,000</h5>
                 </div>
               </div>
             </div>
-            <div className="card-text">
-              <h4>Home in Kosovo</h4>
-              <div className="icon">
-                <h5>
-                  <span>
-                    <MdOutlineBed />
-                  </span>
-                  4
-                </h5>
-                <h5>
-                  <span>
-                    <FaBath />
-                  </span>
-                  3
-                </h5>
-                <h5>
-                  <span>
-                    <MdOutlineSquareFoot />
-                  </span>
-                  5200 sq ft
-                </h5>
-                <h5>$380,000</h5>
-              </div>
-            </div>
           </div>
-        </div>
+        </OwlCarousel>
       </div>
     </section>
   );
