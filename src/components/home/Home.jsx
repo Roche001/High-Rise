@@ -77,13 +77,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <OwlCarousel
-        className="owl-theme"
-        loop
-        margin={10}
-        nav
-        className="home-page container-fluid"
-      >
+      <div className="home-page container-fluid">
         <div className="featured text-center row">
           <h4>Discover Our Featured Listings</h4>
           <p>
@@ -492,7 +486,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </OwlCarousel>
+      </div>
     </section>
   );
 };
