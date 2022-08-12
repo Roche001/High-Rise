@@ -7,9 +7,6 @@ import { FaEye } from "react-icons/fa";
 import { RiHome6Fill } from "react-icons/ri";
 import { ImHeart } from "react-icons/im";
 
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
 const Home = () => {
   const [iconOneColor, setIconOneColor] = useState("black");
   const redColor = () => {
