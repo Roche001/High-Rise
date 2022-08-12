@@ -6,6 +6,10 @@ import { MdOutlineSquareFoot } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
 import { RiHome6Fill } from "react-icons/ri";
 import { ImHeart } from "react-icons/im";
+
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 const Home = () => {
   const [iconOneColor, setIconOneColor] = useState("black");
   const redColor = () => {
@@ -73,7 +77,13 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="home-page container-fluid">
+      <OwlCarousel
+        className="owl-theme"
+        loop
+        margin={10}
+        nav
+        className="home-page container-fluid"
+      >
         <div className="featured text-center row">
           <h4>Discover Our Featured Listings</h4>
           <p>
@@ -482,7 +492,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </OwlCarousel>
     </section>
   );
 };
