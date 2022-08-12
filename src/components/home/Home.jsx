@@ -6,7 +6,6 @@ import { MdOutlineSquareFoot } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
 import { RiHome6Fill } from "react-icons/ri";
 import { ImHeart } from "react-icons/im";
-
 const Home = () => {
   const [iconOneColor, setIconOneColor] = useState("black");
   const redColor = () => {
