@@ -7,6 +7,23 @@ import { FaEye } from "react-icons/fa";
 import { RiHome6Fill } from "react-icons/ri";
 import { ImHeart } from "react-icons/im";
 
+import Box from "@mui/material/Box";
+import Modal from "@mui/material/Modal";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+
+const style = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  width: 900,
+  height: 600,
+  bgcolor: "background.paper",
+  border: "2px solid #000",
+  boxShadow: 24,
+  p: 4,
+};
 const Home = () => {
   const [iconOneColor, setIconOneColor] = useState("black");
   const redColor = () => {
@@ -16,6 +33,10 @@ const Home = () => {
   const greenColor = () => {
     setIconTwoColor("green");
   };
+
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
   return (
     <section className="home">
       <div className="home-header">
@@ -93,7 +114,8 @@ const Home = () => {
               <span className="red"> Buy</span>
               <div className="overlay">
                 <div className="image-title">
-                  <h4>
+                  <div></div>
+                  <h4 onClick={handleOpen}>
                     <FaEye />
                   </h4>
 
@@ -131,6 +153,28 @@ const Home = () => {
                 <h5>$380,000</h5>
               </div>
             </div>
+            <Modal
+              keepMounted
+              open={open}
+              onClose={handleClose}
+              aria-labelledby="keep-mounted-modal-title"
+              aria-describedby="keep-mounted-modal-description"
+            >
+              <Box sx={style}>
+                <Typography
+                  id="keep-mounted-modal-title"
+                  variant="h6"
+                  component="h2"
+                >
+                  <h5>Awesome Family Home </h5>
+                </Typography>
+                <Typography id="keep-mounted-modal-description" sx={{ mt: 2 }}>
+                  <div className="pap">
+                    <h5>papa Jony</h5>
+                  </div>
+                </Typography>
+              </Box>
+            </Modal>
           </div>
 
           <div className="featured-listing-card item">
