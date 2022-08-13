@@ -127,6 +127,13 @@
 .icon h5:hover {
   color: #d32f2f;
 }
+.explore-one h4 {
+  font-size: 2rem;
+}
+.explore-one p {
+  font-size: 1.5rem;
+}
+
 @media screen and (max-width: 600px) {
   .search-bar {
     display: flex;
