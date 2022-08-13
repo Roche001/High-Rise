@@ -484,6 +484,15 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="explore">
+        <div className="explore-one text-center">
+          <h4>Explore Apartment Types</h4>
+          <p>
+            Explore all the different types of apartments so you can choose the
+            best option for you{" "}
+          </p>
+        </div>
+      </div>
     </section>
   );
 };
