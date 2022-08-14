@@ -6,6 +6,7 @@ import { MdOutlineSquareFoot } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
 import { RiHome6Fill } from "react-icons/ri";
 import { ImHeart } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
@@ -123,7 +124,11 @@ const Home = () => {
                   </h4>
 
                   <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                    <RiHome6Fill />
+                    <Link to="/House1">
+                      <li>
+                        <RiHome6Fill />
+                      </li>
+                    </Link>
                   </h4>
                 </div>
               </div>
