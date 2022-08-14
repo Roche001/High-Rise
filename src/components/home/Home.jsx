@@ -175,9 +175,7 @@ const Home = () => {
                   <h5>Awesome Family Home </h5>
                 </Typography>
                 <Typography id="keep-mounted-modal-description" sx={{ mt: 2 }}>
-                  <div className="pap">
-                    <img src="./assets/me1.jpg" alt="me" />
-                  </div>
+                  <div className="pap"></div>
                 </Typography>
               </Box>
             </Modal>
