@@ -39,6 +39,7 @@ const Home = () => {
   const handleClose = () => setOpen(false);
 
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
   return (
     <section className="home">
       <div className="home-header">
