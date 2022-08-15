@@ -24,6 +24,7 @@ const style = {
   boxShadow: 24,
   p: 4,
 };
+
 const Home = () => {
   const [iconOneColor, setIconOneColor] = useState("black");
   const redColor = () => {
@@ -37,8 +38,6 @@ const Home = () => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
     <section className="home">
