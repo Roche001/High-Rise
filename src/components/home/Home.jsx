@@ -14,6 +14,8 @@ import Typography from "@mui/material/Typography";
 
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import Tooltip from "react-bootstrap/Tooltip";
 
 const style = {
   position: "absolute",
@@ -42,6 +44,21 @@ const Home = () => {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
+  const renderTooltip = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Click to View House
+    </Tooltip>
+  );
+  const toolTip = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Like House
+    </Tooltip>
+  );
+  const seeMore = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      See More
+    </Tooltip>
+  );
   return (
     <section className="home">
       <div className="home-header">
@@ -119,22 +136,37 @@ const Home = () => {
             <span className="red"> Buy</span>
             <div className="overlay">
               <div className="image-title">
-                <div></div>
-                <h4 onClick={handleOpen}>
-                  <FaEye />
-                </h4>
-
-                <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                  <ImHeart />
-                </h4>
-
-                <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                  <Link to="/House1">
-                    <li>
-                      <RiHome6Fill />
-                    </li>
-                  </Link>
-                </h4>
+                <OverlayTrigger
+                  placement="right"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={renderTooltip}
+                >
+                  <h4 onClick={handleOpen}>
+                    <FaEye />
+                  </h4>
+                </OverlayTrigger>
+                <OverlayTrigger
+                  placement="left"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={toolTip}
+                >
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
+                </OverlayTrigger>
+                <OverlayTrigger
+                  placement="left"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={seeMore}
+                >
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <Link to="/House1">
+                      <li>
+                        <RiHome6Fill />
+                      </li>
+                    </Link>
+                  </h4>
+                </OverlayTrigger>
               </div>
             </div>
           </div>
