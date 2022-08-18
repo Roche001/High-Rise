@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Home.css";
 import "./style.css";
 import { MdOutlineBed } from "react-icons/md";
+import Carousel from "react-bootstrap/Carousel";
 import { FaBath } from "react-icons/fa";
 import { MdOutlineSquareFoot } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
@@ -22,7 +23,9 @@ import Typography from "@mui/material/Typography";
 
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
-
+import OwlCarousel from "react-owl-carousel-loop";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -70,6 +73,7 @@ const Home = () => {
       See More
     </Tooltip>
   );
+
   return (
     <section className="home">
       <div className="home-header">
@@ -940,109 +944,127 @@ const Home = () => {
             <p>Vice President, Product</p>
           </div>
         </div>
-        <div className="reviews row">
+        <div className="review">
           <h3>Our Clients Says</h3>
-          <Swiper
-            slidesPerView={1}
-            spaceBetween={30}
-            loop={true}
-            pagination={{
-              clickable: true,
-            }}
-            navigation={true}
-            modules={[Pagination, Navigation]}
-            className="mySwiper"
-          >
-            <SwiperSlide className="review-card">
-              <div className="review-card-img">
-                <img src="./assets/say1.jpeg" alt="Customer" />
-                <div className="text-tree">
-                  <h5>Searcy Michael</h5>
-                  <p>Author</p>
+          <Carousel slide={false}>
+            <Carousel.Item>
+              <div className="review-card">
+                <div className="review-card-img">
+                  <img src="./assets/say1.jpeg" alt="Customer" />
+                  <div className="text-tree">
+                    <h5>Searcy Michael</h5>
+                    <p>Author</p>
+                  </div>
                 </div>
+                <p>
+                  I have to say how much I love the artistry and creativity that
+                  goes into these places. They are all truly unique and I love
+                  each and every one of the ideas for all different reasons.
+                  Nicely done video. Thanks for posting.{" "}
+                </p>
               </div>
-              <p>
-                I have to say how much I love the artistry and creativity that
-                goes into these places. They are all truly unique and I love
-                each and every one of the ideas for all different reasons.
-                Nicely done video. Thanks for posting.{" "}
-              </p>
-            </SwiperSlide>
-            <SwiperSlide className="review-card">
-              <div className="review-card-img">
-                <img src="./assets/say2.jpeg" alt="Customer" />
-                <div className="text-tree">
-                  <h5>Maria Flyn</h5>
-                  <p>Manager at Hottubs Inc.</p>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div className="review-card">
+                <div className="review-card-img">
+                  <img src="./assets/say2.jpeg" alt="Customer" />
+                  <div className="text-tree">
+                    <h5>Maria Flyn</h5>
+                    <p>Manager at Hottubs Inc.</p>
+                  </div>
                 </div>
-              </div>
-              <p>
-                This house looks even more stunning than the one presented at
-                the main channel. What a change does it make for a house when
-                you integrate both architectural style with the furniture and
-                the appliances! It is absolutely marvelous.
-              </p>
-            </SwiperSlide>
-            <SwiperSlide className="review-card">
-              <div className="review-card-img">
-                <img src="./assets/say3.jpeg" alt="Customer" />
-                <div className="text-tree">
-                  <h5>Filman Lamina</h5>
-                  <p>Manager at Lawn LTD.</p>
+                <p>
+                  This house looks even more stunning than the one presented at
+                  the main channel. What a change does it make for a house when
+                  you integrate both architectural style with the furniture and
+                  the appliances! It is absolutely marvelous.
+                </p>
+              </div>{" "}
+            </Carousel.Item>{" "}
+            <Carousel.Item>
+              <div className="review-card">
+                <div className="review-card-img">
+                  <img src="./assets/say3.jpeg" alt="Customer" />
+                  <div className="text-tree">
+                    <h5>Filman Lamina</h5>
+                    <p>Manager at Lawn LTD.</p>
+                  </div>
                 </div>
-              </div>
-              <p>
-                I love how they have hidden all the industrial equipment such as
-                the pool's filtration systems, AC's compressor units, etc. which
-                you usually find on the rooftop. This house is well-thought out,
-                sleek and beautifully designed. A truly home resort feel.
-              </p>
-            </SwiperSlide>
-            <SwiperSlide className="review-card">
-              <div className="review-card-img">
-                <img src="./assets/say4.jpeg" alt="Customer" />
-                <div className="text-tree">
-                  <h5>Andreea Houston</h5>
-                  <p>Actress</p>
+                <p>
+                  I love how they have hidden all the industrial equipment such
+                  as the pool's filtration systems, AC's compressor units, etc.
+                  which you usually find on the rooftop. This house is
+                  well-thought out, sleek and beautifully designed. A truly home
+                  resort feel.
+                </p>
+              </div>{" "}
+            </Carousel.Item>{" "}
+            <Carousel.Item>
+              <div className="review-card">
+                <div className="review-card-img">
+                  <img src="./assets/say4.jpeg" alt="Customer" />
+                  <div className="text-tree">
+                    <h5>Andreea Houston</h5>
+                    <p>Actress</p>
+                  </div>
                 </div>
-              </div>
-              <p>
-                Out of all the AMAZING natural elements that nature brings to
-                the table, I'm gratified to hear that you and Micky have back
-                problems! Back to the relm of the human...and I say this in the
-                kindest sort of way...love your channel
-              </p>
-            </SwiperSlide>
-            <SwiperSlide className="review-card">
-              <div className="review-card-img">
-                <img src="./assets/say5.jpeg" alt="Customer" />
-                <div className="text-tree">
-                  <h5>Larry Eckerdt</h5>
-                  <p>Doctor, Higway Nursing Home.</p>
+                <p>
+                  Out of all the AMAZING natural elements that nature brings to
+                  the table, I'm gratified to hear that you and Micky have back
+                  problems! Back to the relm of the human...and I say this in
+                  the kindest sort of way...love your channel
+                </p>
+              </div>{" "}
+            </Carousel.Item>{" "}
+            <Carousel.Item>
+              <div className="review-card">
+                <div className="review-card-img">
+                  <img src="./assets/say5.jpeg" alt="Customer" />
+                  <div className="text-tree">
+                    <h5>Larry Eckerdt</h5>
+                    <p>Doctor, Higway Nursing Home.</p>
+                  </div>
                 </div>
-              </div>
-              <p>
-                Beautiful home, great tour and photography! Perfect size in my
-                opinion- some of the largest homes lose their soul. This has the
-                amenities a luxury home requires, without having to make up
-                reasons for excess spaces. My dogs would love the yard!
-              </p>
-            </SwiperSlide>
-            <SwiperSlide className="review-card">
-              <div className="review-card-img">
-                <img src="./assets/say6.jpeg" alt="Customer" />
-                <div className="text-tree">
-                  <h5>Hannah Mae Endaya</h5>
-                  <p>HRM, Higway Nursing Home.</p>
+                <p>
+                  Beautiful home, great tour and photography! Perfect size in my
+                  opinion- some of the largest homes lose their soul. This has
+                  the amenities a luxury home requires, without having to make
+                  up reasons for excess spaces. My dogs would love the yard!
+                </p>
+              </div>{" "}
+            </Carousel.Item>{" "}
+            <Carousel.Item>
+              <div className="review-card">
+                <div className="review-card-img">
+                  <img src="./assets/say6.jpeg" alt="Customer" />
+                  <div className="text-tree">
+                    <h5>Hannah Mae Endaya</h5>
+                    <p>HRM, Higway Nursing Home.</p>
+                  </div>
                 </div>
-              </div>
-              <p>
-                It's so gorgeous 🥺 I love the open shelving on the bbq area and
-                the lights are amazing, the house is super nice 😍 good job guys
-              </p>
-            </SwiperSlide>
-          </Swiper>
+                <p>
+                  It's so gorgeous 🥺 I love the open shelving on the bbq area
+                  and the lights are amazing, the house is super nice 😍 good
+                  job guys
+                </p>
+              </div>{" "}
+            </Carousel.Item>
+          </Carousel>
         </div>
+        <OwlCarousel>
+          <div className="item">
+            <img src="./assets/part1.png" alt="partners" />
+          </div>{" "}
+          <div className="item">
+            <img src="./assets/part2.png" alt="partners" />
+          </div>{" "}
+          <div className="item">
+            <img src="./assets/part3.png" alt="partners" />
+          </div>{" "}
+          <div className="item">
+            <img src="./assets/part4.png" alt="partners" />
+          </div>
+        </OwlCarousel>
       </div>
     </section>
   );

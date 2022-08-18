@@ -268,16 +268,25 @@
   padding: 0.5rem;
   cursor: pointer;
 }
-.reviews {
+.review {
   background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .review-card {
-  width: 40rem;
-  height: 12rem;
+  background: #37474f;
   text-align: start;
   box-shadow: 10px 5px 5px 5px #020c1b;
-  margin: 1rem;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  color: #ffffff;
+}
+.Carousel.Item {
+  width: 100%;
 }
 .review-card-img {
   display: flex;
@@ -296,6 +305,10 @@
 .review-card-img img:hover {
   outline-offset: 3px;
   animation: shake 0.4ms;
+}
+.item {
+  height: 20rem;
+  width: 20rem;
 }
 @media screen and (max-width: 600px) {
   .search-bar {
