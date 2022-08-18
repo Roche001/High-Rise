@@ -645,7 +645,7 @@ const Home = () => {
         </div>
         <div className="form row">
           <div className="form-one col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h5>Real Estate Inquiry Form</h5>
+            <h3>Real Estate Inquiry Form</h3>
             <div className="form-input">
               <h6>Inquiry Type</h6>
               <select className="select">

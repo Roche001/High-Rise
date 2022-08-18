@@ -149,6 +149,10 @@
   flex-direction: column;
   color: #ffffff;
 }
+.form-one h3 {
+  margin-top: 3rem;
+  font-weight: 600;
+}
 .form-input {
   border-radius: 0.2rem;
   background: #ffffff;
@@ -207,6 +211,9 @@
 }
 .agents {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 600px) {
   .search-bar {
