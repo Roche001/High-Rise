@@ -143,6 +143,11 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
 }
 @media screen and (max-width: 600px) {
   .search-bar {

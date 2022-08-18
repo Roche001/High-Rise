@@ -641,7 +641,9 @@ const Home = () => {
           </p>
         </div>
         <div className="form row">
-          <div className="form-one"></div>
+          <div className="form-one">
+            <h5>Real Estate Inquiry Form</h5>
+          </div>
         </div>
       </div>
     </section>
