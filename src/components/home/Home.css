@@ -205,6 +205,12 @@
   font-size: 3rem;
   margin-top: -1rem;
 }
+.agents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 600px) {
   .search-bar {
     display: flex;
@@ -218,6 +224,9 @@
   .picker,
   .picker-b {
     width: 100%;
+  }
+  .form-one {
+    padding: 2rem;
   }
 }
 @media screen and (max-width: 1200px) {

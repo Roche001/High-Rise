@@ -740,6 +740,14 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="agents">
+          <h3>Meet Our Agents</h3>
+          <p>
+            Meet our team of professional agents, who will help you find your
+            dream house{" "}
+          </p>
+          <div className="agents"></div>
+        </div>
       </div>
     </section>
   );
