@@ -271,6 +271,32 @@
 .reviews {
   background: #ffffff;
 }
+
+.review-card {
+  width: 40rem;
+  height: 12rem;
+  text-align: start;
+  box-shadow: 10px 5px 5px 5px #020c1b;
+  margin: 1rem;
+}
+.review-card-img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.2rem;
+}
+.review-card-img img {
+  margin: 0.2rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  outline: #020c1b 2px dotted;
+  cursor: pointer;
+}
+.review-card-img img:hover {
+  outline-offset: 3px;
+  animation: shake 0.4ms;
+}
 @media screen and (max-width: 600px) {
   .search-bar {
     display: flex;
