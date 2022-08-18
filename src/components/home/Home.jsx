@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Home.css";
+import "./style.css";
 import { MdOutlineBed } from "react-icons/md";
 import { FaBath } from "react-icons/fa";
 import { MdOutlineSquareFoot } from "react-icons/md";
@@ -12,11 +13,14 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Typography from "@mui/material/Typography";
 
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Pagination, Navigation } from "swiper";
 const style = {
   position: "absolute",
   top: "50%",
@@ -125,446 +129,508 @@ const Home = () => {
             within the city
           </p>
         </div>
-
-        <div className="featured-listing-card item">
-          <div className="card-two">
-            <img
-              className="d-block w-100"
-              src="./assets/room1.webp"
-              alt="Featured-House"
-            />
-            <span className="red"> Buy</span>
-            <div className="overlay">
-              <div className="image-title">
-                <OverlayTrigger
-                  placement="right"
-                  delay={{ show: 250, hide: 400 }}
-                  overlay={renderTooltip}
+        <Swiper
+          slidesPerView={3}
+          spaceBetween={30}
+          slidesPerGroup={3}
+          loop={true}
+          loopFillGroupWithBlank={true}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide className="featured-listing-card ">
+            <div className="card-two">
+              <img
+                className="d-block w-100"
+                src="./assets/room1.webp"
+                alt="Featured-House"
+              />
+              <span className="red"> Buy</span>
+              <div className="overlay">
+                <div className="image-title">
+                  <OverlayTrigger
+                    placement="right"
+                    delay={{ show: 250, hide: 400 }}
+                    overlay={renderTooltip}
+                  >
+                    <h4 onClick={handleOpen}>
+                      <FaEye />
+                    </h4>
+                  </OverlayTrigger>
+                  <OverlayTrigger
+                    placement="left"
+                    delay={{ show: 250, hide: 400 }}
+                    overlay={toolTip}
+                  >
+                    <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                      <ImHeart />
+                    </h4>
+                  </OverlayTrigger>
+                  <OverlayTrigger
+                    placement="left"
+                    delay={{ show: 250, hide: 400 }}
+                    overlay={seeMore}
+                  >
+                    <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                      <Link to="/House1">
+                        <li>
+                          <RiHome6Fill />
+                        </li>
+                      </Link>
+                    </h4>
+                  </OverlayTrigger>
+                </div>
+              </div>
+            </div>
+            <div className="card-text">
+              <h4>Home in Kosovo</h4>
+              <div className="icon">
+                <h5>
+                  <span>
+                    <MdOutlineBed />
+                  </span>
+                  4
+                </h5>
+                <h5>
+                  <span>
+                    <FaBath />
+                  </span>
+                  3
+                </h5>
+                <h5>
+                  <span>
+                    <MdOutlineSquareFoot />
+                  </span>
+                  5200 sq ft
+                </h5>
+                <h5>$380,000</h5>
+              </div>
+            </div>
+            <Modal
+              keepMounted
+              open={open}
+              onClose={handleClose}
+              aria-labelledby="keep-mounted-modal-title"
+              aria-describedby="keep-mounted-modal-description"
+            >
+              <Box sx={style}>
+                <Typography
+                  id="keep-mounted-modal-title"
+                  variant="h6"
+                  component="h2"
                 >
-                  <h4 onClick={handleOpen}>
+                  <h5>Awesome Family Home </h5>
+                </Typography>
+                <Typography id="keep-mounted-modal-description" sx={{ mt: 2 }}>
+                  <div className="pap"></div>
+                </Typography>
+              </Box>
+            </Modal>
+          </SwiperSlide>
+
+          <SwiperSlide className="featured-listing-card ">
+            <div className="card-two">
+              <img
+                className="d-block w-100"
+                src="./assets/me1.jpg"
+                alt="Featured-House"
+              />
+              <span className="red"> Rent</span>
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
                     <FaEye />
                   </h4>
-                </OverlayTrigger>
-                <OverlayTrigger
-                  placement="left"
-                  delay={{ show: 250, hide: 400 }}
-                  overlay={toolTip}
-                >
+
                   <h4 style={{ color: iconOneColor }} onClick={redColor}>
                     <ImHeart />
                   </h4>
-                </OverlayTrigger>
-                <OverlayTrigger
-                  placement="left"
-                  delay={{ show: 250, hide: 400 }}
-                  overlay={seeMore}
-                >
+
                   <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                    <Link to="/House1">
-                      <li>
-                        <RiHome6Fill />
-                      </li>
-                    </Link>
+                    <RiHome6Fill />
                   </h4>
-                </OverlayTrigger>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="card-text">
-            <h4>Home in Kosovo</h4>
-            <div className="icon">
-              <h5>
-                <span>
-                  <MdOutlineBed />
-                </span>
-                4
-              </h5>
-              <h5>
-                <span>
-                  <FaBath />
-                </span>
-                3
-              </h5>
-              <h5>
-                <span>
-                  <MdOutlineSquareFoot />
-                </span>
-                5200 sq ft
-              </h5>
-              <h5>$380,000</h5>
-            </div>
-          </div>
-          <Modal
-            keepMounted
-            open={open}
-            onClose={handleClose}
-            aria-labelledby="keep-mounted-modal-title"
-            aria-describedby="keep-mounted-modal-description"
-          >
-            <Box sx={style}>
-              <Typography
-                id="keep-mounted-modal-title"
-                variant="h6"
-                component="h2"
-              >
-                <h5>Awesome Family Home </h5>
-              </Typography>
-              <Typography id="keep-mounted-modal-description" sx={{ mt: 2 }}>
-                <div className="pap"></div>
-              </Typography>
-            </Box>
-          </Modal>
-        </div>
-
-        <div className="featured-listing-card item">
-          <div className="card-two">
-            <img
-              className="d-block w-100"
-              src="./assets/me1.jpg"
-              alt="Featured-House"
-            />
-            <span className="red"> Rent</span>
-            <div className="overlay">
-              <div className="image-title">
-                <h4>
-                  <FaEye />
-                </h4>
-
-                <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                  <ImHeart />
-                </h4>
-
-                <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                  <RiHome6Fill />
-                </h4>
+            <div className="card-text">
+              <h4>Home in Los Angeles</h4>
+              <div className="icon">
+                <h5>
+                  <span>
+                    <MdOutlineBed />
+                  </span>
+                  5
+                </h5>
+                <h5>
+                  <span>
+                    <FaBath />
+                  </span>
+                  4
+                </h5>
+                <h5>
+                  <span>
+                    <MdOutlineSquareFoot />
+                  </span>
+                  5200 sq ft
+                </h5>
+                <h5>$380,000</h5>
               </div>
             </div>
-          </div>
-          <div className="card-text">
-            <h4>Home in Los Angeles</h4>
-            <div className="icon">
-              <h5>
-                <span>
-                  <MdOutlineBed />
-                </span>
-                5
-              </h5>
-              <h5>
-                <span>
-                  <FaBath />
-                </span>
-                4
-              </h5>
-              <h5>
-                <span>
-                  <MdOutlineSquareFoot />
-                </span>
-                5200 sq ft
-              </h5>
-              <h5>$380,000</h5>
-            </div>
-          </div>
-        </div>
+          </SwiperSlide>
 
-        <div className="featured-listing-card item">
-          <div className="card-two">
-            <img
-              className="d-block w-100"
-              src="./assets/house1.webp"
-              alt="Featured-House"
-            />
-            <span className="red"> Buy</span>
-            <div className="overlay">
-              <div className="image-title">
-                <h4>
-                  <FaEye />
-                </h4>
+          <SwiperSlide className="featured-listing-card ">
+            <div className="card-two">
+              <img
+                className="d-block w-100"
+                src="./assets/house1.webp"
+                alt="Featured-House"
+              />
+              <span className="red"> Buy</span>
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
 
-                <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                  <ImHeart />
-                </h4>
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
 
-                <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                  <RiHome6Fill />
-                </h4>
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="card-text">
-            <h4>Home in Kosovo</h4>
-            <div className="icon">
-              <h5>
-                <span>
-                  <MdOutlineBed />
-                </span>
-                4
-              </h5>
-              <h5>
-                <span>
-                  <FaBath />
-                </span>
-                3
-              </h5>
-              <h5>
-                <span>
-                  <MdOutlineSquareFoot />
-                </span>
-                5200 sq ft
-              </h5>
-              <h5>$380,000</h5>
-            </div>
-          </div>
-        </div>
-
-        <div className="featured-listing-card item">
-          <div className="card-two">
-            <img
-              className="d-block w-100"
-              src="./assets/York1.jpg"
-              alt="Featured-House"
-            />
-            <span className="red"> Rent</span>
-            <div className="overlay">
-              <div className="image-title">
-                <h4>
-                  <FaEye />
-                </h4>
-
-                <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                  <ImHeart />
-                </h4>
-
-                <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                  <RiHome6Fill />
-                </h4>
+            <div className="card-text">
+              <h4>Home in Kosovo</h4>
+              <div className="icon">
+                <h5>
+                  <span>
+                    <MdOutlineBed />
+                  </span>
+                  4
+                </h5>
+                <h5>
+                  <span>
+                    <FaBath />
+                  </span>
+                  3
+                </h5>
+                <h5>
+                  <span>
+                    <MdOutlineSquareFoot />
+                  </span>
+                  5200 sq ft
+                </h5>
+                <h5>$380,000</h5>
               </div>
             </div>
-          </div>
-          <div className="card-text">
-            <h4>Home in Kosovo</h4>
-            <div className="icon">
-              <h5>
-                <span>
-                  <MdOutlineBed />
-                </span>
-                4
-              </h5>
-              <h5>
-                <span>
-                  <FaBath />
-                </span>
-                3
-              </h5>
-              <h5>
-                <span>
-                  <MdOutlineSquareFoot />
-                </span>
-                5200 sq ft
-              </h5>
-              <h5>$380,000</h5>
-            </div>
-          </div>
-        </div>
+          </SwiperSlide>
 
-        <div className="featured-listing-card item">
-          <div className="card-two">
-            <img
-              className="d-block w-100"
-              src="./assets/view1.jpg"
-              alt="Featured-House"
-            />
-            <span className="red"> Buy</span>
-            <div className="overlay">
-              <div className="image-title">
-                <h4>
-                  <FaEye />
-                </h4>
+          <SwiperSlide className="featured-listing-card ">
+            <div className="card-two">
+              <img
+                className="d-block w-100"
+                src="./assets/York1.jpg"
+                alt="Featured-House"
+              />
+              <span className="red"> Rent</span>
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
 
-                <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                  <ImHeart />
-                </h4>
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
 
-                <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                  <RiHome6Fill />
-                </h4>
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="card-text">
-            <h4>Home in Kosovo</h4>
-            <div className="icon">
-              <h5>
-                <span>
-                  <MdOutlineBed />
-                </span>
-                4
-              </h5>
-              <h5>
-                <span>
-                  <FaBath />
-                </span>
-                3
-              </h5>
-              <h5>
-                <span>
-                  <MdOutlineSquareFoot />
-                </span>
-                5200 sq ft
-              </h5>
-              <h5>$380,000</h5>
-            </div>
-          </div>
-        </div>
-
-        <div className="featured-listing-card item">
-          <div className="card-two">
-            <img
-              className="d-block w-100"
-              src="./assets/tig1.webp"
-              alt="Featured-House"
-            />
-            <span className="red">Rent</span>
-            <div className="overlay">
-              <div className="image-title">
-                <h4>
-                  <FaEye />
-                </h4>
-
-                <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                  <ImHeart />
-                </h4>
-
-                <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                  <RiHome6Fill />
-                </h4>
+            <div className="card-text">
+              <h4>Home in Kosovo</h4>
+              <div className="icon">
+                <h5>
+                  <span>
+                    <MdOutlineBed />
+                  </span>
+                  4
+                </h5>
+                <h5>
+                  <span>
+                    <FaBath />
+                  </span>
+                  3
+                </h5>
+                <h5>
+                  <span>
+                    <MdOutlineSquareFoot />
+                  </span>
+                  5200 sq ft
+                </h5>
+                <h5>$380,000</h5>
               </div>
             </div>
-          </div>
-          <div className="card-text">
-            <h4>Home in Kosovo</h4>
-            <div className="icon">
-              <h5>
-                <span>
-                  <MdOutlineBed />
-                </span>
-                4
-              </h5>
-              <h5>
-                <span>
-                  <FaBath />
-                </span>
-                3
-              </h5>
-              <h5>
-                <span>
-                  <MdOutlineSquareFoot />
-                </span>
-                5200 sq ft
-              </h5>
-              <h5>$380,000</h5>
-            </div>
-          </div>
-        </div>
+          </SwiperSlide>
 
-        <div className="featured-listing-card item">
-          <div className="card-two">
-            <img
-              className="d-block w-100"
-              src="./assets/roche3.jpg"
-              alt="Featured-House"
-            />
-            <span className="red"> Buy</span>
-            <div className="overlay">
-              <div className="image-title">
-                <h4>
-                  <FaEye />
-                </h4>
+          <SwiperSlide className="featured-listing-card ">
+            <div className="card-two">
+              <img
+                className="d-block w-100"
+                src="./assets/view1.jpg"
+                alt="Featured-House"
+              />
+              <span className="red"> Buy</span>
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
 
-                <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                  <ImHeart />
-                </h4>
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
 
-                <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                  <RiHome6Fill />
-                </h4>
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="card-text">
-            <h4>Home in Kosovo</h4>
-            <div className="icon">
-              <h5>
-                <span>
-                  <MdOutlineBed />
-                </span>
-                4
-              </h5>
-              <h5>
-                <span>
-                  <FaBath />
-                </span>
-                3
-              </h5>
-              <h5>
-                <span>
-                  <MdOutlineSquareFoot />
-                </span>
-                5200 sq ft
-              </h5>
-              <h5>$380,000</h5>
-            </div>
-          </div>
-        </div>
-
-        <div className="featured-listing-card item">
-          <div className="card-two">
-            <img
-              className="d-block w-100"
-              src="./assets/new1.webp"
-              alt="Featured-House"
-            />
-            <span className="red"> Rent</span>
-            <div className="overlay">
-              <div className="image-title">
-                <h4>
-                  <FaEye />
-                </h4>
-
-                <h4 style={{ color: iconOneColor }} onClick={redColor}>
-                  <ImHeart />
-                </h4>
-
-                <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
-                  <RiHome6Fill />
-                </h4>
+            <div className="card-text">
+              <h4>Home in Kosovo</h4>
+              <div className="icon">
+                <h5>
+                  <span>
+                    <MdOutlineBed />
+                  </span>
+                  4
+                </h5>
+                <h5>
+                  <span>
+                    <FaBath />
+                  </span>
+                  3
+                </h5>
+                <h5>
+                  <span>
+                    <MdOutlineSquareFoot />
+                  </span>
+                  5200 sq ft
+                </h5>
+                <h5>$380,000</h5>
               </div>
             </div>
-          </div>
-          <div className="card-text">
-            <h4>Home in Kosovo</h4>
-            <div className="icon">
-              <h5>
-                <span>
-                  <MdOutlineBed />
-                </span>
-                4
-              </h5>
-              <h5>
-                <span>
-                  <FaBath />
-                </span>
-                3
-              </h5>
-              <h5>
-                <span>
-                  <MdOutlineSquareFoot />
-                </span>
-                5200 sq ft
-              </h5>
-              <h5>$380,000</h5>
+          </SwiperSlide>
+
+          <SwiperSlide className="featured-listing-card ">
+            <div className="card-two">
+              <img
+                className="d-block w-100"
+                src="./assets/tig1.webp"
+                alt="Featured-House"
+              />
+              <span className="red">Rent</span>
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
+
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
+
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
+            <div className="card-text">
+              <h4>Home in Kosovo</h4>
+              <div className="icon">
+                <h5>
+                  <span>
+                    <MdOutlineBed />
+                  </span>
+                  4
+                </h5>
+                <h5>
+                  <span>
+                    <FaBath />
+                  </span>
+                  3
+                </h5>
+                <h5>
+                  <span>
+                    <MdOutlineSquareFoot />
+                  </span>
+                  5200 sq ft
+                </h5>
+                <h5>$380,000</h5>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide className="featured-listing-card ">
+            <div className="card-two">
+              <img
+                className="d-block w-100"
+                src="./assets/roche3.jpg"
+                alt="Featured-House"
+              />
+              <span className="red"> Buy</span>
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
+
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
+
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div className="card-text">
+              <h4>Home in Kosovo</h4>
+              <div className="icon">
+                <h5>
+                  <span>
+                    <MdOutlineBed />
+                  </span>
+                  4
+                </h5>
+                <h5>
+                  <span>
+                    <FaBath />
+                  </span>
+                  3
+                </h5>
+                <h5>
+                  <span>
+                    <MdOutlineSquareFoot />
+                  </span>
+                  5200 sq ft
+                </h5>
+                <h5>$380,000</h5>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide className="featured-listing-card">
+            <div className="card-two">
+              <img
+                className="d-block w-100"
+                src="./assets/new1.webp"
+                alt="Featured-House"
+              />
+              <span className="red"> Rent</span>
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
+
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
+
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div className="card-text">
+              <h4>Home in Kosovo</h4>
+              <div className="icon">
+                <h5>
+                  <span>
+                    <MdOutlineBed />
+                  </span>
+                  4
+                </h5>
+                <h5>
+                  <span>
+                    <FaBath />
+                  </span>
+                  3
+                </h5>
+                <h5>
+                  <span>
+                    <MdOutlineSquareFoot />
+                  </span>
+                  5200 sq ft
+                </h5>
+                <h5>$380,000</h5>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="featured-listing-card ">
+            <div className="card-two">
+              <img
+                className="d-block w-100"
+                src="./assets/new1.webp"
+                alt="Featured-House"
+              />
+              <span className="red"> Rent</span>
+              <div className="overlay">
+                <div className="image-title">
+                  <h4>
+                    <FaEye />
+                  </h4>
+
+                  <h4 style={{ color: iconOneColor }} onClick={redColor}>
+                    <ImHeart />
+                  </h4>
+
+                  <h4 style={{ color: iconTwoColor }} onClick={greenColor}>
+                    <RiHome6Fill />
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div className="card-text">
+              <h4>Home in Kosovo</h4>
+              <div className="icon">
+                <h5>
+                  <span>
+                    <MdOutlineBed />
+                  </span>
+                  4
+                </h5>
+                <h5>
+                  <span>
+                    <FaBath />
+                  </span>
+                  3
+                </h5>
+                <h5>
+                  <span>
+                    <MdOutlineSquareFoot />
+                  </span>
+                  5200 sq ft
+                </h5>
+                <h5>$380,000</h5>
+              </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
       <div className="explore">
         <div className="explore-one text-center">
