@@ -152,9 +152,11 @@
 }
 .form-input {
   width: 30rem;
-  height: 50rem;
+  height: 28rem;
   border-radius: 0.2rem;
   background: #ffffff;
+  margin: 4rem;
+  color: #020c1b;
 }
 
 @media screen and (max-width: 600px) {

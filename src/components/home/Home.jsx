@@ -643,7 +643,47 @@ const Home = () => {
         <div className="form row">
           <div className="form-one">
             <h5>Real Estate Inquiry Form</h5>
-            <div className="form-input"></div>
+            <div className="form-input">
+              <h6>Inquiry Type</h6>
+              <select className="picker-a">
+                <option value="Select Value"> Select Value</option>
+                <option value="Apartments">Apartments </option>
+                <option value="Offices"> Offices</option>
+                <option value="Houses"> Houses</option>
+                <option value="Studios"> Studios</option>
+              </select>
+              <h5>Personal Info</h5>
+              <div className="personal">
+                <select className="picker-a">
+                  <option value="Select "> Select </option>
+                  <option value="Buyer">Buyer</option>
+                  <option value="Agent"> Agent</option>
+                </select>
+                <input
+                  type="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <h5>Email</h5>
+              <input
+                type="Email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <h5>How to Address You</h5>
+              <select className="picker-a">
+                <option value="Select "> Select </option>
+                <option value="Mr">Mr</option>
+                <option value="Mrs"> Mrs</option>
+              </select>
+              <h5>Submit Inquiry</h5>
+              <button className="button">
+                <a href="#">Submit</a>
+              </button>
+            </div>
           </div>
         </div>
       </div>
