@@ -306,10 +306,23 @@
   outline-offset: 3px;
   animation: shake 0.4ms;
 }
-.item {
-  height: 20rem;
-  width: 20rem;
+
+.course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.hello {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  padding: 1rem;
+}
+
 @media screen and (max-width: 600px) {
   .search-bar {
     display: flex;
@@ -326,6 +339,17 @@
   }
   .form-one {
     padding: 2rem;
+  }
+  .sec-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hello {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media screen and (max-width: 1200px) {

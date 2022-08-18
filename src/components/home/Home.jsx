@@ -23,9 +23,7 @@ import Typography from "@mui/material/Typography";
 
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
-import OwlCarousel from "react-owl-carousel-loop";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -1051,20 +1049,39 @@ const Home = () => {
             </Carousel.Item>
           </Carousel>
         </div>
-        <OwlCarousel>
-          <div className="item">
-            <img src="./assets/part1.png" alt="partners" />
-          </div>{" "}
-          <div className="item">
-            <img src="./assets/part2.png" alt="partners" />
-          </div>{" "}
-          <div className="item">
-            <img src="./assets/part3.png" alt="partners" />
-          </div>{" "}
-          <div className="item">
-            <img src="./assets/part4.png" alt="partners" />
+        <div className="course ">
+          <h3>Our Partners </h3>
+          <div className="hello row ">
+            <div className="item col-xl-3 col-lg-3 col-md-3 col-sm-6 ">
+              <img
+                className="d-block w-100"
+                src="./assets/part1.png"
+                alt="partners"
+              />
+            </div>
+            <div className="item col-xl-3 col-lg-3 col-md-3 col-sm-6 ">
+              <img
+                className="d-block w-100"
+                src="./assets/part2.png"
+                alt="partners"
+              />
+            </div>
+            <div className="item col-xl-3 col-lg-3 col-md-3 col-sm-6 ">
+              <img
+                className="d-block w-100"
+                src="./assets/part3.png"
+                alt="partners"
+              />
+            </div>
+            <div className="item col-xl-3 col-lg-3 col-md-3 col-sm-6 ">
+              <img
+                className="d-block w-100"
+                src="./assets/part4.png"
+                alt="partners"
+              />
+            </div>
           </div>
-        </OwlCarousel>
+        </div>
       </div>
     </section>
   );
