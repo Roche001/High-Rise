@@ -133,7 +133,17 @@
 .explore-one p {
   font-size: 1.5rem;
 }
-
+.form-one {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.3),
+      #020c1b
+    ),
+    url("../../images/Hezelia.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 @media screen and (max-width: 600px) {
   .search-bar {
     display: flex;
