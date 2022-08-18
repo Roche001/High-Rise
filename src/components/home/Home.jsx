@@ -7,6 +7,9 @@ import { MdOutlineSquareFoot } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
 import { RiHome6Fill } from "react-icons/ri";
 import { ImHeart } from "react-icons/im";
+import { ImHome3 } from "react-icons/im";
+import { AiFillDollarCircle } from "react-icons/ai";
+import { IoIosContact } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 import Box from "@mui/material/Box";
@@ -685,6 +688,53 @@ const Home = () => {
               <button className="button">
                 <a href="#button">Submit</a>
               </button>
+            </div>
+          </div>
+          <div className="form-two">
+            <h4>Why Choose Us</h4>
+            <p>
+              It’s our job to get you the best price for your home and make sure
+              that you get the best possible deal on the property{" "}
+            </p>
+            <div className="sec-one">
+              <span>
+                <ImHome3 />
+              </span>
+
+              <div className="sec-one-two">
+                <h4>Wide Range of Properties</h4>
+
+                <p>
+                  With a robust selection of popular properties on hand, as well
+                  as leading properties from real estate experts.
+                </p>
+              </div>
+            </div>
+            <div className="sec-one">
+              <span>
+                <AiFillDollarCircle />
+              </span>
+
+              <div className="sec-one-two">
+                <h4>Financing Made Easy</h4>
+                <p>
+                  Our stress-free finance department that can find financial
+                  solutions to save you money.
+                </p>
+              </div>
+            </div>
+            <div className="sec-one">
+              <span>
+                <IoIosContact />
+              </span>
+
+              <div className="sec-one-two">
+                <h4>Thrusted by Thousands</h4>
+                <p>
+                  10 new offers every day. 350 offers on site, trusted by a
+                  community of thousands of users.
+                </p>
+              </div>
             </div>
           </div>
         </div>
