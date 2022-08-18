@@ -4,7 +4,11 @@ import "./Rent.css";
 const Rent = () => {
   return (
     <div>
-      <h1>hEloo</h1>
+      <section id="rent" className="container">
+        <div className="townhome">
+          <h3 className="tony">Townhomes </h3>
+        </div>
+      </section>
     </div>
   );
 };
