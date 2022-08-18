@@ -10,6 +10,10 @@ import { ImHeart } from "react-icons/im";
 import { ImHome3 } from "react-icons/im";
 import { AiFillDollarCircle } from "react-icons/ai";
 import { IoIosContact } from "react-icons/io";
+import { BsFacebook } from "react-icons/bs";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
+import { BsLinkedin } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 import Box from "@mui/material/Box";
@@ -740,13 +744,201 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="agents">
-          <h3>Meet Our Agents</h3>
-          <p>
-            Meet our team of professional agents, who will help you find your
-            dream house{" "}
-          </p>
-          <div className="agents"></div>
+        <div className="agents row">
+          <div className="agent-intro row text-center">
+            {" "}
+            <h3>Meet Our Agents</h3>
+            <p>
+              Meet our team of professional agents, who will help you find your
+              dream house{" "}
+            </p>
+          </div>
+          <div className="agent-one  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div className="agent-one-img">
+              <div className="over">
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    <BsFacebook />
+                  </h4>
+                </a>
+                <a
+                  href="https://www.twitter.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    {" "}
+                    <AiOutlineTwitter />
+                  </h4>
+                </a>
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    <AiFillInstagram />
+                  </h4>
+                </a>
+                <a
+                  href="https://www.linkedIn.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    <BsLinkedin />
+                  </h4>
+                </a>
+              </div>
+              <img src="./assets/agent1.jpeg" alt="Agent" />
+            </div>
+            <div className="name">
+              <h5>Karen Masterson</h5>
+              <p>Chief Legal Officer</p>
+            </div>
+          </div>
+          <div className="agent-one  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div className="agent-one-img">
+              <div className="over">
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    <BsFacebook />
+                  </h4>
+                </a>
+                <a
+                  href="https://www.twitter.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    {" "}
+                    <AiOutlineTwitter />
+                  </h4>
+                </a>
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    <AiFillInstagram />
+                  </h4>
+                </a>
+                <a
+                  href="https://www.linkedIn.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    <BsLinkedin />
+                  </h4>
+                </a>
+              </div>
+              <img src="./assets/agent2.jpeg" alt="Agent" />
+            </div>
+            <h5>Kathleem Myers</h5>
+            <p>Chief Operating Officer</p>
+          </div>{" "}
+          <div className="agent-one  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div className="agent-one-img">
+              <div className="over">
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    <BsFacebook />
+                  </h4>
+                </a>
+                <a
+                  href="https://www.twitter.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    {" "}
+                    <AiOutlineTwitter />
+                  </h4>
+                </a>
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    <AiFillInstagram />
+                  </h4>
+                </a>
+                <a
+                  href="https://www.linkedIn.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    <BsLinkedin />
+                  </h4>
+                </a>
+              </div>
+              <img src="./assets/agent5.jpeg" alt="Agent" />
+            </div>
+            <h5>John Loyd</h5>
+            <p>Cheif Analytics Officer</p>
+          </div>{" "}
+          <div className="agent-one  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div className="agent-one-img">
+              <div className="over">
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    <BsFacebook />
+                  </h4>
+                </a>
+                <a
+                  href="https://www.twitter.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    {" "}
+                    <AiOutlineTwitter />
+                  </h4>
+                </a>
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    <AiFillInstagram />
+                  </h4>
+                </a>
+                <a
+                  href="https://www.linkedIn.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4>
+                    <BsLinkedin />
+                  </h4>
+                </a>
+              </div>
+              <img src="./assets/agent6.jpeg" alt="Agent" />
+            </div>
+            <h5>Jennifer Barton</h5>
+            <p>Vice President, Product</p>
+          </div>
         </div>
       </div>
     </section>
