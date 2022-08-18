@@ -644,7 +644,7 @@ const Home = () => {
           </p>
         </div>
         <div className="form row">
-          <div className="form-one">
+          <div className="form-one col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h5>Real Estate Inquiry Form</h5>
             <div className="form-input">
               <h6>Inquiry Type</h6>
@@ -662,6 +662,7 @@ const Home = () => {
                   <option value="Buyer">Buyer</option>
                   <option value="Agent"> Agent</option>
                 </select>
+                <h5>Your Name</h5>
                 <input
                   className="select-a"
                   type="name"
@@ -690,7 +691,7 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className="form-two">
+          <div className="form-two col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h4>Why Choose Us</h4>
             <p>
               It’s our job to get you the best price for your home and make sure
@@ -706,7 +707,8 @@ const Home = () => {
 
                 <p>
                   With a robust selection of popular properties on hand, as well
-                  as leading properties from real estate experts.
+                  as leading properties from <br />
+                  real estate experts.
                 </p>
               </div>
             </div>
@@ -719,7 +721,7 @@ const Home = () => {
                 <h4>Financing Made Easy</h4>
                 <p>
                   Our stress-free finance department that can find financial
-                  solutions to save you money.
+                  solutions to save you money ss.
                 </p>
               </div>
             </div>
