@@ -940,6 +940,9 @@ const Home = () => {
             <p>Vice President, Product</p>
           </div>
         </div>
+        <div className="reviews row">
+          <h3>Our Clients Says</h3>
+        </div>
       </div>
     </section>
   );
