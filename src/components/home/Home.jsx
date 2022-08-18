@@ -640,6 +640,9 @@ const Home = () => {
             best option for you{" "}
           </p>
         </div>
+        <div className="form row">
+          <div className="form-one"></div>
+        </div>
       </div>
     </section>
   );
