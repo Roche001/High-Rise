@@ -205,12 +205,14 @@
   flex-direction: row;
   gap: 0.5rem;
 }
+
 .sec-one-two p {
   text-align: center;
 }
 .sec-one span {
   font-size: 3rem;
   margin-top: -1rem;
+  padding-left: 1rem;
 }
 .agents {
   display: flex;
