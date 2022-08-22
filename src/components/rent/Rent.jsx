@@ -1,20 +1,18 @@
 import React from "react";
 import "./Rent.css";
-import { FaEye } from "react-icons/fa";
 
 import { MdOutlineBed } from "react-icons/md";
 import { FaBath } from "react-icons/fa";
 import { MdOutlineSquareFoot } from "react-icons/md";
+import { RiHome6Fill } from "react-icons/ri";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
+import { Link } from "react-router-dom";
 
 const Rent = () => {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-  const renderTooltip = (props) => (
+  const seeMore = (props) => (
     <Tooltip id="button-tooltip" {...props}>
-      Click to View House
+      See More
     </Tooltip>
   );
   return (
@@ -32,13 +30,15 @@ const Rent = () => {
               <span className="red"> Rent</span>
               <div className="overlay">
                 <OverlayTrigger
-                  placement="right"
+                  placement="left"
                   delay={{ show: 250, hide: 400 }}
-                  overlay={renderTooltip}
+                  overlay={seeMore}
                 >
-                  <h4 onClick={handleOpen}>
-                    <FaEye />
-                  </h4>
+                  <Link to="/House1">
+                    <li className="home-fill">
+                      <RiHome6Fill />
+                    </li>
+                  </Link>
                 </OverlayTrigger>
               </div>
             </div>
