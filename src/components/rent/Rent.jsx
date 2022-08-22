@@ -1,13 +1,22 @@
 import React from "react";
 import "./Rent.css";
 import { FaEye } from "react-icons/fa";
-import { ImHeart } from "react-icons/im";
-import { RiHome6Fill } from "react-icons/ri";
+
 import { MdOutlineBed } from "react-icons/md";
 import { FaBath } from "react-icons/fa";
 import { MdOutlineSquareFoot } from "react-icons/md";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import Tooltip from "react-bootstrap/Tooltip";
 
 const Rent = () => {
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+  const renderTooltip = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Click to View House
+    </Tooltip>
+  );
   return (
     <div>
       <section id="rent" className="container">
@@ -21,7 +30,17 @@ const Rent = () => {
                 alt="Featured-House"
               />
               <span className="red"> Rent</span>
-              <div className="overlay"></div>
+              <div className="overlay">
+                <OverlayTrigger
+                  placement="right"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={renderTooltip}
+                >
+                  <h4 onClick={handleOpen}>
+                    <FaEye />
+                  </h4>
+                </OverlayTrigger>
+              </div>
             </div>
             <div className="card-text">
               <h4>Home in Los Angeles</h4>
