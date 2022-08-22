@@ -123,7 +123,7 @@ const Home = () => {
           </select>
         </div>
         <div className="picker-b">
-          <button className="picker-a">
+          <button className="picker-a button">
             <a href="#button">
               <h5>Search</h5>
             </a>

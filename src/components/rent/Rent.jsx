@@ -21,21 +21,7 @@ const Rent = () => {
                 alt="Featured-House"
               />
               <span className="red"> Rent</span>
-              <div className="overlay">
-                <div className="image-title">
-                  <h4>
-                    <FaEye />
-                  </h4>
-
-                  <h4>
-                    <ImHeart />
-                  </h4>
-
-                  <h4>
-                    <RiHome6Fill />
-                  </h4>
-                </div>
-              </div>
+              <div className="overlay"></div>
             </div>
             <div className="card-text">
               <h4>Home in Los Angeles</h4>

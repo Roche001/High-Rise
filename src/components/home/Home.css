@@ -41,6 +41,7 @@
 .picker,
 .picker-b {
   margin: 0.5rem;
+  background-color: #37474f;
 }
 .picker-b a {
   text-decoration: none;
