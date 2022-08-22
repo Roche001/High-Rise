@@ -133,6 +133,9 @@ const House1 = () => {
             />
           </div>
         </div>
+        <div className="facts">
+          <h3>Features and Facts </h3>
+        </div>
       </div>
     </div>
   );

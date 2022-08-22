@@ -34,3 +34,13 @@
 .description {
   border-bottom: 1px solid;
 }
+.location {
+  border-bottom: 1px solid;
+  padding: 0.5rem;
+}
+@media screen and (max-width: 600px) {
+  .card-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
