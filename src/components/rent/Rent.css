@@ -7,3 +7,10 @@
   font-size: 3rem;
   color: #ffffff;
 }
+.featured-listing-card {
+  transition: 400ms ease-in-out;
+}
+.featured-listing-card:hover {
+  box-shadow: 10px 5px 5px #020c1b;
+  transform: rotate(0.5deg);
+}
