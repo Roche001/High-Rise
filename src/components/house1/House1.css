@@ -48,8 +48,7 @@
 .facts-card {
   padding: 1rem;
 }
-facts-card h6,
-p {
+.facts-card h6 {
   font-size: 1rem;
   font-weight: 900;
 }
@@ -76,6 +75,7 @@ p {
   margin: 0.5rem;
   cursor: progress;
 }
+
 .foor-container {
   padding: 1rem;
 }
