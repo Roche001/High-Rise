@@ -1,11 +1,18 @@
 import React from "react";
 import "./House1.css";
 import Carousel from "react-bootstrap/Carousel";
+import { Accordion } from "react-bootstrap";
 import { FaBed } from "react-icons/fa";
 import { GiBathtub } from "react-icons/gi";
 import { GiHomeGarage } from "react-icons/gi";
 import { MdOutlineConstruction } from "react-icons/md";
 import { MdOutlineSquareFoot } from "react-icons/md";
+import { FaBuilding } from "react-icons/fa";
+import { SiConcourse } from "react-icons/si";
+import { GiFireplace } from "react-icons/gi";
+import { FaSwimmingPool } from "react-icons/fa";
+import { BsJournalCheck } from "react-icons/bs";
+import { RiShieldCheckFill } from "react-icons/ri";
 import {
   withScriptjs,
   withGoogleMap,
@@ -135,6 +142,204 @@ const House1 = () => {
         </div>
         <div className="facts">
           <h3>Features and Facts </h3>
+          <div className="facts-one">
+            <div className="facts-one-info">
+              <h3>
+                <FaBuilding />
+              </h3>
+
+              <div className="facts-card">
+                <h6>STORIES</h6>
+                <p>Multi Family</p>
+              </div>
+            </div>
+            <div className="facts-one-info">
+              <h3>
+                <MdOutlineConstruction />
+              </h3>
+
+              <div className="facts-card">
+                <h6>Year Built</h6>
+                <p>2009</p>
+              </div>
+            </div>
+            <div className="facts-one-info">
+              <h3>
+                <SiConcourse />
+              </h3>
+
+              <div className="facts-card">
+                <h6>Cooling</h6>
+                <p>Yes</p>
+              </div>
+            </div>
+            <div className="facts-one-info">
+              <h3>
+                <GiFireplace />
+              </h3>
+
+              <div className="facts-card">
+                <h6>Heating</h6>
+                <p>Yes</p>
+              </div>
+            </div>
+            <div className="facts-one-info">
+              <h3>
+                <GiHomeGarage />
+              </h3>
+
+              <div className="facts-card">
+                <h6>Garage</h6>
+                <p>2</p>
+              </div>
+            </div>
+            <div className="facts-one-info">
+              <h3>
+                <FaSwimmingPool />
+              </h3>
+
+              <div className="facts-card">
+                <h6>Swimming Pool</h6>
+                <p>Yes</p>
+              </div>
+            </div>
+            <div className="facts-one-info">
+              <h3>
+                <MdOutlineSquareFoot />
+              </h3>
+
+              <div className="facts-card">
+                <h6>Size</h6>
+                <p>3200 sqft</p>
+              </div>
+            </div>
+            <div className="facts-one-info">
+              <h3>
+                <BsJournalCheck />
+              </h3>
+
+              <div className="facts-card">
+                <h6>Status</h6>
+                <p>Available</p>
+              </div>
+            </div>
+          </div>
+          <div className="amen">
+            <h3>Townhome Amenities</h3>
+            <div className="amen-card">
+              <div className="amen-one">
+                <h5>
+                  <span>
+                    <RiShieldCheckFill />
+                  </span>
+                  Air-Conditioning
+                </h5>
+              </div>
+              <div className="amen-one">
+                <h5>
+                  <span>
+                    <RiShieldCheckFill />
+                  </span>
+                  Dining Room
+                </h5>
+              </div>
+              <div className="amen-one">
+                <h5>
+                  <span>
+                    <RiShieldCheckFill />
+                  </span>
+                  Dishwasher
+                </h5>
+              </div>
+              <div className="amen-one">
+                <h5>
+                  <span>
+                    <RiShieldCheckFill />
+                  </span>
+                  Doorman
+                </h5>
+              </div>
+              <div className="amen-one">
+                <h5>
+                  <span>
+                    <RiShieldCheckFill />
+                  </span>
+                  Hardwood Floors
+                </h5>
+              </div>
+              <div className="amen-one">
+                <h5>
+                  <span>
+                    <RiShieldCheckFill />
+                  </span>
+                  Onsite Parking
+                </h5>
+              </div>
+              <div className="amen-one">
+                <h5>
+                  <span>
+                    <RiShieldCheckFill />
+                  </span>
+                  Stunning Views
+                </h5>
+              </div>
+              <div className="amen-one">
+                <h5>
+                  <span>
+                    <RiShieldCheckFill />
+                  </span>
+                  Unit Washer/Dryer
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="foor-container">
+            <h3>Floor Title</h3>
+            <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>
+                  <div className="plan">
+                    <h5>First Floor Plan</h5>
+                  </div>
+                </Accordion.Header>
+                <Accordion.Body></Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>
+                  <div className="plan">
+                    <h5>Second Floor Plan</h5>
+                  </div>
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="3">
+                <Accordion.Header>
+                  <div className="plan">
+                    <h5>Third Floor Plan</h5>
+                  </div>
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+          </div>
         </div>
       </div>
     </div>

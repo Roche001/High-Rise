@@ -38,8 +38,61 @@
   border-bottom: 1px solid;
   padding: 0.5rem;
 }
+.facts-one-info {
+  display: flex;
+  flex-direction: row;
+}
+.facts-one-info h3 {
+  font-size: 4rem;
+}
+.facts-card {
+  padding: 1rem;
+}
+facts-card h6,
+p {
+  font-size: 1rem;
+  font-weight: 900;
+}
+.facts-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid;
+}
+.facts-one-info {
+  cursor: pointer;
+  transition: 400ms ease-in-out;
+}
+.facts-one-info:hover {
+  color: #f44336;
+  transform: translate(1.2);
+}
+
+.amen-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid;
+}
+.amen-one {
+  margin: 0.5rem;
+  cursor: progress;
+}
+.foor-container {
+  padding: 1rem;
+}
+.plan h5 {
+  font-size: 1rem;
+  font-weight: 500;
+}
 @media screen and (max-width: 600px) {
   .card-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .facts-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .amen-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
