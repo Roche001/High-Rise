@@ -13,6 +13,9 @@ import { GiFireplace } from "react-icons/gi";
 import { FaSwimmingPool } from "react-icons/fa";
 import { BsJournalCheck } from "react-icons/bs";
 import { RiShieldCheckFill } from "react-icons/ri";
+import { GiKnifeFork } from "react-icons/gi";
+import { RiStarFill } from "react-icons/ri";
+import { FaStarHalf } from "react-icons/fa";
 import {
   withScriptjs,
   withGoogleMap,
@@ -339,6 +342,35 @@ const House1 = () => {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
+          </div>
+          <div className="yelp">
+            <h3>What's Nearby</h3>
+            <div className="food">
+              <h4>
+                <span>
+                  <GiKnifeFork />
+                </span>
+                FOOD
+              </h4>
+              <div className="food-card">
+                <div className="card-one">
+                  <h5>
+                    Off Street Cafe <small>(0.22 mi)</small>
+                  </h5>
+                </div>
+                <div className="card-two">
+                  <h5>
+                    <span>
+                      <RiStarFill />
+                      <RiStarFill />
+                      <RiStarFill />
+                      <RiStarFill />
+                      <FaStarHalf />
+                    </span>{" "}
+                  </h5>
+                </div>{" "}
+              </div>
+            </div>
           </div>
         </div>
       </div>

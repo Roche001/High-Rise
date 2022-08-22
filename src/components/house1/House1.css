@@ -83,6 +83,23 @@
   font-size: 1rem;
   font-weight: 500;
 }
+.foor-container {
+  border-bottom: 1px solid;
+}
+.food h4 {
+  border-bottom: 1px solid;
+  padding: 0.3rem;
+}
+.food-card {
+  border-bottom: 1px solid;
+}
+.food-card span {
+  margin-left: 10rem;
+}
+.food-card {
+  display: flex;
+  flex-direction: row;
+}
 @media screen and (max-width: 600px) {
   .card-one {
     display: grid;

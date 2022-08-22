@@ -11,6 +11,6 @@
   transition: 400ms ease-in-out;
 }
 .featured-listing-card:hover {
-  box-shadow: 10px 5px 5px #020c1b;
+  box-shadow: 10px 5px 5px #9e9e9e;
   transform: rotate(0.5deg);
 }
