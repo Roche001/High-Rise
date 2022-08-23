@@ -354,21 +354,41 @@ const House1 = () => {
               </h4>
               <div className="food-card">
                 <div className="card-one">
-                  <h5>
-                    Off Street Cafe <small>(0.22 mi)</small>
-                  </h5>
+                  <div className="part-one">
+                    <Carousel>
+                      <Carousel.Item interval={1000} className="sized">
+                        <img src="./assets/me1.jpg" alt="Featured-House" />
+                      </Carousel.Item>
+                      <Carousel.Item interval={500} className="sized">
+                        <img src="./assets/me2.jpg" alt="Featured-House" />
+                      </Carousel.Item>
+                      <Carousel.Item interval={500} className="sized">
+                        <img src="./assets/me3.jpg" alt="Featured-House" />
+                      </Carousel.Item>
+                      <Carousel.Item interval={500} className="sized">
+                        <img src="./assets/me4.jpg" alt="Featured-House" />
+                      </Carousel.Item>
+                      <Carousel.Item interval={500} className="sized">
+                        <img src="./assets/me5.jpg" alt="Featured-House" />
+                      </Carousel.Item>
+                      <Carousel.Item interval={500} className="sized">
+                        <img src="./assets/me6.jpg" alt="Featured-House" />
+                      </Carousel.Item>
+                      <Carousel.Item interval={500} className="sized">
+                        <img src="./assets/me7.jpg" alt="Featured-House" />
+                      </Carousel.Item>
+                      <Carousel.Item interval={500} className="sized">
+                        <img src="./assets/me8.jpg" alt="Featured-House" />
+                      </Carousel.Item>
+                      <Carousel.Item interval={500} className="sized">
+                        <img src="./assets/me9.jpg" alt="Featured-House" />
+                      </Carousel.Item>
+                      <Carousel.Item interval={500} className="sized">
+                        <img src="./assets/me10.jpg" alt="Featured-House" />
+                      </Carousel.Item>
+                    </Carousel>
+                  </div>
                 </div>
-                <div className="card-two">
-                  <h5>
-                    <span>
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                      <FaStarHalf />
-                    </span>{" "}
-                  </h5>
-                </div>{" "}
               </div>
             </div>
           </div>
