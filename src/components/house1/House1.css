@@ -86,10 +86,7 @@
 .foor-container {
   border-bottom: 1px solid;
 }
-.food h4 {
-  border-bottom: 1px solid;
-  padding: 0.3rem;
-}
+
 .part-one {
   width: 30rem;
   height: 15rem;
@@ -105,6 +102,26 @@
   width: 100%;
   background-position: center;
 }
+.part-two h4 {
+  color: #c62828;
+}
+.part-two span {
+  color: #616161;
+  font-size: 1rem;
+}
+.small {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.small-b h6 span {
+  color: #f44336;
+}
+.food-conatiner {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
 
 @media screen and (max-width: 600px) {
   .card-one {
@@ -118,5 +135,9 @@
   .amen-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .food-conatiner {
+    display: flex;
+    flex-direction: column;
   }
 }

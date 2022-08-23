@@ -16,6 +16,8 @@ import { RiShieldCheckFill } from "react-icons/ri";
 import { GiKnifeFork } from "react-icons/gi";
 import { AiFillStar } from "react-icons/ai";
 import { FaStarHalf } from "react-icons/fa";
+import { FcCheckmark } from "react-icons/fc";
+import { AiOutlineClose } from "react-icons/ai";
 import {
   withScriptjs,
   withGoogleMap,
@@ -412,7 +414,34 @@ const House1 = () => {
                         <AiFillStar />
                         <span>271</span>
                       </h4>
-                      <small>Open until 10.00PM</small>
+                      <small>
+                        {" "}
+                        <span>Open</span>
+                        until 10.00PM
+                      </small>
+                      <p>
+                        “Amazing food, wine and service as always. Alex was spot
+                        on despite a really busy dining room!”{" "}
+                      </p>
+                      <div className="small">
+                        <h6>
+                          <FcCheckmark />
+                          Outdoor Dining
+                        </h6>
+                        <h6>
+                          <FcCheckmark />
+                          Delivery
+                        </h6>
+                        <div className="small-b">
+                          <h6>
+                            <span>
+                              {" "}
+                              <AiOutlineClose />
+                            </span>
+                            Takeout
+                          </h6>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
