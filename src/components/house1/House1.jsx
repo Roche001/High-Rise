@@ -14,7 +14,7 @@ import { FaSwimmingPool } from "react-icons/fa";
 import { BsJournalCheck } from "react-icons/bs";
 import { RiShieldCheckFill } from "react-icons/ri";
 import { GiKnifeFork } from "react-icons/gi";
-import { RiStarFill } from "react-icons/ri";
+import { AiFillStar } from "react-icons/ai";
 import { FaStarHalf } from "react-icons/fa";
 import {
   withScriptjs,
@@ -353,54 +353,68 @@ const House1 = () => {
                 FOOD
               </h4>
               <div className="food-card">
-                <div className="card-one">
-                  <div className="part-one">
-                    <Carousel fade>
-                      <Carousel.Item className="item-one ">
-                        <img
-                          className="d-block w-100"
-                          src="./assets/crush1.jpg"
-                          alt="First slide"
-                        />
-                      </Carousel.Item>
-                      <Carousel.Item className="item-one">
-                        <img
-                          className="d-block w-100"
-                          src="./assets/crush2.jpg"
-                          alt="Second slide"
-                        />
-                      </Carousel.Item>
-                      <Carousel.Item className="item-one">
-                        <img
-                          className="d-block w-100"
-                          src="./assets/crush3.jpg"
-                          alt="Third slide"
-                        />
-                      </Carousel.Item>
-                      <Carousel.Item className="item-one">
-                        <img
-                          className="d-block w-100"
-                          src="./assets/crush4.jpg"
-                          alt="Third slide"
-                        />
-                      </Carousel.Item>
-                      <Carousel.Item className="item-one">
-                        <img
-                          className="d-block w-100"
-                          src="./assets/crush5.jpg"
-                          alt="Third slide"
-                        />
-                      </Carousel.Item>
-                      <Carousel.Item className="item-one">
-                        <img
-                          className="d-block w-100"
-                          src="./assets/crush10.jpg"
-                          alt="Third slide"
-                        />
-                      </Carousel.Item>
-                    </Carousel>
+                <div className="food-one">
+                  <div className="food-conatiner">
+                    <div className="part-one">
+                      <Carousel fade>
+                        <Carousel.Item className="item-one ">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/crush1.jpg"
+                            alt="First slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/crush2.jpg"
+                            alt="Second slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/crush3.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/crush4.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/crush5.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/crush10.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                      </Carousel>
+                    </div>
+                    <div className="part-two">
+                      <h5>01.Crush</h5>
+                      <h4>
+                        {" "}
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <span>271</span>
+                      </h4>
+                      <small>Open until 10.00PM</small>
+                    </div>
                   </div>
-                  <div className="part-two"></div>
                 </div>
               </div>
             </div>
