@@ -67,6 +67,53 @@ const Rent = () => {
               </div>
             </div>
           </div>
+          <div className="featured-listing-card ">
+            <div className="card-two">
+              <img
+                className="d-block w-100"
+                src="./assets/bed1.jpg"
+                alt="Featured-House"
+              />
+              <span className="red"> Rent</span>
+              <div className="overlay">
+                <OverlayTrigger
+                  placement="left"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={seeMore}
+                >
+                  <Link to="/House2">
+                    <li className="home-fill">
+                      <RiHome6Fill />
+                    </li>
+                  </Link>
+                </OverlayTrigger>
+              </div>
+            </div>
+            <div className="card-text">
+              <h4>Home in Nairobi</h4>
+              <div className="icon">
+                <h5>
+                  <span>
+                    <MdOutlineBed />
+                  </span>
+                  5
+                </h5>
+                <h5>
+                  <span>
+                    <FaBath />
+                  </span>
+                  4
+                </h5>
+                <h5>
+                  <span>
+                    <MdOutlineSquareFoot />
+                  </span>
+                  5200 sq ft
+                </h5>
+                <h5>$380,000</h5>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
