@@ -124,10 +124,15 @@
   color: #f44336;
 }
 .food-conatiner {
-  margin: 1rem;
+  margin: 2rem;
+  padding: 0.1rem;
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  border-bottom: 1px solid;
+}
+.food-conatiner:hover {
+  box-shadow: 0px 8px 30px #424242;
 }
 
 @media screen and (max-width: 600px) {

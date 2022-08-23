@@ -19,6 +19,8 @@ import { FaStarHalf } from "react-icons/fa";
 import { FcCheckmark } from "react-icons/fc";
 import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlineComment } from "react-icons/ai";
+import { GrServices } from "react-icons/gr";
+import { AiOutlineStar } from "react-icons/ai";
 import {
   withScriptjs,
   withGoogleMap,
@@ -425,8 +427,382 @@ const House1 = () => {
                         <sup>
                           <AiOutlineComment />
                         </sup>
-                        “Amazing food, wine and service as always. Alex was spot
-                        on despite a really busy dining room!”{" "}
+                        “Amazing food, wine and service as always.”{" "}
+                      </p>
+                      <div className="small">
+                        <h6>
+                          <FcCheckmark />
+                          Outdoor Dining
+                        </h6>
+                        <h6>
+                          <FcCheckmark />
+                          Delivery
+                        </h6>
+                        <div className="small-b">
+                          <h6>
+                            <span>
+                              {" "}
+                              <AiOutlineClose />
+                            </span>
+                            Takeout
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="food-conatiner">
+                    <div className="part-one">
+                      <Carousel fade>
+                        <Carousel.Item className="item-one ">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/hara1.jpg"
+                            alt="First slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/hara2.jpg"
+                            alt="Second slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/hara3.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/hara4.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/hara5.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/hara6.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                      </Carousel>
+                    </div>
+                    <div className="part-two">
+                      <h5>02.El Camino</h5>
+                      <h4>
+                        {" "}
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiOutlineStar />
+                        <AiOutlineStar />
+                        <span>300</span>
+                      </h4>
+                      <p>
+                        {" "}
+                        <span>Open</span>
+                        until Midnight
+                      </p>
+                      <p>
+                        {" "}
+                        <sup>
+                          <AiOutlineComment />
+                        </sup>
+                        “If your in Mexico it's a must !!!! ”{" "}
+                      </p>
+                      <div className="small">
+                        <h6>
+                          <FcCheckmark />
+                          Outdoor Dining
+                        </h6>
+
+                        <div className="small-b">
+                          <h6>
+                            <span>
+                              {" "}
+                              <AiOutlineClose />
+                            </span>
+                            Takeout
+                          </h6>
+                        </div>
+                        <h6>
+                          <FcCheckmark />
+                          Delivery
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="food-conatiner">
+                    <div className="part-one">
+                      <Carousel fade>
+                        <Carousel.Item className="item-one ">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los1.jpg"
+                            alt="First slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los2.jpg"
+                            alt="Second slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los3.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los4.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los5.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los6.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                      </Carousel>
+                    </div>
+                    <div className="part-two">
+                      <h5>03.Running Goose</h5>
+                      <h4>
+                        {" "}
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <span>300</span>
+                      </h4>
+                      <p>
+                        {" "}
+                        <span>Open</span>
+                        until 11.30PM
+                      </p>
+                      <p>
+                        {" "}
+                        <sup>
+                          <AiOutlineComment />
+                        </sup>
+                        “Well i have been waiting to go there for a long time. ”{" "}
+                      </p>
+                      <div className="small">
+                        <h6>
+                          <FcCheckmark />
+                          Outdoor Dining
+                        </h6>
+
+                        <div className="small-b">
+                          <h6>
+                            <span>
+                              {" "}
+                              <AiOutlineClose />
+                            </span>
+                            Takeout
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="food-conatiner">
+                    <div className="part-one">
+                      <Carousel fade>
+                        <Carousel.Item className="item-one ">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los1.jpg"
+                            alt="First slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los2.jpg"
+                            alt="Second slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los3.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los4.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los5.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los6.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                      </Carousel>
+                    </div>
+                    <div className="part-two">
+                      <h5>04.Buenas Noches</h5>
+                      <h4>
+                        {" "}
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <span>180</span>
+                      </h4>
+                      <p>
+                        {" "}
+                        <span>Open</span>
+                        until 10.30PM
+                      </p>
+                      <p>
+                        {" "}
+                        <sup>
+                          <AiOutlineComment />
+                        </sup>
+                        ““This place is incredible. The food was so delicious.”{" "}
+                      </p>
+                      <div className="small">
+                        <h6>
+                          <FcCheckmark />
+                          Delivery
+                        </h6>
+                        <h6>
+                          <FcCheckmark />
+                          Outdoor Dining
+                        </h6>
+
+                        <div className="small-b">
+                          <h6>
+                            <span>
+                              {" "}
+                              <AiOutlineClose />
+                            </span>
+                            Takeout
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="food">
+              <h4>
+                <span>
+                  <GrServices />
+                </span>
+                HOMESERVICES
+              </h4>
+              <div className="food-card">
+                <div className="food-one">
+                  <div className="food-conatiner">
+                    <div className="part-one">
+                      <Carousel fade>
+                        <Carousel.Item className="item-one ">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/crush1.jpg"
+                            alt="First slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/crush2.jpg"
+                            alt="Second slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/crush3.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/crush4.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/crush5.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/crush10.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                      </Carousel>
+                    </div>
+                    <div className="part-two">
+                      <h5>01.Crush</h5>
+                      <h4>
+                        {" "}
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <span>271</span>
+                      </h4>
+                      <p>
+                        {" "}
+                        <span>Open</span>
+                        until 10.00PM
+                      </p>
+                      <p>
+                        {" "}
+                        <sup>
+                          <AiOutlineComment />
+                        </sup>
+                        “Amazing food, wine and service as always.”{" "}
                       </p>
                       <div className="small">
                         <h6>
@@ -517,11 +893,193 @@ const House1 = () => {
                         <sup>
                           <AiOutlineComment />
                         </sup>
-                        “If your in Mexico it's a must !!!! The service is
-                        amazing The food amazing The music amazing. The ambiance
-                        amazing”{" "}
+                        “If your in Mexico it's a must !!!! ”{" "}
                       </p>
                       <div className="small">
+                        <h6>
+                          <FcCheckmark />
+                          Outdoor Dining
+                        </h6>
+
+                        <div className="small-b">
+                          <h6>
+                            <span>
+                              {" "}
+                              <AiOutlineClose />
+                            </span>
+                            Takeout
+                          </h6>
+                        </div>
+                        <h6>
+                          <FcCheckmark />
+                          Delivery
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="food-conatiner">
+                    <div className="part-one">
+                      <Carousel fade>
+                        <Carousel.Item className="item-one ">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los1.jpg"
+                            alt="First slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los2.jpg"
+                            alt="Second slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los3.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los4.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los5.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los6.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                      </Carousel>
+                    </div>
+                    <div className="part-two">
+                      <h5>03.Running Goose</h5>
+                      <h4>
+                        {" "}
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiOutlineStar />
+                        <AiOutlineStar />
+                        <span>300</span>
+                      </h4>
+                      <p>
+                        {" "}
+                        <span>Open</span>
+                        until 11.30PM
+                      </p>
+                      <p>
+                        {" "}
+                        <sup>
+                          <AiOutlineComment />
+                        </sup>
+                        “Well i have been waiting to go there for a long time. ”{" "}
+                      </p>
+                      <div className="small">
+                        <h6>
+                          <FcCheckmark />
+                          Outdoor Dining
+                        </h6>
+
+                        <div className="small-b">
+                          <h6>
+                            <span>
+                              {" "}
+                              <AiOutlineClose />
+                            </span>
+                            Takeout
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="food-conatiner">
+                    <div className="part-one">
+                      <Carousel fade>
+                        <Carousel.Item className="item-one ">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los1.jpg"
+                            alt="First slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los2.jpg"
+                            alt="Second slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los3.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los4.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los5.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/los6.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                      </Carousel>
+                    </div>
+                    <div className="part-two">
+                      <h5>04.Buenas Noches</h5>
+                      <h4>
+                        {" "}
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiOutlineStar />
+                        <span>180</span>
+                      </h4>
+                      <p>
+                        {" "}
+                        <span>Open</span>
+                        until 10.30PM
+                      </p>
+                      <p>
+                        {" "}
+                        <sup>
+                          <AiOutlineComment />
+                        </sup>
+                        ““This place is incredible. The food was so delicious.”{" "}
+                      </p>
+                      <div className="small">
+                        <h6>
+                          <FcCheckmark />
+                          Delivery
+                        </h6>
                         <h6>
                           <FcCheckmark />
                           Outdoor Dining
