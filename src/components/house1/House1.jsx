@@ -636,42 +636,42 @@ const House1 = () => {
                         <Carousel.Item className="item-one ">
                           <img
                             className="d-block w-100"
-                            src="./assets/los1.jpg"
+                            src="./assets/san1.jpg"
                             alt="First slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los2.jpg"
+                            src="./assets/san2.jpg"
                             alt="Second slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los3.jpg"
+                            src="./assets/san3.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los4.jpg"
+                            src="./assets/san4.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los5.jpg"
+                            src="./assets/san5.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los6.jpg"
+                            src="./assets/san6.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
@@ -740,56 +740,56 @@ const House1 = () => {
                         <Carousel.Item className="item-one ">
                           <img
                             className="d-block w-100"
-                            src="./assets/crush1.jpg"
+                            src="./assets/port1.jpg"
                             alt="First slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/crush2.jpg"
+                            src="./assets/port2.jpg"
                             alt="Second slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/crush3.jpg"
+                            src="./assets/port3.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/crush4.jpg"
+                            src="./assets/port4.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/crush5.jpg"
+                            src="./assets/port5.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/crush10.jpg"
+                            src="./assets/port6.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                       </Carousel>
                     </div>
                     <div className="part-two">
-                      <h5>01.Crush</h5>
+                      <h5>01.Upperland Homeservices</h5>
                       <h4>
                         {" "}
                         <AiFillStar />
                         <AiFillStar />
                         <AiFillStar />
                         <AiFillStar />
-                        <AiFillStar />
+                        <FaStarHalf />
                         <span>271</span>
                       </h4>
                       <p>
@@ -802,27 +802,8 @@ const House1 = () => {
                         <sup>
                           <AiOutlineComment />
                         </sup>
-                        “Amazing food, wine and service as always.”{" "}
+                        “Great remodelling services.”{" "}
                       </p>
-                      <div className="small">
-                        <h6>
-                          <FcCheckmark />
-                          Outdoor Dining
-                        </h6>
-                        <h6>
-                          <FcCheckmark />
-                          Delivery
-                        </h6>
-                        <div className="small-b">
-                          <h6>
-                            <span>
-                              {" "}
-                              <AiOutlineClose />
-                            </span>
-                            Takeout
-                          </h6>
-                        </div>
-                      </div>
                     </div>
                   </div>
                   <div className="food-conatiner">
@@ -831,42 +812,42 @@ const House1 = () => {
                         <Carousel.Item className="item-one ">
                           <img
                             className="d-block w-100"
-                            src="./assets/hara1.jpg"
+                            src="./assets/mage1.jpg"
                             alt="First slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/hara2.jpg"
+                            src="./assets/mage2.jpg"
                             alt="Second slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/hara3.jpg"
+                            src="./assets/mage3.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/hara4.jpg"
+                            src="./assets/mage4.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/hara5.jpg"
+                            src="./assets/mage5.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/hara6.jpg"
+                            src="./assets/mage6.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
@@ -881,7 +862,7 @@ const House1 = () => {
                         <AiFillStar />
                         <AiFillStar />
                         <AiFillStar />
-                        <span>300</span>
+                        <span>400</span>
                       </h4>
                       <p>
                         {" "}
@@ -893,28 +874,8 @@ const House1 = () => {
                         <sup>
                           <AiOutlineComment />
                         </sup>
-                        “If your in Mexico it's a must !!!! ”{" "}
+                        “Super fast and professional service ”{" "}
                       </p>
-                      <div className="small">
-                        <h6>
-                          <FcCheckmark />
-                          Outdoor Dining
-                        </h6>
-
-                        <div className="small-b">
-                          <h6>
-                            <span>
-                              {" "}
-                              <AiOutlineClose />
-                            </span>
-                            Takeout
-                          </h6>
-                        </div>
-                        <h6>
-                          <FcCheckmark />
-                          Delivery
-                        </h6>
-                      </div>
                     </div>
                   </div>
                   <div className="food-conatiner">
@@ -923,49 +884,49 @@ const House1 = () => {
                         <Carousel.Item className="item-one ">
                           <img
                             className="d-block w-100"
-                            src="./assets/los1.jpg"
+                            src="./assets/boys1.jpg"
                             alt="First slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los2.jpg"
+                            src="./assets/boys2.jpg"
                             alt="Second slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los3.jpg"
+                            src="./assets/boys3.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los4.jpg"
+                            src="./assets/boys4.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los5.jpg"
+                            src="./assets/boys5.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los6.jpg"
+                            src="./assets/boys6.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                       </Carousel>
                     </div>
                     <div className="part-two">
-                      <h5>03.Running Goose</h5>
+                      <h5>03.Running Homeservices</h5>
                       <h4>
                         {" "}
                         <AiFillStar />
@@ -985,24 +946,8 @@ const House1 = () => {
                         <sup>
                           <AiOutlineComment />
                         </sup>
-                        “Well i have been waiting to go there for a long time. ”{" "}
+                        “Excellent workmanship. ”{" "}
                       </p>
-                      <div className="small">
-                        <h6>
-                          <FcCheckmark />
-                          Outdoor Dining
-                        </h6>
-
-                        <div className="small-b">
-                          <h6>
-                            <span>
-                              {" "}
-                              <AiOutlineClose />
-                            </span>
-                            Takeout
-                          </h6>
-                        </div>
-                      </div>
                     </div>
                   </div>
                   <div className="food-conatiner">
@@ -1011,49 +956,49 @@ const House1 = () => {
                         <Carousel.Item className="item-one ">
                           <img
                             className="d-block w-100"
-                            src="./assets/los1.jpg"
+                            src="./assets/maze1.jpg"
                             alt="First slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los2.jpg"
+                            src="./assets/maze2.jpg"
                             alt="Second slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los3.jpg"
+                            src="./assets/maze3.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los4.jpg"
+                            src="./assets/maze4.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los5.jpg"
+                            src="./assets/maze5.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                         <Carousel.Item className="item-one">
                           <img
                             className="d-block w-100"
-                            src="./assets/los6.jpg"
+                            src="./assets/maze6.jpg"
                             alt="Third slide"
                           />
                         </Carousel.Item>
                       </Carousel>
                     </div>
                     <div className="part-two">
-                      <h5>04.Buenas Noches</h5>
+                      <h5>04.Buenas Homeservices</h5>
                       <h4>
                         {" "}
                         <AiFillStar />
@@ -1073,28 +1018,8 @@ const House1 = () => {
                         <sup>
                           <AiOutlineComment />
                         </sup>
-                        ““This place is incredible. The food was so delicious.”{" "}
+                        ““This place is incredible. The service was excellent.”{" "}
                       </p>
-                      <div className="small">
-                        <h6>
-                          <FcCheckmark />
-                          Delivery
-                        </h6>
-                        <h6>
-                          <FcCheckmark />
-                          Outdoor Dining
-                        </h6>
-
-                        <div className="small-b">
-                          <h6>
-                            <span>
-                              {" "}
-                              <AiOutlineClose />
-                            </span>
-                            Takeout
-                          </h6>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
