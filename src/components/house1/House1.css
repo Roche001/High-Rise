@@ -90,16 +90,22 @@
   border-bottom: 1px solid;
   padding: 0.3rem;
 }
-.food-card {
-  border-bottom: 1px solid;
+.part-one {
+  width: 30rem;
+  height: 15rem;
 }
-.food-card span {
-  margin-left: 10rem;
+.item-one {
+  width: 30rem;
+  height: 15rem;
+  background-position: center;
+  background-size: cover;
 }
-.food-card {
-  display: flex;
-  flex-direction: row;
+.item-one img {
+  height: 100%;
+  width: 100%;
+  background-position: center;
 }
+
 @media screen and (max-width: 600px) {
   .card-one {
     display: grid;

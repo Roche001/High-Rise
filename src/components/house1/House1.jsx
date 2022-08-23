@@ -355,39 +355,52 @@ const House1 = () => {
               <div className="food-card">
                 <div className="card-one">
                   <div className="part-one">
-                    <Carousel>
-                      <Carousel.Item interval={1000} className="sized">
-                        <img src="./assets/me1.jpg" alt="Featured-House" />
+                    <Carousel fade>
+                      <Carousel.Item className="item-one ">
+                        <img
+                          className="d-block w-100"
+                          src="./assets/crush1.jpg"
+                          alt="First slide"
+                        />
                       </Carousel.Item>
-                      <Carousel.Item interval={500} className="sized">
-                        <img src="./assets/me2.jpg" alt="Featured-House" />
+                      <Carousel.Item className="item-one">
+                        <img
+                          className="d-block w-100"
+                          src="./assets/crush2.jpg"
+                          alt="Second slide"
+                        />
                       </Carousel.Item>
-                      <Carousel.Item interval={500} className="sized">
-                        <img src="./assets/me3.jpg" alt="Featured-House" />
+                      <Carousel.Item className="item-one">
+                        <img
+                          className="d-block w-100"
+                          src="./assets/crush3.jpg"
+                          alt="Third slide"
+                        />
                       </Carousel.Item>
-                      <Carousel.Item interval={500} className="sized">
-                        <img src="./assets/me4.jpg" alt="Featured-House" />
+                      <Carousel.Item className="item-one">
+                        <img
+                          className="d-block w-100"
+                          src="./assets/crush4.jpg"
+                          alt="Third slide"
+                        />
                       </Carousel.Item>
-                      <Carousel.Item interval={500} className="sized">
-                        <img src="./assets/me5.jpg" alt="Featured-House" />
+                      <Carousel.Item className="item-one">
+                        <img
+                          className="d-block w-100"
+                          src="./assets/crush5.jpg"
+                          alt="Third slide"
+                        />
                       </Carousel.Item>
-                      <Carousel.Item interval={500} className="sized">
-                        <img src="./assets/me6.jpg" alt="Featured-House" />
-                      </Carousel.Item>
-                      <Carousel.Item interval={500} className="sized">
-                        <img src="./assets/me7.jpg" alt="Featured-House" />
-                      </Carousel.Item>
-                      <Carousel.Item interval={500} className="sized">
-                        <img src="./assets/me8.jpg" alt="Featured-House" />
-                      </Carousel.Item>
-                      <Carousel.Item interval={500} className="sized">
-                        <img src="./assets/me9.jpg" alt="Featured-House" />
-                      </Carousel.Item>
-                      <Carousel.Item interval={500} className="sized">
-                        <img src="./assets/me10.jpg" alt="Featured-House" />
+                      <Carousel.Item className="item-one">
+                        <img
+                          className="d-block w-100"
+                          src="./assets/crush10.jpg"
+                          alt="Third slide"
+                        />
                       </Carousel.Item>
                     </Carousel>
                   </div>
+                  <div className="part-two"></div>
                 </div>
               </div>
             </div>
