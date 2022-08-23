@@ -9,6 +9,7 @@ import Sell from "./components/sell/Sell";
 import Footer from "./components/footer/Footer";
 import House1 from "./components/house1/House1";
 import House2 from "./components/house2/House2";
+import House3 from "./components/house3/House3";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route Sell path="Sell" exact element={<Sell />} />
         <Route House1 path="House1" exact element={<House1 />} />
         <Route House2 path="House2" exact element={<House2 />} />
+        <Route House3 path="House3" exact element={<House3 />} />
       </Routes>
       <Footer />
     </Router>

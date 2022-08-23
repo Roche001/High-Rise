@@ -128,7 +128,7 @@ const Rent = () => {
                   delay={{ show: 250, hide: 400 }}
                   overlay={seeMore}
                 >
-                  <Link to="/House2">
+                  <Link to="/House3">
                     <li className="home-fill">
                       <RiHome6Fill />
                     </li>
@@ -157,7 +157,7 @@ const Rent = () => {
                   </span>
                   1200 sq ft
                 </h5>
-                <h5>$8,000/</h5>
+                <h5>$8,000/Mnth</h5>
               </div>
             </div>
           </div>
