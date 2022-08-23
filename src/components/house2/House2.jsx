@@ -77,7 +77,7 @@ const House2 = () => {
       </Carousel>
       <div className="amenities-conatiner">
         <h3>Villa in Rhino Hill</h3>
-        <h3> $3,600/month</h3>
+        <h3> $5,600/month</h3>
         <div className="amenities-card">
           <div className="card-one">
             <h5>
@@ -98,7 +98,7 @@ const House2 = () => {
               <span>
                 <GiHomeGarage />
               </span>
-              1Garages
+              1Garage
             </h5>
             <h5>
               <span>
