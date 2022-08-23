@@ -45,38 +45,38 @@ const House2 = () => {
     <div className="container">
       <Carousel>
         <Carousel.Item interval={1000} className="sized">
-          <img src="./assets/me1.jpg" alt="Featured-House" />
+          <img src="./assets/bed1.jpg" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/me2.jpg" alt="Featured-House" />
+          <img src="./assets/bed2.jpg" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/me3.jpg" alt="Featured-House" />
+          <img src="./assets/bed3.jpg" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/me4.jpg" alt="Featured-House" />
+          <img src="./assets/bed4.jpg" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/me5.jpg" alt="Featured-House" />
+          <img src="./assets/bed5.jpg" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/me6.jpg" alt="Featured-House" />
+          <img src="./assets/bed6.jpg" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/me7.jpg" alt="Featured-House" />
+          <img src="./assets/bed7.jpg" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/me8.jpg" alt="Featured-House" />
+          <img src="./assets/bed8.jpg" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/me9.jpg" alt="Featured-House" />
+          <img src="./assets/bed9.jpg" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/me10.jpg" alt="Featured-House" />
+          <img src="./assets/bed10.jpg" alt="Featured-House" />
         </Carousel.Item>
       </Carousel>
       <div className="amenities-conatiner">
-        <h3>Villa in Coral Gables</h3>
+        <h3>Villa in Rhino Hill</h3>
         <h3> $3,600/month</h3>
         <div className="amenities-card">
           <div className="card-one">
@@ -85,56 +85,47 @@ const House2 = () => {
               <span>
                 <FaBed />
               </span>
-              4Beds
+              3Beds
             </h5>
             <h5>
               {" "}
               <span>
                 <GiBathtub />
               </span>
-              3Baths
+              2Baths
             </h5>
             <h5>
               <span>
                 <GiHomeGarage />
               </span>
-              2Garages
+              1Garages
             </h5>
             <h5>
               <span>
                 <MdOutlineConstruction />
               </span>
-              2009 Year Built
+              2010 Year Built
             </h5>
             <h5>
               <span>
                 <MdOutlineSquareFoot />
               </span>
-              3200 sqft
+              1400 sqft
             </h5>
           </div>
         </div>
         <div className="description">
           <h3>Description</h3>
           <p>
-            Years seed fruit you. Divided morning sea day Set earth. Grass
-            without cattle. Spirit heaven. Also i grass give fowl wherein cattle
-            spirit whales rule cattle. Earth fowl given own you’re, fruit so.
-            Shall was. Called firmament dry fruitful, set place. Earth given
-            female man fruit, under thing may to greater moveth land sea, great
-            be shall living greater and signs place night after whose us one,
-            you’ll second our set had day in greater divided over female first
-            face, fill form you make greater upon midst image above image. Very
-            you land, man divided sea appear thing female was let. Beginning
-            open moved fowl. Likeness. Bring tree tree doesn’t. Darkness herb
-            moveth upon a seasons. Divided appear living. Called image let was.
-            Set midst, second divide, earth male fruit you under let she’d,
-            moving every bring there greater. Bring. Gathering night third.
-            Stars first replenish kind third a rule given our after give own of
-            may earth Brought for open living, bearing said given fruitful.
-            Night him moved called. Be for unto behold dry green multiply herb
-            fly waters. Green gathered face. Light, may deep you’re light. After
-            which itself seed signs moveth. Second fish isn’t for sixth deep.
+            There's no shortage of curb appeal for this beautiful 3 bedroom
+            modern farmhouse plan. The formal entry and dining room open into a
+            large open living area with raised ceilings and brick accent wall.
+            The large kitchen has views to the rear porch and features an island
+            with eating bar as well as a large pantry. The 3 bedrooms are
+            well-sized and all include large walk-in closets. As an extra
+            feature, an upstairs bonus space is provided that would be perfect
+            for a guest suite or that family game room. With so much to offer,
+            make this your next home today!
           </p>
         </div>
         <div className="location">
@@ -313,7 +304,7 @@ const House2 = () => {
                 <Accordion.Body>
                   <img
                     className="d-block w-100"
-                    src="./assets/ground1.jpeg"
+                    src="./assets/ground4.png"
                     alt="Ground Floor"
                   />
                 </Accordion.Body>
@@ -327,7 +318,7 @@ const House2 = () => {
                 <Accordion.Body>
                   <img
                     className="d-block w-100"
-                    src="./assets/ground2.jpeg"
+                    src="./assets/ground5.jpeg"
                     alt="Ground Floor"
                   />
                 </Accordion.Body>
@@ -341,7 +332,7 @@ const House2 = () => {
                 <Accordion.Body>
                   <img
                     className="d-block w-100"
-                    src="./assets/ground3.gif"
+                    src="./assets/ground6.jpeg"
                     alt="Ground Floor"
                   />
                 </Accordion.Body>
