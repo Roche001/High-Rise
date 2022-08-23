@@ -18,6 +18,7 @@ import { AiFillStar } from "react-icons/ai";
 import { FaStarHalf } from "react-icons/fa";
 import { FcCheckmark } from "react-icons/fc";
 import { AiOutlineClose } from "react-icons/ai";
+import { AiOutlineComment } from "react-icons/ai";
 import {
   withScriptjs,
   withGoogleMap,
@@ -414,12 +415,16 @@ const House1 = () => {
                         <AiFillStar />
                         <span>271</span>
                       </h4>
-                      <small>
+                      <p>
                         {" "}
                         <span>Open</span>
                         until 10.00PM
-                      </small>
+                      </p>
                       <p>
+                        {" "}
+                        <sup>
+                          <AiOutlineComment />
+                        </sup>
                         “Amazing food, wine and service as always. Alex was spot
                         on despite a really busy dining room!”{" "}
                       </p>

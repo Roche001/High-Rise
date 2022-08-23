@@ -109,6 +109,12 @@
   color: #616161;
   font-size: 1rem;
 }
+.part-two p span {
+  margin: 0.5rem;
+  color: #2e7d32;
+  font-size: 1rem;
+  font-weight: 600;
+}
 .small {
   display: flex;
   flex-direction: row;
