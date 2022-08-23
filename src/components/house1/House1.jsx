@@ -449,6 +449,96 @@ const House1 = () => {
                       </div>
                     </div>
                   </div>
+                  <div className="food-conatiner">
+                    <div className="part-one">
+                      <Carousel fade>
+                        <Carousel.Item className="item-one ">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/hara1.jpg"
+                            alt="First slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/hara2.jpg"
+                            alt="Second slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/hara3.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/hara4.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/hara5.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                        <Carousel.Item className="item-one">
+                          <img
+                            className="d-block w-100"
+                            src="./assets/hara6.jpg"
+                            alt="Third slide"
+                          />
+                        </Carousel.Item>
+                      </Carousel>
+                    </div>
+                    <div className="part-two">
+                      <h5>02.El Camino</h5>
+                      <h4>
+                        {" "}
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <AiFillStar />
+                        <span>300</span>
+                      </h4>
+                      <p>
+                        {" "}
+                        <span>Open</span>
+                        until Midnight
+                      </p>
+                      <p>
+                        {" "}
+                        <sup>
+                          <AiOutlineComment />
+                        </sup>
+                        “If your in Mexico it's a must !!!! The service is
+                        amazing The food amazing The music amazing. The ambiance
+                        amazing”{" "}
+                      </p>
+                      <div className="small">
+                        <h6>
+                          <FcCheckmark />
+                          Outdoor Dining
+                        </h6>
+
+                        <div className="small-b">
+                          <h6>
+                            <span>
+                              {" "}
+                              <AiOutlineClose />
+                            </span>
+                            Takeout
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
