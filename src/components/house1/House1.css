@@ -102,6 +102,12 @@
   width: 100%;
   background-position: center;
 }
+.part-two {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
 .part-two h4 {
   color: #c62828;
 }
@@ -126,7 +132,6 @@
 }
 .food-conatiner {
   margin: 2rem;
-  padding: 0.1rem;
   display: flex;
   flex-direction: row;
   gap: 1rem;
