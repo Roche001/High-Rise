@@ -55,18 +55,23 @@
   font-size: 2rem;
 }
 .featured-listing-card {
-  height: 25rem;
-  width: 20rem;
+  height: 26rem;
+  width: 18rem;
   background: #ffffff;
-  margin: 0.8rem;
+  margin: 1rem;
   border-radius: 0.2rem;
   cursor: pointer;
 }
 .card-two {
   position: relative;
-  width: 20rem;
+  width: 18rem;
   height: 20rem;
 }
+.card-two img {
+  height: 100%;
+  width: 100%;
+}
+
 .image-title {
   display: flex;
   flex-direction: row;
@@ -79,7 +84,7 @@
   margin: 0.5rem;
   height: 3rem;
   width: 3rem;
-  padding-left: 0.5rem;
+
   font-size: 2rem;
   background: #ffffff;
   color: #020c1b;
@@ -110,11 +115,6 @@
   background: #37474f;
   color: #ffffff;
   border-radius: 0.2rem;
-}
-
-.card-two img {
-  display: block;
-  height: 20rem;
 }
 
 .icon {

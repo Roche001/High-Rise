@@ -19,8 +19,8 @@ const Rent = () => {
     <div>
       <section id="rent" className="container">
         <h3 className="tony">Townhomes </h3>
-        <div className="townhome">
-          <div className="featured-listing-card ">
+        <div className="townhome-one row">
+          <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -67,7 +67,7 @@ const Rent = () => {
               </div>
             </div>
           </div>
-          <div className="featured-listing-card ">
+          <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -114,7 +114,7 @@ const Rent = () => {
               </div>
             </div>
           </div>
-          <div className="featured-listing-card ">
+          <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12  ">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -161,7 +161,7 @@ const Rent = () => {
               </div>
             </div>
           </div>
-          <div className="featured-listing-card ">
+          <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -208,7 +208,9 @@ const Rent = () => {
               </div>
             </div>
           </div>
-          <div className="featured-listing-card ">
+        </div>
+        <div className="town-two row">
+          <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -255,7 +257,7 @@ const Rent = () => {
               </div>
             </div>
           </div>
-          <div className="featured-listing-card ">
+          <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -302,7 +304,7 @@ const Rent = () => {
               </div>
             </div>
           </div>
-          <div className="featured-listing-card ">
+          <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -349,7 +351,7 @@ const Rent = () => {
               </div>
             </div>
           </div>
-          <div className="featured-listing-card ">
+          <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
             <div className="card-two">
               <img
                 className="d-block w-100"
@@ -394,6 +396,16 @@ const Rent = () => {
                 </h5>
                 <h5>$5,310/Mnth</h5>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="Country">
+          <div className="country-head">
+            <h3>Country Homes </h3>
+          </div>
+          <div className="country-container">
+            <div className="country-card">
+              
             </div>
           </div>
         </div>

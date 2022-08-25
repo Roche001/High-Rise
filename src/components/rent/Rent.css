@@ -9,8 +9,20 @@
 }
 .featured-listing-card {
   transition: 400ms ease-in-out;
+  border-bottom: #020c1b 1px solid;
 }
 .featured-listing-card:hover {
   box-shadow: 0px 8px 30px #424242;
   transform: rotate(0.5deg);
+}
+.townhome-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.town-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: #020c1b 1px solid;
 }
