@@ -1,0 +1,31 @@
+.overview {
+  background: #f5f5f5;
+  border-radius: 0.5rem;
+  margin: 0.1rem;
+}
+
+.overview h4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.overview-one h4 span {
+  font-weight: 500;
+}
+
+.overview-one {
+  height: 20rem;
+  width: 30rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.map {
+  width: 10rem;
+  height: 10rem;
+}
+.overview-two {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
