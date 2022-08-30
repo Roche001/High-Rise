@@ -74,9 +74,11 @@ const House9 = () => {
       </Carousel>
       <div className="overview row">
         <div className="overview-one  col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <h4>
-            Condo <span>property Type</span>
-          </h4>
+          <div className="over-box">
+            <h4>
+              Condo <span>property Type</span>
+            </h4>
+          </div>
           <h4>
             <small>
               <IoIosBed />2
