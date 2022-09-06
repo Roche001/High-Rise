@@ -6,26 +6,8 @@ import { GiShower } from "react-icons/gi";
 import { GiHomeGarage } from "react-icons/gi";
 import { AiOutlineApartment } from "react-icons/ai";
 import { FcCalendar } from "react-icons/fc";
-import {
-  withScriptjs,
-  withGoogleMap,
-  GoogleMap,
-  Marker,
-} from "react-google-maps";
 
 const House9 = () => {
-  const MapWithAMarker = withScriptjs(
-    withGoogleMap((props) => (
-      <GoogleMap
-        defaultZoom={4}
-        defaultCenter={{ lat: -1.2306616792179152, lng: 36.84835920697511 }}
-      >
-        <Marker
-          position={{ lat: -1.2306616792179152, lng: 36.84835920697511 }}
-        />
-      </GoogleMap>
-    ))
-  );
   return (
     <div className="container">
       <Carousel>
@@ -73,12 +55,11 @@ const House9 = () => {
         </Carousel.Item>
       </Carousel>
       <div className="overview row">
-        <div className="overview-one  col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <div className="over-box">
-            <h4>
-              Condo <span>property Type</span>
-            </h4>
-          </div>
+        <div className="overview-one ">
+          <h4>
+            <small> Condo</small> <span>property Type</span>
+          </h4>
+
           <h4>
             <small>
               <IoIosBed />2
@@ -109,15 +90,6 @@ const House9 = () => {
             </small>
             <span>Year Built</span>
           </h4>
-        </div>
-        <div className="overview-two  col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <MapWithAMarker
-            className="map"
-            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAXOQcxZzrxgrzdLhtRcmdBaiPEWzFkD8"
-            loadingElement={<div style={{ height: `100%` }} />}
-            containerElement={<div style={{ height: `100%`, width: "100%" }} />}
-            mapElement={<div style={{ height: `100%` }} />}
-          />
         </div>
       </div>
     </div>

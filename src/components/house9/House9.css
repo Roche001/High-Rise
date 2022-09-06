@@ -7,17 +7,22 @@
 .overview h4 {
   display: flex;
   flex-direction: column;
+
+  margin: 0.5rem;
 }
 
 .overview-one h4 span {
   font-weight: 500;
 }
-
 .overview-one {
-  height: 20rem;
-  width: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.map {
-  width: 10rem;
-  height: 10rem;
+@media screen and (max-width: 600px) {
+  .overview-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
