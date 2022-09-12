@@ -404,48 +404,17 @@ const Rent = () => {
           <div className="country-head">
             <h3>Country Homes </h3>
           </div>
-          <div className="country-container">
-            <div className="country-card">
-              <div className="box-one">
-                <div className="box-one-img">
-                  <span className="red"> Rent</span>
-                  <div className="overlay">
-                    <Link to="/House9">
-                      {" "}
-                      <span className="red-bin"> Rent</span>
-                    </Link>
-                    <h4>
-                      <TbArrowBearLeft />{" "}
-                    </h4>
-                  </div>
-
-                  <img
-                    className="d-block w-100"
-                    src="./assets/count1.jpg"
-                    alt="Country Home"
-                  />
-                </div>
-                <div className="box-one-table">
-                  <table>
-                    <tr>
-                      <td>49 sq ft</td>
-                      <td>4 bed</td>
-                      <td>5.5 bath</td>
-                    </tr>
-                    <tr>
-                      <td>2 story</td>
-                      <td>84' wide</td>
-                      <td>94'7" deep</td>
-                    </tr>
-                  </table>
-                </div>
-                <div className="box-button">
-                  <Link to="/House9">
-                    <a href="#button">View House</a>
-                  </Link>
-                </div>
-              </div>
+        </div>
+        <div className="country-container row">
+          <div className="country-card">
+            <div className="country-card-img">
+              <img
+                className="d-block w-100"
+                src="./assets/count1.jpg"
+                alt="country homes"
+              />
             </div>
+            <table></table>
           </div>
         </div>
       </section>
