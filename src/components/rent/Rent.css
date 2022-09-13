@@ -26,14 +26,3 @@
   justify-content: center;
   border-bottom: #020c1b 1px solid;
 }
-.country-head {
-  border-bottom: 1px #020c1b solid;
-}
-.country-head h3 {
-  font-size: 2rem;
-  font-weight: 900;
-}
-.country-card {
-  height: 25rem;
-  width: 20rem;
-}

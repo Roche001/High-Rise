@@ -400,23 +400,6 @@ const Rent = () => {
             </div>
           </div>
         </div>
-        <div className="Country container">
-          <div className="country-head">
-            <h3>Country Homes </h3>
-          </div>
-        </div>
-        <div className="country-container row">
-          <div className="country-card">
-            <div className="country-card-img">
-              <img
-                className="d-block w-100"
-                src="./assets/count1.jpg"
-                alt="country homes"
-              />
-            </div>
-            <table></table>
-          </div>
-        </div>
       </section>
     </div>
   );
