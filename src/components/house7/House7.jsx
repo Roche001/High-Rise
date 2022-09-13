@@ -32,12 +32,10 @@ const House7 = () => {
   const MapWithAMarker = withScriptjs(
     withGoogleMap((props) => (
       <GoogleMap
-        defaultZoom={4}
-        defaultCenter={{ lat: -1.2306616792179152, lng: 36.84835920697511 }}
+        defaultZoom={15}
+        defaultCenter={{ lat: -4.061019, lng: 39.697786 }}
       >
-        <Marker
-          position={{ lat: -1.2306616792179152, lng: 36.84835920697511 }}
-        />
+        <Marker position={{ lat: -4.061019, lng: 39.697786 }} />
       </GoogleMap>
     ))
   );
