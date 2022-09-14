@@ -6,7 +6,6 @@ import { FaBath } from "react-icons/fa";
 import { MdOutlineSquareFoot } from "react-icons/md";
 import { RiHome6Fill } from "react-icons/ri";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
-import { TbArrowBearLeft } from "react-icons/tb";
 import Tooltip from "react-bootstrap/Tooltip";
 import { Link } from "react-router-dom";
 
@@ -399,7 +398,12 @@ const Rent = () => {
           </div>
         </div>
       </div>
-      <div className="countryside"></div>
+      <div className="countryside">
+        <h3>Country Homes </h3>
+        <div className="countryside-container">
+          <div className="countryside-card"></div>
+        </div>
+      </div>
     </section>
   );
 };
