@@ -400,9 +400,7 @@ const Rent = () => {
       </div>
       <div className="countryside">
         <h3>Country Homes </h3>
-        <div className="countryside-container">
-          <div className="countryside-card"></div>
-        </div>
+        <div className="countryside-container"></div>
       </div>
     </section>
   );
