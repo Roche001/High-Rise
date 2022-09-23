@@ -5,6 +5,10 @@ import { MdOutlineBed } from "react-icons/md";
 import { FaBath } from "react-icons/fa";
 import { MdOutlineSquareFoot } from "react-icons/md";
 import { RiHome6Fill } from "react-icons/ri";
+import { BiBed } from "react-icons/bi";
+import { CgProfile } from "react-icons/cg";
+import { GrAttachment } from "react-icons/gr";
+
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 import { Link } from "react-router-dom";
@@ -398,9 +402,52 @@ const Rent = () => {
           </div>
         </div>
       </div>
-
-      <h3>Country Homes </h3>
-      <div className="countryside-container"></div>
+      <div className="country-homes">
+        <h3>Country Homes </h3>
+      </div>
+      <div className="countryside-container row">
+        <div className="country-container-card">
+          <div className="country-container-img">
+            <Link to="/House9">
+              <img
+                className="d-block w-100"
+                src="./assets/count1.jpg"
+                alt="Featured-House"
+              />
+            </Link>
+          </div>
+          <div className="country-container-text">
+            <h4>Big country house </h4>
+            <small>Nassau St, New York, NY,USA.</small>
+            <div className="icon-one">
+              <h6>
+                <BiBed />3
+              </h6>
+              <h6>
+                {" "}
+                <FaBath />2
+              </h6>
+              <h6>
+                <MdOutlineSquareFoot /> 2300 Sq Ft
+              </h6>
+            </div>
+            <div className="icon-two">
+              <h6>
+                <CgProfile /> Sam Wundanyi
+              </h6>
+              <h6>
+                <GrAttachment />
+                3yrs ago
+              </h6>
+            </div>
+            <div className="btn-country">
+              <Link to="/House9">
+                <a href="">View More</a>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
