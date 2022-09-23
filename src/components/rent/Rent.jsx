@@ -12,6 +12,8 @@ import { GrAttachment } from "react-icons/gr";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 import { Link } from "react-router-dom";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
 const Rent = () => {
   const seeMore = (props) => (
@@ -23,101 +25,7 @@ const Rent = () => {
     <section id="rent" className="container">
       <h3 className="tony">Townhomes </h3>
       <div className="townhome-one row">
-        <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <div className="card-two">
-            <img
-              className="d-block w-100"
-              src="./assets/me1.jpg"
-              alt="Featured-House"
-            />
-            <span className="red"> Rent</span>
-            <div className="overlay">
-              <OverlayTrigger
-                placement="left"
-                delay={{ show: 250, hide: 400 }}
-                overlay={seeMore}
-              >
-                <Link to="/House1">
-                  <li className="home-fill">
-                    <RiHome6Fill />
-                  </li>
-                </Link>
-              </OverlayTrigger>
-            </div>
-          </div>
-          <div className="card-text">
-            <h4>Home in Los Angeles</h4>
-            <div className="icon">
-              <h5>
-                <span>
-                  <MdOutlineBed />
-                </span>
-                5
-              </h5>
-              <h5>
-                <span>
-                  <FaBath />
-                </span>
-                4
-              </h5>
-              <h5>
-                <span>
-                  <MdOutlineSquareFoot />
-                </span>
-                5200 sq ft
-              </h5>
-              <h5>$380,000</h5>
-            </div>
-          </div>
-        </div>
-        <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
-          <div className="card-two">
-            <img
-              className="d-block w-100"
-              src="./assets/bed1.jpg"
-              alt="Featured-House"
-            />
-            <span className="red"> Rent</span>
-            <div className="overlay">
-              <OverlayTrigger
-                placement="left"
-                delay={{ show: 250, hide: 400 }}
-                overlay={seeMore}
-              >
-                <Link to="/House2">
-                  <li className="home-fill">
-                    <RiHome6Fill />
-                  </li>
-                </Link>
-              </OverlayTrigger>
-            </div>
-          </div>
-          <div className="card-text">
-            <h4>Home in Nairobi</h4>
-            <div className="icon">
-              <h5>
-                <span>
-                  <MdOutlineBed />
-                </span>
-                5
-              </h5>
-              <h5>
-                <span>
-                  <FaBath />
-                </span>
-                4
-              </h5>
-              <h5>
-                <span>
-                  <MdOutlineSquareFoot />
-                </span>
-                5200 sq ft
-              </h5>
-              <h5>$380,000</h5>
-            </div>
-          </div>
-        </div>
-        <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12  ">
+        {/* <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12  ">
           <div className="card-two">
             <img
               className="d-block w-100"
@@ -163,8 +71,110 @@ const Rent = () => {
               <h5>$8,000/Mnth</h5>
             </div>
           </div>
+        </div> */}
+        {/* testing card */}
+        <div className="row">
+          <div className="col">
+            <Card
+              style={{
+                width: "18rem",
+                paddingRight: "0px",
+                paddingLeft: "0px",
+              }}
+            >
+              <Card.Img
+                className="img"
+                variant="top"
+                src="./assets/new1.webp"
+                alt="Featured-House"
+              />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Incidunt, id quas. Nihil qui ab recusandae.
+                </Card.Text>
+                <Button variant="primary">See More</Button>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className="col">
+            <Card
+              style={{
+                width: "18rem",
+                paddingRight: "0px",
+                paddingLeft: "0px",
+              }}
+            >
+              <Card.Img
+                className="img"
+                variant="top"
+                src="./assets/new1.webp"
+                alt="Featured-House"
+              />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Incidunt, id quas. Nihil qui ab recusandae.
+                </Card.Text>
+                <Button variant="primary">See More</Button>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className="col">
+            <Card
+              style={{
+                width: "18rem",
+                paddingRight: "0px",
+                paddingLeft: "0px",
+              }}
+            >
+              <Card.Img
+                className="img"
+                variant="top"
+                src="./assets/new1.webp"
+                alt="Featured-House"
+              />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Incidunt, id quas. Nihil qui ab recusandae.
+                </Card.Text>
+                <Button variant="primary">See More</Button>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className="col">
+            <Card
+              style={{
+                width: "18rem",
+                paddingRight: "0px",
+                paddingLeft: "0px",
+              }}
+            >
+              <Card.Img
+                className="img"
+                variant="top"
+                src="./assets/new1.webp"
+                alt="Featured-House"
+              />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Incidunt, id quas. Nihil qui ab recusandae.
+                </Card.Text>
+                <Button variant="primary">See More</Button>
+              </Card.Body>
+            </Card>
+          </div>
         </div>
-        <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        {/* <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div className="card-two">
             <img
               className="d-block w-100"
@@ -400,12 +410,12 @@ const Rent = () => {
               <h5>$5,310/Mnth</h5>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="country-homes">
         <h3>Country Homes </h3>
       </div>
-      <div className="countryside-container row">
+      {/* <div className="countryside-container row">
         <div className="country-container-card">
           <div className="country-container-img">
             <Link to="/House9">
@@ -447,7 +457,7 @@ const Rent = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
