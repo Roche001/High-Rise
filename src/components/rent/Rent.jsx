@@ -74,105 +74,97 @@ const Rent = () => {
         </div> */}
         {/* testing card */}
         <div className="row">
-          <div className="col">
-            <Card
-              style={{
-                width: "18rem",
-                paddingRight: "0px",
-                paddingLeft: "0px",
-              }}
-            >
-              <Card.Img
-                className="img"
-                variant="top"
-                src="./assets/new1.webp"
-                alt="Featured-House"
-              />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Incidunt, id quas. Nihil qui ab recusandae.
-                </Card.Text>
-                <Button variant="primary">See More</Button>
-              </Card.Body>
-            </Card>
-          </div>
+          <Card
+            style={{
+              width: "18rem",
+              paddingRight: "0px",
+              paddingLeft: "0px",
+            }}
+          >
+            <Card.Img
+              className="img"
+              variant="top"
+              src="./assets/new1.webp"
+              alt="Featured-House"
+            />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Incidunt, id quas. Nihil qui ab recusandae.
+              </Card.Text>
+              <Button variant="primary">See More</Button>
+            </Card.Body>
+          </Card>
 
-          <div className="col">
-            <Card
-              style={{
-                width: "18rem",
-                paddingRight: "0px",
-                paddingLeft: "0px",
-              }}
-            >
-              <Card.Img
-                className="img"
-                variant="top"
-                src="./assets/new1.webp"
-                alt="Featured-House"
-              />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Incidunt, id quas. Nihil qui ab recusandae.
-                </Card.Text>
-                <Button variant="primary">See More</Button>
-              </Card.Body>
-            </Card>
-          </div>
+          <Card
+            style={{
+              width: "18rem",
+              paddingRight: "0px",
+              paddingLeft: "0px",
+            }}
+          >
+            <Card.Img
+              className="img"
+              variant="top"
+              src="./assets/new1.webp"
+              alt="Featured-House"
+            />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Incidunt, id quas. Nihil qui ab recusandae.
+              </Card.Text>
+              <Button variant="primary">See More</Button>
+            </Card.Body>
+          </Card>
 
-          <div className="col">
-            <Card
-              style={{
-                width: "18rem",
-                paddingRight: "0px",
-                paddingLeft: "0px",
-              }}
-            >
-              <Card.Img
-                className="img"
-                variant="top"
-                src="./assets/new1.webp"
-                alt="Featured-House"
-              />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Incidunt, id quas. Nihil qui ab recusandae.
-                </Card.Text>
-                <Button variant="primary">See More</Button>
-              </Card.Body>
-            </Card>
-          </div>
+          <Card
+            style={{
+              width: "18rem",
+              paddingRight: "0px",
+              paddingLeft: "0px",
+            }}
+          >
+            <Card.Img
+              className="img"
+              variant="top"
+              src="./assets/new1.webp"
+              alt="Featured-House"
+            />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Incidunt, id quas. Nihil qui ab recusandae.
+              </Card.Text>
+              <Button variant="primary">See More</Button>
+            </Card.Body>
+          </Card>
 
-          <div className="col">
-            <Card
-              style={{
-                width: "18rem",
-                paddingRight: "0px",
-                paddingLeft: "0px",
-              }}
-            >
-              <Card.Img
-                className="img"
-                variant="top"
-                src="./assets/new1.webp"
-                alt="Featured-House"
-              />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Incidunt, id quas. Nihil qui ab recusandae.
-                </Card.Text>
-                <Button variant="primary">See More</Button>
-              </Card.Body>
-            </Card>
-          </div>
+          <Card
+            style={{
+              width: "18rem",
+              paddingRight: "0px",
+              paddingLeft: "0px",
+            }}
+          >
+            <Card.Img
+              className="img"
+              variant="top"
+              src="./assets/new1.webp"
+              alt="Featured-House"
+            />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Incidunt, id quas. Nihil qui ab recusandae.
+              </Card.Text>
+              <Button variant="primary">See More</Button>
+            </Card.Body>
+          </Card>
         </div>
         {/* <div className="featured-listing-card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div className="card-two">
