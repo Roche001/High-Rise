@@ -4,6 +4,7 @@ import "./Rent.css";
 import { RiHome6Line } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { Card, Button } from "react-bootstrap";
+import { BsDot } from "react-icons/bs";
 
 const Rent = () => {
   return (
@@ -11,7 +12,7 @@ const Rent = () => {
       <div className="town-home">
         <h3>Exclusive Listings</h3>
       </div>
-      <div className=" container rent-townhomes">
+      <div className=" container-fluid rent-townhomes">
         <h3>Townhomes</h3>
 
         <div className="rent-container row ">
@@ -309,7 +310,222 @@ const Rent = () => {
         <div className="ranches">
           <h3>Raches and Farms </h3>
         </div>
-        <div className="ranches-container"></div>
+        <div className="ranches-container">
+          <div className="ranch-container row">
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House9">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/buffalo1.webp"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House9" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>5884 Gudme</h4>
+                <h4>5MHV+6Q7 Gudme, Denmark</h4>
+                <h5>$8000</h5>
+                <h6>
+                  5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                  381.9 Acre(s)
+                </h6>
+                <small>Marketed By Vargas Camino's International Realty</small>
+              </div>
+            </div>
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House10">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/castle1.webp"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House10" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>1839 Honey Spring Place</h4>
+                <h4>Lexington,KY,01511 United States</h4>
+                <h5>$25,000</h5>
+                <h6>
+                  9Bedrooms <BsDot /> 9Bathrooms <BsDot /> 10,558 SQ FT{" "}
+                  <BsDot />
+                  381.9 Acre(s)
+                </h6>
+                <small>Marketed By Vargas Camino's International Realty</small>
+              </div>
+            </div>
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House11">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/horse1.webp"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House11" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>5225 Greenwhich Pike</h4>
+                <h4>Merna,NE,40511 United States</h4>
+                <h5>$32,000</h5>
+                <h6>
+                  8Bedrooms <BsDot /> 8Bathrooms <BsDot /> 12,558 SQ FT{" "}
+                  <BsDot />
+                  381.9 Acre(s)
+                </h6>
+                <small>Marketed By Vargas Camino's International Realty</small>
+              </div>
+            </div>
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House12">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/malibu1.webp"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House12" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>3022 Valley Road</h4>
+                <h4>Bodhei,MBS,40511 Kenya</h4>
+                <h5>$2000</h5>
+                <h6>
+                  5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                  381.9 Acre(s)
+                </h6>
+                <small>Marketed By Vargas Camino's International Realty</small>
+              </div>
+            </div>
+          </div>
+          <div className="ranch-container row">
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House13">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/ocean1.webp"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House13" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>3000 Kajulu Hills</h4>
+                <h4>Kisumu,ksm,2330 Kenya</h4>
+                <h5>$32,000</h5>
+                <h6>
+                  5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                  381.9 Acre(s)
+                </h6>
+                <small>Marketed By Vargas Camino's International Realty</small>
+              </div>
+            </div>
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House14">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/rancho1.webp"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House14" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>39000 Eswatzini Road</h4>
+                <h4>Beaufort,BW,4201 South Africa</h4>
+                <h5>$29,000</h5>
+                <h6>
+                  5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                  381.9 Acre(s)
+                </h6>
+                <small>Marketed By Vargas Camino's International Realty</small>
+              </div>
+            </div>
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House15">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/roma1.webp"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House15" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>9088 Kilamba Road</h4>
+                <h4>Yembe,YM,1100 Angola</h4>
+                <h5>$18,000</h5>
+                <h6>
+                  5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                  381.9 Acre(s)
+                </h6>
+                <small>Marketed By Vargas Camino's International Realty</small>
+              </div>
+            </div>
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House16">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/whity1.webp"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House16" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>5088 Al Akrad</h4>
+                <h4>Al Akrad,KY,5110 United Egypt</h4>
+                <h5>$27,000</h5>
+                <h6>
+                  9Bedrooms <BsDot /> 9Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                  381.9 Acre(s)
+                </h6>
+                <small>Marketed By Vargas Camino's International Realty</small>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

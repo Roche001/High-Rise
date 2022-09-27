@@ -89,3 +89,34 @@
 .link {
   text-decoration: none;
 }
+.ranch-card {
+  width: 22rem;
+  height: 32rem;
+  border: 1px solid #020c1b;
+  transition: 400ms ease-in-out;
+  margin: 1rem;
+  transition: width 0.5s;
+}
+.ranch-card:hover {
+  box-shadow: 0px 8px 30px #424242;
+  border: none;
+}
+
+.card-text {
+  padding: 0.5rem;
+}
+.card-text h4 {
+  color: #323762;
+  font-weight: 200;
+}
+.card-text h5 {
+  font-weight: 800;
+}
+.card-text small {
+  color: #616161;
+}
+.ranch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
