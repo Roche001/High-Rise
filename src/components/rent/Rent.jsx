@@ -3,7 +3,7 @@ import "./Rent.css";
 
 import { RiHome6Line } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import { Card, Button } from "react-bootstrap";
+
 import { BsDot } from "react-icons/bs";
 
 const Rent = () => {
