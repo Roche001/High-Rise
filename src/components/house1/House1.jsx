@@ -359,8 +359,8 @@ const House1 = () => {
               </h4>
               <div className="food-card">
                 <div className="food-one">
-                  <div className="food-conatiner">
-                    <div className="part-one">
+                  <div className="food-conatiner ">
+                    <div className="part-one  ">
                       <Carousel fade>
                         <Carousel.Item className="item-one ">
                           <img
