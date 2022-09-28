@@ -534,6 +534,9 @@ const Rent = () => {
             </div>
           </div>
         </div>
+        <div className="offices">
+          <h3>Offices</h3>
+        </div>
       </div>
     </section>
   );
