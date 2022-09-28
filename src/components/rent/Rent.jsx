@@ -16,6 +16,43 @@ const Rent = () => {
         <h3>Townhomes</h3>
 
         <div className="rent-container row ">
+          <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div className="card-img">
+              <img
+                className="d-block w-100"
+                src="./assets/me1.jpg"
+                alt="House1"
+              />
+
+              <div className="overlay">
+                <Link to="/House1">
+                  <h4>
+                    <RiHome6Line />
+                  </h4>
+                </Link>
+              </div>
+              <span className="spannito">
+                <Link to="/House1" className="link">
+                  <h4>Rent</h4>
+                </Link>
+              </span>
+            </div>
+            <div className="card-text">
+              <div className="card-head">
+                <h4>9631 North Bridle East Bridgewater, MA 02333</h4>
+                <h5>$1400</h5>
+              </div>
+              <h6>
+                5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                381.9 Acre(s)
+              </h6>
+              <div className="butt-on">
+                <a href="Button">
+                  <Link to="/House1">See More</Link>
+                </a>
+              </div>
+            </div>
+          </div>
           <Card
             style={{ width: "18rem" }}
             className="skies nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"

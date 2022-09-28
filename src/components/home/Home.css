@@ -369,4 +369,20 @@
   .picker-b {
     width: 100%;
   }
+  .form-input {
+    width: 95%;
+    margin: 1rem;
+  }
+  .select {
+    width: 95%;
+    margin: 1rem;
+  }
+  .select-a {
+    width: 95%;
+    margin: 1rem;
+  }
+  .button {
+    width: 95%;
+    margin: 1rem;
+  }
 }
