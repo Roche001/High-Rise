@@ -129,6 +129,72 @@ h5 {
 .neibor h3 {
   font-weight: 700;
 }
+.edu-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+table {
+  width: 100%;
+  font-size: 1rem;
+}
+.joe {
+  border-top: #020c1b 1px solid;
+}
+.anchor a {
+  text-decoration: none;
+}
+.school-card {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #020c1b;
+  width: 25rem;
+  height: 15rem;
+  margin: 0.5rem;
+  overflow: hidden;
+  border-radius: 0.2rem;
+}
+.school-card:hover {
+  box-shadow: 0px 8px 30px #424242;
+  border: none;
+}
+.school-card-text {
+  padding: 0.8rem;
+}
+.school-card-img {
+  width: 22rem;
+  height: 15rem;
+  border-right: #020c1b 2px solid;
+}
+.school-card-img img {
+  width: 22rem;
+  height: 15rem;
+}
+.school-card-text {
+  text-align: center;
+}
+.nopadding {
+  padding: 0 !important;
+}
+.school-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.school h3 {
+  font-weight: 700;
+  border-bottom: #020c1b solid 2px;
+}
+.interest h3 {
+  font-weight: 700;
+  border-bottom: #020c1b solid 2px;
+}
+.interest p {
+  font-size: 1.5rem;
+}
+.edu-table {
+  margin-top: 1rem;
+}
 @media screen and (max-width: 600px) {
   .order-list {
     display: grid;
@@ -143,5 +209,8 @@ h5 {
   }
   .contat {
     width: 98%;
+  }
+  .school-card {
+    width: 95%;
   }
 }

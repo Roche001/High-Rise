@@ -12,6 +12,8 @@ import { GiWoodenCrate } from "react-icons/gi";
 import { GiHanger } from "react-icons/gi";
 import { MdOutlineMicrowave } from "react-icons/md";
 import { RiFridgeFill } from "react-icons/ri";
+import { MdLocationOn } from "react-icons/md";
+import { RiShieldCheckFill } from "react-icons/ri";
 import {
   withScriptjs,
   withGoogleMap,
@@ -484,6 +486,490 @@ const House9 = () => {
             oils, and blended wines. Many family-owned restaurants reside here -
             from pizza parlors to steakhouses and sushi.
           </p>
+        </div>
+        <div className="edu">
+          <h3>Education</h3>
+          <div className="edu-table">
+            <table>
+              <tr className="joe">
+                <th> Colleges and Universities</th>
+                <th>Mode of Travel</th>
+                <th>Duration</th>
+                <th className="right-align-data">Distance</th>
+              </tr>
+              <tr>
+                <td className="anchor">
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Stokkebækskolen School
+                  </a>
+                </td>
+                <td>Walk:</td>
+                <td> 15 min</td>
+                <td>0.8 mi</td>
+              </tr>
+              <tr>
+                <td className="anchor">
+                  {" "}
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Kostgymnasium High School
+                  </a>
+                </td>
+                <td>Drive: </td>
+                <td> 3 min</td>
+                <td>1.8 mi</td>
+              </tr>
+              <tr>
+                <td className="anchor">
+                  {" "}
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Gymnasier Technical Institute
+                  </a>
+                </td>
+                <td>Drive: </td>
+                <td> 4 min</td>
+                <td>2.8 mi</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div className="school">
+          <h3>Schools</h3>
+          <div className="school-container row">
+            <div className="school-card nopadding col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div className="school-card-img">
+                <img
+                  className="d-block w-100"
+                  src="./assets/magic.jpeg"
+                  alt="magic"
+                />
+              </div>
+              <div className="school-card-text">
+                <h3 className="anchor">
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Stokkebækskolen School
+                  </a>{" "}
+                </h3>
+                <p>Public Elementary & Middle School</p>
+                <h6>Grades PK-8</h6>
+                <h6>571 Students</h6>
+                <h6>
+                  <MdLocationOn /> <span> Nearby</span>
+                </h6>
+                <h6>
+                  <RiShieldCheckFill /> <span> Property Identified</span>
+                </h6>
+              </div>
+            </div>
+            <div className="school-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="school-card-img">
+                <img
+                  className="d-block w-100"
+                  src="./assets/school2.jpeg"
+                  alt="magic"
+                />
+              </div>
+              <div className="school-card-text">
+                <h3 className="anchor">
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Stokkebækskolen School
+                  </a>{" "}
+                </h3>
+                <p>Private High School</p>
+                <h6>Grades PK-8</h6>
+                <h6>571 Students</h6>
+                <h6>
+                  <MdLocationOn /> <span> Nearby</span>
+                </h6>
+                <h6>
+                  <RiShieldCheckFill /> <span> Property Identified</span>
+                </h6>
+              </div>
+            </div>
+            <div className="school-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="school-card-img">
+                <img
+                  className="d-block w-100"
+                  src="./assets/school3.jpeg"
+                  alt="magic"
+                />
+              </div>
+              <div className="school-card-text">
+                <h3 className="anchor">
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Stokkebækskolen School
+                  </a>{" "}
+                </h3>
+                <p>Private High School</p>
+                <h6>Grades PK-8</h6>
+                <h6>571 Students</h6>
+                <h6>
+                  <MdLocationOn /> <span> Nearby</span>
+                </h6>
+                <h6>
+                  <RiShieldCheckFill /> <span> Property Identified</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div className="school-container row">
+            <div className="school-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="school-card-img">
+                <img
+                  className="d-block w-100"
+                  src="./assets/school4.jpeg"
+                  alt="magic"
+                />
+              </div>
+              <div className="school-card-text">
+                <h3 className="anchor">
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Stokkebækskolen School
+                  </a>{" "}
+                </h3>
+                <p>Private High School</p>
+                <h6>Grades PK-8</h6>
+                <h6>571 Students</h6>
+                <h6>
+                  <MdLocationOn /> <span> Nearby</span>
+                </h6>
+                <h6>
+                  <RiShieldCheckFill /> <span> Property Identified</span>
+                </h6>
+              </div>
+            </div>
+            <div className="school-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="school-card-img">
+                <img
+                  className="d-block w-100"
+                  src="./assets/school5.jpeg"
+                  alt="magic"
+                />
+              </div>
+              <div className="school-card-text">
+                <h3 className="anchor">
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Stokkebækskolen School
+                  </a>{" "}
+                </h3>
+                <p>Private High School</p>
+                <h6>Grades PK-8</h6>
+                <h6>571 Students</h6>
+                <h6>
+                  <MdLocationOn /> <span> Nearby</span>
+                </h6>
+                <h6>
+                  <RiShieldCheckFill /> <span> Property Identified</span>
+                </h6>
+              </div>
+            </div>
+            <div className="school-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="school-card-img">
+                <img
+                  className="d-block w-100"
+                  src="./assets/school6.jpeg"
+                  alt="magic"
+                />
+              </div>
+              <div className="school-card-text">
+                <h3 className="anchor">
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Stokkebækskolen School
+                  </a>{" "}
+                </h3>
+                <p>Private High School</p>
+                <h6>Grades PK-8</h6>
+                <h6>571 Students</h6>
+                <h6>
+                  <MdLocationOn /> <span> Nearby</span>
+                </h6>
+                <h6>
+                  <RiShieldCheckFill /> <span> Property Identified</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div className="school-container row">
+            <div className="school-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="school-card-img">
+                <img
+                  className="d-block w-100"
+                  src="./assets/school7.jpeg"
+                  alt="magic"
+                />
+              </div>
+              <div className="school-card-text">
+                <h3 className="anchor">
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Stokkebækskolen School
+                  </a>{" "}
+                </h3>
+                <p>Private High School</p>
+                <h6>Grades PK-8</h6>
+                <h6>571 Students</h6>
+                <h6>
+                  <MdLocationOn /> <span> Nearby</span>
+                </h6>
+                <h6>
+                  <RiShieldCheckFill /> <span> Property Identified</span>
+                </h6>
+              </div>
+            </div>
+            <div className="school-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="school-card-img">
+                <img
+                  className="d-block w-100"
+                  src="./assets/school8.jpeg"
+                  alt="magic"
+                />
+              </div>
+              <div className="school-card-text">
+                <h3 className="anchor">
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Stokkebækskolen School
+                  </a>{" "}
+                </h3>
+                <p>Private High School</p>
+                <h6>Grades PK-8</h6>
+                <h6>571 Students</h6>
+                <h6>
+                  <MdLocationOn /> <span> Nearby</span>
+                </h6>
+                <h6>
+                  <RiShieldCheckFill /> <span> Property Identified</span>
+                </h6>
+              </div>
+            </div>
+            <div className="school-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="school-card-img">
+                <img
+                  className="d-block w-100"
+                  src="./assets/school9.jpeg"
+                  alt="magic"
+                />
+              </div>
+              <div className="school-card-text">
+                <h3 className="anchor">
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Stokkebækskolen School
+                  </a>{" "}
+                </h3>
+                <p>Private High School</p>
+                <h6>Grades PK-8</h6>
+                <h6>571 Students</h6>
+                <h6>
+                  <MdLocationOn /> <span> Nearby</span>
+                </h6>
+                <h6>
+                  <RiShieldCheckFill /> <span> Property Identified</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="interest">
+          <h3>Points of Intests</h3>
+          <p>Time and distance from the residences .</p>
+          <div className="edu-table">
+            <table>
+              <tr>
+                <th> Shopping Centers</th>
+                <th>Mode of Travel</th>
+                <th>Duration</th>
+                <th className="right-align-data">Distance</th>
+              </tr>
+              <tr>
+                <td className="anchor">
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Blackhawk/Halsted
+                  </a>
+                </td>
+                <td>Walk:</td>
+                <td> 15 min</td>
+                <td>0.8 mi</td>
+              </tr>
+              <tr>
+                <td className="anchor">
+                  {" "}
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    NEWCITY - Lincoln Park
+                  </a>
+                </td>
+                <td>Drive: </td>
+                <td> 3 min</td>
+                <td>1.8 mi</td>
+              </tr>
+              <tr>
+                <td className="anchor">
+                  {" "}
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Lincoln Park Center
+                  </a>
+                </td>
+                <td>Drive: </td>
+                <td> 4 min</td>
+                <td>2.8 mi</td>
+              </tr>
+            </table>
+          </div>
+          <div className="edu-table">
+            <table>
+              <tr className="joe">
+                <th> Parks and Recreation</th>
+                <th>Mode of Travel</th>
+                <th>Duration</th>
+                <th className="right-align-data">Distance</th>
+              </tr>
+              <tr>
+                <td className="anchor">
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Oz Park
+                  </a>
+                </td>
+                <td>Walk:</td>
+                <td> 15 min</td>
+                <td>0.8 mi</td>
+              </tr>
+              <tr>
+                <td className="anchor">
+                  {" "}
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Lincoln Park Zoo
+                  </a>
+                </td>
+                <td>Drive: </td>
+                <td> 3 min</td>
+                <td>1.8 mi</td>
+              </tr>
+              <tr>
+                <td className="anchor">
+                  {" "}
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Notebaert Nature Museum
+                  </a>
+                </td>
+                <td>Drive: </td>
+                <td> 4 min</td>
+                <td>2.8 mi</td>
+              </tr>
+              <tr>
+                <td className="anchor">
+                  {" "}
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Lake Shore Park
+                  </a>
+                </td>
+                <td>Walk: </td>
+                <td> 4 min</td>
+                <td>2.8 mi</td>
+              </tr>
+              <tr>
+                <td className="anchor">
+                  {" "}
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Lincoln Park
+                  </a>
+                </td>
+                <td>Drive: </td>
+                <td> 4 min</td>
+                <td>2.8 mi</td>
+              </tr>
+              <tr>
+                <td className="anchor">
+                  {" "}
+                  <a
+                    href="http://localhost:3000/Rent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Kajulu Hills Park
+                  </a>
+                </td>
+                <td>Drive: </td>
+                <td> 4 min</td>
+                <td>2.8 mi</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
     </div>
