@@ -236,7 +236,7 @@ const House11 = () => {
             </li>
           </div>
         </div>
-        <div className="contat">
+        <div className="contat-c">
           <h4>Agent</h4>
 
           <img src="./assets/agent5.jpeg" alt="Agent" />

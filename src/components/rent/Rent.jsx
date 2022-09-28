@@ -53,46 +53,7 @@ const Rent = () => {
               </div>
             </div>
           </div>
-          <Card
-            style={{ width: "18rem" }}
-            className="skies nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
-          >
-            <div className="card-img">
-              <img
-                className="d-block w-100"
-                src="./assets/me1.jpg"
-                alt="House1"
-              />
-
-              <div className="overlay">
-                <Link to="/House1">
-                  <h4>
-                    <RiHome6Line />
-                  </h4>
-                </Link>
-              </div>
-              <span className="spannito">
-                <Link to="/House1" className="link">
-                  <h4>Rent</h4>
-                </Link>
-              </span>
-            </div>
-            <Card.Body>
-              <div className="card-head">
-                <h4>9631 North Bridle East Bridgewater, MA 02333</h4>
-                <h5>$1400</h5>
-              </div>
-              <Button className="butt-on">
-                <a href="Button">
-                  <Link to="/House1">See More</Link>
-                </a>
-              </Button>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ width: "18rem" }}
-            className="skies nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
-          >
+          <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="card-img">
               <img
                 className="d-block w-100"
@@ -113,22 +74,23 @@ const Rent = () => {
                 </Link>
               </span>
             </div>
-            <Card.Body>
+            <div className="card-text">
               <div className="card-head">
                 <h4>2800 Leverton Cove Road, MA 01069</h4>
                 <h5>$2600</h5>
               </div>
-              <Button className="butt-on">
+              <h6>
+                5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                381.9 Acre(s)
+              </h6>
+              <div className="butt-on">
                 <a href="Button">
                   <Link to="/House2">See More</Link>
                 </a>
-              </Button>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ width: "18rem" }}
-            className="skies nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
-          >
+              </div>
+            </div>
+          </div>
+          <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="card-img">
               <img
                 className="d-block w-100"
@@ -149,22 +111,23 @@ const Rent = () => {
                 </Link>
               </span>
             </div>
-            <Card.Body>
+            <div className="card-text">
               <div className="card-head">
                 <h4>4895 North Drive East Bridgewater, MA 05897</h4>
                 <h5>$1250</h5>
               </div>
-              <Button className="butt-on">
+              <h6>
+                5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                381.9 Acre(s)
+              </h6>
+              <div className="butt-on">
                 <a href="Button">
                   <Link to="/House3">See More</Link>
                 </a>
-              </Button>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ width: "18rem" }}
-            className="skies nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
-          >
+              </div>
+            </div>
+          </div>
+          <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="card-img">
               <img
                 className="d-block w-100"
@@ -185,24 +148,25 @@ const Rent = () => {
                 </Link>
               </span>
             </div>
-            <Card.Body>
+            <div className="card-text">
               <div className="card-head">
-                <h4>3634 East Bridle Drive Bridgewater, MA 01557</h4>
-                <h5>$1890</h5>
+                <h4>4895 North Drive East Bridgewater, MA 05897</h4>
+                <h5>$1250</h5>
               </div>
-              <Button className="butt-on">
+              <h6>
+                5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                381.9 Acre(s)
+              </h6>
+              <div className="butt-on">
                 <a href="Button">
                   <Link to="/House4">See More</Link>
                 </a>
-              </Button>
-            </Card.Body>
-          </Card>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="rent-container row">
-          <Card
-            style={{ width: "18rem" }}
-            className="skies nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
-          >
+          <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="card-img">
               <img
                 className="d-block w-100"
@@ -223,22 +187,23 @@ const Rent = () => {
                 </Link>
               </span>
             </div>
-            <Card.Body>
+            <div className="card-text">
               <div className="card-head">
                 <h4>8055 Leverton Cove Road, MA 01337</h4>
                 <h5>$1550</h5>
               </div>
-              <Button className="butt-on">
+              <h6>
+                5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                381.9 Acre(s)
+              </h6>
+              <div className="butt-on">
                 <a href="Button">
                   <Link to="/House5">See More</Link>
                 </a>
-              </Button>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ width: "18rem" }}
-            className="skies nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
-          >
+              </div>
+            </div>
+          </div>
+          <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="card-img">
               <img
                 className="d-block w-100"
@@ -259,22 +224,23 @@ const Rent = () => {
                 </Link>
               </span>
             </div>
-            <Card.Body>
+            <div className="card-text">
               <div className="card-head">
-                <h4>4309 Bridle Drive East Bridgewater, MA 01679</h4>
-                <h5>$2000</h5>
+                <h4>8055 Leverton Cove Road, MA 01337</h4>
+                <h5>$1550</h5>
               </div>
-              <Button className="butt-on">
+              <h6>
+                5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                381.9 Acre(s)
+              </h6>
+              <div className="butt-on">
                 <a href="Button">
                   <Link to="/House6">See More</Link>
                 </a>
-              </Button>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ width: "18rem" }}
-            className="skies nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
-          >
+              </div>
+            </div>
+          </div>
+          <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="card-img">
               <img
                 className="d-block w-100"
@@ -295,22 +261,23 @@ const Rent = () => {
                 </Link>
               </span>
             </div>
-            <Card.Body>
+            <div className="card-text">
               <div className="card-head">
-                <h4>2800 Leverton Cove Road, MA 01069</h4>
-                <h5>$2200</h5>
+                <h4>8055 Leverton Cove Road, MA 01337</h4>
+                <h5>$1550</h5>
               </div>
-              <Button className="butt-on">
+              <h6>
+                5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                381.9 Acre(s)
+              </h6>
+              <div className="butt-on">
                 <a href="Button">
                   <Link to="/House7">See More</Link>
                 </a>
-              </Button>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ width: "18rem" }}
-            className="skies nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
-          >
+              </div>
+            </div>
+          </div>
+          <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="card-img">
               <img
                 className="d-block w-100"
@@ -331,18 +298,22 @@ const Rent = () => {
                 </Link>
               </span>
             </div>
-            <Card.Body>
+            <div className="card-text">
               <div className="card-head">
                 <h4>9631 North Bridle East Bridgewater, MA 02333</h4>
                 <h5>$2400</h5>
               </div>
-              <Button className="butt-on">
+              <h6>
+                5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                381.9 Acre(s)
+              </h6>
+              <div className="butt-on">
                 <a href="Button">
                   <Link to="/House8">See More</Link>
                 </a>
-              </Button>
-            </Card.Body>
-          </Card>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="ranches">
           <h3>Raches and Farms </h3>

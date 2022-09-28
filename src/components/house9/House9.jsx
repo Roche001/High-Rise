@@ -232,7 +232,7 @@ const House9 = () => {
             </li>
           </div>
         </div>
-        <div className="contat">
+        <div className="contat-a">
           <h4>Agent</h4>
 
           <img src="./assets/agent1.jpeg" alt="Agent" />

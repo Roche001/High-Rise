@@ -56,7 +56,7 @@ h5 {
   font-size: 1.5rem;
 }
 
-.contat {
+.contat-a {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8), #020c1b),
     url("../../images/buffalo1.webp");
   display: flex;
@@ -72,18 +72,18 @@ h5 {
   border-radius: 0.2rem;
   margin: 0.5rem;
 }
-.contat img {
+.contat-a img {
   height: 15rem;
   border-radius: 50%;
   cursor: pointer;
   transition: 400ms ease-in-out;
   margin: 2rem;
 }
-.contat img:hover {
+.contat-a img:hover {
   opacity: 0.7;
   transform: scale(1.2);
 }
-.contat h4 {
+.contat-a h4 {
   font-weight: 700;
 }
 .part-features h4 {
