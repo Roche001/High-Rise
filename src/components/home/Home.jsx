@@ -943,8 +943,9 @@ const Home = () => {
           </div>
         </div>
         <div className="review">
-          <h3>Our Clients Says</h3>
-          <Carousel slide={false}>
+          <h3>What Our Clients Say</h3>
+          <div className="shadow"></div>
+          <Carousel slide={false} className="big-review">
             <Carousel.Item>
               <div className="review-card">
                 <div className="review-card-img">

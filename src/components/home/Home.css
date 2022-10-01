@@ -272,41 +272,62 @@
   cursor: pointer;
 }
 .review {
-  background: #ffffff;
+  background: url("../../images/nairobi.jpeg");
+  color: #ffffff;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 200;
 }
-
+.review h3 {
+  z-index: 1000;
+  font-weight: 700;
+}
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.75;
+  background: #020c1b;
+}
 .review-card {
-  background: #37474f;
-  text-align: start;
-  box-shadow: 10px 5px 5px 5px #020c1b;
-  margin: 2rem;
-  padding: 1rem;
-  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
   color: #ffffff;
 }
-.Carousel.Item {
-  width: 100%;
-}
+
 .review-card-img {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 0.2rem;
+  text-align: center;
 }
 .review-card-img img {
-  margin: 0.2rem;
+  margin: 0.5rem;
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
-  outline: #020c1b 2px dotted;
+  outline: #ffff 2px solid;
   cursor: pointer;
 }
 .review-card-img img:hover {
   outline-offset: 3px;
+  outline-color: #ffffff;
   animation: shake 0.4ms;
 }
 
@@ -325,7 +346,11 @@
 .item {
   padding: 1rem;
 }
-
+.big-review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media screen and (max-width: 600px) {
   .search-bar {
     display: flex;
@@ -353,6 +378,9 @@
   .hello {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .review-card {
+    width: 85%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -384,5 +412,8 @@
   .button {
     width: 95%;
     margin: 1rem;
+  }
+  .review-card {
+    width: 85%;
   }
 }
