@@ -3,7 +3,8 @@ import "./Rent.css";
 
 import { RiHome6Line } from "react-icons/ri";
 import { Link } from "react-router-dom";
-
+import { GiStreetLight } from "react-icons/gi";
+import { IoIosTrain } from "react-icons/io";
 import { BsDot } from "react-icons/bs";
 
 const Rent = () => {
@@ -553,7 +554,6 @@ const Rent = () => {
                 </span>
               </div>
               <div className="card-text">
-                <h4>Beach Street</h4>
                 <h4>10013, New York City</h4>
                 <h5>$7,000</h5>
                 <h6>
@@ -565,6 +565,59 @@ const Rent = () => {
                   Administrative support, Break lounge, Meeting rooms,Conference
                   rooms
                 </small>
+                <h4>
+                  <GiStreetLight />{" "}
+                  <span>
+                    Johnstone st._<small>0.3mi</small>
+                  </span>
+                </h4>
+                <h4>
+                  <IoIosTrain />{" "}
+                  <span>
+                    Train Station_<small>0.9mi</small>
+                  </span>
+                </h4>
+              </div>
+            </div>
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House17">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/officea1.jpg"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House17" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>10013, New York City</h4>
+                <h5>$7,000</h5>
+                <h6>
+                  Private Workspace <BsDot /> Flexible Terms <BsDot /> Fast Move
+                  In <BsDot />
+                  Fixed Cost
+                </h6>
+                <small>
+                  Administrative support, Break lounge, Meeting rooms,Conference
+                  rooms
+                </small>
+                <h4>
+                  <GiStreetLight />{" "}
+                  <span>
+                    Johnstone st._<small>0.3mi</small>
+                  </span>
+                </h4>
+                <h4>
+                  <IoIosTrain />{" "}
+                  <span>
+                    Train Station_<small>0.9mi</small>
+                  </span>
+                </h4>
               </div>
             </div>
           </div>
