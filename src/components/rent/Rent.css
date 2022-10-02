@@ -125,6 +125,11 @@
   align-items: center;
   justify-content: center;
 }
+.offices-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media screen and (max-width: 600px) {
   .ranch-card {
     width: 95%;

@@ -537,7 +537,7 @@ const Rent = () => {
         </div>
         <div className="offices">
           <h3>Offices</h3>
-          <div className="offices-container">
+          <div className="offices-container row">
             <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
               <div className="card-img">
                 <Link to="/House17">
@@ -595,7 +595,7 @@ const Rent = () => {
                 </span>
               </div>
               <div className="card-text">
-                <h4>10013, New York City</h4>
+                <h4>40900, Bogota</h4>
                 <h5>$7,000</h5>
                 <h6>
                   Private Workspace <BsDot /> Flexible Terms <BsDot /> Fast Move
@@ -609,7 +609,255 @@ const Rent = () => {
                 <h4>
                   <GiStreetLight />{" "}
                   <span>
-                    Johnstone st._<small>0.3mi</small>
+                    Gobelas st._<small>0.9mi</small>
+                  </span>
+                </h4>
+                <h4>
+                  <IoIosTrain />{" "}
+                  <span>
+                    Train Station_<small>0.3mi</small>
+                  </span>
+                </h4>
+              </div>
+            </div>
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House19">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/officec1.webp"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House19" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>8900, Guadalajara</h4>
+                <h5>$7,000</h5>
+                <h6>
+                  Private Workspace <BsDot /> Flexible Terms <BsDot /> Fast Move
+                  In <BsDot />
+                  Fixed Cost
+                </h6>
+                <small>
+                  Administrative support, Break lounge, Meeting rooms,Conference
+                  rooms
+                </small>
+                <h4>
+                  <GiStreetLight />{" "}
+                  <span>
+                    Ribera st._<small>0.1mi</small>
+                  </span>
+                </h4>
+                <h4>
+                  <IoIosTrain />{" "}
+                  <span>
+                    Train Station_<small>0.15mi</small>
+                  </span>
+                </h4>
+              </div>
+            </div>
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House20">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/officed1.webp"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House20" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>9008, Houston</h4>
+                <h5>$7,000</h5>
+                <h6>
+                  Private Workspace <BsDot /> Flexible Terms <BsDot /> Fast Move
+                  In <BsDot />
+                  Fixed Cost
+                </h6>
+                <small>
+                  Administrative support, Break lounge, Meeting rooms,Conference
+                  rooms
+                </small>
+                <h4>
+                  <GiStreetLight />{" "}
+                  <span>
+                    Vicálvaro._<small>0.8mi</small>
+                  </span>
+                </h4>
+                <h4>
+                  <IoIosTrain />{" "}
+                  <span>
+                    Train Station_<small>0.35mi</small>
+                  </span>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="offices-container row">
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House21">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/officee1.webp"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House21" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>4009, Moscow</h4>
+                <h5>$7,000</h5>
+                <h6>
+                  Private Workspace <BsDot /> Flexible Terms <BsDot /> Fast Move
+                  In <BsDot />
+                  Fixed Cost
+                </h6>
+                <small>
+                  Administrative support, Break lounge, Meeting rooms,Conference
+                  rooms
+                </small>
+                <h4>
+                  <GiStreetLight />{" "}
+                  <span>
+                    Vicálvaro st._<small>0.8mi</small>
+                  </span>
+                </h4>
+                <h4>
+                  <IoIosTrain />{" "}
+                  <span>
+                    Train Station_<small>0.35mi</small>
+                  </span>
+                </h4>
+              </div>
+            </div>
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House22">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/officef1.webp"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House22" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>4059, Lisbon</h4>
+                <h5>$7,000</h5>
+                <h6>
+                  Private Workspace <BsDot /> Flexible Terms <BsDot /> Fast Move
+                  In <BsDot />
+                  Fixed Cost
+                </h6>
+                <small>
+                  Administrative support, Break lounge, Meeting rooms,Conference
+                  rooms
+                </small>
+                <h4>
+                  <GiStreetLight />{" "}
+                  <span>
+                    Madrid st._<small>0.8mi</small>
+                  </span>
+                </h4>
+                <h4>
+                  <IoIosTrain />{" "}
+                  <span>
+                    Train Station_<small>0.35mi</small>
+                  </span>
+                </h4>
+              </div>
+            </div>
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House23">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/officeg1.webp"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House23" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>30044, Nairobi</h4>
+                <h5>$7,000</h5>
+                <h6>
+                  Private Workspace <BsDot /> Flexible Terms <BsDot /> Fast Move
+                  In <BsDot />
+                  Fixed Cost
+                </h6>
+                <small>
+                  Administrative support, Break lounge, Meeting rooms,Conference
+                  rooms
+                </small>
+                <h4>
+                  <GiStreetLight />{" "}
+                  <span>
+                    Puerto de st._<small>1mi</small>
+                  </span>
+                </h4>
+                <h4>
+                  <IoIosTrain />{" "}
+                  <span>
+                    Train Station_<small>0.9mi</small>
+                  </span>
+                </h4>
+              </div>
+            </div>
+            <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div className="card-img">
+                <Link to="/House24">
+                  <img
+                    className="d-block w-100"
+                    src="./assets/officeh1.webp"
+                    alt="House1"
+                  />
+                </Link>
+                <span className="spannito">
+                  <Link to="/House24" className="link">
+                    <h4>Rent</h4>
+                  </Link>
+                </span>
+              </div>
+              <div className="card-text">
+                <h4>10013, Madrid</h4>
+                <h5>$7,000</h5>
+                <h6>
+                  Private Workspace <BsDot /> Flexible Terms <BsDot /> Fast Move
+                  In <BsDot />
+                  Fixed Cost
+                </h6>
+                <small>
+                  Administrative support, Break lounge, Meeting rooms,Conference
+                  rooms
+                </small>
+                <h4>
+                  <GiStreetLight />{" "}
+                  <span>
+                    Jerónimos st._<small>1mi</small>
                   </span>
                 </h4>
                 <h4>
