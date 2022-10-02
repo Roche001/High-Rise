@@ -581,15 +581,15 @@ const Rent = () => {
             </div>
             <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
               <div className="card-img">
-                <Link to="/House17">
+                <Link to="/House18">
                   <img
                     className="d-block w-100"
-                    src="./assets/officea1.jpg"
+                    src="./assets/officeb1.jpg"
                     alt="House1"
                   />
                 </Link>
                 <span className="spannito">
-                  <Link to="/House17" className="link">
+                  <Link to="/House18" className="link">
                     <h4>Rent</h4>
                   </Link>
                 </span>
