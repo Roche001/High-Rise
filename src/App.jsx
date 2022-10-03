@@ -23,7 +23,14 @@ import House13 from "./components/house13/House13";
 import House14 from "./components/house14/House14";
 import House15 from "./components/house15/House15";
 import House16 from "./components/house16/House16";
-
+import House17 from "./components/house17/House17";
+import House18 from "./components/house18/House18";
+import House19 from "./components/house19/House19";
+import House20 from "./components/house20/House20";
+import House21 from "./components/house21/House21";
+import House22 from "./components/house22/House22";
+import House23 from "./components/house23/House23";
+import House24 from "./components/house24/House24";
 const App = () => {
   return (
     <Router>
@@ -49,6 +56,14 @@ const App = () => {
         <Route House14 path="House14" exact element={<House14 />} />
         <Route House15 path="House15" exact element={<House15 />} />
         <Route House16 path="House16" exact element={<House16 />} />
+        <Route House17 path="House17" exact element={<House17 />} />
+        <Route House18 path="House18" exact element={<House18 />} />
+        <Route House19 path="House19" exact element={<House19 />} />
+        <Route House20 path="House20" exact element={<House20 />} />
+        <Route House21 path="House21" exact element={<House21 />} />
+        <Route House22 path="House22" exact element={<House22 />} />
+        <Route House23 path="House23" exact element={<House23 />} />
+        <Route House24 path="House24" exact element={<House24 />} />
       </Routes>
       <Footer />
     </Router>
