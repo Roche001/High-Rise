@@ -9,3 +9,23 @@
   width: 100%;
   height: 100%;
 }
+.office-features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.office-features h4 {
+  margin-left: 3rem;
+}
+.office-features h4 small {
+  color: #f44336;
+}
+@media screen and (max-width: 600px) {
+  .office-features {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
