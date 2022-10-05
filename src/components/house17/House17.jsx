@@ -237,6 +237,32 @@ const House17 = () => {
             <p>Move-in ready, lockable offices for all team sizes</p>
           </div>
         </div>
+        <div className="available-one">
+          <div className="available-img">
+            <img
+              className="d-block w-100"
+              src="./assets/image2.png"
+              alt="image"
+            />
+          </div>
+          <div className="available-text">
+            <h5>Dedicated Desk</h5>
+            <p>Unlock coworking spaces acrofor up to six months</p>
+          </div>
+        </div>
+        <div className="available-one">
+          <div className="available-img">
+            <img
+              className="d-block w-100"
+              src="./assets/image3.png"
+              alt="image"
+            />
+          </div>
+          <div className="available-text">
+            <h5>Coworking Space:Monthly Subscription</h5>
+            <p>Your own desk in a shared office</p>
+          </div>
+        </div>
       </div>
     </div>
   );
