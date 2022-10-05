@@ -802,6 +802,11 @@ const Home = () => {
               <h5>Karen Masterson</h5>
               <p>Chief Legal Officer</p>
             </div>
+            <Link to="">
+              <div className="profile">
+                <h4>View Profile</h4>
+              </div>
+            </Link>
           </div>
           <div className="agent-one  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="agent-one-img">
