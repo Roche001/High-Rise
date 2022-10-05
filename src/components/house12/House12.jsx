@@ -465,12 +465,14 @@ const House12 = () => {
         <div className="location">
           <h3>Location</h3>
           <p>5MHV+6Q7 Gudme, Denmark</p>
-          <MapWithAMarker
-            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAXOQcxZzrxgrzdLhtRcmdBaiPEWzFkD8"
-            loadingElement={<div style={{ height: `100%` }} />}
-            containerElement={<div style={{ height: `750px` }} />}
-            mapElement={<div style={{ height: `100%` }} />}
-          />
+          <div className="google-maps">
+            <MapWithAMarker
+              googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAXOQcxZzrxgrzdLhtRcmdBaiPEWzFkD8"
+              loadingElement={<div style={{ height: `100%` }} />}
+              containerElement={<div style={{ height: `750px` }} />}
+              mapElement={<div style={{ height: `100%` }} />}
+            />
+          </div>
         </div>
         <div className="neibor">
           <h3>Neighborhood</h3>
