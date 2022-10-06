@@ -220,13 +220,28 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 .agent-one {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  transition: 400ms ease-in-out;
+  margin: 0.1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 15rem;
+  height: 30rem;
+  background: #c9ced1;
+  border-radius: 0.3rem;
+}
+.agent-one:hover {
+  box-shadow: 0px 8px 30px #424242;
+  transform: scale(1.2);
+  margin: 1rem;
 }
 .agent-one-img {
   position: relative;
@@ -237,11 +252,14 @@
   height: 12rem;
   width: 12rem;
   border-radius: 50%;
-  outline: #37474f 1px solid;
+  outline: #ffff 2px solid;
 }
 .agent-one-img img:hover {
   outline-offset: 3px;
   animation: shake 0.4ms;
+}
+.name {
+  margin: 0.5rem;
 }
 .over {
   border-radius: 50%;
@@ -284,6 +302,7 @@
   justify-content: center;
   align-items: center;
   z-index: 200;
+  height: 35vh;
 }
 .review h3 {
   z-index: 1000;
@@ -351,6 +370,9 @@
   align-items: center;
   justify-content: center;
 }
+.prfole h4 {
+  font-weight: 700;
+}
 @media screen and (max-width: 600px) {
   .search-bar {
     display: flex;
@@ -381,6 +403,9 @@
   }
   .review-card {
     width: 85%;
+  }
+  .review {
+    height: 60vh;
   }
 }
 @media screen and (max-width: 1200px) {

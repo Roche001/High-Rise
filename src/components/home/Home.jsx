@@ -801,10 +801,14 @@ const Home = () => {
             <div className="name">
               <h5>Karen Masterson</h5>
               <p>Chief Legal Officer</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus porta justo eget risus consectetur,...{" "}
+              </p>
             </div>
-            <Link to="">
+            <Link to="./Profile1" className="link">
               <div className="profile">
-                <h4>View Profile</h4>
+                <h6>View Profile</h6>
               </div>
             </Link>
           </div>
@@ -851,8 +855,19 @@ const Home = () => {
               </div>
               <img src="./assets/agent2.jpeg" alt="Agent" />
             </div>
-            <h5>Kathleem Myers</h5>
-            <p>Chief Operating Officer</p>
+            <div className="name">
+              <h5>Kathleem Myers</h5>
+              <p>Chief Operating Officer</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus porta justo eget risus consectetur,...{" "}
+              </p>
+            </div>
+            <Link to="./Profile2" className="link">
+              <div className="profile">
+                <h6>View Profile</h6>
+              </div>
+            </Link>
           </div>{" "}
           <div className="agent-one  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="agent-one-img">
@@ -897,8 +912,19 @@ const Home = () => {
               </div>
               <img src="./assets/agent5.jpeg" alt="Agent" />
             </div>
-            <h5>John Loyd</h5>
-            <p>Cheif Analytics Officer</p>
+            <div className="name">
+              <h5>John Loyd</h5>
+              <p>Cheif Analytics Officer</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus porta justo eget risus consectetur,...{" "}
+              </p>
+            </div>
+            <Link to="./Profile3" className="link">
+              <div className="profile">
+                <h6>View Profile</h6>
+              </div>
+            </Link>
           </div>{" "}
           <div className="agent-one  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="agent-one-img">
@@ -943,8 +969,19 @@ const Home = () => {
               </div>
               <img src="./assets/agent6.jpeg" alt="Agent" />
             </div>
-            <h5>Jennifer Barton</h5>
-            <p>Vice President, Product</p>
+            <div className="name">
+              <h5>Jennifer Barton</h5>
+              <p>Vice President, Product</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus porta justo eget risus consectetur,...{" "}
+              </p>
+            </div>
+            <Link to="./Profile4" className="link">
+              <div className="profile">
+                <h6>View Profile</h6>
+              </div>
+            </Link>
           </div>
         </div>
         <div className="review">
