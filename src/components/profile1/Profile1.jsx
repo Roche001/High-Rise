@@ -73,7 +73,7 @@ const Profile1 = () => {
                 {" "}
                 <FiCircle />
               </var>{" "}
-              17% Single Family Home
+              17% Family Home
             </h5>
             <h5>
               <s>
