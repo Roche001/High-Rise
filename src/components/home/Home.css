@@ -53,8 +53,10 @@
 }
 .featured p {
   font-size: 1.5rem;
+  color: #020c1b;
 }
 .featured h4 {
+  color: #020c1b;
   font-size: 2rem;
 }
 .featured-listing-card {
@@ -125,9 +127,11 @@
 }
 .explore-one h4 {
   font-size: 2rem;
+  color: #020c1b;
 }
 .explore-one p {
   font-size: 1.5rem;
+  color: #020c1b;
 }
 .form {
   background: #ffffff;
@@ -196,6 +200,9 @@
   align-items: center;
   padding: 2rem;
 }
+.form-two p {
+  color: #020c1b;
+}
 .sec-one {
   display: flex;
   flex-direction: row;
@@ -204,11 +211,15 @@
 
 .sec-one-two p {
   text-align: center;
+  color: #020c1b;
 }
 .sec-one span {
   font-size: 3rem;
   margin-top: -1rem;
   padding-left: 1rem;
+}
+.agent-intro p {
+  color: #020c1b;
 }
 .agents {
   display: flex;
@@ -256,6 +267,9 @@
 }
 .name {
   margin: 0.5rem;
+}
+.name p {
+  color: #020c1b;
 }
 .over {
   border-radius: 50%;
@@ -422,19 +436,23 @@
   position: absolute;
   text-align: center;
 }
-.word h4,
-p {
+.word h4 {
   color: #ffff;
   font-weight: 500;
+}
+.word p {
+  color: #fff;
 }
 .word-one {
   position: absolute;
   text-align: center;
 }
-.word-one h4,
-p {
+.word-one h4 {
   color: #ffff;
   font-weight: 500;
+}
+.word-one p {
+  color: #ffff;
 }
 @media screen and (max-width: 600px) {
   .search-bar {
