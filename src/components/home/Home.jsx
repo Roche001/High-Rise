@@ -108,10 +108,10 @@ const Home = () => {
             </div>
             <div className="roche-one nopadding  col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
               <div className="laydown"></div>{" "}
-              <div className="word">
+              <div className="word-one">
                 <Link to="./House10" className="link">
-                  <h4>Apartments</h4>
-                  <p>19 Properties</p>
+                  <h4>Villa</h4>
+                  <p>12 Properties</p>
                 </Link>
               </div>
               <img
@@ -122,6 +122,12 @@ const Home = () => {
             </div>
             <div className="roche-one nopadding  col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
               <div className="laydown"></div>
+              <div className="word-one">
+                <Link to="./House10" className="link">
+                  <h4>Family Home</h4>
+                  <p>15 Properties</p>
+                </Link>
+              </div>
               <img
                 className="d-block w-100"
                 src="./assets/rancho13.webp"
@@ -132,6 +138,12 @@ const Home = () => {
           <div className="omera row">
             <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
               <div className="laydown"></div>
+              <div className="word-one">
+                <Link to="./House10" className="link">
+                  <h4>Studio</h4>
+                  <p>11 Properties</p>
+                </Link>
+              </div>
               <img
                 className="d-block w-100"
                 src="./assets/room9.webp"
@@ -141,6 +153,12 @@ const Home = () => {
 
             <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
               <div className="laydown"></div>
+              <div className="word-one">
+                <Link to="./House10" className="link">
+                  <h4>Condo</h4>
+                  <p>13 Properties</p>
+                </Link>
+              </div>
               <img
                 className="d-block w-100"
                 src="./assets/roche9.jpg"
@@ -150,6 +168,12 @@ const Home = () => {
 
             <div className="roche-img  nopadding col-xl-6 col-lg-4 col-md-6 col-sm-6 col-xs-12">
               <div className="laydown"></div>
+              <div className="word">
+                <Link to="./House10" className="link">
+                  <h4>Shop</h4>
+                  <p>12 Properties</p>
+                </Link>
+              </div>
               <img
                 className="d-block w-100"
                 src="./assets/bed10.jpg"
@@ -160,6 +184,12 @@ const Home = () => {
           <div className="omera row">
             <div className="roche-img nopadding col-xl-6 col-lg-4 col-md-6 col-sm-6 col-xs-12">
               <div className="laydown"></div>
+              <div className="word">
+                <Link to="./House10" className="link">
+                  <h4>Multi Family Home</h4>
+                  <p>19 Properties</p>
+                </Link>
+              </div>
               <img
                 className="d-block w-100"
                 src="./assets/crush1.jpg"
@@ -169,6 +199,12 @@ const Home = () => {
 
             <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
               <div className="laydown"></div>
+              <div className="word-one">
+                <Link to="./House10" className="link">
+                  <h4>Lot</h4>
+                  <p>14 Properties</p>
+                </Link>
+              </div>
               <img
                 className="d-block w-100"
                 src="./assets/officeh5.webp"
@@ -177,6 +213,12 @@ const Home = () => {
             </div>
             <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
               <div className="laydown"></div>
+              <div className="word-one">
+                <Link to="./House10" className="link">
+                  <h4>Offices</h4>
+                  <p>12 Properties</p>
+                </Link>
+              </div>
               <img
                 className="d-block w-100"
                 src="./assets/officef4.webp"

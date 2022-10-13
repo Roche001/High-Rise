@@ -371,6 +371,9 @@
 }
 
 .roche-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 30rem;
   height: 20rem;
   position: relative;
@@ -416,15 +419,19 @@
   opacity: 0.3;
 }
 .word {
-  top: 10rem;
-  left: 10rem;
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
 }
 .word h4,
+p {
+  color: #ffff;
+  font-weight: 500;
+}
+.word-one {
+  position: absolute;
+  text-align: center;
+}
+.word-one h4,
 p {
   color: #ffff;
   font-weight: 500;
