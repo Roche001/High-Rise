@@ -1,3 +1,6 @@
+.home {
+  overflow-x: hidden;
+}
 .home-header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), #020c1b),
     url("../../images/Silent.jpeg");
@@ -366,6 +369,66 @@
 .prfole h4 {
   font-weight: 700;
 }
+
+.roche-img {
+  width: 30rem;
+  height: 20rem;
+  position: relative;
+  border-radius: 0.5rem;
+  transition: 400ms ease-in-out;
+  margin: 0.2rem;
+}
+.roche-img img {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.roche-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  width: 20rem;
+  margin: 0.2rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 400ms ease-in-out;
+}
+
+.roche-one img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+}
+.laydown {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7;
+  background: #000;
+  border-radius: 0.5rem;
+}
+.laydown:hover {
+  opacity: 0.3;
+}
+.word {
+  top: 10rem;
+  left: 10rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.word h4,
+p {
+  color: #ffff;
+  font-weight: 500;
+}
 @media screen and (max-width: 600px) {
   .search-bar {
     display: flex;
@@ -376,6 +439,7 @@
   .picker-a {
     width: 100%;
   }
+
   .picker,
   .picker-b {
     width: 100%;
@@ -402,6 +466,16 @@
   }
   .agent-one {
     width: 80%;
+  }
+
+  .roche-one {
+    width: 90%;
+  }
+  .roche-one-one {
+    width: 90%;
+  }
+  .roche-img {
+    width: 90%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -436,5 +510,14 @@
   }
   .review-card {
     width: 85%;
+  }
+  .roche-one-one {
+    width: 90%;
+  }
+  .roche-img {
+    width: 90%;
+  }
+  .roche-one {
+    width: 44%;
   }
 }

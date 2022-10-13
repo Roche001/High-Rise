@@ -1,13 +1,7 @@
 import React from "react";
 import "./Home.css";
 import "./style.css";
-import { MdOutlineBed } from "react-icons/md";
 import Carousel from "react-bootstrap/Carousel";
-import { FaBath } from "react-icons/fa";
-import { MdOutlineSquareFoot } from "react-icons/md";
-import { FaEye } from "react-icons/fa";
-import { RiHome6Fill } from "react-icons/ri";
-import { ImHeart } from "react-icons/im";
 import { ImHome3 } from "react-icons/im";
 import { AiFillDollarCircle } from "react-icons/ai";
 import { IoIosContact } from "react-icons/io";
@@ -16,25 +10,9 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Pagination, Navigation } from "swiper";
-const style = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: 900,
-  height: 600,
-  bgcolor: "background.paper",
-  border: "2px solid #000",
-  boxShadow: 24,
-  p: 4,
-};
 
 const Home = () => {
   return (
@@ -88,7 +66,7 @@ const Home = () => {
           </select>
         </div>
         <div className="picker-b">
-          <button className="picker-a button">
+          <button className="picker-a ">
             <a href="#button">
               <h5>Search</h5>
             </a>
@@ -111,6 +89,101 @@ const Home = () => {
             Explore all the different types of apartments so you can choose the
             best option for you{" "}
           </p>
+        </div>
+        <div className="part-features">
+          <div className="omera row">
+            <div className="roche-img nopadding col-xl-6 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+              <div className="laydown"></div>
+              <div className="word">
+                <Link to="./House10" className="link">
+                  <h4>Apartments</h4>
+                  <p>19 Properties</p>
+                </Link>
+              </div>
+              <img
+                className="d-block w-100"
+                src="./assets/buffalo14.webp"
+                alt="castle"
+              />
+            </div>
+            <div className="roche-one nopadding  col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
+              <div className="laydown"></div>{" "}
+              <div className="word">
+                <Link to="./House10" className="link">
+                  <h4>Apartments</h4>
+                  <p>19 Properties</p>
+                </Link>
+              </div>
+              <img
+                className="d-block w-100"
+                src="./assets/malibu4.webp"
+                alt="roma"
+              />
+            </div>
+            <div className="roche-one nopadding  col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
+              <div className="laydown"></div>
+              <img
+                className="d-block w-100"
+                src="./assets/rancho13.webp"
+                alt="rancho"
+              />
+            </div>{" "}
+          </div>{" "}
+          <div className="omera row">
+            <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
+              <div className="laydown"></div>
+              <img
+                className="d-block w-100"
+                src="./assets/room9.webp"
+                alt="bufallo"
+              />
+            </div>
+
+            <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
+              <div className="laydown"></div>
+              <img
+                className="d-block w-100"
+                src="./assets/roche9.jpg"
+                alt="bufallo"
+              />
+            </div>
+
+            <div className="roche-img  nopadding col-xl-6 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+              <div className="laydown"></div>
+              <img
+                className="d-block w-100"
+                src="./assets/bed10.jpg"
+                alt="bed001"
+              />
+            </div>
+          </div>{" "}
+          <div className="omera row">
+            <div className="roche-img nopadding col-xl-6 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+              <div className="laydown"></div>
+              <img
+                className="d-block w-100"
+                src="./assets/crush1.jpg"
+                alt="bed001"
+              />
+            </div>
+
+            <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
+              <div className="laydown"></div>
+              <img
+                className="d-block w-100"
+                src="./assets/officeh5.webp"
+                alt="office"
+              />
+            </div>
+            <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
+              <div className="laydown"></div>
+              <img
+                className="d-block w-100"
+                src="./assets/officef4.webp"
+                alt="office"
+              />
+            </div>
+          </div>
         </div>
         <div className="form row">
           <div className="form-one col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
