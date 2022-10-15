@@ -15,18 +15,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const Home = () => {
-  window.onload = function () {
-    $(".slider").slick({
-      autoplay: true,
-      autoplaySpeed: 1500,
-      arrows: true,
-      prevArrow: '<button type="button" class="slick-prev"></button>',
-      nextArrow: '<button type="button" class="slick-next"></button>',
-      centerMode: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-    });
-  };
   return (
     <section className="home">
       <div className="home-header">
