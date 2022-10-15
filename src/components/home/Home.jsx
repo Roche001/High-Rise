@@ -15,6 +15,18 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const Home = () => {
+  window.onload = function () {
+    $(".slider").slick({
+      autoplay: true,
+      autoplaySpeed: 1500,
+      arrows: true,
+      prevArrow: '<button type="button" class="slick-prev"></button>',
+      nextArrow: '<button type="button" class="slick-next"></button>',
+      centerMode: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+    });
+  };
   return (
     <section className="home">
       <div className="home-header">
@@ -90,7 +102,7 @@ const Home = () => {
             best option for you{" "}
           </p>
         </div>
-        <div className="part-features">
+        <div className="part-elements">
           <div className="omera row">
             <div className="roche-img nopadding col-xl-6 col-lg-4 col-md-6 col-sm-6 col-xs-12">
               <div className="laydown"></div>
