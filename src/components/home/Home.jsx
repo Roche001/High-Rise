@@ -27,6 +27,7 @@ const Home = () => {
     loop: true,
     pullDrag: true,
     autoplay: true,
+    autoplayHoverPause: true,
     smartSpeed: 800,
     responsive: {
       0: {
