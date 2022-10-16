@@ -361,9 +361,11 @@
 
 .course {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.course h3 {
+  font-weight: 700;
 }
 .hello {
   display: flex;
@@ -537,6 +539,12 @@
 .item {
   width: 10rem;
   height: 4rem;
+}
+.slider-container {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
 }
 @media screen and (max-width: 600px) {
   .search-bar {

@@ -28,6 +28,7 @@ const Home = () => {
     pullDrag: true,
     autoplay: true,
     autoplayHoverPause: true,
+    autoHeight: true,
     smartSpeed: 800,
     responsive: {
       0: {
@@ -108,10 +109,6 @@ const Home = () => {
       <div className="home-page container-fluid">
         <div className="featured text-center row">
           <h4>Discover Our Featured Listings</h4>
-          <p>
-            These featured listings contain exclusive real estate opportunities
-            within numerous cities
-          </p>
         </div>
         <div className="home-box">
           <OwlCarousel className="slider-items owl-carousel" {...options}>
@@ -418,10 +415,6 @@ const Home = () => {
       <div className="explore">
         <div className="explore-one text-center">
           <h4>Explore Apartment Types</h4>
-          <p>
-            Explore all the different types of apartments so you can choose the
-            best option for you{" "}
-          </p>
         </div>
         <div className="part-elements">
           <div className="omera row">
@@ -1004,7 +997,9 @@ const Home = () => {
           </Carousel>
         </div>
         <div className="course ">
-          <h3>Our Partners </h3>
+          <h3>Our Partners </h3>{" "}
+        </div>{" "}
+        <div className="slider-container">
           <OwlCarousel className="slider-items owl-carousel" {...options}>
             <div className="item  ">
               <img
