@@ -1005,35 +1005,69 @@ const Home = () => {
         </div>
         <div className="course ">
           <h3>Our Partners </h3>
-          <div className="hello row ">
-            <div className="item col-xl-3 col-lg-3 col-md-3 col-sm-6 ">
-              <img
-                className="d-block w-100"
-                src="./assets/part1.png"
-                alt="partners"
-              />
-            </div>
-            <div className="item col-xl-3 col-lg-3 col-md-3 col-sm-6 ">
-              <img
-                className="d-block w-100"
-                src="./assets/part2.png"
-                alt="partners"
-              />
-            </div>
-            <div className="item col-xl-3 col-lg-3 col-md-3 col-sm-6 ">
-              <img
-                className="d-block w-100"
-                src="./assets/part3.png"
-                alt="partners"
-              />
-            </div>
-            <div className="item col-xl-3 col-lg-3 col-md-3 col-sm-6 ">
-              <img
-                className="d-block w-100"
-                src="./assets/part4.png"
-                alt="partners"
-              />
-            </div>
+
+          <div className="item  ">
+            <img
+              className="d-block w-100"
+              src="./assets/part1.png"
+              alt="partners"
+            />
+          </div>
+          <div className="item  ">
+            <img
+              className="d-block w-100"
+              src="./assets/part2.png"
+              alt="partners"
+            />
+          </div>
+          <div className="item  ">
+            <img
+              className="d-block w-100"
+              src="./assets/part3.png"
+              alt="partners"
+            />
+          </div>
+          <div className="item  ">
+            <img
+              className="d-block w-100"
+              src="./assets/part4.png"
+              alt="partners"
+            />
+          </div>
+          <div className="item  ">
+            <img
+              className="d-block w-100"
+              src="./assets/part5.png"
+              alt="partners"
+            />
+          </div>
+          <div className="item  ">
+            <img
+              className="d-block w-100"
+              src="./assets/part6.png"
+              alt="partners"
+            />
+          </div>
+          <div className="item  ">
+            <img
+              className="d-block w-100"
+              src="./assets/part7.png"
+              alt="partners"
+            />
+          </div>
+          <div className="item  ">
+            <img
+              className="d-block w-100"
+              src="./assets/part8.png"
+              alt="partners"
+            />
+          </div>
+          <div className="item  ">
+            <img
+              className="d-block w-100"
+              src="./assets/part9.png"
+              alt="partners"
+            />
           </div>
         </div>
       </div>

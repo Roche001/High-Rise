@@ -1,0 +1,636 @@
+.home {
+  overflow-x: hidden;
+}
+.home-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), #020c1b),
+    url("../../images/Silent.jpeg");
+  height: 100vh;
+  width: 100wh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
+.home-header h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.home-header p {
+  font-size: 1.5rem;
+}
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  margin: 0.2rem;
+}
+.picker-a {
+  width: 15rem;
+  height: 4rem;
+  border: #020c1b 1px solid;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+.picker-a:hover {
+  color: #d32f2f;
+}
+.picker,
+.picker-b {
+  margin: 0.5rem;
+  background-color: #37474f;
+}
+.picker-b a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #020c1b;
+}
+.featured p {
+  font-size: 1.5rem;
+  color: #020c1b;
+}
+.featured h4 {
+  color: #020c1b;
+  font-size: 2rem;
+}
+.featured-listing-card {
+  height: 26rem;
+  width: 5rem;
+  background: #ffffff;
+  margin: 1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.card-two {
+  position: relative;
+  width: 100%;
+  height: 20rem;
+}
+.card-two img {
+  height: 100%;
+  width: 100%;
+}
+
+.image-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.image-title h4 {
+  font-size: 1rem;
+}
+.overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background: #020c1b;
+  transition: 400ms ease-in-out;
+}
+.overlay:hover {
+  opacity: 0.7;
+}
+.red {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.3rem 1rem;
+  background: #37474f;
+  color: #ffffff;
+  border-radius: 0.2rem;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+}
+.icon h5 {
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+.icon h5:hover {
+  color: #d32f2f;
+}
+.explore-one h4 {
+  font-size: 2rem;
+  color: #020c1b;
+}
+.explore-one p {
+  font-size: 1.5rem;
+  color: #020c1b;
+}
+.form {
+  background: #ffffff;
+}
+.form-one {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.3),
+      #020c1b
+    ),
+    url("../../images/Hezelia.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+.form-one h3 {
+  margin-top: 3rem;
+  font-weight: 600;
+}
+.form-input {
+  border-radius: 0.2rem;
+  background: #ffffff;
+  color: #020c1b;
+  padding: 2rem;
+  margin: 4rem;
+}
+.select {
+  width: 20rem;
+  padding: 1.5rem;
+  border-radius: 0.2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.select-a {
+  width: 20rem;
+  padding: 1.5rem;
+  border: #020c1b 1px solid;
+  border-radius: 0.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.button {
+  width: 20rem;
+  padding: 1rem;
+  background-color: #37474f;
+  border-radius: 0.2rem;
+}
+.button:hover {
+  opacity: 0.9;
+}
+.button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.form-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.form-two p {
+  color: #020c1b;
+}
+.sec-one {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.sec-one-two p {
+  text-align: center;
+  color: #020c1b;
+}
+.sec-one span {
+  font-size: 3rem;
+  margin-top: -1rem;
+  padding-left: 1rem;
+}
+.agent-intro p {
+  color: #020c1b;
+}
+.agents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.agent-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: 400ms ease-in-out;
+  margin: 0.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 15rem;
+  height: 30rem;
+  background: #c9ced1;
+  border-radius: 0.3rem;
+  box-shadow: 0px 8px 30px #424242;
+}
+.agent-one:hover {
+  box-shadow: 0px 8px 30px #424242;
+  transform: scale(1.1);
+  margin: 1rem;
+}
+.agent-one-img {
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+}
+.agent-one-img img {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  outline: #ffff 2px solid;
+}
+.agent-one-img img:hover {
+  outline-offset: 3px;
+  animation: shake 150ms 2 linear;
+}
+.name {
+  margin: 0.5rem;
+}
+.name p {
+  color: #020c1b;
+}
+.over {
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background: #020c1b;
+  color: #ffffff;
+  font-size: 1.5rem;
+  transition: 400ms ease-in-out;
+}
+.over:hover {
+  opacity: 0.7;
+}
+.over a {
+  color: #ffffff;
+}
+.over h4 {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.review {
+  background: url("../../images/nairobi.jpeg");
+  color: #ffffff;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+.review h3 {
+  z-index: 1000;
+  font-weight: 700;
+}
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.75;
+  background: #020c1b;
+}
+.review-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  color: #ffffff;
+}
+
+.review-card-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  text-align: center;
+}
+.review-card-img img {
+  margin: 0.5rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  outline: #ffff 2px solid;
+  cursor: pointer;
+}
+.review-card-img img:hover {
+  outline-offset: 3px;
+  outline-color: #ffffff;
+  animation: shake 0.4ms;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hello {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  padding: 1rem;
+}
+.big-review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prfole h4 {
+  font-weight: 700;
+}
+
+.roche-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+  height: 20rem;
+  position: relative;
+  border-radius: 0.5rem;
+  transition: 400ms ease-in-out;
+  margin: 0.2rem;
+}
+.roche-img img {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.roche-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  width: 20rem;
+  margin: 0.2rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 400ms ease-in-out;
+}
+
+.roche-one img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+}
+.laydown {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7;
+  background: #000;
+  border-radius: 0.5rem;
+}
+.laydown:hover {
+  opacity: 0.3;
+}
+.laydown-one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  background: #000;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.laydown-one:hover {
+  opacity: 0.6;
+  border-radius: 0.5rem;
+}
+.laydown-one h5 {
+  font-weight: 600;
+  color: #ffff;
+  margin: 1rem;
+}
+.word {
+  position: absolute;
+  text-align: center;
+}
+.word h4 {
+  color: #ffff;
+  font-weight: 800;
+}
+.word p {
+  color: #fff;
+}
+.word-one {
+  position: absolute;
+  text-align: center;
+}
+.word-one h4 {
+  color: #ffff;
+  font-weight: 800;
+}
+.word-one p {
+  color: #ffff;
+}
+.part-elements {
+  margin: 0.5rem;
+}
+.home-box-container {
+  width: 18rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 1rem;
+}
+.box-image {
+  width: 18rem;
+  height: 15rem;
+  position: relative;
+}
+.box-image img {
+  width: 100%;
+  height: 100%;
+}
+.box-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 0.5rem;
+}
+.box-def {
+  display: flex;
+  flex-direction: row;
+}
+.box-def h6 {
+  margin-right: 1rem;
+}
+.span-ten {
+  position: absolute;
+  display: flex;
+}
+.span-ten h6 {
+  padding: 0.7rem;
+  background: #37474f;
+  color: #ffff;
+  margin: 0.1rem;
+  margin-top: 0.8rem;
+  margin-left: 0.4rem;
+  border-radius: 0.2rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.home-box {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.slider-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .search-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .picker-a {
+    width: 100%;
+  }
+
+  .picker,
+  .picker-b {
+    width: 100%;
+  }
+  .form-one {
+    padding: 2rem;
+  }
+  .sec-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hello {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .review-card {
+    width: 85%;
+  }
+  .review {
+    height: 80vh;
+  }
+  .agent-one {
+    width: 80%;
+  }
+
+  .roche-one {
+    width: 90%;
+  }
+  .roche-one-one {
+    width: 90%;
+  }
+  .roche-img {
+    width: 90%;
+  }
+  .home-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-box-container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .search-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .picker-a {
+    width: 100%;
+  }
+  .picker,
+  .picker-b {
+    width: 100%;
+  }
+  .form-input {
+    width: 95%;
+    margin: 1rem;
+  }
+  .select {
+    width: 95%;
+    margin: 1rem;
+  }
+  .select-a {
+    width: 95%;
+    margin: 1rem;
+  }
+  .button {
+    width: 95%;
+    margin: 1rem;
+  }
+  .review-card {
+    width: 85%;
+  }
+  .roche-one-one {
+    width: 90%;
+  }
+  .roche-img {
+    width: 90%;
+  }
+  .roche-one {
+    width: 44%;
+  }
+}
