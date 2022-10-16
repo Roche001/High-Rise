@@ -442,7 +442,7 @@
   border-radius: 0.5rem;
   display: flex;
   justify-content: flex-start;
-  align-items: end;
+  align-items: flex-end;
 }
 .laydown-one:hover {
   opacity: 0.6;
@@ -483,6 +483,7 @@
   height: 20rem;
   border-radius: 0.5rem;
   cursor: pointer;
+  margin: 1rem;
 }
 .box-image {
   width: 18rem;
@@ -521,6 +522,17 @@
   border-radius: 0.2rem;
   font-size: 0.8rem;
   font-weight: 700;
+}
+.home-box {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.slider-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (max-width: 600px) {
   .search-bar {
@@ -568,6 +580,14 @@
     width: 90%;
   }
   .roche-img {
+    width: 90%;
+  }
+  .home-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-box-container {
     width: 90%;
   }
 }
