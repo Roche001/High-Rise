@@ -537,11 +537,12 @@
   justify-content: center;
 }
 .item {
-  width: 10rem;
-  height: 4rem;
+  width: 12rem;
 }
 .slider-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-right: auto;
   margin-left: auto;
   position: relative;
