@@ -47,10 +47,10 @@ const House18 = () => {
     <div className="offices-house container">
       <Carousel>
         <Carousel.Item interval={1000} className="sized">
-          <img src="./assets/officeb1.jpg" alt="Featured-House" />
+          <img src="./assets/officed1.webp" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/officeb2.jpg" alt="Featured-House" />
+          <img src="./assets/officed2.webp" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
           <img src="./assets/officeb3.jpg" alt="Featured-House" />
