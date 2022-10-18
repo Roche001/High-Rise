@@ -1036,18 +1036,18 @@ const House1 = () => {
               <div className="box-image">
                 <div className="laydown-one">
                   {" "}
-                  <h5>$1550</h5>
+                  <h5>$5,600/month</h5>
                 </div>
                 <div className="span-ten">
-                  <h6>Featured</h6>
-                  <Link to="/House17" className="link">
-                    <h6>Rent</h6>{" "}
+                  <h6>Listing</h6>
+                  <Link to="/House2" className="link">
+                    <h6>View</h6>{" "}
                   </Link>
                 </div>
-                <img src="./assets/officea1.jpg" alt="featured" />
+                <img src="./assets/bed1.jpg" alt="featured" />
               </div>
               <div className="box-text">
-                <h6>Modern Office</h6>
+                <h6>Town Home</h6>
                 <div className="box-def">
                   <h6>
                     <FaBed />
@@ -1062,25 +1062,25 @@ const House1 = () => {
                     <span>1200 Sq Ft</span>
                   </h6>
                 </div>{" "}
-                <h5>Ready for Occupation</h5>
+                <h5>Furnishsed Town Home</h5>
               </div>
             </div>
             <div className="home-box-container nopadding">
               <div className="box-image">
                 <div className="laydown-one">
                   {" "}
-                  <h5>$1250</h5>
+                  <h5>$3,600/month</h5>
                 </div>
                 <div className="span-ten">
-                  <h6>Featured</h6>
-                  <Link to="/House18" className="link">
-                    <h6>Rent</h6>{" "}
+                  <h6>Listing</h6>
+                  <Link to="/House8" className="link">
+                    <h6>View</h6>{" "}
                   </Link>
                 </div>
-                <img src="./assets/officeb1.jpg" alt="featured" />
+                <img src="./assets/tig1.webp" alt="featured" />
               </div>
               <div className="box-text">
-                <h6>Modern Office</h6>
+                <h6>Town Home</h6>
                 <div className="box-def">
                   <h6>
                     <FaBed />
@@ -1095,25 +1095,25 @@ const House1 = () => {
                     <span>1100 Sq Ft</span>
                   </h6>
                 </div>{" "}
-                <h5>Ready for Occupation</h5>
+                <h5>Furnished Town Home</h5>
               </div>
             </div>
             <div className="home-box-container nopadding">
               <div className="box-image">
                 <div className="laydown-one">
                   {" "}
-                  <h5>$1550</h5>
+                  <h5>$2,100/month</h5>
                 </div>
                 <div className="span-ten">
-                  <h6>Featured</h6>
-                  <Link to="/House19" className="link">
-                    <h6>Rent</h6>{" "}
+                  <h6>Listing</h6>
+                  <Link to="/House6" className="link">
+                    <h6>View</h6>{" "}
                   </Link>
                 </div>
-                <img src="./assets/officec1.webp" alt="featured" />
+                <img src="./assets/house1.webp" alt="featured" />
               </div>
               <div className="box-text">
-                <h6>Modern Office</h6>
+                <h6>Town Home</h6>
                 <div className="box-def">
                   <h6>
                     <FaBed />
@@ -1128,25 +1128,25 @@ const House1 = () => {
                     <span>1200 Sq Ft</span>
                   </h6>
                 </div>{" "}
-                <h5>Ready for Occupation</h5>
+                <h5>Furnished Town Home</h5>
               </div>
             </div>
             <div className="home-box-container nopadding">
               <div className="box-image">
                 <div className="laydown-one">
                   {" "}
-                  <h5>$1550</h5>
+                  <h5>$8,000/month</h5>
                 </div>
                 <div className="span-ten">
-                  <h6>Featured</h6>
-                  <Link to="/House21" className="link">
-                    <h6>Rent</h6>{" "}
+                  <h6>Listing</h6>
+                  <Link to="/House3" className="link">
+                    <h6>View</h6>{" "}
                   </Link>
                 </div>
-                <img src="./assets/officee1.webp" alt="featured" />
+                <img src="./assets/new1.webp" alt="featured" />
               </div>
               <div className="box-text">
-                <h6>Modern Office</h6>
+                <h6>Town Home</h6>
                 <div className="box-def">
                   <h6>
                     <FaBed />
@@ -1161,7 +1161,7 @@ const House1 = () => {
                     <span>1200 Sq Ft</span>
                   </h6>
                 </div>{" "}
-                <h5>Spacious Office</h5>
+                <h5>Furnished Town Home</h5>
               </div>
             </div>
           </div>
