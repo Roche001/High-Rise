@@ -16,6 +16,14 @@ import { GiPostOffice } from "react-icons/gi";
 import { FaLaptop } from "react-icons/fa";
 import { MdCleaningServices } from "react-icons/md";
 import { GrDocumentUser } from "react-icons/gr";
+import { FaBusAlt } from "react-icons/fa";
+import { RiParkingBoxFill } from "react-icons/ri";
+import { RiBankLine } from "react-icons/ri";
+import { IoIosCafe } from "react-icons/io";
+import { IoIosBeer } from "react-icons/io";
+import { IoIosRestaurant } from "react-icons/io";
+import { IoMdTrain } from "react-icons/io";
+
 import {
   withScriptjs,
   withGoogleMap,
@@ -229,7 +237,7 @@ const House17 = () => {
             <img
               className="d-block w-100"
               src="./assets/image1.png"
-              alt="image"
+              alt="office"
             />
           </div>
           <div className="available-text">
@@ -242,7 +250,7 @@ const House17 = () => {
             <img
               className="d-block w-100"
               src="./assets/image2.png"
-              alt="image"
+              alt="office"
             />
           </div>
           <div className="available-text">
@@ -255,7 +263,7 @@ const House17 = () => {
             <img
               className="d-block w-100"
               src="./assets/image3.png"
-              alt="image"
+              alt="office"
             />
           </div>
           <div className="available-text">
@@ -263,6 +271,67 @@ const House17 = () => {
             <p>Your own desk in a shared office</p>
           </div>
         </div>
+      </div>
+      <div className="surrounding-distance">
+        <h3>Distance to surroundings</h3>
+        <table>
+          <tr>
+            <td>
+              <h5>
+                <FaBusAlt /> <span>Bus</span>
+              </h5>
+            </td>
+            <td>52 m</td>
+          </tr>
+          <tr>
+            <td>
+              <h5>
+                <IoMdTrain /> <span>Train</span>
+              </h5>
+            </td>
+            <td>300 m</td>
+          </tr>
+          <tr>
+            <td>
+              <h5>
+                <RiParkingBoxFill /> <span>Parking</span>
+              </h5>
+            </td>
+            <td>104 m</td>
+          </tr>
+          <tr>
+            <td>
+              <h5>
+                <RiBankLine /> <span>Bank</span>
+              </h5>
+            </td>
+            <td>290 m</td>
+          </tr>
+          <tr>
+            <td>
+              <h5>
+                <IoIosCafe /> <span>Cafe</span>
+              </h5>
+            </td>
+            <td>109 m</td>
+          </tr>
+          <tr>
+            <td>
+              <h5>
+                <IoIosBeer /> <span>Pub</span>
+              </h5>
+            </td>
+            <td>45 m</td>
+          </tr>
+          <tr>
+            <td>
+              <h5>
+                <IoIosRestaurant /> <span>Restaurant</span>
+              </h5>
+            </td>
+            <td>49 m</td>
+          </tr>
+        </table>
       </div>
     </div>
   );
