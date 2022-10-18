@@ -14,6 +14,10 @@ import { MdOutlineMicrowave } from "react-icons/md";
 import { RiFridgeFill } from "react-icons/ri";
 import { MdLocationOn } from "react-icons/md";
 import { RiShieldCheckFill } from "react-icons/ri";
+import { Link } from "react-router-dom";
+import { FaBed } from "react-icons/fa";
+import { GiBathtub } from "react-icons/gi";
+import { MdOutlineSquareFoot } from "react-icons/md";
 import {
   withScriptjs,
   withGoogleMap,
@@ -966,6 +970,143 @@ const House13 = () => {
                 <td>2.8 mi</td>
               </tr>
             </table>
+          </div>
+        </div>{" "}
+        <div className="similar">
+          <h4>Similar Listings</h4>
+          <div className="similar-card row">
+            <div className="home-box-container nopadding">
+              <div className="box-image">
+                <div className="laydown-one">
+                  {" "}
+                  <h5>$32,000/month</h5>
+                </div>
+                <div className="span-ten">
+                  <h6>Listing</h6>
+                  <Link to="/House14" className="link">
+                    <h6>View</h6>{" "}
+                  </Link>
+                </div>
+                <img src="./assets/rancho1.webp" alt="featured" />
+              </div>
+              <div className="box-text">
+                <h6>Farm & Ranch</h6>
+                <div className="box-def">
+                  <h6>
+                    <FaBed />
+                    <span>4</span>
+                  </h6>
+                  <h6>
+                    <GiBathtub />
+                    <span>3</span>
+                  </h6>
+                  <h6>
+                    <MdOutlineSquareFoot />
+                    <span>1200 Sq Ft</span>
+                  </h6>
+                </div>{" "}
+                <h5>Multi Family Home</h5>
+              </div>
+            </div>
+            <div className="home-box-container nopadding">
+              <div className="box-image">
+                <div className="laydown-one">
+                  {" "}
+                  <h5>$3,600/month</h5>
+                </div>
+                <div className="span-ten">
+                  <h6>Listing</h6>
+                  <Link to="/House10" className="link">
+                    <h6>View</h6>{" "}
+                  </Link>
+                </div>
+                <img src="./assets/castle1.webp" alt="featured" />
+              </div>
+              <div className="box-text">
+                <h6>Ranch & Farm</h6>
+                <div className="box-def">
+                  <h6>
+                    <FaBed />
+                    <span>3</span>
+                  </h6>
+                  <h6>
+                    <GiBathtub />
+                    <span>3</span>
+                  </h6>
+                  <h6>
+                    <MdOutlineSquareFoot />
+                    <span>1100 Sq Ft</span>
+                  </h6>
+                </div>{" "}
+                <h5>Multi Family Home</h5>
+              </div>
+            </div>
+            <div className="home-box-container nopadding">
+              <div className="box-image">
+                <div className="laydown-one">
+                  {" "}
+                  <h5>$4,200/month</h5>
+                </div>
+                <div className="span-ten">
+                  <h6>Listing</h6>
+                  <Link to="/House16" className="link">
+                    <h6>View</h6>{" "}
+                  </Link>
+                </div>
+                <img src="./assets/whity1.webp" alt="featured" />
+              </div>
+              <div className="box-text">
+                <h6>Ranch & Farm</h6>
+                <div className="box-def">
+                  <h6>
+                    <FaBed />
+                    <span>4</span>
+                  </h6>
+                  <h6>
+                    <GiBathtub />
+                    <span>3</span>
+                  </h6>
+                  <h6>
+                    <MdOutlineSquareFoot />
+                    <span>1200 Sq Ft</span>
+                  </h6>
+                </div>{" "}
+                <h5>Multi Family Home</h5>
+              </div>
+            </div>
+            <div className="home-box-container nopadding">
+              <div className="box-image">
+                <div className="laydown-one">
+                  {" "}
+                  <h5>$8,000/month</h5>
+                </div>
+                <div className="span-ten">
+                  <h6>Listing</h6>
+                  <Link to="/House12" className="link">
+                    <h6>View</h6>{" "}
+                  </Link>
+                </div>
+                <img src="./assets/malibu1.webp" alt="featured" />
+              </div>
+              <div className="box-text">
+                <h6>Ranch & Farm</h6>
+                <div className="box-def">
+                  <h6>
+                    <FaBed />
+                    <span>4</span>
+                  </h6>
+                  <h6>
+                    <GiBathtub />
+                    <span>3</span>
+                  </h6>
+                  <h6>
+                    <MdOutlineSquareFoot />
+                    <span>1200 Sq Ft</span>
+                  </h6>
+                </div>{" "}
+                <h5>Multi Family Home</h5>
+              </div>
+            </div>
           </div>
         </div>
       </div>
