@@ -47,40 +47,46 @@ const House20 = () => {
     <div className="offices-house container">
       <Carousel>
         <Carousel.Item interval={1000} className="sized">
-          <img src="./assets/officec1.webp" alt="Featured-House" />
+          <img src="./assets/officed1.webp" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/officec2.webp" alt="Featured-House" />
+          <img src="./assets/officed2.webp" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/officec3.webp" alt="Featured-House" />
+          <img src="./assets/officed3.webp" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/officec4.webp" alt="Featured-House" />
+          <img src="./assets/officed4.webp" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/officec5.webp" alt="Featured-House" />
+          <img src="./assets/officed5.webp" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/officec6.webp" alt="Featured-House" />
+          <img src="./assets/officed6.webp" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/officec7.webp" alt="Featured-House" />
+          <img src="./assets/officed7.webp" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/officec8.webp" alt="Featured-House" />
+          <img src="./assets/officed8.webp" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/officec9.webp" alt="Featured-House" />
+          <img src="./assets/officed9.webp" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/officec10.webp" alt="Featured-House" />
+          <img src="./assets/officed10.webp" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/officec11.webp" alt="Featured-House" />
+          <img src="./assets/officed11.webp" alt="Featured-House" />
         </Carousel.Item>
         <Carousel.Item interval={500} className="sized">
-          <img src="./assets/officec12.webp" alt="Featured-House" />
+          <img src="./assets/officed12.webp" alt="Featured-House" />
+        </Carousel.Item>
+        <Carousel.Item interval={500} className="sized">
+          <img src="./assets/officed13.webp" alt="Featured-House" />
+        </Carousel.Item>
+        <Carousel.Item interval={500} className="sized">
+          <img src="./assets/officed14.webp" alt="Featured-House" />
         </Carousel.Item>
       </Carousel>
       <div className="office-features">
