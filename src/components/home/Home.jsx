@@ -243,7 +243,7 @@ const Home = () => {
                 </div>{" "}
                 <h5>Spacious Office</h5>
               </div>
-            </div>{" "}
+            </div>
             <div className="home-box-container">
               <div className="box-image">
                 <div className="laydown-one">
