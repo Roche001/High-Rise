@@ -21,6 +21,8 @@ import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlineComment } from "react-icons/ai";
 import { GrServices } from "react-icons/gr";
 import { AiOutlineStar } from "react-icons/ai";
+import { Link } from "react-router-dom";
+
 import {
   withScriptjs,
   withGoogleMap,
@@ -1023,6 +1025,143 @@ const House1 = () => {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>{" "}
+        <div className="similar">
+          <h4>Similar Listings</h4>
+          <div className="similar-card row">
+            <div className="home-box-container nopadding">
+              <div className="box-image">
+                <div className="laydown-one">
+                  {" "}
+                  <h5>$1550</h5>
+                </div>
+                <div className="span-ten">
+                  <h6>Featured</h6>
+                  <Link to="/House17" className="link">
+                    <h6>Rent</h6>{" "}
+                  </Link>
+                </div>
+                <img src="./assets/officea1.jpg" alt="featured" />
+              </div>
+              <div className="box-text">
+                <h6>Modern Office</h6>
+                <div className="box-def">
+                  <h6>
+                    <FaBed />
+                    <span>4</span>
+                  </h6>
+                  <h6>
+                    <GiBathtub />
+                    <span>3</span>
+                  </h6>
+                  <h6>
+                    <MdOutlineSquareFoot />
+                    <span>1200 Sq Ft</span>
+                  </h6>
+                </div>{" "}
+                <h5>Ready for Occupation</h5>
+              </div>
+            </div>
+            <div className="home-box-container nopadding">
+              <div className="box-image">
+                <div className="laydown-one">
+                  {" "}
+                  <h5>$1250</h5>
+                </div>
+                <div className="span-ten">
+                  <h6>Featured</h6>
+                  <Link to="/House18" className="link">
+                    <h6>Rent</h6>{" "}
+                  </Link>
+                </div>
+                <img src="./assets/officeb1.jpg" alt="featured" />
+              </div>
+              <div className="box-text">
+                <h6>Modern Office</h6>
+                <div className="box-def">
+                  <h6>
+                    <FaBed />
+                    <span>3</span>
+                  </h6>
+                  <h6>
+                    <GiBathtub />
+                    <span>3</span>
+                  </h6>
+                  <h6>
+                    <MdOutlineSquareFoot />
+                    <span>1100 Sq Ft</span>
+                  </h6>
+                </div>{" "}
+                <h5>Ready for Occupation</h5>
+              </div>
+            </div>
+            <div className="home-box-container nopadding">
+              <div className="box-image">
+                <div className="laydown-one">
+                  {" "}
+                  <h5>$1550</h5>
+                </div>
+                <div className="span-ten">
+                  <h6>Featured</h6>
+                  <Link to="/House19" className="link">
+                    <h6>Rent</h6>{" "}
+                  </Link>
+                </div>
+                <img src="./assets/officec1.webp" alt="featured" />
+              </div>
+              <div className="box-text">
+                <h6>Modern Office</h6>
+                <div className="box-def">
+                  <h6>
+                    <FaBed />
+                    <span>4</span>
+                  </h6>
+                  <h6>
+                    <GiBathtub />
+                    <span>3</span>
+                  </h6>
+                  <h6>
+                    <MdOutlineSquareFoot />
+                    <span>1200 Sq Ft</span>
+                  </h6>
+                </div>{" "}
+                <h5>Ready for Occupation</h5>
+              </div>
+            </div>
+            <div className="home-box-container nopadding">
+              <div className="box-image">
+                <div className="laydown-one">
+                  {" "}
+                  <h5>$1550</h5>
+                </div>
+                <div className="span-ten">
+                  <h6>Featured</h6>
+                  <Link to="/House21" className="link">
+                    <h6>Rent</h6>{" "}
+                  </Link>
+                </div>
+                <img src="./assets/officee1.webp" alt="featured" />
+              </div>
+              <div className="box-text">
+                <h6>Modern Office</h6>
+                <div className="box-def">
+                  <h6>
+                    <FaBed />
+                    <span>4</span>
+                  </h6>
+                  <h6>
+                    <GiBathtub />
+                    <span>3</span>
+                  </h6>
+                  <h6>
+                    <MdOutlineSquareFoot />
+                    <span>1200 Sq Ft</span>
+                  </h6>
+                </div>{" "}
+                <h5>Spacious Office</h5>
               </div>
             </div>
           </div>
