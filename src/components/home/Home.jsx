@@ -1001,63 +1001,63 @@ const Home = () => {
         </div>{" "}
         <div className="slider-container">
           <OwlCarousel className="slider-items owl-carousel" {...options}>
-            <div className="item  ">
+            <div className="item">
               <img
                 className="d-block w-100"
                 src="./assets/part1.png"
                 alt="partners"
               />
             </div>
-            <div className="item  ">
+            <div className="item">
               <img
                 className="d-block w-100"
                 src="./assets/part5.png"
                 alt="partners"
               />
             </div>
-            <div className="item  ">
+            <div className="item">
               <img
                 className="d-block w-100"
                 src="./assets/part2.png"
                 alt="partners"
               />
-            </div>{" "}
-            <div className="item  ">
+            </div>
+            <div className="item">
               <img
                 className="d-block w-100"
                 src="./assets/part7.png"
                 alt="partners"
               />
             </div>
-            <div className="item  ">
+            <div className="item">
               <img
                 className="d-block w-100"
                 src="./assets/part6.png"
                 alt="partners"
               />
             </div>
-            <div className="item  ">
+            <div className="item">
               <img
                 className="d-block w-100"
                 src="./assets/part3.png"
                 alt="partners"
               />
             </div>{" "}
-            <div className="item  ">
+            <div className="item">
               <img
                 className="d-block w-100"
                 src="./assets/part8.png"
                 alt="partners"
               />
             </div>
-            <div className="item  ">
+            <div className="item">
               <img
                 className="d-block w-100"
                 src="./assets/part4.png"
                 alt="partners"
               />
             </div>
-            <div className="item  ">
+            <div className="item">
               <img
                 className="d-block w-100"
                 src="./assets/part9.png"
