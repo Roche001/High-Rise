@@ -53,8 +53,8 @@ const Home = () => {
     <section className="home ">
       <div className="home-header">
         <div className="lay-easy"></div>
-        <h2>Your Property is Our Priority</h2>
-        <p>Turn your real-estate dreams into a reality </p>
+
+        <h2>Turn your real-estate dreams into a reality </h2>
         <div className="header-put">
           <input
             className="input-fire"
