@@ -18,8 +18,8 @@
   z-index: 1000;
 }
 .home-header h2 {
-  font-size: 3rem;
-  font-weight: 900;
+  font-size: 2rem;
+  font-weight: 600;
 }
 .lay-easy {
   position: absolute;
@@ -44,9 +44,11 @@
   align-items: center;
   justify-content: center;
   border-radius: 0.5rem;
+  margin: 1rem;
 }
 .header-put h3 {
   color: #020c1b;
+  cursor: pointer;
 }
 .input-fire {
   width: 70%;
@@ -623,9 +625,9 @@
   .header-put {
     width: 95%;
   }
-  .home-header {
-    height: 100vh;
-  }
+  /* .home-header {
+    height: 70vh;
+  } */
 }
 @media screen and (max-width: 1200px) {
   .search-bar {

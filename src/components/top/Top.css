@@ -1,21 +1,15 @@
 .link {
   text-decoration: none;
 }
-.top-logo {
-  font-size: 2rem;
-  color: #ffffff;
+.logo {
+  height: 1.5rem;
+  height: 1.5rem;
+  margin: 1rem;
 }
-.top-text {
-  color: #ffffff;
-  margin-top: 1rem;
-}
-.top-text h3 {
-  font-weight: 900;
-  font-size: 0.5;
-}
-.top-text p {
-  font-size: 0.5rem;
-}
+
 .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #37474f;
 }

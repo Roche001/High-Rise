@@ -11,13 +11,7 @@ const Top = () => {
       <Container className="navbar">
         <Navbar.Brand>
           <div className="logo">
-            <div className="top-logo">
-              <RiHome6Line />
-            </div>
-            <div className="top-text">
-              <h3>High-Rise </h3>
-              <p>REAL ESTATE COMPANY</p>
-            </div>
+            <img src="./assets/logo.png" alt="Company-logo" />
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
