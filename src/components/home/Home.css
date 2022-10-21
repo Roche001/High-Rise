@@ -4,7 +4,7 @@
 .home-header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), #020c1b),
     url("../../images/Silent.jpeg");
-  height: 40vh;
+  height: 43vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -546,6 +546,7 @@
   margin-right: auto;
   margin-left: auto;
   position: relative;
+  width: 80vw;
 }
 .slider-items {
   display: flex;
@@ -621,6 +622,9 @@
   }
   .header-put {
     width: 95%;
+  }
+  .home-header {
+    height: 100vh;
   }
 }
 @media screen and (max-width: 1200px) {
