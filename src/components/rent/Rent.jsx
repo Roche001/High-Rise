@@ -6,12 +6,23 @@ import { Link } from "react-router-dom";
 import { GiStreetLight } from "react-icons/gi";
 import { IoIosTrain } from "react-icons/io";
 import { BsDot } from "react-icons/bs";
+import { FiSearch } from "react-icons/fi";
 
 const Rent = () => {
   return (
     <section id="rent">
       <div className="town-home">
-        <h3>Exclusive Listings</h3>
+        <h3>Exclusive Listings</h3>{" "}
+        <div className="header-put">
+          <input
+            className="input-fire"
+            type="text"
+            placeholder="Enter city, town or neighborhood"
+          />
+          <h3>
+            <FiSearch />
+          </h3>
+        </div>
       </div>
       <div className=" container-fluid rent-townhomes">
         <h3>Townhomes</h3>
