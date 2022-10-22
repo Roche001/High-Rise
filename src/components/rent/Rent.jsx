@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { GiStreetLight } from "react-icons/gi";
 import { IoIosTrain } from "react-icons/io";
 import { BsDot } from "react-icons/bs";
-import { FiSearch } from "react-icons/fi";
+import { BsSearch } from "react-icons/bs";
 
 const Rent = () => {
   return (
@@ -19,9 +19,9 @@ const Rent = () => {
             type="text"
             placeholder="Enter city, town or neighborhood"
           />
-          <h3>
-            <FiSearch />
-          </h3>
+          <h4>
+            <BsSearch />
+          </h4>
         </div>
       </div>
       <div className=" container-fluid rent-townhomes">

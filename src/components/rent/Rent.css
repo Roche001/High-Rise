@@ -11,6 +11,9 @@
   justify-content: center;
   text-align: center;
 }
+.header-put h4 {
+  cursor: pointer;
+}
 .town-home h3 {
   font-family: "Passion One", cursive;
   color: #ffff;
