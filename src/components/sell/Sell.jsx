@@ -4,8 +4,8 @@ const Sell = () => {
   return (
     <div className="sell-header container-fluid">
       <h3>Why Sell Your House with High-Rise</h3>
-      <div className="sell-container">
-        <div className="sell-card nopadding col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+      <div className="sell-container row">
+        <div className="sell-card nopadding ">
           <div className="sell-card-img">
             <img
               className="d-block w-100"
@@ -22,7 +22,7 @@ const Sell = () => {
             </p>
           </div>
         </div>
-        <div className="sell-card nopadding col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div className="sell-card nopadding ">
           <div className="sell-card-img">
             <img
               className="d-block w-100"
@@ -39,7 +39,7 @@ const Sell = () => {
             </p>
           </div>
         </div>
-        <div className="sell-card nopadding col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div className="sell-card nopadding ">
           <div className="sell-card-img">
             <img
               className="d-block w-100"
