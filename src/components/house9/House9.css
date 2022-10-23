@@ -195,6 +195,9 @@ table {
 .edu-table {
   margin-top: 1rem;
 }
+.similar-card {
+  width: 70vw;
+}
 @media screen and (max-width: 600px) {
   .order-list {
     display: grid;
