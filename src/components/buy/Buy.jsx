@@ -27,7 +27,7 @@ const Buy = () => {
   );
   return (
     <section id="rent">
-      <div className="town-home">
+      <div className="town-home-one">
         <div className="header-put">
           <input
             className="input-fire"
@@ -66,9 +66,9 @@ const Buy = () => {
                     </h4>
                   </Link>
                 </div>
-                <span className="spannito">
+                <span className="spannito-one">
                   <Link to="/House1" className="link">
-                    <h4>Rent</h4>
+                    <h4>Buy</h4>
                   </Link>
                 </span>
               </div>
@@ -98,9 +98,9 @@ const Buy = () => {
                     </h4>
                   </Link>
                 </div>
-                <span className="spannito">
+                <span className="spannito-one">
                   <Link to="/House2" className="link">
-                    <h4>Rent</h4>
+                    <h4>Buy</h4>
                   </Link>
                 </span>
               </div>
@@ -132,9 +132,9 @@ const Buy = () => {
                     </h4>
                   </Link>
                 </div>
-                <span className="spannito">
+                <span className="spannito-one">
                   <Link to="/House3" className="link">
-                    <h4>Rent</h4>
+                    <h4>Buy</h4>
                   </Link>
                 </span>
               </div>
@@ -164,9 +164,9 @@ const Buy = () => {
                     </h4>
                   </Link>
                 </div>
-                <span className="spannito">
+                <span className="spannito-one">
                   <Link to="/House4" className="link">
-                    <h4>Rent</h4>
+                    <h4> Buy</h4>
                   </Link>
                 </span>
               </div>
@@ -199,9 +199,9 @@ const Buy = () => {
                     </h4>
                   </Link>
                 </div>
-                <span className="spannito">
+                <span className="spannito-one">
                   <Link to="/House5" className="link">
-                    <h4>Rent</h4>
+                    <h4>Buy</h4>
                   </Link>
                 </span>
               </div>
@@ -231,9 +231,9 @@ const Buy = () => {
                     </h4>
                   </Link>
                 </div>
-                <span className="spannito">
+                <span className="spannito-one">
                   <Link to="/House6" className="link">
-                    <h4>Rent</h4>
+                    <h4>Buy</h4>
                   </Link>
                 </span>
               </div>
@@ -265,9 +265,9 @@ const Buy = () => {
                     </h4>
                   </Link>
                 </div>
-                <span className="spannito">
+                <span className="spannito-one">
                   <Link to="/House7" className="link">
-                    <h4>Rent</h4>
+                    <h4>Buy</h4>
                   </Link>
                 </span>
               </div>
@@ -297,9 +297,9 @@ const Buy = () => {
                     </h4>
                   </Link>
                 </div>
-                <span className="spannito">
+                <span className="spannito-one">
                   <Link to="/House8" className="link">
-                    <h4>Rent</h4>
+                    <h4>Buy</h4>
                   </Link>
                 </span>
               </div>
@@ -328,9 +328,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House9" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -354,9 +354,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House10" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -382,9 +382,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House11" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -408,9 +408,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House12" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -437,9 +437,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House13" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -463,9 +463,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House14" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -491,9 +491,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House15" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -517,9 +517,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House16" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -547,9 +547,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House17" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -572,9 +572,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House18" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -599,9 +599,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House19" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -624,9 +624,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House20" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -652,9 +652,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House21" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -677,9 +677,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House22" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -704,9 +704,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House23" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>
@@ -729,9 +729,9 @@ const Buy = () => {
                       alt="House1"
                     />
                   </Link>
-                  <span className="spannito">
+                  <span className="spannito-one">
                     <Link to="/House24" className="link">
-                      <h4>Rent</h4>
+                      <h4>Buy</h4>
                     </Link>
                   </span>
                 </div>

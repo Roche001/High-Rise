@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&family=Rubik+Dirt&display=swap");
+#rent {
+  overflow-x: hidden;
+}
+.town-home-one {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), #020c1b),
+    url("../../images/Bathroom.png");
+  height: 10vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.header-put h4 {
+  cursor: pointer;
+}
+.town-home h3 {
+  font-family: "Passion One", cursive;
+  color: #ffff;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.rent-townhomes {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.google-rent {
+  width: 35vw;
+  box-shadow: 0px 0px 30px #020c1b;
+  border-left: #020c1b 1px solid;
+}
+.maps-google {
+  width: 65vw;
+  height: 80vh;
+  box-shadow: 0px 8px 30px #424242;
+  overflow-y: hidden;
+  margin-left: 0;
+  padding-left: 0;
+}
+.rent-townhomes h3 {
+  font-size: 3rem;
+  font-weight: 800;
+  border-bottom: 2px solid;
+}
+.card-head h4 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.card-head h5 {
+  color: #37474f;
+}
+.card-img {
+  position: relative;
+}
+.card-img img {
+  height: 12rem;
+}
+.overlay h4 {
+  color: #ffff;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.skies {
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.rent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nopadding {
+  padding: 0 !important;
+}
+.spannito-one {
+  position: absolute;
+  top: 0.2rem;
+  left: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2rem;
+  background: #1a237e;
+  color: #ffff;
+  height: 2rem;
+  width: 5rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+.spannito-one h4 {
+  margin-top: 0.25rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffff;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+}
+.ranch-card {
+  width: 46%;
+  height: 20rem;
+  border: 1px solid #020c1b;
+  transition: 400ms ease-in-out;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: width 0.5s;
+  box-shadow: 0px 2px 10px #424242;
+  cursor: pointer;
+}
+.ranch-card:hover {
+  box-shadow: 0px 8px 30px #424242;
+  border: none;
+}
+
+.card-text {
+  padding: 0.5rem;
+}
+.card-text h4 {
+  color: #323762;
+  font-weight: 200;
+  font-size: 1rem;
+}
+.card-text h5 {
+  font-weight: 200;
+  font-size: 1rem;
+}
+.card-text small {
+  color: #616161;
+}
+.ranch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offices-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .ranch-card {
+    width: 95%;
+  }
+  .skies {
+    width: 95%;
+  }
+  .maps-google {
+    width: 60%;
+  }
+  .google-rent {
+    width: 35%;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+  }
+  .ranch-card {
+    height: 100%;
+  }
+}
