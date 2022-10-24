@@ -2,7 +2,7 @@
 .town-home {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), #020c1b),
     url("../../images/free.jpg");
-  height: 20rem;
+  height: 10vh;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -20,7 +20,19 @@
   font-size: 4rem;
   font-weight: 600;
 }
-
+.rent-townhomes {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.google-rent {
+  width: 40vw;
+}
+.maps-google {
+  width: 60vw;
+  height: 100vh;
+}
 .rent-townhomes h3 {
   font-size: 3rem;
   font-weight: 800;
