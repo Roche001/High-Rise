@@ -31,6 +31,8 @@
 }
 .google-rent {
   width: 35vw;
+  box-shadow: 0px 0px 30px #020c1b;
+  border-left: #020c1b 1px solid;
 }
 .maps-google {
   width: 65vw;
@@ -111,6 +113,7 @@
   overflow: hidden;
   transition: width 0.5s;
   box-shadow: 0px 2px 10px #424242;
+  cursor: pointer;
 }
 .ranch-card:hover {
   box-shadow: 0px 8px 30px #424242;
