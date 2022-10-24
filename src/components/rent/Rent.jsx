@@ -53,7 +53,7 @@ const Rent = () => {
         </div>
         <div className="google-rent">
           <div className="rent-container row ">
-            <div className="ranch-card nopadding ">
+            <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
               <div className="card-img">
                 <img
                   className="d-block w-100"
@@ -85,7 +85,7 @@ const Rent = () => {
                 </h6>
               </div>
             </div>
-            <div className="ranch-card nopadding ">
+            <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
               <div className="card-img">
                 <img
                   className="d-block w-100"
@@ -119,7 +119,7 @@ const Rent = () => {
             </div>
           </div>
           <div className="rent-container row">
-            <div className="ranch-card nopadding ">
+            <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
               <div className="card-img">
                 <img
                   className="d-block w-100"
@@ -151,7 +151,7 @@ const Rent = () => {
                 </h6>
               </div>
             </div>
-            <div className="ranch-card nopadding ">
+            <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
               <div className="card-img">
                 <img
                   className="d-block w-100"
@@ -186,7 +186,7 @@ const Rent = () => {
           </div>
 
           <div className="rent-container row">
-            <div className="ranch-card nopadding ">
+            <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
               <div className="card-img">
                 <img
                   className="d-block w-100"
@@ -218,7 +218,7 @@ const Rent = () => {
                 </h6>
               </div>
             </div>
-            <div className="ranch-card nopadding ">
+            <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
               <div className="card-img">
                 <img
                   className="d-block w-100"
@@ -252,7 +252,7 @@ const Rent = () => {
             </div>
           </div>
           <div className="rent-container row">
-            <div className="ranch-card nopadding ">
+            <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
               <div className="card-img">
                 <img
                   className="d-block w-100"
@@ -284,7 +284,7 @@ const Rent = () => {
                 </h6>
               </div>
             </div>
-            <div className="ranch-card nopadding ">
+            <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
               <div className="card-img">
                 <img
                   className="d-block w-100"
@@ -321,7 +321,7 @@ const Rent = () => {
           <div className="ranches"></div>
           <div className="ranches-container">
             <div className="ranch-container row">
-              <div className="ranch-card nopadding ">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House9">
                     <img
@@ -347,7 +347,7 @@ const Rent = () => {
                   </small>
                 </div>
               </div>
-              <div className="ranch-card nopadding">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House10">
                     <img
@@ -375,7 +375,7 @@ const Rent = () => {
               </div>{" "}
             </div>
             <div className="ranch-container row">
-              <div className="ranch-card nopadding ">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
                 <div className="card-img">
                   <Link to="/House11">
                     <img
@@ -401,7 +401,7 @@ const Rent = () => {
                   </small>
                 </div>
               </div>
-              <div className="ranch-card nopadding">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House12">
                     <img
@@ -430,7 +430,7 @@ const Rent = () => {
             </div>
 
             <div className="ranch-container row">
-              <div className="ranch-card nopadding ">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
                 <div className="card-img">
                   <Link to="/House13">
                     <img
@@ -456,7 +456,7 @@ const Rent = () => {
                   </small>
                 </div>
               </div>
-              <div className="ranch-card nopadding ">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House14">
                     <img
@@ -484,7 +484,7 @@ const Rent = () => {
               </div>{" "}
             </div>
             <div className="ranch-container row">
-              <div className="ranch-card nopadding ">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House15">
                     <img
@@ -510,7 +510,7 @@ const Rent = () => {
                   </small>
                 </div>
               </div>
-              <div className="ranch-card nopadding ">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House16">
                     <img
@@ -540,7 +540,7 @@ const Rent = () => {
           </div>
           <div className="offices">
             <div className="offices-container row">
-              <div className="ranch-card nopadding">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House17">
                     <img
@@ -565,7 +565,7 @@ const Rent = () => {
                   </h6>
                 </div>
               </div>
-              <div className="ranch-card nopadding">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House18">
                     <img
@@ -592,7 +592,7 @@ const Rent = () => {
               </div>{" "}
             </div>
             <div className="offices-container row">
-              <div className="ranch-card nopadding ">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
                 <div className="card-img">
                   <Link to="/House19">
                     <img
@@ -617,7 +617,7 @@ const Rent = () => {
                   </h6>
                 </div>
               </div>
-              <div className="ranch-card nopadding ">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
                 <div className="card-img">
                   <Link to="/House20">
                     <img
@@ -645,7 +645,7 @@ const Rent = () => {
             </div>
 
             <div className="offices-container row">
-              <div className="ranch-card nopadding ">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House21">
                     <img
@@ -670,7 +670,7 @@ const Rent = () => {
                   </h6>
                 </div>
               </div>
-              <div className="ranch-card nopadding ">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House22">
                     <img
@@ -697,7 +697,7 @@ const Rent = () => {
               </div>{" "}
             </div>
             <div className="offices-container row">
-              <div className="ranch-card nopadding ">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
                 <div className="card-img">
                   <Link to="/House23">
                     <img
@@ -722,7 +722,7 @@ const Rent = () => {
                   </h6>
                 </div>
               </div>
-              <div className="ranch-card nopadding ">
+              <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
                 <div className="card-img">
                   <Link to="/House24">
                     <img
