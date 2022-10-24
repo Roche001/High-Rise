@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Passion+One&family=Rubik+Dirt&display=swap");
+#rent {
+  overflow-x: hidden;
+}
 .town-home {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), #020c1b),
     url("../../images/free.jpg");
@@ -27,11 +30,15 @@
   justify-content: flex-start;
 }
 .google-rent {
-  width: 40vw;
+  width: 35vw;
 }
 .maps-google {
-  width: 60vw;
-  height: 100vh;
+  width: 65vw;
+  height: 80vh;
+  box-shadow: 0px 8px 30px #424242;
+  overflow-y: hidden;
+  margin-left: 0;
+  padding-left: 0;
 }
 .rent-townhomes h3 {
   font-size: 3rem;
@@ -39,7 +46,8 @@
   border-bottom: 2px solid;
 }
 .card-head h4 {
-  font-weight: 700;
+  font-weight: 400;
+  font-size: 1rem;
 }
 .card-head h5 {
   color: #37474f;
@@ -48,30 +56,14 @@
   position: relative;
 }
 .card-img img {
-  height: 18rem;
+  height: 12rem;
 }
 .overlay h4 {
   color: #ffff;
   font-size: 4rem;
   font-weight: 900;
 }
-.butt-on {
-  width: 95%;
-  padding: 1rem;
-  border-radius: 0.2rem;
-  background: #37474f;
-  text-align: center;
-  margin-left: 0.5rem;
-}
-.butt-on:hover {
-  opacity: 0.7;
-  color: #37474f;
-}
-.butt-on a {
-  color: #ffff;
-  text-decoration: none;
-  font-size: 1rem;
-}
+
 .skies {
   margin: 0.5rem;
   border-radius: 0.5rem;
@@ -110,14 +102,15 @@
   text-decoration: none;
 }
 .ranch-card {
-  width: 22rem;
-  height: 34rem;
+  width: 46%;
+  height: 20rem;
   border: 1px solid #020c1b;
   transition: 400ms ease-in-out;
-  margin: 1rem;
+  margin: 0.2rem;
   border-radius: 0.5rem;
   overflow: hidden;
   transition: width 0.5s;
+  box-shadow: 0px 2px 10px #424242;
 }
 .ranch-card:hover {
   box-shadow: 0px 8px 30px #424242;
@@ -130,9 +123,11 @@
 .card-text h4 {
   color: #323762;
   font-weight: 200;
+  font-size: 1rem;
 }
 .card-text h5 {
-  font-weight: 800;
+  font-weight: 200;
+  font-size: 1rem;
 }
 .card-text small {
   color: #616161;
@@ -153,5 +148,16 @@
   }
   .skies {
     width: 95%;
+  }
+  .maps-google {
+    width: 60%;
+  }
+  .google-rent {
+    width: 35%;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+  }
+  .ranch-card {
+    height: 100%;
   }
 }
