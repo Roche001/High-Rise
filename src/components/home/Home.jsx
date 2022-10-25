@@ -75,7 +75,8 @@ const Home = () => {
           </label>
 
           <select classsName="drop-down" id="drop-up">
-            <option value="volvo">Agent</option>
+            <option value="volvo"> Agent</option>
+
             <option value="volvo">Home-Owner</option>
           </select>
         </div>
