@@ -531,6 +531,17 @@
   position: absolute;
   display: flex;
 }
+.drop {
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin-right: 2rem;
+}
+.drop h4 {
+  margin: 0.2rem;
+}
+.drop-down {
+}
 .span-ten h6 {
   padding: 0.7rem;
   background: #37474f;

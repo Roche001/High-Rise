@@ -13,6 +13,7 @@ import { FaBed } from "react-icons/fa";
 import { GiBathtub } from "react-icons/gi";
 import { MdOutlineSquareFoot } from "react-icons/md";
 import { FiSearch } from "react-icons/fi";
+import { RiAccountCircleLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -64,6 +65,19 @@ const Home = () => {
           <h3>
             <FiSearch />
           </h3>
+        </div>
+        <div className="drop">
+          <label for="register">
+            {" "}
+            <h4>
+              <RiAccountCircleLine />
+            </h4>
+          </label>
+
+          <select classsName="drop-down" id="drop-up">
+            <option value="volvo">Agent</option>
+            <option value="volvo">Home-Owner</option>
+          </select>
         </div>
       </div>
 
