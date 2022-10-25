@@ -15,12 +15,10 @@ const Buy = () => {
     withGoogleMap((props) => (
       <GoogleMap
         defaultZoom={10}
-        defaultCenter={{ lat: -1.2306616792179152, lng: 36.84835920697511 }}
+        defaultCenter={{ lat: -1.046861, lng: 37.103682 }}
       >
-        <Marker
-          position={{ lat: -1.2306616792179152, lng: 36.84835920697511 }}
-        />
-        <Marker position={{ lat: -1.250349, lng: 36.641401 }} />{" "}
+        <Marker position={{ lat: -1.046861, lng: 37.103682 }} />
+        <Marker position={{ lat: -1.070361, lng: 37.098296 }} />{" "}
         <Marker position={{ lat: -1.32249, lng: 36.884941 }} />
       </GoogleMap>
     ))
@@ -47,6 +45,7 @@ const Buy = () => {
             loadingElement={<div style={{ height: `100%` }} />}
             containerElement={<div style={{ height: `800px` }} />}
             mapElement={<div style={{ height: `100%` }} />}
+            strokeColor={<div style={{ color: "white" }} />}
           />
         </div>
         <div className="google-rent">
