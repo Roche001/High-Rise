@@ -68,15 +68,13 @@ const Home = () => {
         </div>
         <div className="drop">
           <label for="register">
-            {" "}
             <h4>
               <RiAccountCircleLine />
             </h4>
           </label>
 
-          <select classsName="drop-down" id="drop-up">
+          <select classsName="drop-down">
             <option value="volvo"> Agent</option>
-
             <option value="volvo">Home-Owner</option>
           </select>
         </div>
