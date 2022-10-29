@@ -10,9 +10,11 @@ const Top = () => {
     <Navbar collapseOnSelect expand="lg" bg="" variant="dark" className="nav">
       <Container className="navbar">
         <Navbar.Brand>
-          <div className="logo">
-            <img src="./assets/logo.png" alt="Company-logo" />
-          </div>
+          <Link to="/">
+            <div className="logo">
+              <img src="./assets/logo.png" alt="Company-logo" />
+            </div>
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 

@@ -15,7 +15,6 @@
   color: #ffffff;
   text-align: center;
   position: relative;
-  z-index: 1000;
 }
 .home-header h2 {
   font-size: 2rem;
