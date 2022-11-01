@@ -148,19 +148,15 @@
 @media screen and (max-width: 600px) {
   .ranch-card {
     width: 95%;
+    height: 100%;
   }
   .skies {
     width: 95%;
   }
   .maps-google {
-    width: 60%;
+    display: none;
   }
   .google-rent {
-    width: 35%;
-    margin-left: 0.8rem;
-    margin-right: 0.8rem;
-  }
-  .ranch-card {
-    height: 100%;
+    width: 100%;
   }
 }
