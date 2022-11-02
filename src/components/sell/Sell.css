@@ -95,7 +95,7 @@
   font-weight: 800;
 }
 .log-in {
-  width: 95%;
+  width: 20rem;
   height: 3rem;
   border: #000 1px solid;
   display: flex;
@@ -104,7 +104,7 @@
   padding-left: 1rem;
 }
 .winterfell {
-  width: 80%;
+  width: 20rem;
   height: 3rem;
   background: #37474f;
   display: flex;
@@ -115,6 +115,19 @@
 .winterfell a {
   text-decoration: none;
   color: #ffff;
+}
+.box-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 50%;
+  background: #ffff;
 }
 @media screen and (max-width: 600px) {
   .section-header {
@@ -136,5 +149,8 @@
   }
   .push-on {
     width: 95vw;
+  }
+  .box-style {
+    width: 95%;
   }
 }
