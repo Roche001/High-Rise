@@ -128,6 +128,18 @@ const Sell = () => {
             </Modal>
           </div>
         </div>
+        <div className="lady-picture">
+          <img src="./assets/Dock.jpeg" alt="sublime" />
+        </div>
+      </div>
+      <div className="clegne-container">
+        <p>
+          Our assessment methodology provides our clients with a reasonable
+          market value. It is not an evaluation. Use it as a starting point to
+          estimate the worth of a house, and think about working with a listing
+          agent to find out more.
+        </p>
+        <h4>Alternatives to h</h4>
       </div>
     </div>
   );

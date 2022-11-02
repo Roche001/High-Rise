@@ -1,3 +1,6 @@
+.sell-block {
+  overflow-x: hidden;
+}
 .section-header {
   height: 15rem;
   display: flex;
@@ -69,6 +72,7 @@
   justify-content: center;
   cursor: pointer;
   border-radius: 0.3rem;
+  text-align: center;
 }
 .push-on h4 {
   color: #ffff;
@@ -114,6 +118,7 @@
   justify-content: center;
   margin-top: 0.5rem;
   border-radius: 0.3rem;
+  text-align: center;
 }
 .winterfell a {
   text-decoration: none;
@@ -141,7 +146,7 @@
   margin-bottom: 0.1rem;
 }
 .apple {
-  width: 98%;
+  width: 20rem;
   height: 3rem;
   border: #000 1px solid;
   display: flex;
@@ -151,7 +156,7 @@
   border-radius: 0.3rem;
 }
 .google {
-  width: 98%;
+  width: 20rem;
   height: 3rem;
   border: #000 1px solid;
   display: flex;
@@ -160,6 +165,14 @@
   padding-left: 1rem;
   border-radius: 0.3rem;
   margin-top: 0.5rem;
+}
+.lady-picture {
+  height: 10rem;
+  width: 100vw;
+}
+.lady-picture img {
+  height: 100%;
+  width: 100%;
 }
 @media screen and (max-width: 600px) {
   .section-header {
