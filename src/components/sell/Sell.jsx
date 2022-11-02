@@ -56,11 +56,8 @@ const Sell = () => {
           </div>{" "}
         </div>{" "}
         <p>
-          Are you a returning home owner?{" "}
-          <span>
-            <Link to="./Profile1"> Log in</Link>
-          </span>{" "}
-          to view your Owner Dashboard.
+          Are you a returning home owner? <span>Log in</span> to view your Owner
+          Dashboard.
         </p>
       </div>
     </div>
