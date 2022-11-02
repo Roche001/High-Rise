@@ -89,6 +89,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 0.3rem;
 }
 .log-out h4 {
   color: #37474f;
@@ -102,6 +103,7 @@
   align-items: center;
   justify-content: flex-start;
   padding-left: 1rem;
+  border-radius: 0.3rem;
 }
 .winterfell {
   width: 20rem;
@@ -110,7 +112,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
+  border-radius: 0.3rem;
 }
 .winterfell a {
   text-decoration: none;
@@ -125,9 +128,38 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 30%;
+  width: 20%;
   height: 50%;
   background: #ffff;
+  border-radius: 0.5rem;
+}
+.or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+.apple {
+  width: 98%;
+  height: 3rem;
+  border: #000 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1rem;
+  border-radius: 0.3rem;
+}
+.google {
+  width: 98%;
+  height: 3rem;
+  border: #000 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1rem;
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
 }
 @media screen and (max-width: 600px) {
   .section-header {

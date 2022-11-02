@@ -6,6 +6,8 @@ import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { RiAppleFill } from "react-icons/ri";
+import { FcGoogle } from "react-icons/fc";
 
 const style = {
   position: "absolute",
@@ -79,6 +81,7 @@ const Sell = () => {
         <div>
           <p>
             Are you a returning home owner?
+            <Button onClick={handleOpen}>Register</Button> or
             <Button onClick={handleOpen}>log in</Button> to view your Owner
             Dashboard.
           </p>{" "}
@@ -117,6 +120,20 @@ const Sell = () => {
                       <a href="#button">
                         <h6>SUBMIT</h6>
                       </a>
+                    </div>
+                    <div className="or">
+                      <h6>or</h6>
+                    </div>
+                    <div className="apple">
+                      <h6>
+                        <RiAppleFill />
+                        continue with Apple
+                      </h6>
+                    </div>
+                    <div className="google">
+                      <h6>
+                        <FcGoogle /> continue with Google
+                      </h6>
                     </div>
                   </Typography>
                 </Box>
