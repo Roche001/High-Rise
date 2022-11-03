@@ -181,8 +181,7 @@
   text-align: center;
   flex-direction: column;
   background: #90a4ae;
-  height: 50vh;
-  overflow-y: hidden;
+  padding: 2rem;
 }
 .clegna-card {
   display: flex;
