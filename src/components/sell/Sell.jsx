@@ -13,6 +13,9 @@ const Sell = () => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const [extend, setExtend] = React.useState(false);
+  const handleExtend = () => setExtend(true);
+  const handleShut = () => setExtend(false);
   return (
     <div className="sell-block container-fluid nopadding">
       <div className="section-header">
@@ -68,7 +71,7 @@ const Sell = () => {
         <div>
           <p>
             Are you a returning home owner?
-            <Button onClick={handleOpen}>Register</Button> or
+            <Button onClick={handleExtend}>Register</Button> or
             <Button onClick={handleOpen}>log in</Button> to view your Owner
             Dashboard.
           </p>{" "}
@@ -127,19 +130,106 @@ const Sell = () => {
               </Fade>
             </Modal>
           </div>
+          <div className="modal-small">
+            <Modal
+              aria-labelledby="transition-modal-title"
+              aria-describedby="transition-modal-description"
+              open={extend}
+              onClose={handleShut}
+              closeAfterTransition
+              BackdropComponent={Backdrop}
+              BackdropProps={{
+                timeout: 500,
+              }}
+            >
+              <Fade in={extend}>
+                <Box className="box-style">
+                  <Typography
+                    id="transition-modal-title"
+                    variant="h6"
+                    component="h2"
+                  >
+                    <div className="log-out">
+                      <h4>Register</h4>
+                    </div>
+                  </Typography>
+                  <Typography id="transition-modal-description" sx={{ mt: 2 }}>
+                    <div className="log-in">
+                      <input
+                        className="input-fire"
+                        type="text"
+                        placeholder=" Email"
+                      />
+                    </div>
+                    <div className="winterfell">
+                      <a href="#button">
+                        <h6>SUBMIT</h6>
+                      </a>
+                    </div>
+                    <div className="or">
+                      <h6>or</h6>
+                    </div>
+                    <div className="apple">
+                      <h6>
+                        <RiAppleFill />
+                        continue with Apple
+                      </h6>
+                    </div>
+                    <div className="google">
+                      <h6>
+                        <FcGoogle /> continue with Google
+                      </h6>
+                    </div>
+                  </Typography>
+                </Box>
+              </Fade>
+            </Modal>
+          </div>
         </div>
         <div className="lady-picture">
           <img src="./assets/Dock.jpeg" alt="sublime" />
         </div>
       </div>
       <div className="clegne-container">
-        <p>
-          Our assessment methodology provides our clients with a reasonable
-          market value. It is not an evaluation. Use it as a starting point to
-          estimate the worth of a house, and think about working with a listing
-          agent to find out more.
-        </p>
-        <h4>Alternatives to h</h4>
+        <div className="clegne-box">
+          <p>
+            Our assessment methodology provides our clients with a reasonable
+            market value. It is not an evaluation. Use it as a starting point to
+            estimate the worth of a house, and think about working with a
+            listing agent to find out more.
+          </p>
+          <h4>Alternative Ways of Selling Your Home</h4>
+        </div>
+        <div className="clegna-card">
+          <div className="clegna-card-one">
+            <h4>Get the Inside Track</h4>
+            <div className="note-a">
+              <img src="./assets/note-a.png" alt="note" />
+            </div>
+            <p>
+              Our site can offer you an unbiased take on numerous real-estate
+              markets and your home's value. We can also connect you with top
+              listing agents who know homes like yours — no strings attached.
+            </p>
+            <div className="sell-contact">
+              <h6>CONTACT US</h6>
+            </div>
+          </div>
+          <div className="clegna-card-two">
+            <h4>List It Yourself</h4>
+            <div className="note-a">
+              <img src="./assets/note-b.png" alt="note" />
+            </div>
+            <p>
+              Our For Sale By Owner tools let you list your home yourself,
+              giving you direct access to the 92% of active NYC buyers who use
+              StreetEasy.
+            </p>
+            <div className="sell-contact">
+              <h6>GET STARTED</h6>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
