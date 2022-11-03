@@ -147,10 +147,7 @@
   margin-top: 0.1rem;
   margin-bottom: 0.1rem;
 }
-.or::before {
-  height: 2px;
-  color: #000;
-}
+
 .apple {
   width: 20rem;
   height: 3rem;
@@ -197,7 +194,7 @@
   flex-direction: row;
 }
 .clegna-card-one {
-  width: 40%;
+  width: 30%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -217,11 +214,10 @@
   text-align: center;
   flex-direction: column;
   border: #000 1px solid;
-  border-radius: 0.3rem;
   border-radius: 0.2rem;
   background: #b0bec5;
   box-shadow: 0 2px 6px 4px #424242;
-  margin: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .note-a {
   width: 10rem;
