@@ -182,6 +182,7 @@
   flex-direction: column;
   background: #90a4ae;
   height: 50vh;
+  overflow-y: hidden;
 }
 .clegna-card {
   display: flex;
