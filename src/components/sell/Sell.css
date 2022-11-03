@@ -125,6 +125,7 @@
   text-decoration: none;
   color: #ffff;
 }
+
 .box-style {
   display: flex;
   flex-direction: column;
@@ -135,7 +136,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 45vw;
-  height: 50vh;
+  height: 22rem;
   background: #ffff;
   border-radius: 0.5rem;
 }
@@ -145,6 +146,10 @@
   justify-content: center;
   margin-top: 0.1rem;
   margin-bottom: 0.1rem;
+}
+.or::before {
+  height: 2px;
+  color: #000;
 }
 .apple {
   width: 20rem;
