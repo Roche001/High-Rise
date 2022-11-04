@@ -8,8 +8,6 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { RiAppleFill } from "react-icons/ri";
 import { FcGoogle } from "react-icons/fc";
-import { FaRegComment } from "react-icons/fa";
-import { IoMdShare } from "react-icons/io";
 
 const Sell = () => {
   const [open, setOpen] = React.useState(false);
