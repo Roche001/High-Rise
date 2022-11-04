@@ -242,6 +242,7 @@
 .sell-contact:hover {
   background: #90a4ae;
 }
+
 @media screen and (max-width: 600px) {
   .section-header {
     text-align: center;
