@@ -190,47 +190,6 @@ const Sell = () => {
           <img src="./assets/Dock.jpeg" alt="sublime" />
         </div>
       </div>
-      <div className="clegne-container">
-        <div className="clegne-box">
-          <p>
-            Our assessment methodology provides our clients with a reasonable
-            market value. It is not an evaluation. Use it as a starting point to
-            estimate the worth of a house, and think about working with a
-            listing agent to find out more.
-          </p>
-          <h4>Alternative Ways of Selling Your Home</h4>
-        </div>
-        <div className="clegna-card">
-          <div className="clegna-card-one">
-            <h4>Get the Inside Track</h4>
-            <div className="note-a">
-              <img src="./assets/note-a.png" alt="note" />
-            </div>
-            <p>
-              Our site can offer you an unbiased take on numerous real-estate
-              markets and your home's value. We can also connect you with top
-              listing agents who know homes like yours — no strings attached.
-            </p>
-            <div className="sell-contact">
-              <h6>CONTACT US</h6>
-            </div>
-          </div>
-          <div className="clegna-card-two">
-            <h4>List It Yourself</h4>
-            <div className="note-a">
-              <img src="./assets/note-b.png" alt="note" />
-            </div>
-            <p>
-              Our For Sale By Owner tools let you list your home yourself,
-              giving you direct access to the 92% of active NYC buyers who use
-              StreetEasy.
-            </p>
-            <div className="sell-contact">
-              <h6>GET STARTED</h6>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
