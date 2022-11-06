@@ -26,8 +26,8 @@
 .rent-townhomes {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .google-rent {
   width: 35vw;
@@ -146,17 +146,22 @@
   justify-content: center;
 }
 @media screen and (max-width: 600px) {
+  .rent-townhomes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .maps-google {
+  }
+  .google-rent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .ranch-card {
     width: 95%;
     height: 100%;
-  }
-  .skies {
-    width: 95%;
-  }
-  .maps-google {
-    display: none;
-  }
-  .google-rent {
-    width: 100%;
   }
 }

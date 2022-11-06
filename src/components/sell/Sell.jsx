@@ -8,6 +8,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { RiAppleFill } from "react-icons/ri";
 import { FcGoogle } from "react-icons/fc";
+import { RiAccountCircleLine } from "react-icons/ri";
 
 const Sell = () => {
   const [open, setOpen] = React.useState(false);
@@ -23,7 +24,22 @@ const Sell = () => {
         <p>
           Wherever you are in the selling journey, our hassle-free tools and
           guides will help you make the right move.
-        </p>
+        </p>{" "}
+        <div className="drop-b">
+          <label for="register">
+            <h4>
+              <RiAccountCircleLine />
+            </h4>
+          </label>
+
+          <select classsName="drop-down">
+            {" "}
+            <Button onClick={handleExtend}>
+              <option value="volvo"> Agent</option>
+            </Button>
+            <option value="volvo">Home-Owner</option>
+          </select>
+        </div>
       </div>
       <div className="section-bg">
         <h3>Enter Your Address to Unlock Your Owner Dashboard</h3>
