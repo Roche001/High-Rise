@@ -35,6 +35,18 @@ const Sell = () => {
           ></textarea>
         </div>
       </div>
+      <div className="house-summary">
+        <div className="house-summary-one">
+          <div className="sum-one">
+            <label htmlFor="Title">Location</label>
+            <input
+              className="sum-one"
+              type="text"
+              placeholder="Enter Location"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
