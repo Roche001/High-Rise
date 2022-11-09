@@ -1,209 +1,57 @@
 import React from "react";
 import "./Sell.css";
-import Backdrop from "@mui/material/Backdrop";
-import Box from "@mui/material/Box";
-import Modal from "@mui/material/Modal";
-import Fade from "@mui/material/Fade";
+import InputLabel from "@mui/material/InputLabel";
+import MenuItem from "@mui/material/MenuItem";
+import FormControl from "@mui/material/FormControl";
+import Select from "@mui/material/Select";
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import { RiAppleFill } from "react-icons/ri";
-import { FcGoogle } from "react-icons/fc";
-import { RiAccountCircleLine } from "react-icons/ri";
 
 const Sell = () => {
+  const [select, setAge] = React.useState("");
   const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-  const [extend, setExtend] = React.useState(false);
-  const handleExtend = () => setExtend(true);
-  const handleShut = () => setExtend(false);
-  return (
-    <div className="sell-block container-fluid nopadding">
-      <div className="section-header">
-        <h3>Explore Available Selling Options</h3>
-        <p>
-          Wherever you are in the selling journey, our hassle-free tools and
-          guides will help you make the right move.
-        </p>{" "}
-        <div className="drop-b">
-          <label for="register">
-            <h4>
-              <RiAccountCircleLine />
-            </h4>
-          </label>
 
-          <select classsName="drop-down">
-            {" "}
-            <Button onClick={handleExtend}>
-              <option value="volvo"> Agent</option>
+  const handleChange = (event) => {
+    setAge(event.target.value);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
+  return (
+    <div className="submit-container container">
+      <div className="submit-card-bg">
+        <div className="submit-options">
+          <div>
+            <Button sx={{ display: "block", mt: 2 }} onClick={handleOpen}>
+              Open the select
             </Button>
-            <option value="volvo">Home-Owner</option>
-          </select>
-        </div>
-      </div>
-      <div className="section-bg">
-        <h3>Enter Your Address to Unlock Your Owner Dashboard</h3>
-        <div className="section-listing">
-          <div className="section-one">
-            <div className="sell-image">
-              <img src="./assets/sell-one.jpeg" alt="sell" />
-            </div>
-            <h5>See Your StreetEasy Valuation</h5>
-            <p>
-              Get an instant, hassle-free estimate of your home’s value, powered
-              by the most expansive real estate database in NYC.
-            </p>
+            <FormControl sx={{ m: 1, minWidth: "60%" }}>
+              <InputLabel id="demo-controlled-open-select-label">
+                Select Option
+              </InputLabel>
+              <Select
+                labelId="demo-controlled-open-select-label"
+                id="demo-controlled-open-select"
+                open={open}
+                onClose={handleClose}
+                onOpen={handleOpen}
+                value={select}
+                label="select"
+                onChange={handleChange}
+              >
+                <MenuItem value="">
+                  <em>None</em>
+                </MenuItem>
+                <MenuItem value={10}>Ten</MenuItem>
+                <MenuItem value={20}>Twenty</MenuItem>
+                <MenuItem value={30}>Thirty</MenuItem>
+              </Select>
+            </FormControl>
           </div>
-          <div className="section-one">
-            <div className="sell-image">
-              <img src="./assets/sell-two.jpeg" alt="sell" />
-            </div>
-            <h5>Get Matched With a Trusted Agent</h5>
-            <p>
-              Ready to sell? Just have questions? We can recommend listing
-              agents who’ve closed on homes just like yours.
-            </p>
-          </div>
-        </div>
-        <div className="dragon-dance">
-          <div className="header-put-one">
-            <input
-              className="input-fire"
-              type="text"
-              placeholder="445 STREET NAME, NAIROBI, NRB 234"
-            />
-          </div>
-          <div className="header-put-two">
-            <input
-              className="input-fire"
-              type="text"
-              placeholder="UNIT NUMBER"
-            />
-          </div>
-          <div className="push-on">
-            <h6>Get Started</h6>
-          </div>{" "}
-        </div>{" "}
-        <div>
-          <p>
-            Are you a returning home owner?
-            <Button onClick={handleExtend}>Register</Button> or
-            <Button onClick={handleOpen}>log in</Button> to view your Owner
-            Dashboard.
-          </p>{" "}
-          <div className="modal-small">
-            <Modal
-              aria-labelledby="transition-modal-title"
-              aria-describedby="transition-modal-description"
-              open={open}
-              onClose={handleClose}
-              closeAfterTransition
-              BackdropComponent={Backdrop}
-              BackdropProps={{
-                timeout: 500,
-              }}
-            >
-              <Fade in={open}>
-                <Box className="box-style">
-                  <Typography
-                    id="transition-modal-title"
-                    variant="h6"
-                    component="h2"
-                  >
-                    <div className="log-out">
-                      <h4>Login</h4>
-                    </div>
-                  </Typography>
-                  <Typography id="transition-modal-description" sx={{ mt: 2 }}>
-                    <div className="log-in">
-                      <input
-                        className="input-fire"
-                        type="text"
-                        placeholder=" Email"
-                      />
-                    </div>
-                    <div className="winterfell">
-                      <a href="#button">
-                        <h6>SUBMIT</h6>
-                      </a>
-                    </div>
-                    <div className="or">
-                      <h6>or</h6>
-                    </div>
-                    <div className="apple">
-                      <h6>
-                        <RiAppleFill />
-                        continue with Apple
-                      </h6>
-                    </div>
-                    <div className="google">
-                      <h6>
-                        <FcGoogle /> continue with Google
-                      </h6>
-                    </div>
-                  </Typography>
-                </Box>
-              </Fade>
-            </Modal>
-          </div>
-          <div className="modal-small">
-            <Modal
-              aria-labelledby="transition-modal-title"
-              aria-describedby="transition-modal-description"
-              open={extend}
-              onClose={handleShut}
-              closeAfterTransition
-              BackdropComponent={Backdrop}
-              BackdropProps={{
-                timeout: 500,
-              }}
-            >
-              <Fade in={extend}>
-                <Box className="box-style">
-                  <Typography
-                    id="transition-modal-title"
-                    variant="h6"
-                    component="h2"
-                  >
-                    <div className="log-out">
-                      <h4>Register</h4>
-                    </div>
-                  </Typography>
-                  <Typography id="transition-modal-description" sx={{ mt: 2 }}>
-                    <div className="log-in">
-                      <input
-                        className="input-fire"
-                        type="text"
-                        placeholder=" Email"
-                      />
-                    </div>
-                    <div className="winterfell">
-                      <a href="#button">
-                        <h6>SUBMIT</h6>
-                      </a>
-                    </div>
-                    <div className="or">
-                      <h6>or</h6>
-                    </div>
-                    <div className="apple">
-                      <h6>
-                        <RiAppleFill />
-                        continue with Apple
-                      </h6>
-                    </div>
-                    <div className="google">
-                      <h6>
-                        <FcGoogle /> continue with Google
-                      </h6>
-                    </div>
-                  </Typography>
-                </Box>
-              </Fade>
-            </Modal>
-          </div>
-        </div>
-        <div className="lady-picture">
-          <img src="./assets/Dock.jpeg" alt="sublime" />
         </div>
       </div>
     </div>
