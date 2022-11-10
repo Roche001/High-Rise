@@ -58,7 +58,7 @@ const Home = () => {
         <h2>Turn your real-estate dreams into a reality </h2>
         <div className="header-put">
           <input
-            className="input-sub"
+            className="input-fire"
             type="text"
             placeholder="Enter city, town or neighborhood"
           />
