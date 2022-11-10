@@ -165,7 +165,8 @@ const Sell = () => {
                 <FcFolder /> Upload Photos
               </h5>
             </div>
-          </div>
+          </div>{" "}
+          <h6>HINT:You can upload all the photos at once!</h6>
         </div>
         <div className="prop-features">
           <h4>Property Features</h4>
