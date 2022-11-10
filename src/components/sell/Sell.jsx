@@ -74,11 +74,15 @@ const Sell = () => {
           <div className="sum-branch">
             <div className="sum-branch-one">
               <label htmlFor="Title">Property Type</label>
-              <input
-                className="sum-small"
-                type="text"
-                placeholder="Enter Location"
-              />
+              <select className="sum-small" id="membership">
+                <option value="Other" selected>
+                  Apartment
+                </option>{" "}
+                <option value="Sale">Condominium</option>
+                <option value="Rent">Cottage</option>
+                <option value="Rent">Flat</option>
+                <option value="Rent">House</option>
+              </select>
             </div>
             <div className="sum-branch-one">
               <label htmlFor="Title">Status</label>
