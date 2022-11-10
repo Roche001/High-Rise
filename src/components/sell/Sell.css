@@ -11,14 +11,14 @@
   flex-direction: column;
 }
 .submit-small {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: row;
 }
 label {
   font-size: 1.2rem;
 }
-.input-sub {
+.input-drag {
   width: 27vw;
   height: 3rem;
   padding: 1rem;
@@ -40,14 +40,184 @@ label {
   border: 1px solid #000;
   padding: 1rem;
 }
+.house-summary-one h4 {
+  border-bottom: 2px solid #000;
+}
+.house-summary-two h4 {
+  border-bottom: 2px solid #000;
+}
+.sum-one {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+.sum-branch-one {
+  display: flex;
+  flex-direction: column;
+}
+.sum-branch-two {
+  display: flex;
+  flex-direction: column;
+}
+.sum-branch {
+  display: flex;
+  flex-direction: row;
+}
+.membership {
+  width: 33.5vw;
+  height: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  border: 1px solid #000;
+}
+.sub-root {
+  display: flex;
+  flex-direction: row;
+}
+.sub-stem {
+  display: flex;
+  flex-direction: row;
+}
+.sum-small {
+  width: 33.5vw;
+  height: 2.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.1rem;
+  border: 1px solid #000;
+  padding: 0.5rem;
+}
+.sum-sm {
+  width: 67.5vw;
+  height: 2.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.1rem;
+  border: 1px solid #000;
+  padding: 0.5rem;
+}
+.lat-long {
+  display: flex;
+  flex-direction: row;
+}
+.lat {
+  display: flex;
+  flex-direction: column;
+}
+.map-drag {
+  width: 100%;
+}
+.gallery h4 {
+  border-bottom: 2px solid #000;
+}
+.lat-gal {
+  width: 67.5vw;
+  height: 6rem;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gal-photo {
+  width: 20vw;
+  height: 4rem;
+  background: #37474f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.gal-photo:hover {
+  opacity: 0.8;
+}
+.gal-photo h5 {
+  color: #ffff;
+}
+.check-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.pay-sm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.pay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #37474f;
+  width: 40vw;
+  height: 4rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.pay h5 {
+  color: #ffff;
+}
 @media screen and (max-width: 600px) {
-  #textarea {
-    width: 90vw;
+  .pay {
+    width: 67vw;
   }
-  .input-sub {
-    width: 40vw;
+  .gal-photo {
+    width: 70vw;
+  }
+  #textarea {
+    width: 95vw;
+  }
+  .submit-small {
+    width: 100vw;
   }
   .input-sup {
     width: 47vw;
+  }
+  .input-drag {
+    width: 45vw;
+  }
+  .sum-sm {
+    width: 95vw;
+    margin-right: 1rem;
+  }
+  .sum-small {
+    width: 44vw;
+  }
+  .membership {
+    width: 44vw;
+  }
+  .lat-gal {
+    width: 95vw;
+  }
+  .check-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .sum-sm {
+    width: 90vw;
+    margin-right: 1rem;
+  }
+  #textarea {
+    width: 90vw;
+  }
+  .submit-small {
+    width: 100vw;
+  }
+  .input-sup {
+    width: 47vw;
+  }
+  .input-drag {
+    width: 42vw;
+  }
+  .sum-small {
+    width: 44.5vw;
+  }
+  .membership {
+    width: 44.5vw;
+  }
+  .lat-gal {
+    width: 90vw;
   }
 }
