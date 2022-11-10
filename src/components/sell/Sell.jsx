@@ -228,7 +228,7 @@ const Sell = () => {
         </div>
         <div className="pay-sm">
           <div className="pay">
-            <h5>Proceed to Payment</h5>
+            <h5>Submit</h5>
           </div>
         </div>
       </div>
