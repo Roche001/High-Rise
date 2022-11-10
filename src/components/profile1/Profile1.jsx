@@ -283,8 +283,9 @@ const Profile1 = () => {
             </div>
           </div>
         </div>
-        <div className="hello-one row">
+        <div className="hello-one">
           <div className="mess-one">
+            <h5>Leave me a message</h5>
             <div className="submit-small">
               <div className="small-one">
                 <label htmlFor="Title">Name</label>
@@ -316,8 +317,12 @@ const Profile1 = () => {
                 required
               ></textarea>
             </div>
+            <div className="sub-mit">
+              <h6>Submit</h6>
+            </div>
           </div>
           <div className="mess-two">
+            <h5>Review</h5>
             <div className="small-one">
               <label htmlFor="Title">Name</label>
               <input
@@ -342,6 +347,9 @@ const Profile1 = () => {
               <Stack spacing={2}>
                 <Rating name="size-medium" defaultValue={2} />
               </Stack>
+            </div>
+            <div className="sub-mit">
+              <h6>Submit</h6>
             </div>
           </div>
         </div>
