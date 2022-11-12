@@ -876,12 +876,14 @@ const Home = () => {
                     <p>Author</p>
                   </div>
                 </div>
-                <p>
-                  I have to say how much I love the artistry and creativity that
-                  goes into these places. They are all truly unique and I love
-                  each and every one of the ideas for all different reasons.
-                  Nicely done video. Thanks for posting.{" "}
-                </p>
+                <div className="paragraph">
+                  <p>
+                    I have to say how much I love the artistry and creativity
+                    that goes into these places. They are all truly unique and I
+                    love each and every one of the ideas for all different
+                    reasons. Nicely done video. Thanks for posting.{" "}
+                  </p>
+                </div>
               </div>
             </Carousel.Item>
             <Carousel.Item>
@@ -893,12 +895,14 @@ const Home = () => {
                     <p>Manager at Hottubs Inc.</p>
                   </div>
                 </div>
-                <p>
-                  This house looks even more stunning than the one presented at
-                  the main channel. What a change does it make for a house when
-                  you integrate both architectural style with the furniture and
-                  the appliances! It is absolutely marvelous.
-                </p>
+                <div className="paragraph">
+                  <p>
+                    This house looks even more stunning than the one presented
+                    at the main channel. What a change does it make for a house
+                    when you integrate both architectural style with the
+                    furniture and the appliances! It is absolutely marvelous.
+                  </p>
+                </div>
               </div>{" "}
             </Carousel.Item>{" "}
             <Carousel.Item>
@@ -910,13 +914,15 @@ const Home = () => {
                     <p>Manager at Lawn LTD.</p>
                   </div>
                 </div>
-                <p>
-                  I love how they have hidden all the industrial equipment such
-                  as the pool's filtration systems, AC's compressor units, etc.
-                  which you usually find on the rooftop. This house is
-                  well-thought out, sleek and beautifully designed. A truly home
-                  resort feel.
-                </p>
+                <div className="paragraph">
+                  <p>
+                    I love how they have hidden all the industrial equipment
+                    such as the pool's filtration systems, AC's compressor
+                    units, etc. which you usually find on the rooftop. This
+                    house is well-thought out, sleek and beautifully designed. A
+                    truly home resort feel.
+                  </p>
+                </div>
               </div>{" "}
             </Carousel.Item>{" "}
             <Carousel.Item>
@@ -928,12 +934,14 @@ const Home = () => {
                     <p>Actress</p>
                   </div>
                 </div>
-                <p>
-                  Out of all the AMAZING natural elements that nature brings to
-                  the table, I'm gratified to hear that you and Micky have back
-                  problems! Back to the relm of the human...and I say this in
-                  the kindest sort of way...love your channel
-                </p>
+                <div className="paragraph">
+                  <p>
+                    Out of all the AMAZING natural elements that nature brings
+                    to the table, I'm gratified to hear that you and Micky have
+                    back problems! Back to the relm of the human...and I say
+                    this in the kindest sort of way...love your channel
+                  </p>
+                </div>
               </div>{" "}
             </Carousel.Item>{" "}
             <Carousel.Item>
@@ -945,12 +953,15 @@ const Home = () => {
                     <p>Doctor, Higway Nursing Home.</p>
                   </div>
                 </div>
-                <p>
-                  Beautiful home, great tour and photography! Perfect size in my
-                  opinion- some of the largest homes lose their soul. This has
-                  the amenities a luxury home requires, without having to make
-                  up reasons for excess spaces. My dogs would love the yard!
-                </p>
+                <div className="paragraph">
+                  <p>
+                    Beautiful home, great tour and photography! Perfect size in
+                    my opinion- some of the largest homes lose their soul. This
+                    has the amenities a luxury home requires, without having to
+                    make up reasons for excess spaces. My dogs would love the
+                    yard!
+                  </p>
+                </div>
               </div>{" "}
             </Carousel.Item>{" "}
             <Carousel.Item>
@@ -962,11 +973,13 @@ const Home = () => {
                     <p>HRM, Higway Nursing Home.</p>
                   </div>
                 </div>
-                <p>
-                  It's so gorgeous 🥺 I love the open shelving on the bbq area
-                  and the lights are amazing, the house is super nice 😍 good
-                  job guys
-                </p>
+                <div className="paragraph">
+                  <p>
+                    It's so gorgeous 🥺 I love the open shelving on the bbq area
+                    and the lights are amazing, the house is super nice 😍 good
+                    job guys
+                  </p>
+                </div>
               </div>{" "}
             </Carousel.Item>
           </Carousel>
