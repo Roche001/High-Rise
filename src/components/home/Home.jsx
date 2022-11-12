@@ -984,11 +984,11 @@ const Home = () => {
             </Carousel.Item>
           </Carousel>
         </div>
-        <div className="course ">
-          <h3>Our Partners </h3>{" "}
-        </div>
 
         <div className="slider-container">
+          <div className="course ">
+            <h3>Our Partners </h3>{" "}
+          </div>
           <OwlCarousel className="slider-items owl-carousel" {...options}>
             <div className="item">
               <img
