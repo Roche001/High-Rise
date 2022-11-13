@@ -31,19 +31,19 @@ const Sell = () => {
       <div className="submit-card-bg">
         <h4>Basic Information </h4>
         <p>Type information about your property. Be descriptive. </p>
-        <div className="submit-small">
-          <div className="small-one">
+        <div className="s-small">
+          <div className="sum-branch-one">
             <label htmlFor="Title">Title</label>
             <input
-              className="input-sup"
+              className="sum-small"
               type="text"
               placeholder="Enter House Title/Name"
             />
           </div>
-          <div className="small-one">
+          <div className="sum-branch-one">
             <label htmlFor="Title">Price</label>
             <input
-              className="input-drag"
+              className="sum-small"
               type="text"
               placeholder="Enter Price"
             />

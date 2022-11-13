@@ -165,7 +165,11 @@ label {
 .check-box h4 {
   color: #37474f;
 }
-@media screen and (max-width: 600px) {
+.s-small {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 599px) {
   .pay {
     width: 67vw;
   }
@@ -179,7 +183,7 @@ label {
     width: 100vw;
   }
   .input-sup {
-    width: 47vw;
+    width: 95vw;
   }
   .input-drag {
     width: 45vw;
@@ -202,7 +206,7 @@ label {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 1200px) {
   .sum-sm {
     width: 90vw;
     margin-right: 1rem;

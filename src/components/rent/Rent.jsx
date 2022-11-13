@@ -21,7 +21,9 @@ const Rent = () => {
         <Marker
           position={{ lat: -1.2306616792179152, lng: 36.84835920697511 }}
         />
-        <Marker position={{ lat: -1.250349, lng: 36.641401 }} />{" "}
+
+        <Marker position={{ lat: -1.250349, lng: 36.641401 }} />
+
         <Marker position={{ lat: -1.32249, lng: 36.884941 }} />
       </GoogleMap>
     ))
