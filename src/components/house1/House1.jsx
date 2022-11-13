@@ -1,6 +1,8 @@
 import React from "react";
 import "./House1.css";
 import Carousel from "react-bootstrap/Carousel";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
 import { Accordion } from "react-bootstrap";
 import { FaBed } from "react-icons/fa";
 import { GiBathtub } from "react-icons/gi";
@@ -43,6 +45,34 @@ const House1 = () => {
       </GoogleMap>
     ))
   );
+  const options = {
+    margin: 5,
+    responsiveClass: true,
+    autoWidth: true,
+    loop: true,
+    pullDrag: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    autoHeight: true,
+    smartSpeed: 800,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      400: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      700: {
+        items: 3,
+      },
+      1000: {
+        items: 5,
+      },
+    },
+  };
   return (
     <div className="container">
       <Carousel>
@@ -1032,138 +1062,140 @@ const House1 = () => {
         <div className="similar">
           <h4>Similar Listings</h4>
           <div className="similar-card row">
-            <div className="home-box-container nopadding">
-              <div className="box-image">
-                <div className="laydown-one">
-                  {" "}
-                  <h5>$5,600/month</h5>
+            <OwlCarousel className="slider-items owl-carousel" {...options}>
+              <div className="home-box-container nopadding">
+                <div className="box-image">
+                  <div className="laydown-one">
+                    {" "}
+                    <h5>$5,600/month</h5>
+                  </div>
+                  <div className="span-ten">
+                    <h6>Listing</h6>
+                    <Link to="/House2" className="link">
+                      <h6>View</h6>{" "}
+                    </Link>
+                  </div>
+                  <img src="./assets/bed1.jpg" alt="featured" />
                 </div>
-                <div className="span-ten">
-                  <h6>Listing</h6>
-                  <Link to="/House2" className="link">
-                    <h6>View</h6>{" "}
-                  </Link>
+                <div className="box-text">
+                  <h6>Town Home</h6>
+                  <div className="box-def">
+                    <h6>
+                      <FaBed />
+                      <span>4</span>
+                    </h6>
+                    <h6>
+                      <GiBathtub />
+                      <span>3</span>
+                    </h6>
+                    <h6>
+                      <MdOutlineSquareFoot />
+                      <span>1200 Sq Ft</span>
+                    </h6>
+                  </div>{" "}
+                  <h5>Furnishsed Town Home</h5>
                 </div>
-                <img src="./assets/bed1.jpg" alt="featured" />
               </div>
-              <div className="box-text">
-                <h6>Town Home</h6>
-                <div className="box-def">
-                  <h6>
-                    <FaBed />
-                    <span>4</span>
-                  </h6>
-                  <h6>
-                    <GiBathtub />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <MdOutlineSquareFoot />
-                    <span>1200 Sq Ft</span>
-                  </h6>
-                </div>{" "}
-                <h5>Furnishsed Town Home</h5>
-              </div>
-            </div>
-            <div className="home-box-container nopadding">
-              <div className="box-image">
-                <div className="laydown-one">
-                  {" "}
-                  <h5>$3,600/month</h5>
+              <div className="home-box-container nopadding">
+                <div className="box-image">
+                  <div className="laydown-one">
+                    {" "}
+                    <h5>$3,600/month</h5>
+                  </div>
+                  <div className="span-ten">
+                    <h6>Listing</h6>
+                    <Link to="/House8" className="link">
+                      <h6>View</h6>{" "}
+                    </Link>
+                  </div>
+                  <img src="./assets/tig1.webp" alt="featured" />
                 </div>
-                <div className="span-ten">
-                  <h6>Listing</h6>
-                  <Link to="/House8" className="link">
-                    <h6>View</h6>{" "}
-                  </Link>
+                <div className="box-text">
+                  <h6>Town Home</h6>
+                  <div className="box-def">
+                    <h6>
+                      <FaBed />
+                      <span>3</span>
+                    </h6>
+                    <h6>
+                      <GiBathtub />
+                      <span>3</span>
+                    </h6>
+                    <h6>
+                      <MdOutlineSquareFoot />
+                      <span>1100 Sq Ft</span>
+                    </h6>
+                  </div>{" "}
+                  <h5>Furnished Town Home</h5>
                 </div>
-                <img src="./assets/tig1.webp" alt="featured" />
               </div>
-              <div className="box-text">
-                <h6>Town Home</h6>
-                <div className="box-def">
-                  <h6>
-                    <FaBed />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <GiBathtub />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <MdOutlineSquareFoot />
-                    <span>1100 Sq Ft</span>
-                  </h6>
-                </div>{" "}
-                <h5>Furnished Town Home</h5>
-              </div>
-            </div>
-            <div className="home-box-container nopadding">
-              <div className="box-image">
-                <div className="laydown-one">
-                  {" "}
-                  <h5>$2,100/month</h5>
+              <div className="home-box-container nopadding">
+                <div className="box-image">
+                  <div className="laydown-one">
+                    {" "}
+                    <h5>$2,100/month</h5>
+                  </div>
+                  <div className="span-ten">
+                    <h6>Listing</h6>
+                    <Link to="/House6" className="link">
+                      <h6>View</h6>{" "}
+                    </Link>
+                  </div>
+                  <img src="./assets/house1.webp" alt="featured" />
                 </div>
-                <div className="span-ten">
-                  <h6>Listing</h6>
-                  <Link to="/House6" className="link">
-                    <h6>View</h6>{" "}
-                  </Link>
+                <div className="box-text">
+                  <h6>Town Home</h6>
+                  <div className="box-def">
+                    <h6>
+                      <FaBed />
+                      <span>4</span>
+                    </h6>
+                    <h6>
+                      <GiBathtub />
+                      <span>3</span>
+                    </h6>
+                    <h6>
+                      <MdOutlineSquareFoot />
+                      <span>1200 Sq Ft</span>
+                    </h6>
+                  </div>{" "}
+                  <h5>Furnished Town Home</h5>
                 </div>
-                <img src="./assets/house1.webp" alt="featured" />
               </div>
-              <div className="box-text">
-                <h6>Town Home</h6>
-                <div className="box-def">
-                  <h6>
-                    <FaBed />
-                    <span>4</span>
-                  </h6>
-                  <h6>
-                    <GiBathtub />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <MdOutlineSquareFoot />
-                    <span>1200 Sq Ft</span>
-                  </h6>
-                </div>{" "}
-                <h5>Furnished Town Home</h5>
-              </div>
-            </div>
-            <div className="home-box-container nopadding">
-              <div className="box-image">
-                <div className="laydown-one">
-                  {" "}
-                  <h5>$8,000/month</h5>
+              <div className="home-box-container nopadding">
+                <div className="box-image">
+                  <div className="laydown-one">
+                    {" "}
+                    <h5>$8,000/month</h5>
+                  </div>
+                  <div className="span-ten">
+                    <h6>Listing</h6>
+                    <Link to="/House3" className="link">
+                      <h6>View</h6>{" "}
+                    </Link>
+                  </div>
+                  <img src="./assets/new1.webp" alt="featured" />
                 </div>
-                <div className="span-ten">
-                  <h6>Listing</h6>
-                  <Link to="/House3" className="link">
-                    <h6>View</h6>{" "}
-                  </Link>
+                <div className="box-text">
+                  <h6>Town Home</h6>
+                  <div className="box-def">
+                    <h6>
+                      <FaBed />
+                      <span>4</span>
+                    </h6>
+                    <h6>
+                      <GiBathtub />
+                      <span>3</span>
+                    </h6>
+                    <h6>
+                      <MdOutlineSquareFoot />
+                      <span>1200 Sq Ft</span>
+                    </h6>
+                  </div>{" "}
+                  <h5>Furnished Town Home</h5>
                 </div>
-                <img src="./assets/new1.webp" alt="featured" />
               </div>
-              <div className="box-text">
-                <h6>Town Home</h6>
-                <div className="box-def">
-                  <h6>
-                    <FaBed />
-                    <span>4</span>
-                  </h6>
-                  <h6>
-                    <GiBathtub />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <MdOutlineSquareFoot />
-                    <span>1200 Sq Ft</span>
-                  </h6>
-                </div>{" "}
-                <h5>Furnished Town Home</h5>
-              </div>
-            </div>
+            </OwlCarousel>
           </div>
         </div>
       </div>
