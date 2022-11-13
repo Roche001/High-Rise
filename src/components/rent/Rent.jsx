@@ -74,19 +74,16 @@ const Rent = () => {
                   </Link>
                 </span>
               </div>{" "}
-              <Link to="/House1" className="link">
-                <div className="card-text">
-                  <div className="card-head">
-                    <h4>9631 North Bridle </h4>
-                    <h5>$1400</h5>
-                  </div>
-                  <h6>
-                    5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT{" "}
-                    <BsDot />
-                    381.9 Acre(s)
-                  </h6>
+              <div className="card-text">
+                <div className="card-head">
+                  <h4>9631 North Bridle </h4>
+                  <h5>$1400</h5>
                 </div>
-              </Link>
+                <h6>
+                  5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT <BsDot />
+                  381.9 Acre(s)
+                </h6>
+              </div>
             </div>
             <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
               <div className="card-img">
