@@ -12,7 +12,7 @@ import Rating from "@mui/material/Rating";
 import Stack from "@mui/material/Stack";
 const Profile1 = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="prof-box">
         <h4>Karen Masterson</h4>
         <div className="prof-card-one">

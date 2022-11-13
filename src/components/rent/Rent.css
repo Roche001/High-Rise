@@ -145,6 +145,24 @@
   align-items: center;
   justify-content: center;
 }
+.float {
+  width: 30%;
+  height: 4rem;
+  background: #37474f;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 50%;
+  left: 50%;
+  display: none;
+}
+.float h4 {
+  color: #ffff;
+}
+.float:hover {
+  background: #323762;
+}
 @media screen and (max-width: 599px) {
   .rent-townhomes {
     display: flex;
@@ -156,6 +174,7 @@
     display: none;
   }
   .google-rent {
+    position: relative;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -172,6 +191,18 @@
   }
   .ranch-card {
     width: 95vw;
+  }
+  .float {
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 95%;
+    margin: 0.3rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  .float h4 {
+    margin-top: 1rem;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1200px) {

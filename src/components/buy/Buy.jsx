@@ -49,6 +49,9 @@ const Buy = () => {
           />
         </div>
         <div className="google-rent">
+          <div className="float">
+            <h4>Maps</h4>
+          </div>
           <div className="correction-box row ">
             <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
               <div className="card-img">
