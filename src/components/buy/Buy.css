@@ -180,6 +180,7 @@
 @media screen and (min-width: 600px) and (max-width: 1200px) {
   .maps-google {
     width: 60vw;
+    height: 80vh;
   }
   .google-rent {
     width: 40vw;
