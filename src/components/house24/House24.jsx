@@ -1,6 +1,8 @@
 import React from "react";
 import "./House24";
 import Carousel from "react-bootstrap/Carousel";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
 import { MdLocationOn } from "react-icons/md";
 import { GiResize } from "react-icons/gi";
 import { BsFillPeopleFill } from "react-icons/bs";
@@ -47,6 +49,34 @@ const House24 = () => {
       </GoogleMap>
     ))
   );
+  const options = {
+    margin: 5,
+    responsiveClass: true,
+    autoWidth: true,
+    loop: true,
+    pullDrag: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    autoHeight: true,
+    smartSpeed: 800,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      400: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      700: {
+        items: 3,
+      },
+      1000: {
+        items: 5,
+      },
+    },
+  };
   return (
     <div className="offices-house container">
       <Carousel>
