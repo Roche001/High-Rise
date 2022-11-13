@@ -49,7 +49,7 @@ const Buy = () => {
           />
         </div>
         <div className="google-rent">
-          <div className="float">
+          <div className="float-one">
             <h4>Maps</h4>
           </div>
           <div className="correction-box row ">

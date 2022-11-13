@@ -117,6 +117,25 @@
   align-items: center;
   justify-content: center;
 }
+
+.float-one {
+  width: 30%;
+  height: 4rem;
+  background: #1a237e;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 50%;
+  left: 50%;
+  display: none;
+}
+.float-one h4 {
+  color: #ffff;
+}
+.float-one:hover {
+  background: #37474f;
+}
 @media screen and (max-width: 599px) {
   .rent-townhomes {
     display: flex;
@@ -144,6 +163,18 @@
   }
   .ranch-card {
     width: 95vw;
+  }
+  .float-one {
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 95%;
+    margin: 0.3rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  .float-one h4 {
+    margin-top: 1rem;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1200px) {
