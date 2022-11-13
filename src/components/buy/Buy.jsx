@@ -49,7 +49,7 @@ const Buy = () => {
           />
         </div>
         <div className="google-rent">
-          <div className="rent-container row ">
+          <div className="correction-box row ">
             <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
               <div className="card-img">
                 <img
@@ -115,7 +115,7 @@ const Buy = () => {
               </div>
             </div>
           </div>
-          <div className="rent-container row">
+          <div className="correction-box row">
             <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
               <div className="card-img">
                 <img
@@ -182,7 +182,7 @@ const Buy = () => {
             </div>
           </div>
 
-          <div className="rent-container row">
+          <div className="correction-box row">
             <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
               <div className="card-img">
                 <img
@@ -248,7 +248,7 @@ const Buy = () => {
               </div>
             </div>
           </div>
-          <div className="rent-container row">
+          <div className="correction-box row">
             <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
               <div className="card-img">
                 <img
@@ -315,9 +315,8 @@ const Buy = () => {
             </div>
           </div>
 
-          <div className="ranches"></div>
           <div className="ranches-container">
-            <div className="ranch-container row">
+            <div className="correction-box row">
               <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House9">
@@ -371,7 +370,7 @@ const Buy = () => {
                 </div>
               </div>{" "}
             </div>
-            <div className="ranch-container row">
+            <div className="correction-box row">
               <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House11">
@@ -426,7 +425,7 @@ const Buy = () => {
               </div>
             </div>
 
-            <div className="ranch-container row">
+            <div className="correction-box row">
               <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
                 <div className="card-img">
                   <Link to="/House13">
@@ -480,7 +479,7 @@ const Buy = () => {
                 </div>
               </div>{" "}
             </div>
-            <div className="ranch-container row">
+            <div className="correction-box row">
               <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House15">
@@ -536,7 +535,7 @@ const Buy = () => {
             </div>
           </div>
           <div className="offices">
-            <div className="offices-container row">
+            <div className="correction-box row">
               <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House17">
@@ -588,7 +587,7 @@ const Buy = () => {
                 </div>
               </div>{" "}
             </div>
-            <div className="offices-container row">
+            <div className="correction-box row">
               <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House19">
@@ -641,7 +640,7 @@ const Buy = () => {
               </div>
             </div>
 
-            <div className="offices-container row">
+            <div className="correction-box row">
               <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
                 <div className="card-img">
                   <Link to="/House21">
@@ -693,7 +692,7 @@ const Buy = () => {
                 </div>
               </div>{" "}
             </div>
-            <div className="offices-container row">
+            <div className="correction-box row">
               <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12 ">
                 <div className="card-img">
                   <Link to="/House23">
