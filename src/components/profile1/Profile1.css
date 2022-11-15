@@ -1,0 +1,79 @@
+.sats {
+  display: flex;
+  flex-direction: row;
+}
+.sats-one {
+  display: flex;
+  flex-direction: row;
+}
+.sat-two {
+  display: flex;
+  flex-direction: row;
+}
+.agent-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.name-image {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name-image img {
+  width: 100%;
+  height: 100%;
+}
+.name-text {
+  margin-left: 2rem;
+}
+.agent-about {
+  margin-top: 1rem;
+}
+.agent-about h3,
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.anchor {
+  width: 15rem;
+  height: 6rem;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.anchor-img {
+  width: 10rem;
+  height: 6rem;
+}
+.anchor-img img {
+  width: 100%;
+  height: 100%;
+}
+.for-sale {
+  border-bottom: 1px solid #000;
+}
+.for-sale h3 {
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 599px) {
+  .agent-name {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
