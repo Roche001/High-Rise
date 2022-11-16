@@ -508,6 +508,7 @@
   border-radius: 0.5rem;
   cursor: pointer;
   margin: 1rem;
+  overflow: hidden;
 }
 .box-image {
   width: 18rem;
