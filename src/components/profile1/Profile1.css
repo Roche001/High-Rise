@@ -35,7 +35,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 2rem;
 }
 .agent-about {
   margin-top: 1rem;
@@ -51,13 +50,15 @@ h4 {
 }
 .anchor {
   width: 15rem;
-  height: 6rem;
+  height: 100%;
   border-radius: 0.3rem;
   overflow: hidden;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0.5rem;
+  border-bottom: solid 2px #000;
 }
 .anchor-img {
   margin-top: 2rem;
@@ -68,6 +69,9 @@ h4 {
   width: 100%;
   height: 100%;
 }
+.ancho-text {
+  margin-left: 0.2rem;
+}
 .for-sale {
   border-bottom: 1px solid #000;
 }
@@ -75,17 +79,109 @@ h4 {
   margin-bottom: 1rem;
   font-weight: 800;
 }
-
+.for-sold h4 {
+  margin-top: 1rem;
+}
+.for-sold {
+  border-bottom: 1px solid #000;
+}
+.button-open {
+  width: 30%;
+  height: 4rem;
+  border: 2px solid #000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.button-open h4 {
+  text-transform: lowercase;
+  color: #000;
+}
+.inner-box {
+  width: 30%;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.review-desk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.small-desk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rev-image {
+  height: 10rem;
+  width: 10rem;
+  overflow: hidden;
+  border-radius: 0.3rem;
+}
+.rev-image img {
+  width: 100%;
+  height: 100%;
+}
+.desk-one {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.talk-area {
+  width: 100%;
+}
+#text-talk {
+  width: 99%;
+  border: 2px solid #000;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
+.talk-submit {
+  width: 60%;
+  height: 4rem;
+  background: #455a64;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+}
 @media screen and (max-width: 599px) {
+  .talk-submit {
+    width: 90%;
+  }
+  .button-open {
+    width: 95%;
+  }
+  .inner-box {
+    width: 90%;
+  }
+  .rev-image {
+    height: 5rem;
+    width: 5rem;
+    overflow: hidden;
+    border-radius: 0.3rem;
+  }
   .agent-name {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
   }
-  .table-one {
-    display: block;
-    width: 100%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .inner-box {
+    width: 50%;
   }
 }
