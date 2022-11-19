@@ -239,6 +239,85 @@ const Profile1 = () => {
             <h4>Write a Review</h4>
           </Button>
         </div>
+        <div className="prof-comment">
+          <h5>I Highly Recommend</h5>
+          <div className="comment-one">
+            <small>04/14/2022 - eachiaochieng'</small>
+          </div>
+          <span>Sold a Single Family home in 2022 in Grovetown, GA.</span>{" "}
+          <Stack spacing={1}>
+            <h2>
+              <Rating name="size-large" defaultValue={2} size="large" />
+            </h2>
+          </Stack>
+          <p>
+            Karen and her colleagues worked tirelessly to deliver the highest
+            level of satisfaction in selling my home. I'd give her a million
+            stars instead of just five. Christine and her colleagues kept me
+            updated throughout the selling process. Thank you so much, Karen,
+            and God bless you.{" "}
+          </p>
+        </div>
+        <div className="prof-comment">
+          <h5>I Highly Recommend</h5>
+          <div className="comment-one">
+            <small>04/14/2022 - eachiaochieng'</small>
+          </div>
+          <span>Sold a Single Family home in 2022 in Grovetown, GA.</span>{" "}
+          <Stack spacing={1}>
+            <h2>
+              <Rating name="size-large" defaultValue={2} size="large" />
+            </h2>
+          </Stack>
+          <p>
+            Karen and her colleagues worked tirelessly to deliver the highest
+            level of satisfaction in selling my home. I'd give her a million
+            stars instead of just five. Christine and her colleagues kept me
+            updated throughout the selling process. Thank you so much, Karen,
+            and God bless you.{" "}
+          </p>
+        </div>
+        <div className="prof-comment">
+          <h5>I Highly Recommend</h5>
+          <div className="comment-one">
+            <small>04/14/2022 - eachiaochieng'</small>
+          </div>
+          <span>Sold a Single Family home in 2022 in Grovetown, GA.</span>{" "}
+          <Stack spacing={1}>
+            <h2>
+              <Rating name="size-large" defaultValue={2} size="large" />
+            </h2>
+          </Stack>
+          <p>
+            Karen and her colleagues worked tirelessly to deliver the highest
+            level of satisfaction in selling my home. I'd give her a million
+            stars instead of just five. Christine and her colleagues kept me
+            updated throughout the selling process. Thank you so much, Karen,
+            and God bless you.{" "}
+          </p>
+        </div>
+        <div className="prof-comment">
+          <h5>I Highly Recommend</h5>
+          <div className="comment-one">
+            <small>04/14/2022 - eachiaochieng'</small>
+          </div>
+          <span>Sold a Single Family home in 2022 in Grovetown, GA.</span>{" "}
+          <Stack spacing={1}>
+            <h2>
+              <Rating name="size-large" defaultValue={2} size="large" />
+            </h2>
+          </Stack>
+          <p>
+            Karen and her colleagues worked tirelessly to deliver the highest
+            level of satisfaction in selling my home. I'd give her a million
+            stars instead of just five. Christine and her colleagues kept me
+            updated throughout the selling process. Thank you so much, Karen,
+            and God bless you.{" "}
+          </p>
+        </div>
+      </div>
+      <div className="agent-eye">
+        <div className="phone-us"></div>
       </div>
     </div>
   );

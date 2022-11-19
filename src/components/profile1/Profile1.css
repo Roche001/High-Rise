@@ -141,6 +141,9 @@ h4 {
 .talk-area {
   width: 100%;
 }
+.talk-area p {
+  text-align: center;
+}
 #text-talk {
   width: 99%;
   border: 2px solid #000;
@@ -155,6 +158,9 @@ h4 {
   align-items: center;
   justify-content: center;
   border-radius: 0.3rem;
+}
+.prof-comment {
+  border-bottom: 2px solid #455a64;
 }
 @media screen and (max-width: 599px) {
   .talk-submit {
