@@ -62,14 +62,14 @@ const Profile1 = () => {
         <div className="listing-sales">
           <div className="for-sale">
             <h3>For Sale(1)</h3>
-            <table className="table-0ne">
+            <table className="table-one">
               <tr className="joe">
                 <th> Address</th>
                 <th>Bed</th>
                 <th>Bath</th>
                 <th>Listing Price</th>
               </tr>
-              <tr>
+              <tr className="table-two">
                 <td className="anchor">
                   <div className="anchor-img">
                     {" "}
