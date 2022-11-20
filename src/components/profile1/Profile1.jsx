@@ -317,7 +317,57 @@ const Profile1 = () => {
         </div>
       </div>
       <div className="agent-eye">
-        <div className="phone-us"></div>
+        <div className="phone-us">
+          <h4>Contact Us</h4>{" "}
+          <div className="phone-label">
+            <label htmlFor="">Name</label>
+            <input type="text" className="phone-us-one" required />
+          </div>
+          <div className="phone-label">
+            <label htmlFor="">phone</label>
+            <input type="text" className="phone-us-one" required />
+          </div>{" "}
+          <div className="phone-label">
+            <label htmlFor="">Email</label>
+            <input type="text" className="phone-us-one" required />
+          </div>
+          <div className="phone-label">
+            <label htmlFor="">phone</label>
+            <textarea
+              className="phone-texta"
+              id=""
+              cols="30"
+              rows="5"
+            ></textarea>
+          </div>
+          <div className="eye-pone">
+            <h4>Contact Us</h4>
+          </div>
+        </div>
+        <div className="phone-them">
+          <h4>Professional Information</h4>
+          <h6>
+            Broker address: <span>RE/MAX True Advantage 677 Kemper </span>
+          </h6>
+          <h6>
+            Cell Phone: <span>(000) 23490</span>
+          </h6>
+          <h6>
+            Websites: <span>LinkedIn, Twitter, Instagram</span>
+          </h6>
+          <h6>
+            Screenname: <span>karenmasterson</span>
+          </h6>
+          <h6>
+            Reg. Date: <span>20/11/2022</span>
+          </h6>
+          <h6>
+            License: <span>3494049494</span>
+          </h6>
+          <h6>
+            Other Licenses: <span>6474884949</span>
+          </h6>
+        </div>
       </div>
     </div>
   );

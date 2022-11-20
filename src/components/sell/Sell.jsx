@@ -46,6 +46,7 @@ const Sell = () => {
               className="sum-small"
               type="text"
               placeholder="Enter Price"
+              required
             />
           </div>
         </div>
