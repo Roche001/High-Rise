@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 import Rating from "@mui/material/Rating";
 import Stack from "@mui/material/Stack";
 import Checkbox from "@mui/material/Checkbox";
-import john from "../../images/free.jpg";
+
 const style = {
   position: "absolute",
   top: "50%",
@@ -369,11 +369,6 @@ const Profile1 = () => {
           <h6>
             Other Licenses: <span>6474884949</span>
           </h6>
-        </div>
-        <div className="prof-picture">
-          <a href={john} download className="btn">
-            <h4>John</h4>
-          </a>
         </div>
       </div>
     </div>
