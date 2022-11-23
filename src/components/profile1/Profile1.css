@@ -218,6 +218,13 @@ h4 {
   height: 4rem;
   background: #455a64;
   margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eye-pone h4 {
+  color: #ffff;
 }
 .phone-them h4 {
   text-align: center;
