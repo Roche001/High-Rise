@@ -348,27 +348,76 @@ const Profile1 = () => {
         </div>
         <div className="phone-them">
           <h4>Professional Information</h4>
-          <h6>
-            Broker address: <span>RE/MAX True Advantage 677 Kemper </span>
-          </h6>
-          <h6>
-            Cell Phone: <span>(000) 23490</span>
-          </h6>
-          <h6>
-            Websites: <span>LinkedIn, Twitter, Instagram</span>
-          </h6>
-          <h6>
-            Screenname: <span>karenmasterson</span>
-          </h6>
-          <h6>
-            Reg. Date: <span>20/11/2022</span>
-          </h6>
-          <h6>
-            License: <span>3494049494</span>
-          </h6>
-          <h6>
-            Other Licenses: <span>6474884949</span>
-          </h6>
+          <table>
+            <tr>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <td> Broker address:</td>
+              <td>RE/MAX True Advantage 677 Kemper</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <td> Cell Phone:</td>
+              <td>(000)23490</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <td> Websites:</td>
+              <td>LinkedIn, Twitter, Instagram</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <td> Screenname:</td>
+              <td>karenmasterson</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <td> Reg. Date :</td>
+              <td>20/11/2022</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <td> License:</td>
+              <td>345786000</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <td> Other Licenses:</td>
+              <td>647888647474</td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
