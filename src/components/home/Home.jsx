@@ -595,10 +595,12 @@ const Home = () => {
                   <option value="Mr">Mr</option>
                   <option value="Mrs"> Mrs</option>
                 </select>
-                <h5>Submit Inquiry</h5>
-                <button type="submit" className="button">
-                  Submit
-                </button>
+                <div className="button-mix">
+                  <h5>Submit Inquiry</h5>
+                  <button type="submit" className="button select">
+                    Submit
+                  </button>
+                </div>
               </div>{" "}
             </form>
           </div>

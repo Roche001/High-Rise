@@ -158,6 +158,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -167,16 +168,19 @@
 .form-one h3 {
   margin-top: 3rem;
   font-weight: 600;
+  text-align: center;
 }
 .form-input {
   border-radius: 0.2rem;
   background: #ffffff;
   color: #020c1b;
-  padding: 2rem;
-  margin: 4rem;
+  width: 40vw;
+  padding: 1rem;
+
+  margin-bottom: 0.5rem;
 }
 .select {
-  width: 20rem;
+  width: 95%;
   padding: 1.5rem;
   border-radius: 0.2rem;
   margin-bottom: 0.5rem;
@@ -185,7 +189,7 @@
   cursor: pointer;
 }
 .select-a {
-  width: 20rem;
+  width: 95%;
   padding: 1.5rem;
   border: #020c1b 1px solid;
   border-radius: 0.2rem;
@@ -204,6 +208,12 @@
 .button a {
   text-decoration: none;
   color: #ffffff;
+}
+.button-mix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
 }
 .form-two {
   display: flex;
@@ -645,9 +655,9 @@
   .header-put {
     width: 95%;
   }
-  /* .home-header {
-    height: 70vh;
-  } */
+  .form-input {
+    width: 40vw;
+  }
 }
 @media screen and (max-width: 1200px) {
   .search-bar {
@@ -664,7 +674,7 @@
     width: 100%;
   }
   .form-input {
-    width: 95%;
+    width: 100%;
     margin: 1rem;
   }
   .select {
