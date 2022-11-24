@@ -42,7 +42,7 @@ const Profile4 = () => {
           </div>
           <div className="name-text">
             <h2>Amarillo Real Estate Group</h2>
-            <h6>Karen Masterson</h6>
+            <h6>Jennifer Barton</h6>
             <div className="sats">
               <div className="sats-one">
                 <h6>
@@ -192,10 +192,10 @@ const Profile4 = () => {
                     <div className="small-desk">
                       {" "}
                       <div className="rev-image">
-                        <img src="./assets/agent1.jpeg" alt="agent" />
+                        <img src="./assets/agent6.jpeg" alt="agent" />
                       </div>
                       <div className="desk-one">
-                        <p>How do you rate Karen Masterson?</p>
+                        <p>How do you rate Jennifer Barton?</p>
                         <Stack spacing={1}>
                           <h2>
                             <Rating
