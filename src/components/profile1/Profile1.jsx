@@ -38,7 +38,7 @@ const Profile1 = () => {
     setChecked(event.target.checked);
   };
   return (
-    <div className="profile-container container">
+    <div className="profile-container container ">
       <div className="agent-profile">
         <div className="agent-name">
           <div className="name-image">
@@ -426,7 +426,7 @@ const Profile1 = () => {
         <div className="profile-feature">
           <h5>Featured Properties</h5>
           <div className="kony">
-            <div className="home-box-container ">
+            <div className="home-box-container one">
               <Link to="/House7" className=" link-some">
                 <div className="box-image">
                   <div className="laydown-one">
