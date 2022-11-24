@@ -236,6 +236,22 @@ h4 {
 .phone-them h6 span {
   margin-left: 2rem;
 }
+.link {
+  text-decoration: none;
+  color: #000;
+}
+.profile-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
+}
+.profile-feature h4 {
+  margin-top: 0.3rem;
+}
 @media screen and (max-width: 599px) {
   .talk-submit {
     width: 90%;
@@ -289,5 +305,9 @@ h4 {
   }
   .agent-eye {
     width: 100%;
+  }
+  .kony {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }

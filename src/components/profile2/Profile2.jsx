@@ -9,6 +9,9 @@ import Typography from "@mui/material/Typography";
 import { IoMdStar } from "react-icons/io";
 import { BsDot } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import { FaBed } from "react-icons/fa";
+import { GiBathtub } from "react-icons/gi";
+import { MdOutlineSquareFoot } from "react-icons/md";
 import Rating from "@mui/material/Rating";
 import Stack from "@mui/material/Stack";
 import Checkbox from "@mui/material/Checkbox";
@@ -417,6 +420,139 @@ const Profile2 = () => {
               <td>647888647474</td>
             </tr>
           </table>
+        </div>
+        <div className="profile-feature">
+          <h5>Featured Properties</h5>
+          <div className="kony">
+            <div className="home-box-container ">
+              <Link to="/House7" className=" link">
+                <div className="box-image">
+                  <div className="laydown-one">
+                    {" "}
+                    <h5>$1550</h5>
+                  </div>
+                  <div className="span-ten">
+                    <h6>Featured</h6>
+                  </div>
+                  <img src="./assets/room1.webp" alt="featured" />
+                </div>
+                <div className="box-text">
+                  <h6>Modern Apartment</h6>
+                  <div className="box-def">
+                    <h6>
+                      <FaBed />
+                      <span>4</span>
+                    </h6>
+                    <h6>
+                      <GiBathtub />
+                      <span>3</span>
+                    </h6>
+                    <h6>
+                      <MdOutlineSquareFoot />
+                      <span>1200 Sq Ft</span>
+                    </h6>
+                  </div>{" "}
+                  <h5>Family Home</h5>
+                </div>
+              </Link>
+            </div>{" "}
+            <div className="home-box-container ">
+              <Link to="/House8" className=" link">
+                <div className="box-image">
+                  <div className="laydown-one">
+                    {" "}
+                    <h5>$1550</h5>
+                  </div>
+                  <div className="span-ten">
+                    <h6>Featured</h6>
+                  </div>
+                  <img src="./assets/tig1.webp" alt="featured" />
+                </div>
+                <div className="box-text">
+                  <h6>Modern Apartment</h6>
+                  <div className="box-def">
+                    <h6>
+                      <FaBed />
+                      <span>4</span>
+                    </h6>
+                    <h6>
+                      <GiBathtub />
+                      <span>3</span>
+                    </h6>
+                    <h6>
+                      <MdOutlineSquareFoot />
+                      <span>1200 Sq Ft</span>
+                    </h6>
+                  </div>{" "}
+                  <h5>Family Home</h5>
+                </div>
+              </Link>
+            </div>
+            <div className="home-box-container ">
+              <Link to="/House15" className=" link">
+                <div className="box-image">
+                  <div className="laydown-one">
+                    {" "}
+                    <h5>$1550</h5>
+                  </div>
+                  <div className="span-ten">
+                    <h6>Featured</h6>
+                  </div>
+                  <img src="./assets/roma1.webp" alt="featured" />
+                </div>
+                <div className="box-text">
+                  <h6>Modern Apartment</h6>
+                  <div className="box-def">
+                    <h6>
+                      <FaBed />
+                      <span>4</span>
+                    </h6>
+                    <h6>
+                      <GiBathtub />
+                      <span>3</span>
+                    </h6>
+                    <h6>
+                      <MdOutlineSquareFoot />
+                      <span>1200 Sq Ft</span>
+                    </h6>
+                  </div>{" "}
+                  <h5>Family Home</h5>
+                </div>
+              </Link>
+            </div>
+            <div className="home-box-container ">
+              <Link to="/House10" className=" link">
+                <div className="box-image">
+                  <div className="laydown-one">
+                    {" "}
+                    <h5>$1550</h5>
+                  </div>
+                  <div className="span-ten">
+                    <h6>Featured</h6>
+                  </div>
+                  <img src="./assets/castle1.webp" alt="featured" />
+                </div>
+                <div className="box-text">
+                  <h6>Modern Apartment</h6>
+                  <div className="box-def">
+                    <h6>
+                      <FaBed />
+                      <span>4</span>
+                    </h6>
+                    <h6>
+                      <GiBathtub />
+                      <span>3</span>
+                    </h6>
+                    <h6>
+                      <MdOutlineSquareFoot />
+                      <span>1200 Sq Ft</span>
+                    </h6>
+                  </div>{" "}
+                  <h5>Family Home</h5>
+                </div>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>
