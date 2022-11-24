@@ -174,10 +174,9 @@
   border-radius: 0.2rem;
   background: #ffffff;
   color: #020c1b;
-  width: 40vw;
-  padding: 1rem;
-
+  width: 25vw;
   margin-bottom: 0.5rem;
+  padding: 0.5rem;
 }
 .select {
   width: 95%;
@@ -598,15 +597,71 @@
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (max-width: 600px) {
+.form-query {
+  width: 60%;
+  background: #ffffff;
+  color: #020c1b;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  margin: 2rem;
+}
+.qur {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  cursor: pointer;
+}
+.query-two {
+  background: #37474f;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f5f5f5;
+}
+.form-query h4 {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.query-one {
+  display: flex;
+  flex-direction: column;
+}
+.query-one label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.query-one-one {
+  width: 95%;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  border: #020c1b 1px solid;
+  background: #f5f5f5;
+}
+.query-one-two {
+  width: 95%;
+  border-radius: 0.3rem;
+  border: #020c1b 1px solid;
+  background: #f5f5f5;
+  margin-bottom: 0.5rem;
+}
+.easy {
+  text-align: center;
+  width: 95%;
+  padding: 1rem;
+  background: #37474f;
+  border-radius: 0.3rem;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+@media screen and (max-width: 599px) {
   .search-bar {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .picker-a {
-    width: 100%;
   }
 
   .picker,
@@ -656,10 +711,13 @@
     width: 95%;
   }
   .form-input {
-    width: 40vw;
+    width: 99%;
+  }
+  .form-query {
+    width: 100%;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 1200px) {
   .search-bar {
     display: flex;
     flex-direction: column;
@@ -674,7 +732,7 @@
     width: 100%;
   }
   .form-input {
-    width: 100%;
+    width: 45vw;
     margin: 1rem;
   }
   .select {
@@ -700,5 +758,8 @@
   }
   .roche-one {
     width: 44%;
+  }
+  .form-query {
+    width: 95%;
   }
 }

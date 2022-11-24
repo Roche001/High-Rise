@@ -553,56 +553,51 @@ const Home = () => {
         </div>
         <div className="form row">
           <div className="form-one col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            {" "}
-            <form ref={form} onSubmit={sendEmail}>
-              <h3>Real Estate Inquiry Form</h3>
-              <div className="form-input">
-                <h6>Inquiry Type</h6>
-                <select className="select">
+            <div className="form-query">
+              <h4>Real Estate Inquiry Form</h4>{" "}
+              <div className="query-one">
+                <label htmlFor="type">Inquiry Type</label>
+                <select className="query-one-one">
                   <option value="Select Value"> Select Value</option>
                   <option value="Apartments">Apartments </option>
                   <option value="Offices"> Offices</option>
                   <option value="Houses"> Houses</option>
                   <option value="Studios"> Studios</option>
                 </select>
-                <h5>Personal Info</h5>
-                <div className="personal">
-                  <select className="select">
-                    <option value="Select "> Select </option>
-                    <option value="Buyer">Buyer</option>
-                    <option value="Agent"> Agent</option>
-                  </select>
-                  <h5>User_name</h5>
-                  <input
-                    className="select-a"
-                    type="User_name"
-                    name="name"
-                    placeholder="Your Name"
-                    required
-                  />
-                </div>
-                <h5>User_email</h5>
-                <input
-                  className="select-a"
-                  type="Email"
-                  name="Email"
-                  placeholder="Your Email"
-                  required
-                />
-                <h5>How to Address You</h5>
-                <select className="select">
+              </div>
+              <div className="query-one">
+                <label htmlFor="personal">Personal Info</label>
+                <select className="query-one-one">
                   <option value="Select "> Select </option>
-                  <option value="Mr">Mr</option>
-                  <option value="Mrs"> Mrs</option>
+                  <option value="Buyer">Buyer</option>
+                  <option value="Agent"> Agent</option>
                 </select>
-                <div className="button-mix">
-                  <h5>Submit Inquiry</h5>
-                  <button type="submit" className="button select">
-                    Submit
-                  </button>
-                </div>
+              </div>
+              <div className="query-one">
+                <label htmlFor="">Name</label>
+                <input type="text" className="query-one-one" required />
+              </div>
+              <div className="query-one">
+                <label htmlFor="">phone</label>
+                <input type="text" className="query-one-one" required />
               </div>{" "}
-            </form>
+              <div className="query-one">
+                <label htmlFor="">Email</label>
+                <input type="text" className="query-one-one" required />
+              </div>
+              <div className="query-one">
+                <label htmlFor="">Message</label>
+                <textarea
+                  className="query-one-two"
+                  id=""
+                  cols="30"
+                  rows="5"
+                ></textarea>
+              </div>
+              <div className="easy">
+                <h5>Submit</h5>
+              </div>
+            </div>{" "}
           </div>
 
           <div className="form-two col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
