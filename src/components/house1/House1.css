@@ -94,9 +94,7 @@
   width: 100%;
   background-position: center;
 }
-.party-party {
-  width: 50%;
-}
+
 .part-two {
   display: flex;
   flex-direction: column;
@@ -168,5 +166,19 @@
   }
   .item-one {
     width: 100%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .food-conatiner {
+    width: 100%;
+  }
+  .part-one {
+    width: 50%;
+  }
+  .item-one {
+    width: 100%;
+  }
+  .part-two {
+    width: 50%;
   }
 }
