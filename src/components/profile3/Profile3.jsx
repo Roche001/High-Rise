@@ -424,7 +424,7 @@ const Profile3 = () => {
           <h5>Featured Properties</h5>
           <div className="kony">
             <div className="home-box-container ">
-              <Link to="/House7" className=" link">
+              <Link to="/House7" className=" link-some">
                 <div className="box-image">
                   <div className="laydown-one">
                     {" "}
@@ -456,7 +456,7 @@ const Profile3 = () => {
               </Link>
             </div>{" "}
             <div className="home-box-container ">
-              <Link to="/House8" className=" link">
+              <Link to="/House8" className=" link-some">
                 <div className="box-image">
                   <div className="laydown-one">
                     {" "}
@@ -488,7 +488,7 @@ const Profile3 = () => {
               </Link>
             </div>
             <div className="home-box-container ">
-              <Link to="/House15" className=" link">
+              <Link to="/House15" className=" link-some">
                 <div className="box-image">
                   <div className="laydown-one">
                     {" "}
@@ -520,7 +520,7 @@ const Profile3 = () => {
               </Link>
             </div>
             <div className="home-box-container ">
-              <Link to="/House10" className=" link">
+              <Link to="/House10" className=" link-some">
                 <div className="box-image">
                   <div className="laydown-one">
                     {" "}
