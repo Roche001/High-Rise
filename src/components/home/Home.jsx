@@ -554,49 +554,52 @@ const Home = () => {
         <div className="form row">
           <div className="form-one col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div className="form-query">
-              <h4>Real Estate Inquiry Form</h4>{" "}
-              <div className="query-one">
-                <label htmlFor="type">Inquiry Type</label>
-                <select className="query-one-one">
-                  <option value="Select Value"> Select Value</option>
-                  <option value="Apartments">Apartments </option>
-                  <option value="Offices"> Offices</option>
-                  <option value="Houses"> Houses</option>
-                  <option value="Studios"> Studios</option>
-                </select>
-              </div>
-              <div className="query-one">
-                <label htmlFor="personal">Personal Info</label>
-                <select className="query-one-one">
-                  <option value="Select "> Select </option>
-                  <option value="Buyer">Buyer</option>
-                  <option value="Agent"> Agent</option>
-                </select>
-              </div>
-              <div className="query-one">
-                <label htmlFor="">Name</label>
-                <input type="text" className="query-one-one" required />
-              </div>
-              <div className="query-one">
-                <label htmlFor="">phone</label>
-                <input type="text" className="query-one-one" required />
-              </div>{" "}
-              <div className="query-one">
-                <label htmlFor="">Email</label>
-                <input type="text" className="query-one-one" required />
-              </div>
-              <div className="query-one">
-                <label htmlFor="">Message</label>
-                <textarea
-                  className="query-one-two"
-                  id=""
-                  cols="30"
-                  rows="5"
-                ></textarea>
-              </div>
-              <div className="easy">
-                <h5>Submit</h5>
-              </div>
+              {" "}
+              <form ref={form} onSubmit={sendEmail}>
+                <h4>Real Estate Inquiry Form</h4>{" "}
+                <div className="query-one">
+                  <label htmlFor="type">Inquiry Type</label>
+                  <select className="query-one-one">
+                    <option value="Select Value"> Select Value</option>
+                    <option value="Apartments">Apartments </option>
+                    <option value="Offices"> Offices</option>
+                    <option value="Houses"> Houses</option>
+                    <option value="Studios"> Studios</option>
+                  </select>
+                </div>
+                <div className="query-one">
+                  <label htmlFor="personal">Personal Info</label>
+                  <select className="query-one-one">
+                    <option value="Select "> Select </option>
+                    <option value="Buyer">Buyer</option>
+                    <option value="Agent"> Agent</option>
+                  </select>
+                </div>
+                <div className="query-one">
+                  <label htmlFor="">Name</label>
+                  <input type="text" className="query-one-one" required />
+                </div>
+                <div className="query-one">
+                  <label htmlFor="">phone</label>
+                  <input type="text" className="query-one-one" required />
+                </div>{" "}
+                <div className="query-one">
+                  <label htmlFor="">Email</label>
+                  <input type="text" className="query-one-one" required />
+                </div>
+                <div className="query-one">
+                  <label htmlFor="">Message</label>
+                  <textarea
+                    className="query-one-two"
+                    id=""
+                    cols="30"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <div className="easy">
+                  <h5>Submit</h5>
+                </div>
+              </form>
             </div>{" "}
           </div>
 
