@@ -5,6 +5,7 @@
   "dependencies": {
     "@archilogic/embed-api": "^2.0.0",
     "@chakra-ui/react": "^2.3.7",
+    "@emailjs/browser": "^3.9.1",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.10.12",

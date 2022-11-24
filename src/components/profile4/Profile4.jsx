@@ -334,7 +334,7 @@ const Profile4 = () => {
             <input type="text" className="phone-us-one" required />
           </div>
           <div className="phone-label">
-            <label htmlFor="">phone</label>
+            <label htmlFor="">Message</label>
             <textarea
               className="phone-texta"
               id=""
