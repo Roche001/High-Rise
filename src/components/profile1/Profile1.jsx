@@ -458,7 +458,7 @@ const Profile1 = () => {
                 </div>
               </Link>
             </div>{" "}
-            <div className="home-box-container ">
+            <div className="home-box-container one">
               <Link to="/House8" className=" link-some">
                 <div className="box-image">
                   <div className="laydown-one">
@@ -490,7 +490,7 @@ const Profile1 = () => {
                 </div>
               </Link>
             </div>
-            <div className="home-box-container ">
+            <div className="home-box-container one ">
               <Link to="/House15" className="link-some">
                 <div className="box-image">
                   <div className="laydown-one">
@@ -522,7 +522,7 @@ const Profile1 = () => {
                 </div>
               </Link>
             </div>
-            <div className="home-box-container ">
+            <div className="home-box-container one ">
               <Link to="/House10" className=" link-some">
                 <div className="box-image">
                   <div className="laydown-one">
