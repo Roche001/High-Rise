@@ -20,7 +20,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { useForm, ValidationError } from "@formspree/react";
+import { useForm } from "@formspree/react";
 
 const Home = () => {
   const options = {
