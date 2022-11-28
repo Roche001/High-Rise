@@ -472,6 +472,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 .laydown-one:hover {
   opacity: 0.6;

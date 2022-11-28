@@ -1,5 +1,4 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React from "react";
 import "./Home.css";
 import "./style.css";
 import Carousel from "react-bootstrap/Carousel";
@@ -21,6 +20,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { useForm, ValidationError } from "@formspree/react";
 
 const Home = () => {
   const options = {
@@ -51,29 +51,10 @@ const Home = () => {
       },
     },
   };
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_u4t7s5e",
-        "template_puh7rea",
-        form.current,
-        "Yeer2eAqyEmQoqgcd"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("message sent");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
-  };
+  const [state, handleSubmit] = useForm("mjvzdwod");
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
   return (
     <section className="home ">
       <div className="home-header">
@@ -555,8 +536,8 @@ const Home = () => {
           <div className="form-one col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div className="form-query">
               {" "}
-              <form ref={form} onSubmit={sendEmail}>
-                <h4>Real Estate Inquiry Form</h4>{" "}
+              <h4>Real Estate Inquiry Form</h4>{" "}
+              <form onSubmit={handleSubmit}>
                 <div className="query-one">
                   <label htmlFor="type">Inquiry Type</label>
                   <select className="query-one-one">
@@ -577,28 +558,49 @@ const Home = () => {
                 </div>
                 <div className="query-one">
                   <label htmlFor="">Name</label>
-                  <input type="text" className="query-one-one" required />
+                  <input
+                    type="name"
+                    name="name"
+                    className="query-one-one"
+                    required
+                  />
                 </div>
                 <div className="query-one">
                   <label htmlFor="">phone</label>
-                  <input type="text" className="query-one-one" required />
+                  <input
+                    type="phone"
+                    name="phone"
+                    className="query-one-one"
+                    required
+                  />
                 </div>{" "}
                 <div className="query-one">
                   <label htmlFor="">Email</label>
-                  <input type="text" className="query-one-one" required />
+                  <input
+                    type="email"
+                    name="email"
+                    className="query-one-one"
+                    required
+                  />
                 </div>
                 <div className="query-one">
                   <label htmlFor="">Message</label>
                   <textarea
                     className="query-one-two"
-                    id=""
+                    id="message"
+                    name="message"
                     cols="30"
                     rows="5"
                   ></textarea>
                 </div>
-                <div className="easy">
+                <button
+                  type="submit"
+                  disabled={state.submitting}
+                  className="easy"
+                >
                   <h5>Submit</h5>
-                </div>
+                </button>
+                <div></div>
               </form>
             </div>{" "}
           </div>
