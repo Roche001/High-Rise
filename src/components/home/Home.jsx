@@ -53,7 +53,7 @@ const Home = () => {
   };
   const [state, handleSubmit] = useForm("mjvzdwod");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return;
   }
   return (
     <section className="home ">
