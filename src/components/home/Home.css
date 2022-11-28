@@ -525,6 +525,8 @@
   width: 18rem;
   height: 15rem;
   position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 .box-image img {
   width: 100%;
