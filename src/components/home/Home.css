@@ -554,10 +554,11 @@
   top: 0;
   right: 0;
   position: absolute;
-  margin-right: 2rem;
+  padding: 2rem;
 }
-.drop h4 {
-  margin: 0.2rem;
+.drop h6 {
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 .drop-down {
   padding: 3rem;
@@ -661,6 +662,9 @@
   color: #f5f5f5;
   cursor: pointer;
 }
+.singup {
+  border-radius: 0.5rem;
+}
 @media screen and (max-width: 599px) {
   .search-bar {
     display: flex;
@@ -726,6 +730,9 @@
   }
   .review {
     height: 70vh;
+  }
+  .singup {
+    width: 90%;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1200px) {
