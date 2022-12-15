@@ -16,7 +16,10 @@ const Top = () => {
             </div>
           </Link>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          className="toggle"
+        />
 
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

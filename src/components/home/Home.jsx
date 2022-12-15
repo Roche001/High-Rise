@@ -100,7 +100,7 @@ const Home = () => {
               </Typography>
               <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                <h4 onClick={handleOpen}>Sign Up</h4>
+                <h4>Hello</h4>
               </Typography>
             </Box>
           </Modal>
@@ -615,7 +615,7 @@ const Home = () => {
                     rows="5"
                   ></textarea>
                 </div>
-                <button>
+                <button className="easy">
                   <h5>Submit</h5>
                 </button>
                 <div></div>

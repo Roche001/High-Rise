@@ -9,8 +9,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="container-fluid footer">
-      <div className="rise row">
-        <div className="logo  col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <div className="rise ">
+        <div className="logo  ">
           <div className="rise-logo">
             <RiHome6Line />
           </div>
@@ -19,7 +19,7 @@ const Footer = () => {
             <p>REAL ESTATE COMPANY</p>
           </div>
         </div>
-        <div className="icons  col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div className="icons  ">
           <div className="icon-a">
             <a
               className="icon icon-facebook"
