@@ -12,7 +12,7 @@ const Top = () => {
         <Navbar.Brand>
           <Link to="/">
             <div className="logo">
-              <img src="./assets/logo.png" alt="Company-logo" />
+              <img src="./assets/home.png" alt="Company-logo" />
             </div>
           </Link>
         </Navbar.Brand>
