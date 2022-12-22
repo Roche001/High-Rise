@@ -121,8 +121,8 @@ const Home = () => {
                 </div>
                 <div className="span-ten">
                   <h6>Featured</h6>
-                  <Link to="./Rent" className="link">
-                    <h6>Rent</h6>{" "}
+                  <Link to="./House7" className="link">
+                    <h6>View</h6>{" "}
                   </Link>
                 </div>
                 <img src="./assets/room1.webp" alt="featured" />
@@ -154,8 +154,8 @@ const Home = () => {
                 </div>
                 <div className="span-ten">
                   <h6>Featured</h6>
-                  <Link to="./Buy" className="link">
-                    <h6>Buy</h6>{" "}
+                  <Link to="./House4" className="link">
+                    <h6>View</h6>{" "}
                   </Link>
                 </div>
                 <img src="./assets/York1.jpg" alt="featured" />
@@ -187,8 +187,8 @@ const Home = () => {
                 </div>
                 <div className="span-ten">
                   <h6>Featured</h6>
-                  <Link to="./Rent" className="link">
-                    <h6>Rent</h6>{" "}
+                  <Link to="./House14" className="link">
+                    <h6>View</h6>{" "}
                   </Link>
                 </div>
                 <img src="./assets/rancho1.webp" alt="featured" />
@@ -220,8 +220,8 @@ const Home = () => {
                 </div>
                 <div className="span-ten">
                   <h6>Featured</h6>
-                  <Link to="./Rent" className="link">
-                    <h6>Rent</h6>{" "}
+                  <Link to="./House21" className="link">
+                    <h6>View</h6>{" "}
                   </Link>
                 </div>
                 <img src="./assets/officee1.webp" alt="featured" />
@@ -286,8 +286,8 @@ const Home = () => {
                 </div>
                 <div className="span-ten">
                   <h6>Featured</h6>
-                  <Link to="./Rent" className="link">
-                    <h6>Rent</h6>{" "}
+                  <Link to="./House12" className="link">
+                    <h6>View</h6>{" "}
                   </Link>
                 </div>
                 <img src="./assets/malibu1.webp" alt="featured" />
@@ -319,8 +319,8 @@ const Home = () => {
                 </div>
                 <div className="span-ten">
                   <h6>Featured</h6>
-                  <Link to="./Rent" className="link">
-                    <h6>Rent</h6>{" "}
+                  <Link to="./House9" className="link">
+                    <h6>View</h6>{" "}
                   </Link>
                 </div>
                 <img src="./assets/buffalo1.webp" alt="featured" />
@@ -352,8 +352,8 @@ const Home = () => {
                 </div>
                 <div className="span-ten">
                   <h6>Featured</h6>
-                  <Link to="./Rent" className="link">
-                    <h6>Rent</h6>{" "}
+                  <Link to="./House23" className="link">
+                    <h6>View</h6>{" "}
                   </Link>
                 </div>
                 <img src="./assets/officeg1.webp" alt="featured" />
@@ -385,8 +385,8 @@ const Home = () => {
                 </div>
                 <div className="span-ten">
                   <h6>Featured</h6>
-                  <Link to="./Rent" className="link">
-                    <h6>Rent</h6>{" "}
+                  <Link to="./House11" className="link">
+                    <h6>View</h6>{" "}
                   </Link>
                 </div>
                 <img src="./assets/horse1.webp" alt="featured" />
