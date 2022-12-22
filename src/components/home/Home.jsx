@@ -409,7 +409,7 @@ const Home = () => {
                 </div>{" "}
                 <h5>Multi-Family Home</h5>
               </div>
-            </div>{" "}
+            </div>
           </OwlCarousel>
         </div>
       </div>
@@ -422,7 +422,7 @@ const Home = () => {
             <div className="roche-img nopadding col-xl-6 col-lg-4 col-md-6 col-sm-6 col-xs-12">
               <div className="laydown"></div>
               <div className="word">
-                <Link to="./House10" className="link">
+                <Link to="./Apartment" className="link">
                   <h4>Apartments</h4>
                   <p>19 Properties</p>
                 </Link>

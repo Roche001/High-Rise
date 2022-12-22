@@ -35,6 +35,7 @@ import Profile1 from "./components/profile1/Profile1";
 import Profile2 from "./components/profile2/Profile2";
 import Profile3 from "./components/profile3/Profile3";
 import Profile4 from "./components/profile4/Profile4";
+import Apartment from "./components/apartment/Apartment";
 const App = () => {
   return (
     <Router>
@@ -72,6 +73,7 @@ const App = () => {
         <Route Profile2 path="Profile2" exact element={<Profile2 />} />
         <Route Profile3 path="Profile3" exact element={<Profile3 />} />
         <Route Profile4 path="Profile4" exact element={<Profile4 />} />
+        <Route Apartment path="Apartment" exact element={<Apartment />} />
       </Routes>
       <Footer />
     </Router>
