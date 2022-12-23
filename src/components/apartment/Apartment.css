@@ -2,10 +2,11 @@
   display: flex;
 }
 .apartment-map {
-  width: 80%;
+  width: 60%;
   height: 100vh;
 }
 .apartment-container {
+  width: 40%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -13,13 +14,17 @@
   margin-left: auto;
   margin-right: auto;
 }
-.apartment-container-sm {
+.apartment-slide {
   margin: 0.5rem;
 }
-.apartment-image {
+.apartment-slide-image {
+  height: 20rem;
+}
+.apartment-slide-image img {
   width: 100%;
   height: 100%;
 }
+
 @media screen and (max-width: 600px) {
   .apartment-map {
     display: none;
@@ -28,6 +33,7 @@
     width: 100%;
   }
   .apartment-container {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
   }
