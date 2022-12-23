@@ -436,7 +436,7 @@ const Home = () => {
             <div className="roche-one nopadding  col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
               <div className="laydown"></div>{" "}
               <div className="word-one">
-                <Link to="./House10" className="link">
+                <Link to="./Villa" className="link">
                   <h4>Villa</h4>
                   <p>12 Properties</p>
                 </Link>

@@ -16,9 +16,11 @@
 }
 .apartment-slide {
   margin: 0.5rem;
+  border-radius: 0.3rem;
+  overflow: hidden;
 }
 .apartment-slide-image {
-  height: 20rem;
+  height: 17rem;
 }
 .apartment-slide-image img {
   width: 100%;

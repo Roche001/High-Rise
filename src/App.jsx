@@ -36,6 +36,7 @@ import Profile2 from "./components/profile2/Profile2";
 import Profile3 from "./components/profile3/Profile3";
 import Profile4 from "./components/profile4/Profile4";
 import Apartment from "./components/apartment/Apartment";
+import Villa from "./components/villa/Villa";
 const App = () => {
   return (
     <Router>
@@ -74,6 +75,7 @@ const App = () => {
         <Route Profile3 path="Profile3" exact element={<Profile3 />} />
         <Route Profile4 path="Profile4" exact element={<Profile4 />} />
         <Route Apartment path="Apartment" exact element={<Apartment />} />
+        <Route Villa path="Villa" exact element={<Villa />} />
       </Routes>
       <Footer />
     </Router>
