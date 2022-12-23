@@ -53,7 +53,7 @@ const Apartment = () => {
         <div className="apartment-container">
           {partment.map((partment, index) => {
             return (
-              <div className="home-box-container" key={index}>
+              <div className="apartment-container-sm" key={index}>
                 <Link to={partment.link} className="link">
                   <div className="box-image">
                     <div className="laydown-one">
