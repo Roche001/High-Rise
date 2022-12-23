@@ -9,7 +9,7 @@ export const partment = [
     bed: "3",
     bath: "2",
     size: "1200 SQ FT",
-    description: "Thika",
+    description: "Phase13, Thika",
     link: "../House11",
     iconOne: <FaBed />,
     iconTwo: <GiBathtub />,

@@ -1,5 +1,3 @@
-.photo-sec {
-}
 .apartment-home {
   display: flex;
 }
@@ -10,4 +8,32 @@
 .apartment-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 600px) {
+  .apartment-map {
+    display: none;
+  }
+  .apartment-home {
+    width: 100%;
+  }
+  .apartment-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .home-box-container {
+    width: 100vw;
+  }
+  .box-image {
+    width: 98%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .apartment-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
