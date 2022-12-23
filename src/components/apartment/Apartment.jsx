@@ -1,5 +1,6 @@
 import React from "react";
 import "./Apartment.css";
+import { BsSearch } from "react-icons/bs";
 import { partment } from "../../apartment";
 import { Link } from "react-router-dom";
 import {
@@ -28,7 +29,18 @@ const Apartment = () => {
   );
   return (
     <div className="apartment-head">
-      <div className="photo-sec"></div>
+      <div className="town-home">
+        <div className="header-put">
+          <input
+            className="input-fire"
+            type="text"
+            placeholder="Enter city, town or neighborhood"
+          />
+          <h4>
+            <BsSearch />
+          </h4>
+        </div>
+      </div>
       <div className="apartment-home">
         <div className="apartment-map">
           <MapWithAMarker
