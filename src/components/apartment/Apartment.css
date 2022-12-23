@@ -1,0 +1,13 @@
+.photo-sec {
+}
+.apartment-home {
+  display: flex;
+}
+.apartment-map {
+  width: 80%;
+  height: 100vh;
+}
+.apartment-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
