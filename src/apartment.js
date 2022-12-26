@@ -1,6 +1,10 @@
 import { FaBed } from "react-icons/fa";
 import { GiBathtub } from "react-icons/gi";
 import { MdOutlineSquareFoot } from "react-icons/md";
+import { BsLinkedin } from "react-icons/bs";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
+import { BsFacebook } from "react-icons/bs";
 
 export const partment = [
   {
@@ -1220,5 +1224,109 @@ export const owl = [
     iconTwo: <GiBathtub />,
     iconThree: <MdOutlineSquareFoot />,
     type: "Ranch & Farm",
+  },
+];
+export const agent = [
+  {
+    name: "Karen Masterson",
+    position: "Chief Legal Officer",
+    description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "./assets/agent1.jpeg",
+    action: "View Profile",
+    link: "./Profile1",
+    iconOne: <BsFacebook />,
+    iconTwo: <AiOutlineTwitter />,
+    iconThree: <AiFillInstagram />,
+    iconFour: <BsLinkedin />,
+    socialOne: "https://www.facebook.com",
+    socialTwo: "https://www.twitter.com",
+    socialThree: "https://www.instagram.com",
+    socialFour: "https://www.linkedin.com",
+  },
+  {
+    name: "Kathleem Myers",
+    position: "Chief Operating Officer",
+    description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "./assets/agent2.jpeg",
+    action: "View Profile",
+    link: "./Profile2",
+    iconOne: <BsFacebook />,
+    iconTwo: <AiOutlineTwitter />,
+    iconThree: <AiFillInstagram />,
+    iconFour: <BsLinkedin />,
+    socialOne: "https://www.facebook.com",
+    socialTwo: "https://www.twitter.com",
+    socialThree: "https://www.instagram.com",
+    socialFour: "https://www.linkedin.com",
+  },
+  {
+    name: "John Loyd",
+    position: "Cheif Analytics Officer",
+    description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "./assets/agent3.jpeg",
+    action: "View Profile",
+    link: "./Profile3",
+    iconOne: <BsFacebook />,
+    iconTwo: <AiOutlineTwitter />,
+    iconThree: <AiFillInstagram />,
+    iconFour: <BsLinkedin />,
+    socialOne: "https://www.facebook.com",
+    socialTwo: "https://www.twitter.com",
+    socialThree: "https://www.instagram.com",
+    socialFour: "https://www.linkedin.com",
+  },
+  {
+    name: "Jennifer Barton",
+    position: "Vice President, Product",
+    description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "./assets/agent6.jpeg",
+    action: "View Profile",
+    link: "./Profile4",
+    iconOne: <BsFacebook />,
+    iconTwo: <AiOutlineTwitter />,
+    iconThree: <AiFillInstagram />,
+    iconFour: <BsLinkedin />,
+    socialOne: "https://www.facebook.com",
+    socialTwo: "https://www.twitter.com",
+    socialThree: "https://www.instagram.com",
+    socialFour: "https://www.linkedin.com",
+  },
+];
+export const partners = [
+  {
+    image: "./assets/part1.png",
+    className: "d-block w-100",
+  },
+  {
+    image: "./assets/part2.png",
+    className: "d-block w-100",
+  },
+  {
+    image: "./assets/part3.png",
+    className: "d-block w-100",
+  },
+  {
+    image: "./assets/part4.png",
+    className: "d-block w-100",
+  },
+  {
+    image: "./assets/part5.png",
+    className: "d-block w-100",
+  },
+  {
+    image: "./assets/part6.png",
+    className: "d-block w-100",
+  },
+  {
+    image: "./assets/part7.png",
+    className: "d-block w-100",
+  },
+  {
+    image: "./assets/part8.png",
+    className: "d-block w-100",
+  },
+  {
+    image: "./assets/part9.png",
+    className: "d-block w-100",
   },
 ];

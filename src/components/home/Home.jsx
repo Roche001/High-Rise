@@ -5,13 +5,7 @@ import Carousel from "react-bootstrap/Carousel";
 import { ImHome3 } from "react-icons/im";
 import { AiFillDollarCircle } from "react-icons/ai";
 import { IoIosContact } from "react-icons/io";
-import { BsFacebook } from "react-icons/bs";
-import { AiOutlineTwitter } from "react-icons/ai";
-import { AiFillInstagram } from "react-icons/ai";
-import { BsLinkedin } from "react-icons/bs";
-import { FaBed } from "react-icons/fa";
-import { GiBathtub } from "react-icons/gi";
-import { MdOutlineSquareFoot } from "react-icons/md";
+
 import { FiSearch } from "react-icons/fi";
 import { RiAccountCircleLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
@@ -24,6 +18,8 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { owl } from "../../apartment";
+import { agent } from "../../apartment";
+import { partners } from "../../apartment";
 const options = {
   margin: 5,
   responsiveClass: true,
@@ -367,8 +363,8 @@ const Home = () => {
           <div className="form-two col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h4>Why Choose Us</h4>
             <p>
-              It’s our job to get you the best price for your home and make sure
-              that you get the best possible deal on the property{" "}
+              It is our job to get you the best price for your home and make
+              sure that you get the best possible deal on the property{" "}
             </p>
             <div className="form-special">
               <div className="sec-one">
@@ -423,234 +419,46 @@ const Home = () => {
               dream house{" "}
             </p>
           </div>
-          <div className="agent-one  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <div className="agent-one-img">
-              <div className="over">
-                <a
-                  href="https://www.facebook.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    <BsFacebook />
-                  </h4>
-                </a>
-                <a
-                  href="https://www.twitter.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    {" "}
-                    <AiOutlineTwitter />
-                  </h4>
-                </a>
-                <a
-                  href="https://www.instagram.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    <AiFillInstagram />
-                  </h4>
-                </a>
-                <a
-                  href="https://www.linkedIn.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    <BsLinkedin />
-                  </h4>
-                </a>
+          {agent.map((agent, index) => {
+            return (
+              <div
+                className="agent-one col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
+                key={index}
+              >
+                <div className="agent-one-img">
+                  <div className="over">
+                    <a href={agent.socialOne} target="_blank" rel="noreferrer">
+                      <h4>{agent.iconOne}</h4>
+                    </a>
+                    <a href={agent.socialTwo} target="_blank" rel="noreferrer">
+                      <h4> {agent.iconTwo}</h4>
+                    </a>
+                    <a
+                      href={agent.socialThree}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h4>{agent.iconThree}</h4>
+                    </a>
+                    <a href={agent.socialFour} target="_blank" rel="noreferrer">
+                      <h4>{agent.iconFour}</h4>
+                    </a>
+                  </div>
+                  <img src={agent.image} alt="Agent" loading="lazy" />
+                </div>
+                <div className="name">
+                  <h5>{agent.name}</h5>
+                  <p>{agent.position}</p>
+                  <p>{agent.description}</p>
+                </div>
+                <Link to={agent.link} className="link">
+                  <div className="profile">
+                    <h6>{agent.action}</h6>
+                  </div>
+                </Link>
               </div>
-              <img src="./assets/agent1.jpeg" alt="Agent" />
-            </div>
-            <div className="name">
-              <h5>Karen Masterson</h5>
-              <p>Chief Legal Officer</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus porta justo eget risus consectetur,...{" "}
-              </p>
-            </div>
-            <Link to="./Profile1" className="link">
-              <div className="profile">
-                <h6>View Profile</h6>
-              </div>
-            </Link>
-          </div>
-          <div className="agent-one  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <div className="agent-one-img">
-              <div className="over">
-                <a
-                  href="https://www.facebook.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    <BsFacebook />
-                  </h4>
-                </a>
-                <a
-                  href="https://www.twitter.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    {" "}
-                    <AiOutlineTwitter />
-                  </h4>
-                </a>
-                <a
-                  href="https://www.instagram.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    <AiFillInstagram />
-                  </h4>
-                </a>
-                <a
-                  href="https://www.linkedIn.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    <BsLinkedin />
-                  </h4>
-                </a>
-              </div>
-              <img src="./assets/agent2.jpeg" alt="Agent" />
-            </div>
-            <div className="name">
-              <h5>Kathleem Myers</h5>
-              <p>Chief Operating Officer</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus porta justo eget risus consectetur,...{" "}
-              </p>
-            </div>
-            <Link to="./Profile2" className="link">
-              <div className="profile">
-                <h6>View Profile</h6>
-              </div>
-            </Link>
-          </div>{" "}
-          <div className="agent-one  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <div className="agent-one-img">
-              <div className="over">
-                <a
-                  href="https://www.facebook.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    <BsFacebook />
-                  </h4>
-                </a>
-                <a
-                  href="https://www.twitter.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    {" "}
-                    <AiOutlineTwitter />
-                  </h4>
-                </a>
-                <a
-                  href="https://www.instagram.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    <AiFillInstagram />
-                  </h4>
-                </a>
-                <a
-                  href="https://www.linkedIn.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    <BsLinkedin />
-                  </h4>
-                </a>
-              </div>
-              <img src="./assets/agent5.jpeg" alt="Agent" />
-            </div>
-            <div className="name">
-              <h5>John Loyd</h5>
-              <p>Cheif Analytics Officer</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus porta justo eget risus consectetur,...{" "}
-              </p>
-            </div>
-            <Link to="./Profile3" className="link">
-              <div className="profile">
-                <h6>View Profile</h6>
-              </div>
-            </Link>
-          </div>{" "}
-          <div className="agent-one  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <div className="agent-one-img">
-              <div className="over">
-                <a
-                  href="https://www.facebook.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    <BsFacebook />
-                  </h4>
-                </a>
-                <a
-                  href="https://www.twitter.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    {" "}
-                    <AiOutlineTwitter />
-                  </h4>
-                </a>
-                <a
-                  href="https://www.instagram.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    <AiFillInstagram />
-                  </h4>
-                </a>
-                <a
-                  href="https://www.linkedIn.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h4>
-                    <BsLinkedin />
-                  </h4>
-                </a>
-              </div>
-              <img src="./assets/agent6.jpeg" alt="Agent" />
-            </div>
-            <div className="name">
-              <h5>Jennifer Barton</h5>
-              <p>Vice President, Product</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus porta justo eget risus consectetur,...{" "}
-              </p>
-            </div>
-            <Link to="./Profile4" className="link">
-              <div className="profile">
-                <h6>View Profile</h6>
-              </div>
-            </Link>
-          </div>
+            );
+          })}
         </div>
         <div className="review">
           <h3>What Our Clients Say</h3>
@@ -779,69 +587,18 @@ const Home = () => {
             <h3>Our Partners </h3>{" "}
           </div>
           <OwlCarousel className="slider-items owl-carousel" {...options}>
-            <div className="item">
-              <img
-                className="d-block w-100"
-                src="./assets/part1.png"
-                alt="partners"
-              />
-            </div>
-            <div className="item">
-              <img
-                className="d-block w-100"
-                src="./assets/part2.png"
-                alt="partners"
-              />
-            </div>
-            <div className="item">
-              <img
-                className="d-block w-100"
-                src="./assets/part3.png"
-                alt="partners"
-              />
-            </div>
-            <div className="item">
-              <img
-                className="d-block w-100"
-                src="./assets/part4.png"
-                alt="partners"
-              />
-            </div>
-            <div className="item">
-              <img
-                className="d-block w-100"
-                src="./assets/part5.png"
-                alt="partners"
-              />
-            </div>
-            <div className="item">
-              <img
-                className="d-block w-100"
-                src="./assets/part6.png"
-                alt="partners"
-              />
-            </div>{" "}
-            <div className="item">
-              <img
-                className="d-block w-100"
-                src="./assets/part7.png"
-                alt="partners"
-              />
-            </div>
-            <div className="item">
-              <img
-                className="d-block w-100"
-                src="./assets/part8.png"
-                alt="partners"
-              />
-            </div>
-            <div className="item">
-              <img
-                className="d-block w-100"
-                src="./assets/part9.png"
-                alt="partners"
-              />
-            </div>
+            {partners.map((partners, index) => {
+              return (
+                <div className="item" key={index}>
+                  <img
+                    className={partners.className}
+                    src={partners.image}
+                    alt="partners"
+                    loading="lazy"
+                  />
+                </div>
+              );
+            })}
           </OwlCarousel>
         </div>
       </div>
