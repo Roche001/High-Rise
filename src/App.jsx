@@ -37,6 +37,13 @@ import Profile3 from "./components/profile3/Profile3";
 import Profile4 from "./components/profile4/Profile4";
 import Apartment from "./components/apartment/Apartment";
 import Villa from "./components/villa/Villa";
+import Family from "./components/family/Family";
+import Studio from "./components/studio/Studio";
+import Condo from "./components/condo/Condo";
+import Shop from "./components/shop/Shop";
+import Multi from "./components/multi/Multi";
+import Lot from "./components/lot/Lot";
+import Offices from "./components/offices/Offices";
 const App = () => {
   return (
     <Router>
@@ -76,6 +83,13 @@ const App = () => {
         <Route Profile4 path="Profile4" exact element={<Profile4 />} />
         <Route Apartment path="Apartment" exact element={<Apartment />} />
         <Route Villa path="Villa" exact element={<Villa />} />
+        <Route Family path="Family" exact element={<Family />} />
+        <Route Studio path="Studio" exact element={<Studio />} />
+        <Route Condo path="Condo" exact element={<Condo />} />
+        <Route Shop path="Shop" exact element={<Shop />} />{" "}
+        <Route Multi path="Multi" exact element={<Multi />} />
+        <Route Lot path="Lot" exact element={<Lot />} />
+        <Route Offices path="Offices" exact element={<Offices />} />
       </Routes>
       <Footer />
     </Router>

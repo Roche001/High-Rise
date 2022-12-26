@@ -450,7 +450,7 @@ const Home = () => {
             <div className="roche-one nopadding  col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
               <div className="laydown"></div>
               <div className="word-one">
-                <Link to="./House10" className="link">
+                <Link to="./Family" className="link">
                   <h4>Family Home</h4>
                   <p>15 Properties</p>
                 </Link>
@@ -466,7 +466,7 @@ const Home = () => {
             <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
               <div className="laydown"></div>
               <div className="word-one">
-                <Link to="./House10" className="link">
+                <Link to="./Studio" className="link">
                   <h4>Studio</h4>
                   <p>11 Properties</p>
                 </Link>
@@ -481,7 +481,7 @@ const Home = () => {
             <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
               <div className="laydown"></div>
               <div className="word-one">
-                <Link to="./House10" className="link">
+                <Link to="./Condo" className="link">
                   <h4>Condo</h4>
                   <p>13 Properties</p>
                 </Link>
@@ -496,7 +496,7 @@ const Home = () => {
             <div className="roche-img  nopadding col-xl-6 col-lg-4 col-md-6 col-sm-6 col-xs-12">
               <div className="laydown"></div>
               <div className="word">
-                <Link to="./House10" className="link">
+                <Link to="./Shop" className="link">
                   <h4>Shop</h4>
                   <p>12 Properties</p>
                 </Link>
@@ -512,7 +512,7 @@ const Home = () => {
             <div className="roche-img nopadding col-xl-6 col-lg-4 col-md-6 col-sm-6 col-xs-12">
               <div className="laydown"></div>
               <div className="word">
-                <Link to="./House10" className="link">
+                <Link to="./Multi" className="link">
                   <h4>Multi Family Home</h4>
                   <p>19 Properties</p>
                 </Link>
@@ -527,7 +527,7 @@ const Home = () => {
             <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
               <div className="laydown"></div>
               <div className="word-one">
-                <Link to="./House10" className="link">
+                <Link to="./Lot" className="link">
                   <h4>Lot</h4>
                   <p>14 Properties</p>
                 </Link>
@@ -541,7 +541,7 @@ const Home = () => {
             <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
               <div className="laydown"></div>
               <div className="word-one">
-                <Link to="./House10" className="link">
+                <Link to="./Offices" className="link">
                   <h4>Offices</h4>
                   <p>12 Properties</p>
                 </Link>
