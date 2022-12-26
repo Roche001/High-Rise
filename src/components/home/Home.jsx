@@ -20,6 +20,7 @@ import Modal from "@mui/material/Modal";
 import { owl } from "../../apartment";
 import { agent } from "../../apartment";
 import { partners } from "../../apartment";
+import { review } from "../../apartment";
 const options = {
   margin: 5,
   responsiveClass: true,
@@ -464,121 +465,24 @@ const Home = () => {
           <h3>What Our Clients Say</h3>
           <div className="shadow"></div>
           <Carousel slide={false} className="big-review">
-            <Carousel.Item>
-              <div className="review-card">
-                <div className="review-card-img">
-                  <img src="./assets/say1.jpeg" alt="Customer" />
-                  <div className="text-tree">
-                    <h5>Searcy Michael</h5>
-                    <p>Author</p>
+            {review.map((review, index) => {
+              return (
+                <Carousel.Item key={index}>
+                  <div className="review-card">
+                    <div className="review-card-img">
+                      <img src={review.image} alt="Customer" loading="lazy" />
+                      <div className="text-tree">
+                        <h5>{review.name}</h5>
+                        <p>{review.position}</p>
+                      </div>
+                    </div>
+                    <div className="paragraph">
+                      <p>{review.description}</p>
+                    </div>
                   </div>
-                </div>
-                <div className="paragraph">
-                  <p>
-                    I have to say how much I love the artistry and creativity
-                    that goes into these places. They are all truly unique and I
-                    love each and every one of the ideas for all different
-                    reasons. Nicely done video. Thanks for posting.{" "}
-                  </p>
-                </div>
-              </div>
-            </Carousel.Item>
-            <Carousel.Item>
-              <div className="review-card">
-                <div className="review-card-img">
-                  <img src="./assets/say2.jpeg" alt="Customer" />
-                  <div className="text-tree">
-                    <h5>Maria Flyn</h5>
-                    <p>Manager at Hottubs Inc.</p>
-                  </div>
-                </div>
-                <div className="paragraph">
-                  <p>
-                    This house looks even more stunning than the one presented
-                    at the main channel. What a change does it make for a house
-                    when you integrate both architectural style with the
-                    furniture and the appliances! It is absolutely marvelous.
-                  </p>
-                </div>
-              </div>{" "}
-            </Carousel.Item>{" "}
-            <Carousel.Item>
-              <div className="review-card">
-                <div className="review-card-img">
-                  <img src="./assets/say3.jpeg" alt="Customer" />
-                  <div className="text-tree">
-                    <h5>Filman Lamina</h5>
-                    <p>Manager at Lawn LTD.</p>
-                  </div>
-                </div>
-                <div className="paragraph">
-                  <p>
-                    I love how they have hidden all the industrial equipment
-                    such as the pool's filtration systems, AC's compressor
-                    units, etc. which you usually find on the rooftop. This
-                    house is well-thought out, sleek and beautifully designed. A
-                    truly home resort feel.
-                  </p>
-                </div>
-              </div>{" "}
-            </Carousel.Item>{" "}
-            <Carousel.Item>
-              <div className="review-card">
-                <div className="review-card-img">
-                  <img src="./assets/say4.jpeg" alt="Customer" />
-                  <div className="text-tree">
-                    <h5>Andreea Houston</h5>
-                    <p>Actress</p>
-                  </div>
-                </div>
-                <div className="paragraph">
-                  <p>
-                    Out of all the AMAZING natural elements that nature brings
-                    to the table, I'm gratified to hear that you and Micky have
-                    back problems! Back to the relm of the human...and I say
-                    this in the kindest sort of way...love your channel
-                  </p>
-                </div>
-              </div>{" "}
-            </Carousel.Item>{" "}
-            <Carousel.Item>
-              <div className="review-card">
-                <div className="review-card-img">
-                  <img src="./assets/say5.jpeg" alt="Customer" />
-                  <div className="text-tree">
-                    <h5>Larry Eckerdt</h5>
-                    <p>Doctor, Higway Nursing Home.</p>
-                  </div>
-                </div>
-                <div className="paragraph">
-                  <p>
-                    Beautiful home, great tour and photography! Perfect size in
-                    my opinion- some of the largest homes lose their soul. This
-                    has the amenities a luxury home requires, without having to
-                    make up reasons for excess spaces. My dogs would love the
-                    yard!
-                  </p>
-                </div>
-              </div>{" "}
-            </Carousel.Item>{" "}
-            <Carousel.Item>
-              <div className="review-card">
-                <div className="review-card-img">
-                  <img src="./assets/say6.jpeg" alt="Customer" />
-                  <div className="text-tree">
-                    <h5>Hannah Mae Endaya</h5>
-                    <p>HRM, Higway Nursing Home.</p>
-                  </div>
-                </div>
-                <div className="paragraph">
-                  <p>
-                    It's so gorgeous 🥺 I love the open shelving on the bbq area
-                    and the lights are amazing, the house is super nice 😍 good
-                    job guys
-                  </p>
-                </div>
-              </div>{" "}
-            </Carousel.Item>
+                </Carousel.Item>
+              );
+            })}
           </Carousel>
         </div>
 

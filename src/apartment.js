@@ -1330,3 +1330,47 @@ export const partners = [
     className: "d-block w-100",
   },
 ];
+export const review = [
+  {
+    image: "./assets/say1.jpeg",
+    name: "Searcy Michael",
+    position: "Author",
+    description:
+      "I have to say how much I love the artistry and creativity that goes into these places. They are all truly unique and I love each and every one of the ideas for all different reasons. Nicely done video. Thanks for posting.",
+  },
+  {
+    image: "./assets/say2.jpeg",
+    name: "Maria Flyn",
+    position: "Manager at Hottubs Inc.",
+    description:
+      "This house looks even more stunning than the one presented at the main channel. What a change does it make for a house when you integrate both architectural style with the furniture and the appliances! It is absolutely marvelous.",
+  },
+  {
+    image: "./assets/say3.jpeg",
+    name: "Filman Lamina",
+    position: "Manager at Lawn LTD.",
+    description:
+      " I love how they have hidden all the industrial equipment such as the pool's filtration systems, AC's compressor units, etc. which you usually find on the rooftop. This house is well-thought out, sleek and beautifully designed. A truly home resort feel.",
+  },
+  {
+    image: "./assets/say4.jpeg",
+    name: "Andreea Houston",
+    position: "Actress",
+    description:
+      " Out of all the AMAZING natural elements that nature brings to the table, I'm gratified to hear that you and Micky have back problems! Back to the relm of the human...and I say this in the kindest sort of way...love your channel",
+  },
+  {
+    image: "./assets/say5.jpeg",
+    name: "Larry Eckerdt",
+    position: "Doctor, Higway Nursing Home.",
+    description:
+      "  Beautiful home, great tour and photography! Perfect size in my opinion- some of the largest homes lose their soul. This has the amenities a luxury home requires, without having to  make up reasons for excess spaces. My dogs would love the yard!",
+  },
+  {
+    image: "./assets/say6.jpeg",
+    name: "Hannah Mae Endaya",
+    position: "HRM, Higway Nursing Home.",
+    description:
+      " It's so gorgeous 🥺 I love the open shelving on the bbq area and the lights are amazing, the house is super nice 😍 good job guys",
+  },
+];
