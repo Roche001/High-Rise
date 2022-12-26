@@ -23,6 +23,7 @@ import "swiper/css/navigation";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
+import { owl } from "../../apartment";
 const options = {
   margin: 5,
   responsiveClass: true,
@@ -113,303 +114,43 @@ const Home = () => {
         </div>
         <div className="home-box">
           <OwlCarousel className="slider-items owl-carousel" {...options}>
-            <div className="home-box-container">
-              <div className="box-image">
-                <div className="laydown-one">
-                  {" "}
-                  <h5>$1550</h5>
+            {owl.map((owl, index) => {
+              return (
+                <div className="home-box-container" key={index}>
+                  <div className="box-image">
+                    <div className="laydown-one">
+                      {" "}
+                      <h5>{owl.price}</h5>
+                    </div>
+                    <div className="span-ten">
+                      <h6>{owl.boxText}</h6>
+                      <Link to="./House7" className="link">
+                        <h6>{owl.action}</h6>{" "}
+                      </Link>
+                    </div>
+                    <img src={owl.image} alt="featured" loading="lazy" />
+                  </div>
+                  <div className="box-text">
+                    <h6>{owl.name}</h6>
+                    <div className="box-def">
+                      <h6>
+                        {owl.iconOne}
+                        <span>{owl.bed}</span>
+                      </h6>
+                      <h6>
+                        {owl.iconTwo}
+                        <span>{owl.bath}</span>
+                      </h6>
+                      <h6>
+                        {owl.iconThree}
+                        <span>{owl.size}</span>
+                      </h6>
+                    </div>{" "}
+                    <h5>{owl.type}</h5>
+                  </div>
                 </div>
-                <div className="span-ten">
-                  <h6>Featured</h6>
-                  <Link to="./House7" className="link">
-                    <h6>View</h6>{" "}
-                  </Link>
-                </div>
-                <img src="./assets/room1.webp" alt="featured" />
-              </div>
-              <div className="box-text">
-                <h6>Modern Apartment</h6>
-                <div className="box-def">
-                  <h6>
-                    <FaBed />
-                    <span>4</span>
-                  </h6>
-                  <h6>
-                    <GiBathtub />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <MdOutlineSquareFoot />
-                    <span>1200 Sq Ft</span>
-                  </h6>
-                </div>{" "}
-                <h5>Family Home</h5>
-              </div>
-            </div>
-            <div className="home-box-container">
-              <div className="box-image">
-                <div className="laydown-one">
-                  {" "}
-                  <h5>$1250</h5>
-                </div>
-                <div className="span-ten">
-                  <h6>Featured</h6>
-                  <Link to="./House4" className="link">
-                    <h6>View</h6>{" "}
-                  </Link>
-                </div>
-                <img src="./assets/York1.jpg" alt="featured" />
-              </div>
-              <div className="box-text">
-                <h6>Modern Apartment</h6>
-                <div className="box-def">
-                  <h6>
-                    <FaBed />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <GiBathtub />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <MdOutlineSquareFoot />
-                    <span>1100 Sq Ft</span>
-                  </h6>
-                </div>{" "}
-                <h5>Family Home</h5>
-              </div>
-            </div>
-            <div className="home-box-container">
-              <div className="box-image">
-                <div className="laydown-one">
-                  {" "}
-                  <h5>$1550</h5>
-                </div>
-                <div className="span-ten">
-                  <h6>Featured</h6>
-                  <Link to="./House14" className="link">
-                    <h6>View</h6>{" "}
-                  </Link>
-                </div>
-                <img src="./assets/rancho1.webp" alt="featured" />
-              </div>
-              <div className="box-text">
-                <h6>Ranch & Farm</h6>
-                <div className="box-def">
-                  <h6>
-                    <FaBed />
-                    <span>4</span>
-                  </h6>
-                  <h6>
-                    <GiBathtub />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <MdOutlineSquareFoot />
-                    <span>1200 Sq Ft</span>
-                  </h6>
-                </div>{" "}
-                <h5>Multi-Family Home</h5>
-              </div>
-            </div>
-            <div className="home-box-container">
-              <div className="box-image">
-                <div className="laydown-one">
-                  {" "}
-                  <h5>$1550</h5>
-                </div>
-                <div className="span-ten">
-                  <h6>Featured</h6>
-                  <Link to="./House21" className="link">
-                    <h6>View</h6>{" "}
-                  </Link>
-                </div>
-                <img src="./assets/officee1.webp" alt="featured" />
-              </div>
-              <div className="box-text">
-                <h6>Modern Office</h6>
-                <div className="box-def">
-                  <h6>
-                    <FaBed />
-                    <span>4</span>
-                  </h6>
-                  <h6>
-                    <GiBathtub />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <MdOutlineSquareFoot />
-                    <span>1200 Sq Ft</span>
-                  </h6>
-                </div>{" "}
-                <h5>Spacious Office</h5>
-              </div>
-            </div>
-            <div className="home-box-container">
-              <div className="box-image">
-                <div className="laydown-one">
-                  {" "}
-                  <h5>$1550</h5>
-                </div>
-                <div className="span-ten">
-                  <h6>Featured</h6>
-                  <Link to="./Rent" className="link">
-                    <h6>Rent</h6>{" "}
-                  </Link>
-                </div>
-                <img src="./assets/roche1.jpg" alt="featured" />
-              </div>
-              <div className="box-text">
-                <h6>Modern Apartment</h6>
-                <div className="box-def">
-                  <h6>
-                    <FaBed />
-                    <span>4</span>
-                  </h6>
-                  <h6>
-                    <GiBathtub />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <MdOutlineSquareFoot />
-                    <span>1200 Sq Ft</span>
-                  </h6>
-                </div>{" "}
-                <h5>Family Home</h5>
-              </div>
-            </div>{" "}
-            <div className="home-box-container">
-              <div className="box-image">
-                <div className="laydown-one">
-                  {" "}
-                  <h5>$1550</h5>
-                </div>
-                <div className="span-ten">
-                  <h6>Featured</h6>
-                  <Link to="./House12" className="link">
-                    <h6>View</h6>{" "}
-                  </Link>
-                </div>
-                <img src="./assets/malibu1.webp" alt="featured" />
-              </div>
-              <div className="box-text">
-                <h6>Modern Home</h6>
-                <div className="box-def">
-                  <h6>
-                    <FaBed />
-                    <span>4</span>
-                  </h6>
-                  <h6>
-                    <GiBathtub />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <MdOutlineSquareFoot />
-                    <span>1200 Sq Ft</span>
-                  </h6>
-                </div>{" "}
-                <h5>Single-Family Home</h5>
-              </div>
-            </div>{" "}
-            <div className="home-box-container">
-              <div className="box-image">
-                <div className="laydown-one">
-                  {" "}
-                  <h5>$1550</h5>
-                </div>
-                <div className="span-ten">
-                  <h6>Featured</h6>
-                  <Link to="./House9" className="link">
-                    <h6>View</h6>{" "}
-                  </Link>
-                </div>
-                <img src="./assets/buffalo1.webp" alt="featured" />
-              </div>
-              <div className="box-text">
-                <h6>Ranch & Farm</h6>
-                <div className="box-def">
-                  <h6>
-                    <FaBed />
-                    <span>4</span>
-                  </h6>
-                  <h6>
-                    <GiBathtub />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <MdOutlineSquareFoot />
-                    <span>1200 Sq Ft</span>
-                  </h6>
-                </div>{" "}
-                <h5>Multi-Family Home</h5>
-              </div>
-            </div>{" "}
-            <div className="home-box-container">
-              <div className="box-image">
-                <div className="laydown-one">
-                  {" "}
-                  <h5>$1550</h5>
-                </div>
-                <div className="span-ten">
-                  <h6>Featured</h6>
-                  <Link to="./House23" className="link">
-                    <h6>View</h6>{" "}
-                  </Link>
-                </div>
-                <img src="./assets/officeg1.webp" alt="featured" />
-              </div>
-              <div className="box-text">
-                <h6>Furnished Office</h6>
-                <div className="box-def">
-                  <h6>
-                    <FaBed />
-                    <span>4</span>
-                  </h6>
-                  <h6>
-                    <GiBathtub />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <MdOutlineSquareFoot />
-                    <span>1200 Sq Ft</span>
-                  </h6>
-                </div>{" "}
-                <h5>Luxury Office</h5>
-              </div>
-            </div>{" "}
-            <div className="home-box-container">
-              <div className="box-image">
-                <div className="laydown-one">
-                  {" "}
-                  <h5>$1550</h5>
-                </div>
-                <div className="span-ten">
-                  <h6>Featured</h6>
-                  <Link to="./House11" className="link">
-                    <h6>View</h6>{" "}
-                  </Link>
-                </div>
-                <img src="./assets/horse1.webp" alt="featured" />
-              </div>
-              <div className="box-text">
-                <h6>Ranch & Farm</h6>
-                <div className="box-def">
-                  <h6>
-                    <FaBed />
-                    <span>4</span>
-                  </h6>
-                  <h6>
-                    <GiBathtub />
-                    <span>3</span>
-                  </h6>
-                  <h6>
-                    <MdOutlineSquareFoot />
-                    <span>1200 Sq Ft</span>
-                  </h6>
-                </div>{" "}
-                <h5>Multi-Family Home</h5>
-              </div>
-            </div>
+              );
+            })}
           </OwlCarousel>
         </div>
       </div>
