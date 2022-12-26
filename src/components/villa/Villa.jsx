@@ -61,7 +61,7 @@ const Villa = () => {
                         <h6>{vill.action}</h6>{" "}
                       </Link>
                     </div>
-                    <img src={vill.image} alt="featured" />
+                    <img src={vill.image} alt="featured" loading="lazy" />
                   </div>{" "}
                 </Link>
                 <div className="box-text">

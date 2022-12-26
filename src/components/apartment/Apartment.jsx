@@ -61,7 +61,7 @@ const Apartment = () => {
                         <h6>{partment.action}</h6>{" "}
                       </Link>
                     </div>
-                    <img src={partment.image} alt="featured" />
+                    <img src={partment.image} alt="featured" loading="lazy" />
                   </div>{" "}
                 </Link>
                 <div className="box-text">
