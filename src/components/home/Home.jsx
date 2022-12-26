@@ -169,6 +169,7 @@ const Home = () => {
                 className="d-block w-100"
                 src="./assets/buffalo14.webp"
                 alt="castle"
+                loading="lazy"
               />
             </div>
             <div className="roche-one nopadding  col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
@@ -183,6 +184,7 @@ const Home = () => {
                 className="d-block w-100"
                 src="./assets/malibu4.webp"
                 alt="roma"
+                loading="lazy"
               />
             </div>
             <div className="roche-one nopadding  col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
@@ -197,6 +199,7 @@ const Home = () => {
                 className="d-block w-100"
                 src="./assets/rancho13.webp"
                 alt="rancho"
+                loading="lazy"
               />
             </div>{" "}
           </div>{" "}
@@ -213,6 +216,7 @@ const Home = () => {
                 className="d-block w-100"
                 src="./assets/room9.webp"
                 alt="bufallo"
+                loading="lazy"
               />
             </div>
 
@@ -228,6 +232,7 @@ const Home = () => {
                 className="d-block w-100"
                 src="./assets/roche9.jpg"
                 alt="bufallo"
+                loading="lazy"
               />
             </div>
 
@@ -243,6 +248,7 @@ const Home = () => {
                 className="d-block w-100"
                 src="./assets/bed10.jpg"
                 alt="bed001"
+                loading="lazy"
               />
             </div>
           </div>{" "}
@@ -259,6 +265,7 @@ const Home = () => {
                 className="d-block w-100"
                 src="./assets/crush1.jpg"
                 alt="bed001"
+                loading="lazy"
               />
             </div>
 
@@ -274,6 +281,7 @@ const Home = () => {
                 className="d-block w-100"
                 src="./assets/officeh5.webp"
                 alt="office"
+                loading="lazy"
               />
             </div>
             <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
@@ -288,6 +296,7 @@ const Home = () => {
                 className="d-block w-100"
                 src="./assets/officef4.webp"
                 alt="office"
+                loading="lazy"
               />
             </div>
           </div>
