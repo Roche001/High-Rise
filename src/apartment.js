@@ -1263,7 +1263,7 @@ export const agent = [
     name: "John Loyd",
     position: "Cheif Analytics Officer",
     description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "./assets/agent3.jpeg",
+    image: "./assets/agent5.jpeg",
     action: "View Profile",
     link: "./Profile3",
     iconOne: <BsFacebook />,
