@@ -121,7 +121,7 @@ const Home = () => {
                     </div>
                     <div className="span-ten">
                       <h6>{owl.boxText}</h6>
-                      <Link to="./House7" className="link">
+                      <Link to={owl.link} className="link">
                         <h6>{owl.action}</h6>{" "}
                       </Link>
                     </div>
