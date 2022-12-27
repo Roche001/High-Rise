@@ -1,4 +1,5 @@
 import React from "react";
+import { ProSidebarProvider } from "react-pro-sidebar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Top from "./components/top/Top";
