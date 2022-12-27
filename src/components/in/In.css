@@ -1,8 +1,35 @@
 .in-bg {
   width: 60vw;
+  height: 52vh;
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.in-small {
+  width: 60%;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+}
+.in-btn {
+  width: 60%;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+  color: #ffff;
+  background: #37474f;
+}
+@media screen and (max-width: 600px) {
+  .in-bg {
+    width: 100%;
+  }
+  .in-small {
+    width: 95%;
+  }
+  .in-btn {
+    width: 95%;
+  }
 }

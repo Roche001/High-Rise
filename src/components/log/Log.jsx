@@ -24,7 +24,7 @@ const Log = () => {
         </Link>
         <Link to="/Log/Pass" className="login-page">
           <h5>
-            <Si1Password /> Forgot Password
+            <Si1Password /> Forgot Password?
           </h5>
         </Link>
       </div>

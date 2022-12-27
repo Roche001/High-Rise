@@ -1,19 +1,19 @@
 .log-container {
-  width: 60%;
+  width: 60vw;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-left: auto;
   margin-right: auto;
   height: 4rem;
-
   border-radius: 0rem 0rem 0.3rem 0.3rem;
+  border: #37474f solid 1px;
 }
 .login-page {
   text-decoration: none;
   color: #37474f;
   height: 100%;
-  width: 20rem;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,7 @@
 .login-page:hover {
   background: #37474f;
   color: #ffff;
-  border-radius: 0.3rem;
+  border-radius: 0rem 0rem 0.3rem 0.3rem;
 }
 .login-page h4 {
   color: #ffff;

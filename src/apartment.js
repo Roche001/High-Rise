@@ -1374,3 +1374,25 @@ export const review = [
       " It's so gorgeous 🥺 I love the open shelving on the bbq area and the lights are amazing, the house is super nice 😍 good job guys",
   },
 ];
+export const register = [
+  {
+    name: "Name",
+    place: "Full Name",
+  },
+  {
+    name: "Username",
+    place: "UserName",
+  },
+  {
+    name: "Email",
+    place: "Email",
+  },
+  {
+    name: "Password",
+    place: "Password",
+  },
+  {
+    name: "Confirm Password",
+    place: "Confirm Password",
+  },
+];
