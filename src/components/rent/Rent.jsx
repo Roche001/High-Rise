@@ -2,7 +2,6 @@ import React from "react";
 import "./Rent.css";
 import { Link } from "react-router-dom";
 import { rent } from "../../rent";
-import { BsDot } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import {
   withScriptjs,
