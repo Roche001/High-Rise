@@ -1,5 +1,6 @@
 import React from "react";
 import "./In.css";
+import Checkbox from "@mui/material/Checkbox";
 
 const In = () => {
   return (
@@ -12,7 +13,10 @@ const In = () => {
         required
       />
       <input className="in-small" type="text" placeholder="Password" required />
-      <button className="in-btn">Login</button>
+      <button className="in-btn">Login</button>{" "}
+      <h6>
+        <Checkbox /> <span> Remember Me</span>
+      </h6>
     </div>
   );
 };

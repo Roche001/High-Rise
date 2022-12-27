@@ -11,7 +11,6 @@ const Register = () => {
       {register.map((register, index) => {
         return (
           <div className="reg-acc" key={index}>
-            <label htmlFor="Title">{register.name}</label>
             <input
               className="reg-small"
               type="text"
