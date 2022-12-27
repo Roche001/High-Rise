@@ -1,7 +1,7 @@
 import React from "react";
 import "./Rent.css";
-import { RiHome6Line } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import { rent } from "../../rent";
 import { BsDot } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import {
@@ -57,33 +57,42 @@ const Rent = () => {
           <div className="float">
             <h4>Maps</h4>
           </div>
-          <div className="correction-box row "></div>
-
-          <div className="correction-box row">
-            <div className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12">
-              <div className="card-img">
-                <Link to="/House15">
-                  <img
-                    className="d-block w-100"
-                    src="./assets/roma1.webp"
-                    alt="House1"
-                  />
-                </Link>
-                <span className="spannito">
-                  <Link to="/House15" className="link">
-                    <h4>Rent</h4>
-                  </Link>
-                </span>
-              </div>
-              <div className="card-text">
-                <h4>Yembe,YM,1100 Angola</h4>
-                <h5>$18,000</h5>
-                <h6>
-                  5Bedrooms <BsDot /> 5Bathrooms <BsDot /> 4,558 SQ FT{" "}
-                </h6>
-                <small>Marketed By Vargas Camino's International Realty</small>
-              </div>
-            </div>
+          <div className="correction-box row ">
+            {" "}
+            {rent.map((rent, index) => {
+              return (
+                <div
+                  className="ranch-card nopadding col-xl-6 col-lg-6 col-md-3 col-sm-6 col-xs-12"
+                  key={index}
+                >
+                  <div className="card-img">
+                    <Link to={rent.link}>
+                      <img
+                        className="d-block w-100"
+                        src={rent.image}
+                        alt="House1"
+                        loading="lazy"
+                      />
+                    </Link>
+                    <span className="spannito">
+                      <Link to={rent.link} className="link">
+                        <h4>{rent.form}</h4>
+                      </Link>
+                    </span>
+                  </div>
+                  <div className="card-text">
+                    <h4>{rent.name}</h4>
+                    <h5>{rent.price}</h5>
+                    <h6>
+                      {rent.bed}
+                      {rent.iconOne} {rent.bath} {rent.iconOne}
+                      {rent.size}
+                    </h6>
+                    <small>{rent.small}</small>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
