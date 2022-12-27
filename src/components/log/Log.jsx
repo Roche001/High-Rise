@@ -1,6 +1,6 @@
 import React from "react";
 import "./Log.css";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const Log = () => {
   return (
@@ -16,7 +16,7 @@ const Log = () => {
           Forgot Password
         </Link>
       </div>
-      <outlet />
+      <Outlet />
     </div>
   );
 };
