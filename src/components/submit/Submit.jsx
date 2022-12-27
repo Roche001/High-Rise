@@ -1,5 +1,5 @@
 import React from "react";
-import "./Sell.css";
+import "./Submit.css";
 import { FcFolder } from "react-icons/fc";
 import {
   withScriptjs,
@@ -13,7 +13,7 @@ const label = {
   inputProps: { "aria-label": "Checkbox demo" },
 };
 
-const Sell = () => {
+const Submit = () => {
   const MapWithAMarker = withScriptjs(
     withGoogleMap((props) => (
       <GoogleMap
@@ -238,4 +238,4 @@ const Sell = () => {
   );
 };
 
-export default Sell;
+export default Submit;

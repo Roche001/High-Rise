@@ -5,7 +5,7 @@ import Top from "./components/top/Top";
 import Home from "./components/home/Home";
 import Rent from "./components/rent/Rent";
 import Buy from "./components/buy/Buy";
-import Sell from "./components/sell/Sell";
+import Submit from "./components/submit/Submit";
 import Footer from "./components/footer/Footer";
 import House1 from "./components/house1/House1";
 import House2 from "./components/house2/House2";
@@ -44,6 +44,7 @@ import Shop from "./components/shop/Shop";
 import Multi from "./components/multi/Multi";
 import Lot from "./components/lot/Lot";
 import Offices from "./components/offices/Offices";
+import Log from "./components/log/Log";
 const App = () => {
   return (
     <Router>
@@ -52,7 +53,7 @@ const App = () => {
         <Route path="/" exact element={<Home />} />
         <Route Rent path="Rent" exact element={<Rent />} />
         <Route Buy path="Buy" exact element={<Buy />} />
-        <Route Sell path="Sell" exact element={<Sell />} />
+        <Route Submit path="Submit" exact element={<Submit />} />
         <Route House1 path="House1" exact element={<House1 />} />
         <Route House2 path="House2" exact element={<House2 />} />
         <Route House3 path="House3" exact element={<House3 />} />
@@ -90,6 +91,7 @@ const App = () => {
         <Route Multi path="Multi" exact element={<Multi />} />
         <Route Lot path="Lot" exact element={<Lot />} />
         <Route Offices path="Offices" exact element={<Offices />} />
+        <Route Log path="Log" exact element={<Log />} />
       </Routes>
       <Footer />
     </Router>

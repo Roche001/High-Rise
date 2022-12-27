@@ -5,7 +5,6 @@ import Carousel from "react-bootstrap/Carousel";
 import { ImHome3 } from "react-icons/im";
 import { AiFillDollarCircle } from "react-icons/ai";
 import { IoIosContact } from "react-icons/io";
-
 import { FiSearch } from "react-icons/fi";
 import { RiAccountCircleLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
@@ -14,9 +13,6 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import Modal from "@mui/material/Modal";
 import { owl } from "../../apartment";
 import { agent } from "../../apartment";
 import { partners } from "../../apartment";
@@ -50,22 +46,7 @@ const options = {
   },
 };
 
-const style = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  height: "50%",
-  bgcolor: "background.paper",
-  border: "2px solid #000",
-  boxShadow: 24,
-  p: 4,
-};
-
 const Home = () => {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
   return (
     <section className="home ">
       <div className="home-header">
@@ -83,25 +64,11 @@ const Home = () => {
           </h3>
         </div>
         <div className="drop">
-          <h6 onClick={handleOpen}>
-            <RiAccountCircleLine /> Account
-          </h6>{" "}
-          <Modal
-            open={open}
-            onClose={handleClose}
-            aria-labelledby="modal-modal-title"
-            aria-describedby="modal-modal-description"
-          >
-            <Box sx={style} className="singup">
-              <Typography id="modal-modal-title" variant="h6" component="h2">
-                Text in a modal
-              </Typography>
-              <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                <h4>Hello</h4>
-              </Typography>
-            </Box>
-          </Modal>
+          <Link to="./Log" className="link">
+            <h6>
+              <RiAccountCircleLine /> Account
+            </h6>
+          </Link>
         </div>
       </div>
 
