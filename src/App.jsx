@@ -45,6 +45,9 @@ import Multi from "./components/multi/Multi";
 import Lot from "./components/lot/Lot";
 import Offices from "./components/offices/Offices";
 import Log from "./components/log/Log";
+import In from "./components/in/In";
+import Register from "./components/register/Register";
+import Pass from "./components/pass/Pass";
 const App = () => {
   return (
     <Router>
@@ -91,7 +94,11 @@ const App = () => {
         <Route Multi path="Multi" exact element={<Multi />} />
         <Route Lot path="Lot" exact element={<Lot />} />
         <Route Offices path="Offices" exact element={<Offices />} />
-        <Route Log path="Log" exact element={<Log />} />
+        <Route Log path="Log" exact element={<Log />}>
+          <Route In path="In" exact element={<In />} />
+          <Route Register path="Register" exact element={<Register />} />
+          <Route Pass path="Pass" exact element={<Pass />} />
+        </Route>
       </Routes>
       <Footer />
     </Router>
