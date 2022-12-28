@@ -14,7 +14,6 @@
   align-items: center;
   color: #ffffff;
   text-align: center;
-  position: relative;
 }
 .home-header h2 {
   font-size: 2rem;
@@ -551,7 +550,7 @@
   display: flex;
 }
 .drop {
-  top: 0;
+  top: 4rem;
   right: 0;
   position: absolute;
   padding: 2rem;
@@ -579,7 +578,7 @@
   display: flex;
   margin-right: auto;
   margin-left: auto;
-  position: relative;
+  /* position: relative; */
   width: 85vw;
 }
 .slider-items {

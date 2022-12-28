@@ -29,7 +29,7 @@ const Rent = () => {
   );
 
   return (
-    <section id="rent" className="rent-dib-bg container-fluid nopadding">
+    <section id="rent" className="rent-dib-bg ">
       <div className="town-home">
         <div className="header-put">
           <input
