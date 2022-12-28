@@ -15,6 +15,13 @@
   text-decoration: none;
   color: #ffff;
 }
+.link-one h6 {
+  font-weight: 900;
+}
+.link-one h6:hover {
+  color: #000000;
+  font-weight: 900;
+}
 @media screen and (max-width: 600px) {
   .Nav {
     height: 100%;
