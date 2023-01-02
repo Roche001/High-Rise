@@ -7,11 +7,11 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Top = () => {
   return (
-    <Navbar expand="lg" className="nav" fixed="top">
-      <Container>
+    <Navbar expand="lg" className="nav py-0" fixed="top">
+      <Container className="nav-one">
         <Link to="/" className="link-one">
           <Navbar.Brand className="logo">
-            <img src="./assets/home.png" alt="logo" loading="lazy" />{" "}
+            <img src="./assets/logo.png" alt="logo" loading="lazy" />
           </Navbar.Brand>{" "}
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
