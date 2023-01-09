@@ -19,7 +19,7 @@ const Top = () => {
           <Nav className="me-auto">
             <Nav.Link>
               <Link to="/" className="link-one">
-                <h6>Home</h6>
+                <h6>Home he</h6>
               </Link>
             </Nav.Link>
             <Nav.Link>
