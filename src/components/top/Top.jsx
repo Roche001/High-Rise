@@ -37,11 +37,6 @@ const Top = () => {
                 <h6>Submit</h6>
               </Link>
             </Nav.Link>
-            <Nav.Link>
-              <Link to="/Rent" className="link-one">
-                <h6>Airbnb</h6>
-              </Link>
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
