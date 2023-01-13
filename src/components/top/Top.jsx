@@ -7,8 +7,12 @@ const Top = () => {
   return (
     <div className="top-bar">
       <div className="logo">
-        <img src="./assets/logo.png" alt="logo" />
+        <Link to="/">
+          {" "}
+          <img src="./assets/logo.png" alt="logo" />{" "}
+        </Link>
       </div>
+
       <div className="menu-items">
         {topper.map((topper, index) => {
           return (

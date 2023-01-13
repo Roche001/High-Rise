@@ -3,5 +3,5 @@ export const topper = [
   { navlink: "/Rent", title: "Rent" },
   { navlink: "/Buy", title: "Buy" },
   { navlink: "/Submit", title: "Submit" },
-  { navlink: "/Account", title: "Account" },
+  { navlink: "./Log", title: "Account" },
 ];

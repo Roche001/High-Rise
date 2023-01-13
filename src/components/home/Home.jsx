@@ -51,7 +51,6 @@ const Home = () => {
     <section className="home ">
       <div className="home-header">
         <div className="lay-easy"></div>
-
         <h2>Turn your real-estate dreams into a reality </h2>
         <div className="header-put">
           <input
@@ -62,13 +61,6 @@ const Home = () => {
           <h3>
             <FiSearch />
           </h3>
-        </div>
-        <div className="drop">
-          <Link to="./Log" className="link">
-            <h6>
-              <RiAccountCircleLine /> Account
-            </h6>
-          </Link>
         </div>
       </div>
 
