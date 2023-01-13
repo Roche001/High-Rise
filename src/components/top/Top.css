@@ -38,12 +38,21 @@
 .menu-one:hover {
   color: #000000;
 }
+.top-icon {
+  display: none;
+}
+.top-icon h4 {
+  color: #ffffff;
+}
 @media screen and (max-width: 850px) {
   .top-bar {
-    background: transparent;
+    background: rgba(236, 229, 233, 0.4);
     box-shadow: none;
   }
   .menu-items {
     display: none;
+  }
+  .top-icon {
+    display: block;
   }
 }

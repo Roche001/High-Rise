@@ -6,7 +6,6 @@ import { ImHome3 } from "react-icons/im";
 import { AiFillDollarCircle } from "react-icons/ai";
 import { IoIosContact } from "react-icons/io";
 import { FiSearch } from "react-icons/fi";
-import { RiAccountCircleLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
