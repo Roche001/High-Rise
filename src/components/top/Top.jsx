@@ -14,12 +14,6 @@ const Top = () => {
           <img src="./assets/logo.png" alt="logo" />{" "}
         </Link>
       </div>
-      <div className="top-icon">
-        <h4>
-          {" "}
-          <GiHamburgerMenu />
-        </h4>
-      </div>
       <div className="menu-items">
         {topper.map((topper, index) => {
           return (
@@ -30,6 +24,12 @@ const Top = () => {
             </div>
           );
         })}
+      </div>{" "}
+      <div className="top-icon">
+        <h4>
+          {" "}
+          <GiHamburgerMenu />
+        </h4>
       </div>
     </div>
   );
