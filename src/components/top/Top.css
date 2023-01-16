@@ -41,6 +41,7 @@
 }
 .top-icon {
   display: none;
+  cursor: pointer;
 }
 .top-icon h4 {
   color: #ffffff;
