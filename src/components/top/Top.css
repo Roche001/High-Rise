@@ -15,13 +15,14 @@
 }
 .logo {
   height: 4rem;
-  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .logo img {
   height: 100%;
+  width: 100%;
+  margin-top: -0.9rem;
 }
 .menu-items {
   display: flex;
@@ -46,9 +47,8 @@
 }
 @media screen and (max-width: 850px) {
   .top-bar {
-    background: #37474f;
+    background: transparent;
     box-shadow: none;
-    height: 50%;
     width: 100%;
   }
   .menu-items {
