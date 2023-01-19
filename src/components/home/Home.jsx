@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import "./style.css";
 import Carousel from "react-bootstrap/Carousel";
@@ -46,6 +46,17 @@ const options = {
 };
 
 const Home = () => {
+  const [formData, setFormData] = useState({});
+
+  const handleChange = (event) => {
+    setFormData({ ...formData, [event.target.name]: event.target.value });
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(formData);
+    // You can also make a POST request to a server here
+  };
   return (
     <section className="home ">
       <div className="home-header">
@@ -264,7 +275,7 @@ const Home = () => {
             <div className="form-query">
               {" "}
               <h4>Real Estate Inquiry Form</h4>{" "}
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="query-one">
                   <label htmlFor="type">Inquiry Type</label>
                   <select className="query-one-one">
@@ -290,6 +301,7 @@ const Home = () => {
                     name="name"
                     className="query-one-one"
                     required
+                    onChange={handleChange}
                   />
                 </div>
                 <div className="query-one">
@@ -320,7 +332,7 @@ const Home = () => {
                     rows="5"
                   ></textarea>
                 </div>
-                <button className="easy">
+                <button type="submit" className="easy">
                   <h5>Submit</h5>
                 </button>
                 <div></div>
