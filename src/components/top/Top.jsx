@@ -13,12 +13,12 @@ const Top = () => {
           <img src="./assets/logo.png" alt="logo" />{" "}
         </Link>
       </div>
+      <div className="top-icon">
+        <h4>
+          <GiHamburgerMenu />
+        </h4>
+      </div>
       <div className="menu-items">
-        <div className="top-icon">
-          <h4>
-            <GiHamburgerMenu />
-          </h4>
-        </div>
         {topper.map((topper, index) => {
           return (
             <div key={index}>
