@@ -46,23 +46,5 @@
 .top-icon h4 {
   color: #ffffff;
 }
-@media screen and (max-width: 850px) {
-  .top-bar {
-    background: transparent;
-    box-shadow: none;
-    width: 100%;
-  }
-  .menu-items {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
-  .top-icon {
-    display: initial;
-  }
-  .menu-one {
-    padding: 0.5rem;
-  }
+@media screen and (max-width: 600px) {
 }
