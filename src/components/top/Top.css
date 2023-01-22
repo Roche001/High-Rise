@@ -70,6 +70,6 @@
     margin-right: 0;
     margin-top: auto;
     margin-bottom: auto;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
   }
 }
