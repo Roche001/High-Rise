@@ -10,7 +10,9 @@ const Top = () => {
     <div className="top-bar">
       <div className="logo">
         <Link to="/">
-          <img src="./assets/logo.png" alt="logo" />{" "}
+          <div className="logo-one">
+            <img src="./assets/logo.png" alt="logo" loading="lazy" />
+          </div>
         </Link>
       </div>
       <div className="top-icon">
