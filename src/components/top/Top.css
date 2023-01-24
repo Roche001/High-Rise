@@ -34,11 +34,11 @@
   display: flex;
 }
 .menu-one {
-  margin: 1rem;
   color: #ffffff;
   text-decoration: none;
   font-weight: 800;
   font-size: 1rem;
+  margin: 1rem;
 }
 .menu-one:hover {
   color: #000000;
@@ -68,30 +68,34 @@
   .menu-items {
     display: none;
   }
-  .menu-open {
-    display: flex;
-    flex-direction: column;
-  }
+
   .menu-items-one {
     display: flex;
     flex-direction: column;
     background: #37474f;
-    gap: 0.5rem;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     right: 0;
     z-index: 9999;
     height: 30vh;
     position: absolute;
     width: 10rem;
-    margin-right: 0;
-    margin-top: auto;
-    margin-bottom: auto;
     border-radius: 0.5rem 0rem 0rem 0.5rem;
   }
-  .menu-items-open {
+  .menu-open {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+  }
+  .menu-one {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1rem;
+  }
+  .menu-one:hover {
+    color: #000000;
+  }
+  .links {
+    margin-top: 2rem;
   }
 }
