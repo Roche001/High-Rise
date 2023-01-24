@@ -29,19 +29,21 @@ const Top = () => {
       </div>
 
       <div className={menuOpen ? "menu-items-one" : "menu-items"}>
-        {topper.map((topper, index) => {
-          return (
-            <div key={index}>
-              <Link
-                to={topper.navlink}
-                className="menu-one"
-                onClick={handleClick}
-              >
-                {topper.title}
-              </Link>
-            </div>
-          );
-        })}
+        <div className="menu-open">
+          {topper.map((topper, index) => {
+            return (
+              <div key={index}>
+                <Link
+                  to={topper.navlink}
+                  className="menu-one"
+                  onClick={handleClick}
+                >
+                  {topper.title}
+                </Link>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

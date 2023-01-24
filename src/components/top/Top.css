@@ -24,13 +24,17 @@
   height: 100%;
   width: 100%;
 }
+
 .menu-items {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.menu-open {
+  display: flex;
+}
 .menu-one {
-  padding: 0.5rem;
+  margin: 1rem;
   color: #ffffff;
   text-decoration: none;
   font-weight: 800;
@@ -47,6 +51,7 @@
 .top-icon h4 {
   color: #ffffff;
 }
+
 @media screen and (max-width: 600px) {
   .top-bar {
     position: fixed;
@@ -63,6 +68,10 @@
   .menu-items {
     display: none;
   }
+  .menu-open {
+    display: flex;
+    flex-direction: column;
+  }
   .menu-items-one {
     display: flex;
     flex-direction: column;
@@ -72,12 +81,17 @@
     align-items: center;
     right: 0;
     z-index: 9999;
-    height: 40vh;
+    height: 30vh;
     position: absolute;
     width: 10rem;
     margin-right: 0;
     margin-top: auto;
     margin-bottom: auto;
     border-radius: 0.5rem 0rem 0rem 0.5rem;
+  }
+  .menu-items-open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
