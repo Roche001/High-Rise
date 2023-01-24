@@ -4,7 +4,7 @@
 .home-header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), #020c1b),
     url("../../images/Silent.jpeg");
-  height: 46vh;
+  height: 50vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -666,6 +666,9 @@
   border-radius: 0.5rem;
 }
 @media screen and (max-width: 599px) {
+  .home-header {
+    height: 70vh;
+  }
   .search-bar {
     display: flex;
     flex-direction: column;
