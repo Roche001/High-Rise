@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Top.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 // import { AiOutlineClose } from "react-icons/ai";
@@ -13,8 +13,23 @@ const Top = () => {
   const handleClick = () => {
     toggleMenu();
   };
+  const [navbarColor, setNavbarColor] = useState("transparent");
+  useEffect(() => {
+    function handleScroll() {
+      if (window.pageYOffset > 100) {
+        setNavbarColor("#37474f");
+      } else {
+        setNavbarColor("transparent");
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <div className="top-bar">
+    <div className="top-bar" style={{ backgroundColor: navbarColor }}>
       <div className="logo">
         <Link to="/">
           <div className="logo-one">
