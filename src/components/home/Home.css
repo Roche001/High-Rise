@@ -667,7 +667,7 @@
 }
 @media screen and (max-width: 599px) {
   .home-header {
-    height: 70vh;
+    height: 50vh;
   }
   .search-bar {
     display: flex;
