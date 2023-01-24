@@ -16,7 +16,7 @@ const Top = () => {
   const [navbarColor, setNavbarColor] = useState("transparent");
   useEffect(() => {
     function handleScroll() {
-      if (window.pageYOffset > 100) {
+      if (window.pageYOffset >= 100) {
         setNavbarColor("#37474f");
       } else {
         setNavbarColor("transparent");
