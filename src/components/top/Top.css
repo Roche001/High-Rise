@@ -82,6 +82,8 @@
     position: absolute;
     width: 10rem;
     border-radius: 0.5rem 0rem 0rem 0.5rem;
+    border: 1px solid #000000;
+    gap: 1rem;
   }
   .menu-open {
     display: flex;
@@ -92,6 +94,7 @@
     text-decoration: none;
     font-weight: 800;
     font-size: 1rem;
+    margin-top: 1rem;
   }
   .menu-one:hover {
     color: #000000;
