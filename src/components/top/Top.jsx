@@ -28,6 +28,7 @@ const Top = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <div className="top-bar" style={{ backgroundColor: navbarColor }}>
       <div className="logo">
