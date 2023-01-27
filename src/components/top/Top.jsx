@@ -30,7 +30,11 @@ const Top = () => {
   }, []);
 
   return (
-    <div className="top-bar" style={{ backgroundColor: navbarColor }}>
+    <div
+      className="top-bar"
+      style={{ backgroundColor: navbarColor }}
+      onClick={handleClick}
+    >
       <div className="logo">
         <Link to="/">
           <div className="logo-one">
