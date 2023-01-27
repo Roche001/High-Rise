@@ -52,8 +52,20 @@
 .top-icon h4 {
   color: #ffffff;
 }
-
+.top-close {
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.top-close h4 {
+  color: #ffffff;
+  top: 0;
+}
 @media screen and (max-width: 600px) {
+  .top-close {
+    top: 0;
+    right: 0;
+  }
   .top-bar {
     position: fixed;
     display: flex;
