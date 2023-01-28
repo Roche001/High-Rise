@@ -4,9 +4,10 @@
 }
 .town-home {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), #020c1b),
-    url("../../images/free.jpg");
+    url("../../images/red.jpeg");
   height: 25vh;
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;
