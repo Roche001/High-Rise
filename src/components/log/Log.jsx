@@ -11,7 +11,6 @@ const Log = () => {
       <div className="log-container">
         <Link to="/Log/In" className="login-page">
           <h5>
-            {" "}
             <FaUserCheck />
             Login
           </h5>
