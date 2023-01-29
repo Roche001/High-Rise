@@ -15,9 +15,7 @@
   justify-content: center;
   text-align: center;
 }
-.header-put {
-  margin-top: 2rem;
-}
+
 .header-put h4 {
   cursor: pointer;
 }
