@@ -13,6 +13,10 @@ const UserSchema = Schema({
   password: {
     type: String,
     required: true
+  },
+  profilePic: {
+    type: String,
+    required: true
   }
 }, { timestamps: true});
 
