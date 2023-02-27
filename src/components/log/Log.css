@@ -25,6 +25,8 @@
   border-radius: 0.3rem;
   border: #37474f solid 1px;
   margin: 0.5rem;
+  background: #37474f;
+  color: #ffffff;
 }
 .login-page {
   text-decoration: none;
@@ -36,7 +38,7 @@
   justify-content: center;
 }
 
-.login-page h4 {
+.login-page h5 {
   color: #ffff;
 }
 .login-page {
