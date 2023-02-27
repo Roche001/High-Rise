@@ -1,7 +1,5 @@
 .in-bg {
-  /* background: rgba(245, 245, 245, 0.39); */
-  backdrop-filter: blur(5px);
-
+  backdrop-filter: blur(4px);
   width: 30vw;
   height: 52vh;
   margin-left: auto;
