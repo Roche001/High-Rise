@@ -1,7 +1,16 @@
+.in-home {
+  background: url(../../images/leaves.jpg);
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
 .in-bg {
   backdrop-filter: blur(4px);
   width: 30vw;
-  height: 52vh;
+  height: 60vh;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -12,6 +21,10 @@
   border-radius: 0.5rem;
   color: #ffffff;
 }
+.account-one h6 {
+  font-size: 1.2rem;
+}
+
 .in-small {
   width: 60%;
   padding: 1rem;
@@ -22,7 +35,7 @@
   width: 60%;
   padding: 1rem;
   margin: 0.5rem;
-  border-radius: 0.3rem;
+  border-radius: 9rem;
   color: #ffff;
   background: #37474f;
 }

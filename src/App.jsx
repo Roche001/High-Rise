@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Top from "./components/top/Top";
 import Home from "./components/home/Home";
@@ -99,12 +94,10 @@ const App = () => {
         <Route Multi path="Multi" exact element={<Multi />} />
         <Route Lot path="Lot" exact element={<Lot />} />
         <Route Offices path="Offices" exact element={<Offices />} />
-        <Route Log path="Log" exact element={<Log />}>
-          <Route index element={<Navigate to="In" />} />
-          <Route In path="In" exact element={<In />} />
-          <Route Register path="Register" exact element={<Register />} />
-          <Route Pass path="Pass" exact element={<Pass />} />
-        </Route>
+        <Route Log path="Log" exact element={<Log />} />
+        <Route In path="In" exact element={<In />} />
+        <Route Register path="Register" exact element={<Register />} />
+        <Route Pass path="Pass" exact element={<Pass />} />
       </Routes>
       <Footer />
     </Router>
