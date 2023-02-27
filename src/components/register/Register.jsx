@@ -6,19 +6,21 @@ import { register } from "../../apartment";
 const Register = () => {
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
   return (
-    <div className="register-container">
-      <h4>Create your account</h4>
-      {register.map((register, index) => {
-        return (
-          <div className="reg-acc" key={index}>
-            <input
-              className="reg-small"
-              type="text"
-              placeholder={register.place}
-            />
-          </div>
-        );
-      })}
+    <div className="reg-box">
+      <div className="register-container">
+        <h4>Create your account</h4>
+        {register.map((register, index) => {
+          return (
+            <div className="reg-acc" key={index}>
+              <input
+                className="reg-small"
+                type="text"
+                placeholder={register.place}
+              />
+            </div>
+          );
+        })}
+      </div>
 
       <div className="account-type">
         <h5>Account Type</h5>
