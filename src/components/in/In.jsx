@@ -23,6 +23,11 @@ const In = () => {
         <h6>
           <Checkbox /> <span> Remember Me</span>
         </h6>
+        <div className="unique">
+          <Link to="/Pass" id="unique">
+            <h6>Forgot Password?</h6>
+          </Link>
+        </div>
         <button className="in-btn">Login</button>
         <div className="account-one">
           <h6>

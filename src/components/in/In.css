@@ -8,7 +8,7 @@
   background-attachment: fixed;
 }
 .in-bg {
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(7px);
   width: 30vw;
   height: 45vh;
   margin-left: auto;
@@ -24,7 +24,13 @@
 .account-one h6 {
   font-size: 1.2rem;
 }
-
+.unique h6 {
+  color: #ffffff;
+  text-decoration: none;
+}
+#unique {
+  text-decoration: none;
+}
 .in-small {
   width: 60%;
   padding: 1rem;
