@@ -20,26 +20,26 @@ const Register = () => {
             </div>
           );
         })}
-      </div>
 
-      <div className="account-type">
-        <h5>Account Type</h5>
-        <div className="acc">
-          <h6>
-            <Checkbox {...label} /> <span> Individual [Tenant]</span>
-          </h6>{" "}
-          <h6>
-            <Checkbox {...label} /> <span> Property Developer </span>
-          </h6>{" "}
-          <h6>
-            <Checkbox {...label} /> <span> Property Owner </span>
-          </h6>{" "}
-          <h6>
-            <Checkbox {...label} /> <span> Estate Agent </span>
-          </h6>
+        <div className="account-type">
+          <h5>Account Type</h5>
+          <div className="acc">
+            <h6>
+              <Checkbox {...label} /> <span> Individual [Tenant]</span>
+            </h6>{" "}
+            <h6>
+              <Checkbox {...label} /> <span> Property Developer </span>
+            </h6>{" "}
+            <h6>
+              <Checkbox {...label} /> <span> Property Owner </span>
+            </h6>{" "}
+            <h6>
+              <Checkbox {...label} /> <span> Estate Agent </span>
+            </h6>
+          </div>
         </div>
+        <button className="reg-btn">Create Account</button>
       </div>
-      <button className="reg-btn">Create Account</button>
     </div>
   );
 };
