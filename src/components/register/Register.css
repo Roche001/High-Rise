@@ -67,10 +67,11 @@ label {
 }
 @media screen and (max-width: 600px) {
   .register-container {
-    width: 90vw;
+    width: 95vw;
+    padding: 0.5rem;
   }
   .reg-acc {
-    width: 80%;
+    width: 100%;
   }
   .reg-small {
     width: 80%;

@@ -45,9 +45,14 @@
   color: #ffff;
   background: #37474f;
 }
+#in {
+  text-decoration: none;
+  color: #ffffff;
+}
 @media screen and (max-width: 600px) {
   .in-bg {
     width: 90%;
+    height: 50vh;
   }
   .in-small {
     width: 95%;

@@ -32,7 +32,7 @@ const In = () => {
         <div className="account-one">
           <h6>
             Don't have an account?
-            <Link to="/Register">
+            <Link to="/Register" id="in">
               {" "}
               <span>Register Here</span>
             </Link>
