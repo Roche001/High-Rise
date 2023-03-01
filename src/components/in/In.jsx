@@ -34,7 +34,7 @@ const In = () => {
             Don't have an account?
             <Link to="/Register" id="in">
               {" "}
-              <span>Register Here</span>
+              <span>Register Here.</span>
             </Link>
           </h6>
         </div>
